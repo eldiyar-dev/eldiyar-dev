@@ -23,7 +23,7 @@ export function ContentSections({nodes, cta, onCta, locale}: ContentSectionsProp
   const nextStepCta = locale === 'en' ? 'Contact me' : 'Связаться со мной';
   return <>{sections.map((section, index) => {
     if (section.title === 'Что НЕ входит' || section.title === 'Цена') return null;
-    if (/^Кейсы|^Кейс:/.test(section.title)) return <CaseSection key={section.title} {...section} cta={cta} onCta={onCta} locale={locale} />;
+    if (/^(Кейсы|Кейс:|Project results|Project example:)/.test(section.title)) return <CaseSection key={section.title} {...section} cta={cta} onCta={onCta} locale={locale} />;
     sectionNumber += 1;
     return <section key={section.title} className={styles.section}><Reveal delay={index * 35}><SectionHeading eyebrow={String(sectionNumber).padStart(2, '0')}>{section.title}</SectionHeading><div className={styles.prose}><MarkdownContent nodes={section.nodes} cta={cta} onCta={onCta} locale={locale} /></div></Reveal></section>;
   })}{!hasNextStep && <section className={styles.section}><Reveal delay={sections.length * 35}><SectionHeading eyebrow={String(sectionNumber + 1).padStart(2, '0')}>{locale === 'en' ? 'Next step' : 'Следующий шаг'}</SectionHeading><div className={styles.prose}><ActionLink className={styles.primaryButton} href={diagnosticHref(locale)}>{nextStepCta}</ActionLink></div></Reveal></section>}</>;
