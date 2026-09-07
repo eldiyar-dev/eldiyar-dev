@@ -127,16 +127,27 @@
             "TypeScript",
             "Python",
             "PostgreSQL (TimescaleDB)",
-            "Redis",
+            "Redis (PubSub)",
             "CCXT",
+            "Grafana Cloud",
             "n8n",
-            "OpenAI API"
+            "Redis Streams",
+            "OpenAI API (GPT-4o/5)",
+            "OpenRouter",
+            "TimeGPT",
+            "Linux (VPS)"
           ],
           "achievements": [
-            "Built a six-factor Scoring Engine with PIT-MAD normalization, a five-state Regime Classifier, and an HTF consensus gate; cut false signals by 50%.",
-            "Designed Carver volatility-targeting risk management with 15 pre-trade guards and eight exit scenarios, capping daily drawdown at 3%.",
-            "Built an event-driven analytics architecture of 12+ Redis Streams and n8n services; reduced reports from 30–60 minutes to 10–15 seconds."
-          ]
+            "Developed an isolated decision-making engine (Scoring Engine): implemented a multi-factor system consisting of 6 components with PIT-MAD normalization to prevent look-ahead bias, driven by a 5-state market regime classifier with an HTF consensus gate, which reduced false signals by 50%.",
+            "Built a real-time pipeline to multiplex high-frequency WebSocket streams (orderbook, trades, liquidations) via the Binance API; implemented incremental calculation of quant metrics and Funding Z-score directly in Redis RAM, reducing the load on PostgreSQL by 90% while maintaining 99.99% data uptime.",
+            "Designed a risk management module based on the Carver algorithm (volatility targeting) for dynamic position sizing; deployed 15 pre-trade risk limits (Pre-Trade Risk Guards / Circuit Breakers) and a multi-priority exit matrix (8 scenarios, including SL, TP, daily DD), strictly capping maximum daily drawdown at 3% of capital.",
+            "Implemented a fault-tolerant execution engine on top of CCXT featuring a 4-phase cascade order escalation logic (Limit → Re-quote → IOC → Market) and per-symbol Redis locks, completely eliminating race conditions and slippage during periods of extreme order book volatility.",
+            "Developed an asynchronous Event-Driven architecture for the analytical circuit: deployed 12+ microservices powered by Redis Streams and n8n, eliminating blocking HTTP dependencies and accelerating report generation from 30–60 minutes down to 10–15 seconds (p99 < 1s for critical triggers).",
+            "Designed a unified API layer for a hierarchical multi-agent system (GPT-5 via OpenRouter): implemented parallel orchestration of 7 specialized modules (including locally deployed TimeGPT, Matrix Profile, and custom TA indicators in pure JS), shortening integration time for new modules from 2 days to 2 hours.",
+            "Implemented an asynchronous N×M real-time sentiment analysis module for news feeds via GPT-4o, automatically matching aggregated context against active market orders.",
+            "Deployed an observability stack (Pino JSON, Promtail, Grafana Cloud Loki) and an LLM-powered Telegram control interface, ensuring transparent auditing of AI agent behavior and cutting production validation time for new prompts."
+          ],
+          "overview": "Deterministic algorithmic trading engine based on a trend-following strategy for the BTC futures market, along with a multi-agent AI-powered market analytics system built on n8n, integrating LLMs, TimeGPT, and external data providers."
         },
         {
           "id": "payments",
@@ -157,15 +168,24 @@
             "Encore.ts",
             "Redis",
             "PostgreSQL",
-            "TRON",
+            "Clean Architecture",
+            "TRON Protocol",
             "EVM Networks",
+            "Highload",
+            "Gas Optimization",
+            "MEV Protection",
+            "Infrastructure",
             "Event-Driven Architecture"
           ],
           "achievements": [
-            "Designed Encore.ts Clean Architecture payment microservices supporting 3,000+ RPS and 99.99% uptime.",
-            "Built a DEX-pool WebSocket engine across 15+ networks; cut public RPC load by 70% and data latency below 200ms.",
-            "Implemented sweep-on-deposit, TRON energy rental, and EVM gas top-up; lowered fees by 90%."
-          ]
+            "Designed a microservices-based architecture for the core payment engine using Encore.ts (Clean Architecture), supporting peak loads of 3,000+ RPS (100M+ requests/day) with a system-wide end-to-end uptime of 99.99%.",
+            "Developed a high-performance WebSocket engine for monitoring DEX pools and an ingestion system for parallel streaming of on-chain data from 15+ EVM/non-EVM networks; reduced the load on public RPC nodes by 70% by implementing two-tier caching in Redis and brought data latency down to <200 ms.",
+            "Designed and implemented a sweep-on-deposit algorithm featuring automated, programmatic energy renting on the TRON network and dynamic gas top-ups in EVM, reducing on-chain business fee operational costs by 90%.",
+            "Created an event-driven pipeline for real-time transaction tracking across a database of 3M+ multi-chain wallets, including a parallel deposit splitting module and a concurrent nonce-tracking controller, reducing settlement latency to 2–3 seconds.",
+            "Secured the custodial layer against MEV and front-running attacks at the smart contract interaction level (Uniswap V3, gasless Permit2, fee-on-transfer protection) and implemented authorization protocols based on Web3 signatures, HMAC, and AES-256.",
+            "Deployed a local testing environment with isolated protocol nodes for BTC, ETH, and TRON, and built a testing pyramid (unit/component/e2e) that secured 80% coverage of critical paths and enabled zero-downtime releases."
+          ],
+          "overview": "Web3/FinTech ecosystem: decentralized multichain DEX interfaces (15+ EVM/non-EVM networks), real-time monitoring of on-chain events, liquidity, and price quotes (REST API, WebSocket). Backend platforms for automating multichain deposits and B2B/B2C SaaS services focused on transaction cost optimization (TRON energy rental, EVM gas management). Full-cycle crypto operations processing: real-time monitoring, transaction execution, and automated fund distribution across custodial wallets."
         },
         {
           "id": "exchange",
@@ -187,13 +207,21 @@
             "Redis",
             "State Machine",
             "RBAC",
-            "DDD"
+            "KYC/AML Integration",
+            "tRPC",
+            "Domain-Driven Design (DDD)",
+            "Web3.js",
+            "API-First",
+            "Performance"
           ],
           "achievements": [
-            "Designed the deal State Machine and RBAC, reducing handling time from three hours to three minutes.",
-            "Built a DDD modular monolith and API-first pipeline with generated frontend types.",
-            "Integrated KYC/AML, MFA, session invalidation, and webhook verification, enabling a successful external audit."
-          ]
+            "Designed and implemented a finite State Machine to manage transaction lifecycles alongside a Role-Based Access Control (RBAC) model, reducing order processing times from 3 hours down to 3 minutes.",
+            "Developed a modular monolith applying DDD principles and set up an API-first pipeline with automatic type generation for the frontend client, entirely eliminating integration contract errors.",
+            "Implemented a pricing engine with Redis caching for external rates (updating every 5–30 seconds), minimizing costs associated with paid infrastructure APIs from data providers.",
+            "Integrated an end-to-end KYC/AML perimeter (wallet screening, counterparty identification) and protection mechanisms (MFA, session invalidation, webhook verification), successfully guiding the platform through an external security audit.",
+            "Developed an authorization module using Web3 wallets and provided architectural support for localization (8 language zones), accelerating product expansion into new regional markets."
+          ],
+          "overview": "A regulated OTC platform for exchanging crypto assets (USDT, BTC, ETH) for fiat currency (USD, KGS) with a full-cycle KYC/AML workflow, banking settlement, and an operational dashboard for managers."
         },
         {
           "id": "voice",
@@ -211,18 +239,29 @@
           "stack": [
             "Node.js",
             "React.js",
-            "WebSocket",
+            "Real-time Streaming",
+            "TCP/WebSocket",
             "OpenResty",
             "Redis",
-            "Deepgram",
-            "ElevenLabs",
-            "OpenAI"
+            "LLM Integration",
+            "Low-latency Systems",
+            "SOCKS5 Tunneling",
+            "Reverse Proxy",
+            "Cryptography (AES-256-GCM",
+            "PBKDF2)",
+            "RBAC",
+            "Command & Control (C2) / RMM Systems",
+            "Multi-tenancy"
           ],
           "achievements": [
-            "Built multi-tenant media-session isolation with OpenResty, Redis, and PM2 for stable 10,000+ WebSocket connections.",
-            "Designed an event-driven AI-provider bus with caching and deduplication; lowered latency below 250ms and API costs by 40%.",
-            "Implemented hot switching across 50+ languages without packet loss or a WebSocket disconnect."
-          ]
+            "Developed a multi-tenant media session isolation system using OpenResty, Redis, and PM2 with dedicated Node.js processes per room, eliminating cross-load impact and enabling stable handling of 10,000+ concurrent WebSocket connections.",
+            "Designed an event-driven integration layer for AI providers (OpenAI, Deepgram, ElevenLabs) with caching and data deduplication mechanisms for fan-out workloads, reducing end-to-end latency to <250 ms, lowering third-party API costs by 40%, and maintaining 99.99% uptime.",
+            "Bypassed native Apple/Safari background audio restrictions by implementing background streaming through Web Audio API with silent audio playback, ensuring uninterrupted audio delivery with the screen locked.",
+            "Implemented seamless hot language switching across 50+ translation languages without packet loss or active WebSocket session interruption. Successfully launched MVP into production and validated the technical architecture.",
+            "Architected a high-load Control Plane (Node.js, Redis, TCP/WebSocket, 99.99% uptime) enabling real-time orchestration and broadcast command execution across thousands of edge devices.",
+            "Built Red Team infrastructure using SOCKS5 and Reverse Proxy technologies, implementing secure tunnels, Remote Shell capabilities, and a protected multi-tenant security layer (AES-256, RBAC)."
+          ],
+          "overview": "Real-time AI interpretation and streaming platform for international conferences, webinars, and hybrid events. The system enables live speech capture, sub-second speech recognition, translation into 50+ languages, and delivery of synthesized audio streams to thousands of concurrent listeners. Also designed an RMM & Command and Control (C2) platform for centralized management of distributed edge agents and Red Team operations. The architecture includes a real-time Control Plane, secure communication channels (TCP/WebSocket, SOCKS5), automated agent build pipeline, multi-tenant web console, and reverse proxy/tunneling infrastructure."
         },
         {
           "id": "vending",
@@ -239,18 +278,28 @@
           "stack": [
             "TypeScript",
             "Node.js",
+            "Microservices",
             "PostgreSQL",
             "Redis",
             "Apache Kafka",
             "NATS",
             "RabbitMQ",
-            "Docker"
+            "Docker",
+            "ELK Stack",
+            "Jenkins",
+            "GitLab CI/CD",
+            "Moleculer.js",
+            "Adonis.js"
           ],
           "achievements": [
-            "Designed the multi-tenant SaaS event-driven core with capacity for 10× IoT fleet growth.",
-            "Built a fault-tolerant Kafka and NATS bus with throughput up to 60,000 RPS.",
-            "Implemented a bidirectional terminal protocol and automatic fiscalization for 99% of transactions."
-          ]
+            "Designed the Event-Driven Architecture (EDA) core for the multi-tenant SaaS platform; decomposed business requirements into technical specifications, provisioning an architectural buffer for a 10x scaling of the IoT device fleet.",
+            "Developed a fault-tolerant message bus using Apache Kafka and NATS with peak throughput up to 60,000 RPS, ensuring guaranteed asynchronous data delivery between system domains.",
+            "Unified API contract design standards and directed collaborative Scoping & Estimation processes alongside Frontend and QA teams, lowering the rate of integration defects during release cycles.",
+            "Optimized the storage layer in PostgreSQL (60+ tables, 8 hierarchy levels), accelerating the execution of analytical queries.",
+            "Implemented a bi-directional communication protocol with IoT terminals, enabling automatic compliance-driven fiscalization for 99% of transactions without requiring manual operator intervention.",
+            "Introduced mentoring and Code Review processes within the backend team, accelerating onboarding for new engineers and enhancing the overall code quality culture."
+          ],
+          "overview": "A cloud B2B SaaS platform for managing a distributed fleet of IoT terminals for vending machines: online transaction fiscalization, remote device configuration, payment acquiring, service route automation, and real-time sales analytics."
         },
         {
           "id": "books",
@@ -266,21 +315,32 @@
             "−50% storage costs"
           ],
           "stack": [
-            "Playwright",
+            "High-performance Scraping",
+            "Headless Rendering",
+            "Playwright (Chromium)",
             "Bun",
+            "Batch Processing",
+            "Media Optimization",
             "Node.js",
+            "Performance Tuning",
+            "P2P Networks",
             "Cheerio",
             "Python",
             "FFmpeg",
-            "CKEditor"
+            "CKEditor v4/v5"
           ],
           "achievements": [
-            "Designed and shipped an end-to-end production aggregation pipeline for 4,000+ publisher-catalogue SKUs.",
-            "Built a fault-tolerant 64-worker download orchestrator with checkpoint resume, increasing throughput 10×.",
-            "Built a Sharp/FFmpeg batch pipeline that cut storage use by 50% without visual-quality loss."
-          ]
+            "Designed and launched an end-to-end aggregation pipeline into production, driving autonomous import, normalization, and headless generation of 4,000+ publisher catalog SKUs without outsourcing to external contractors.",
+            "Developed a fault-tolerant download orchestrator (Bun, utilizing a pool of 64 isolated workers) with in-memory caching and checkpoint resume mechanics, increasing overall system throughput tenfold.",
+            "Deployed a resilient processing layer based on file locks and idempotent restarts, eliminating manual intervention during failures and reducing progress loss to 0%.",
+            "Built a CPU/GPU-scalable media compression batch pipeline (Sharp, FFmpeg), cutting storage footprint by 50% while fully preserving the visual quality of typography.",
+            "Led the migration of the core WYSIWYG system from CKEditor v4 to v5, refactoring the codebase to TypeScript and designing a custom plugin architecture, which increased rendering stability for complex text structures.",
+            "Organized decentralized P2P data replication via a Tailscale mesh network and Syncthing, entirely removing dependence on cloud providers and eliminating commercial egress traffic expenses."
+          ],
+          "overview": "An end-to-end content pipeline for high-volume digitalization and distribution of books: automated scraping of publisher catalogs, structured data extraction via external APIs, multimedia content normalization, and headless generation of print-ready PDF editions."
         }
-      ]
+      ],
+      "overview": "Project Overview"
     },
     "ai": {
       "eyebrow": "PRINCIPLES",

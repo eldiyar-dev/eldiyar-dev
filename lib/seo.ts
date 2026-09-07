@@ -3,11 +3,13 @@ import type {PageMetadata, SiteLocale} from '@/lib/site-content';
 import {getLocalizedPath} from '@/lib/i18n';
 
 /** Публичный канонический адрес сайта, подтверждённый в материалах проекта. */
-export const siteUrl = new URL('https://cv.eldiyar.dev');
+export const siteUrl = new URL('https://eldiyar.dev');
 
 function absoluteUrl(pathname: string): string {
   return new URL(pathname, siteUrl).toString();
 }
+
+const ogImage = {url: absoluteUrl('/logo.svg'), alt: 'Eldiyar logo'};
 
 /** Собирает согласованные метаданные для контентных страниц на двух языках. */
 export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Metadata {
@@ -22,9 +24,9 @@ export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Meta
     },
     openGraph: {
       type: 'website', url: absoluteUrl(canonical), title: page.title, description: page.description,
-      locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar'
+      locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar', images: [ogImage]
     },
-    twitter: {card: 'summary', title: page.title, description: page.description}
+    twitter: {card: 'summary', title: page.title, description: page.description, images: [ogImage.url]}
   };
 }
 
@@ -36,7 +38,7 @@ export function createCvMetadata(name: string, role: string, description: string
   return {
     title, description,
     alternates: {canonical, languages: {ru: getLocalizedPath('/cv', 'ru'), en: getLocalizedPath('/cv', 'en')}},
-    openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar'},
-    twitter: {card: 'summary', title, description}
+    openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar', images: [ogImage]},
+    twitter: {card: 'summary', title, description, images: [ogImage.url]}
   };
 }

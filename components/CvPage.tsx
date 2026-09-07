@@ -11,11 +11,11 @@ import fluidStyles from './fluid.module.css';
 import styles from './cv.module.css';
 
 type Pair = [string, string];
-type Case = {id: string; title: string; task: string; role: string; built: string; changed: string; metrics: string[]; stack: string[]; achievements: string[]};
+type Case = {id: string; title: string; task: string; role: string; built: string; changed: string; metrics: string[]; overview: string; stack: string[]; achievements: string[]};
 export type CvContent = {
   hero: {role: string; name: string; lead: string; body: string; cta: string; facts: string[]}; nav: Record<string, string>;
   results: {eyebrow: string; title: string; items: Pair[]}; what: {eyebrow: string; title: string; items: Pair[]};
-  cases: {eyebrow: string; title: string; detail: string; hide: string; stack: string; achievements: string; task: string; role: string; built: string; changed: string; items: Case[]};
+  cases: {eyebrow: string; title: string; detail: string; hide: string; overview: string; stack: string; achievements: string; task: string; role: string; built: string; changed: string; items: Case[]};
   ai: {eyebrow: string; title: string; lead: string; items: Pair[]}; fit: {eyebrow: string; title: string; items: Pair[]; noFitTitle: string; noFit: string};
   work: {eyebrow: string; title: string; items: Pair[]; lead: string; cta: string}; contact: {eyebrow: string; title: string; items: [string, string, string][]}; footer: {role: string; cta: string};
 };
@@ -29,7 +29,7 @@ function CaseCard({item, index, labels}: {item: Case; index: number; labels: CvC
     <dl className={styles.caseSummary}><div><dt>{labels.task}</dt><dd>{item.task}</dd></div><div><dt>{labels.role}</dt><dd>{item.role}</dd></div><div><dt>{labels.built}</dt><dd>{item.built}</dd></div><div><dt>{labels.changed}</dt><dd>{item.changed}</dd></div></dl>
     <Tags items={item.metrics} accent />
     <button className={styles.detailButton} type="button" aria-expanded={open} aria-controls={detailId} onClick={() => setOpen(!open)}>{open ? '−' : '+'} {open ? labels.hide : labels.detail}</button>
-    <div id={detailId} className={`${styles.caseDetails} ${open ? styles.open : ''}`} aria-hidden={!open}><div><p className={styles.detailLabel}>{labels.stack}</p><Tags items={item.stack} /><p className={styles.detailLabel}>{labels.achievements}</p><ul>{item.achievements.map(line => <li key={line}>{line}</li>)}</ul></div></div>
+    <div id={detailId} className={`${styles.caseDetails} ${open ? styles.open : ''}`} aria-hidden={!open}><div><p className={styles.detailLabel}>{labels.overview}</p><p>{item.overview}</p><p className={styles.detailLabel}>{labels.stack}</p><Tags items={item.stack} /><p className={styles.detailLabel}>{labels.achievements}</p><ul>{item.achievements.map(line => <li key={line}>{line}</li>)}</ul></div></div>
   </Card>;
 }
 
