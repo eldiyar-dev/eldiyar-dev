@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [...getAllPageMetadata(defaultLocale).map(page => page.url), '/cv'];
 
   return paths.flatMap(pathname => {
-    const alternates = {languages: Object.fromEntries(locales.map(locale => [locale, absolutePath(getLocalizedPath(pathname, locale))]))};
+    const alternates = {languages: {...Object.fromEntries(locales.map(locale => [locale, absolutePath(getLocalizedPath(pathname, locale))])), 'x-default': absolutePath(getLocalizedPath(pathname, defaultLocale))}};
     return locales.map(locale => ({url: absolutePath(getLocalizedPath(pathname, locale)), alternates}));
   });
 }

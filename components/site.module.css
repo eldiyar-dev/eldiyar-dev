@@ -85,8 +85,7 @@
   min-width: 0;
   margin-inline-start: auto;
   white-space: nowrap;
-  overflow-x: auto;
-  /* Keep the first contact reachable when the row needs to scroll. */
+  overflow: visible;
   justify-content: safe flex-end;
   padding-block: 6px;
   padding-inline: 6px;
@@ -121,3 +120,21 @@
 .footerLinks a:focus-visible,.footerBrand:focus-visible{outline-color:var(--signal)}
 .footerLink{border-color:rgba(250,251,250,.22)}
 .footerLink:hover{border-color:var(--signal);background:rgba(0,217,157,.12);color:var(--paper)!important}
+
+.languagePicker{position:relative;flex-shrink:0}
+.languageSummary{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:8px 10px;border:1px solid rgba(250,251,250,.22);color:var(--signal);cursor:pointer;font-family:var(--font-sans);font-size:12px;font-weight:600;letter-spacing:.02em;list-style:none}
+.languageSummary::-webkit-details-marker{display:none}
+.languageSummary svg{width:12px;height:8px;fill:none;stroke:currentColor;stroke-width:1.5;transition:transform 180ms var(--ease)}
+.languagePicker[open] .languageSummary svg{transform:rotate(180deg)}
+.languageSummary:hover{border-color:var(--signal);background:rgba(0,217,157,.12);color:var(--paper)}
+.languageSummary:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.flag{width:24px;height:16px;flex:0 0 auto;border:1px solid rgba(0,0,0,.18);border-radius:2px;object-fit:cover}
+.languageMenu{position:absolute;right:0;bottom:calc(100% + 8px);z-index:3;display:grid;min-width:170px;padding:5px;border:1px solid rgba(250,251,250,.24);background:var(--hero);box-shadow:0 12px 30px rgba(0,0,0,.22)}
+.languageOption{display:flex;align-items:center;gap:9px;min-height:42px;padding:8px 9px;color:var(--signal)!important}
+.languageOption:hover,.languageOption[aria-current=page]{background:rgba(0,217,157,.12);color:var(--paper)!important}
+.languageOption:focus-visible{outline:2px solid var(--signal);outline-offset:-2px}
+.languageCode{margin-inline-start:auto;font:10px/1 var(--font-mono);opacity:.7}
+
+@media (max-width: 720px) {
+  .languageMenu{right:auto;left:0}
+}

@@ -4,8 +4,8 @@ import {NextIntlClientProvider} from 'next-intl';
 import CvPage from '@/components/CvPage';
 import {SitePage} from '@/components/SitePage';
 import {getLocalizedStaticParams, isLocale, type Locale} from '@/lib/i18n';
-import {createCvMetadata, createSiteMetadata} from '@/lib/seo';
-import {getSitePage, type SitePageId} from '@/lib/site-content';
+import {createCvMetadata, createSiteMetadata, createSiteStructuredData} from '@/lib/seo';
+import {getFaqContent, getSitePage, type SitePageId} from '@/lib/site-content';
 import {isSiteSlug, siteRouteSegments} from '@/lib/site-routes';
 
 type RouteParams = {locale: string; slug?: string[]};
@@ -43,7 +43,11 @@ export async function generateMetadata({params}: {params: Promise<RouteParams>})
 
 export default async function Page({params}: {params: Promise<RouteParams>}) {
   const {locale, route} = getRouteParams(await params);
-  if (route.kind === 'site') return <SitePage page={getSitePage(route.id, locale)} locale={locale} />;
+  if (route.kind === 'site') {
+    const pageData = getSitePage(route.id, locale);
+    const structuredData = createSiteStructuredData(pageData, getFaqContent(locale), locale);
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(structuredData)}} /><SitePage page={pageData} locale={locale} /></>;
+  }
   const content = await getCvContent(locale);
   return <NextIntlClientProvider locale={locale} messages={{cv: content}}><CvPage locale={locale} content={content} /></NextIntlClientProvider>;
 }

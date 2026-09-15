@@ -1,126 +1,126 @@
 {
   "cv": {
     "hero": {
-      "role": "PRODUCT & SYSTEMS ENGINEER",
+      "role": "ÜRÜN VE SİSTEMLER MÜHENDİSİ",
       "name": "Eldiyar",
-      "lead": "I take a product from idea to working system and make sure it does not fail, lose money, or wake you at three in the morning.",
-      "body": "For six years, I have built systems where mistakes are expensive: payments, crypto operations, financial services, trading systems, and real-time products. I work independently or lead a small engineering team, from requirements and architecture through launch and accountability after release.",
-      "cta": "Discuss a project",
+      "lead": "Bir ürünü fikirden çalışan bir sisteme dönüştürüyor; başarısız olmamasını, para kaybetmemesini ve sizi sabahın üçünde uyandırmamasını sağlıyorum.",
+      "body": "Altı yıldır, hataların pahalı olduğu sistemleri inşa ettim: ödemeler, kripto işlemleri, finansal hizmetler, ticaret sistemleri ve gerçek zamanlı ürünler. Bağımsız olarak çalışıyorum ya da küçük bir mühendislik ekibine, taleplerden ve mimarlıktan salıverdikten sonra hesap verebilirim.",
+      "cta": "Bir projeyi görüşelim",
       "facts": [
-        "6 years in critical systems",
-        "fintech · web3 · trading · realtime",
-        "Antalya, Turkey · remote (Europe, CIS, Middle East)",
-        "full-time or contract"
+        "6 yıl kritik sistemlerde",
+        "fintech · web3 · ticaret · gerçek zamanlı",
+        "Antalya, Türkiye (Avrupa, CIS, Orta Doğu)",
+        "Tam zamanlı veya sözleşme"
       ]
     },
     "nav": {
-      "results": "results",
-      "cases": "cases",
+      "results": "Sonuçlar Sonuçlar Sonuçlar",
+      "cases": "Vaka vakaları",
       "ai": "AI",
-      "fit": "good fit",
-      "work": "engagement",
-      "contact": "contact"
+      "fit": "İyi uyum",
+      "work": "bağlılık",
+      "contact": "kontak temas temas temas temas"
     },
     "results": {
-      "eyebrow": "RESULTS",
-      "title": "Key results",
+      "eyebrow": "SONUÇLAR",
+      "title": "Önemli sonuçlar",
       "items": [
         [
-          "3,000+ RPS and 100M+ requests a day",
-          "Designed a microservice payment core in Encore.ts with Clean Architecture and 99.99% end-to-end uptime."
+          "3,000+ RPS ve 100M+ bir gün talep ediyor",
+          "Encore.ts with Clean Architecture and 99.99% end-to-end uptime."
         ],
         [
-          "−90% on-chain fee operating costs",
-          "Implemented sweep-on-deposit with programmatic TRON energy rental and dynamic EVM gas top-up."
+          "-% 90-chain ücret işletme maliyetleri",
+          "Programmatic TRON enerji kiralama ve dinamik EVM gaz top-up ile süpüldü."
         ],
         [
-          "3M+ multi-chain wallets",
-          "Built an event-driven real-time transaction tracking pipeline with deposit splitting and nonce tracking; settlement latency is 2–3 seconds."
+          "3M+ multi-chain cüzdanlar",
+          "Bir etkinlik odaklı gerçek zamanlı işlem takip boru hattını depozito bölünmesi ve takip etme ile inşa etti; yerleşim gecikmesi 2-3 saniyedir."
         ],
         [
-          "−70% load on public RPC nodes",
-          "Built a DEX-pool WebSocket monitoring engine for 15+ networks with two-tier Redis caching."
+          "-%70 kamu RPC düğümleri üzerinde yük",
+          "İki katmanlı Redis caching ile 15+ ağ için bir DEX-pool WebSocket izleme motoru inşa etti."
         ],
         [
-          "3 hours → 3 minutes per application",
-          "Designed the deal lifecycle State Machine and RBAC access model."
+          "3 saat → Uygulama başına 3 dakika",
+          "Yaşam döngüsü State Machine ve RBAC erişim modeli tasarlayın."
         ],
         [
-          "10,000+ concurrent WebSocket connections",
-          "Built multi-tenant media-session isolation with one Node.js process per room."
+          "10.000+ eşzamanlı WebSocket bağlantıları",
+          "Oda başına bir Node.js süreci ile çok katmanlı medya-session izolasyonu."
         ],
         [
-          "<250ms latency and −40% AI API spend",
-          "Designed an event-driven OpenAI, Deepgram and ElevenLabs integration bus with caching and deduplication."
+          "<250ms latency and -40% AI API",
+          "Bir olay odaklı OpenAI, Deepgram ve 11Labs entegrasyonu otobüsleri caching ve deduplication ile tasarlayın."
         ],
         [
-          "−50% false trading signals",
-          "Built a six-factor Scoring Engine, Regime Classifier and HTF consensus gate."
+          "-% 50 sahte ticaret sinyalleri",
+          "Altı faktörlü Scoring Engine, Regime Sınıflandırıcı ve HTF konsensüs kapısını inşa etti."
         ],
         [
-          "30–60 minutes → 10–15 seconds per report",
-          "Designed analytics across 12+ microservices using Redis Streams and n8n."
+          "30–60 dakika rapor başına 10-15 saniye",
+          "Redis Streams ve n8n kullanarak 12+ mikro hizmette analitik."
         ],
         [
-          "Up to 60,000 RPS",
-          "Built a fault-tolerant Apache Kafka and NATS messaging bus."
+          "60.000 RPS",
+          "Hatalı bir Apache Kafka ve NATS mesajlaşma otobüsü inşa etti."
         ]
       ]
     },
     "what": {
-      "eyebrow": "WHAT I DO",
-      "title": "Capabilities",
+      "eyebrow": "Ne Yaparım",
+      "title": "Uzmanlık alanları",
       "items": [
         [
-          "Launching products from scratch.",
-          "From the conversation of ‘we need this’ to a production version. I shape requirements, select architecture, build, launch, and improve from feedback."
+          "Sıfırdan ürün başlatmak.",
+          "“Buna ihtiyacımız var”dan bir üretim versiyonuna. Şekil gereksinimlerim, mimarlık seçin, inşa edin, başlatın ve geri bildirimden geliştirin."
         ],
         [
-          "Critical backend: payments, real time, high load.",
-          "Systems that process money and customer events and keep working under load, network failures, and partner errors."
+          "Eleştirel geri dönüş: ödemeler, gerçek zaman, yüksek yük.",
+          "Para ve müşteri olayları işleyen ve yük altında çalışmaya devam eden sistemler, ağ başarısızlıkları ve ortak hataları."
         ],
         [
-          "Fintech and crypto payments.",
-          "Accepting and distributing funds, wallets, asset custody, KYC/AML, and fee reduction. I have taken a platform through an external security audit."
+          "Fintech ve kripto ödemeleri.",
+          "Paraları kabul etmek ve dağıtmak, cüzdanlar, varlık tutuklaması, EPC/AML ve ücret azaltımı. Dış bir güvenlik denetimi aracılığıyla bir platform aldım."
         ],
         [
-          "Putting AI into products.",
-          "I build production features for analytics, document and news processing, and voice and text assistants. I set quality checks and cost limits."
+          "AI'yı ürünlere sokmak.",
+          "Analitik, belge ve haber işleme ve ses ve metin asistanları için üretim özellikleri inşa ediyorum. Kaliteli çekler ve maliyet sınırları belirledim."
         ],
         [
-          "Rescuing projects.",
-          "I enter systems that fail, slow down, or have outgrown their architecture. I diagnose, fix, and explain the cause in plain language."
+          "Projeleri kurtarın.",
+          "Başarısız olan sistemlere girerim, yavaşlayın ya da mimarilerini genişletin. Tanılıyorum, düzeltin ve nedeni açık dilde açıklayın."
         ],
         [
-          "Engineering discipline.",
-          "Code reviews, mentoring, and development standards. I have completed 100+ deep reviews and taught middle and senior engineers."
+          "Mühendislik disiplini.",
+          "Kod incelemeleri, mentorluk ve geliştirme standartları. 100+ derin incelemeyi tamamladım ve orta ve üst düzey mühendisler öğrettim."
         ]
       ]
     },
     "cases": {
-      "eyebrow": "CASES",
-      "title": "Projects",
-      "detail": "Technical details",
-      "hide": "Hide technical details",
-      "stack": "stack",
-      "achievements": "technical results",
-      "task": "Challenge",
-      "role": "My role",
-      "built": "What I built",
-      "changed": "What changed",
+      "eyebrow": "VAKALAR",
+      "title": "Projeler",
+      "detail": "Teknik detaylar",
+      "hide": "Gizle teknik ayrıntıları",
+      "stack": "yığını",
+      "achievements": "Teknik sonuçlar teknik sonuçlar",
+      "task": "Challenge Challenge",
+      "role": "Benim rolüm",
+      "built": "Ne inşa ettiğim",
+      "changed": "Ne değişti",
       "items": [
         {
           "id": "trading",
-          "title": "Trading system with AI analytics",
-          "task": "Automated crypto trading lost money to inaccurate signals, while market analysis took up to an hour and decisions used stale data.",
-          "role": "Principal product engineer, responsible for discovery, architecture, development, launch, and operations.",
-          "built": "A trading decision system with multi-factor market evaluation and strict risk limits, plus AI agents that analyse markets, news, and forecasts in parallel.",
-          "changed": "The system capped risk before a trade, and analytics no longer blocked decisions.",
+          "title": "AI Analytics ile ticaret sistemi",
+          "task": "Otomatik kripto ticareti yanlış sinyaller için para kaybetti, piyasa analizi bir saate kadar sürdü ve sabit veriler kullandı.",
+          "role": "Ürün mühendisi, keşif, mimarlık, geliştirme, başlatma ve operasyonlardan sorumlu.",
+          "built": "Çok faktörlü piyasa değerlendirme ve katı risk sınırları olan bir ticaret kararı sistemi, piyasaları, haberlerini ve paralel tahminleri analiz eden AI ajanları.",
+          "changed": "Sistem bir ticaretten önce risk kapladı ve analiz artık engelleyici kararlar vermedi.",
           "metrics": [
-            "−50% false signals",
-            "10–15s reports instead of 30–60m",
-            "3% capital maximum daily loss",
-            "99.99% availability"
+            "-% 50 false sinyalleri",
+            "30-60m yerine 10-15 rapor",
+            "% 3 sermaye maksimum günlük kaybı",
+            "% 99.99% kullanılabilirlik"
           ],
           "stack": [
             "Node.js (Bun)",
@@ -138,29 +138,29 @@
             "Linux (VPS)"
           ],
           "achievements": [
-            "Developed an isolated decision-making engine (Scoring Engine): implemented a multi-factor system consisting of 6 components with PIT-MAD normalization to prevent look-ahead bias, driven by a 5-state market regime classifier with an HTF consensus gate, which reduced false signals by 50%.",
-            "Built a real-time pipeline to multiplex high-frequency WebSocket streams (orderbook, trades, liquidations) via the Binance API; implemented incremental calculation of quant metrics and Funding Z-score directly in Redis RAM, reducing the load on PostgreSQL by 90% while maintaining 99.99% data uptime.",
-            "Designed a risk management module based on the Carver algorithm (volatility targeting) for dynamic position sizing; deployed 15 pre-trade risk limits (Pre-Trade Risk Guards / Circuit Breakers) and a multi-priority exit matrix (8 scenarios, including SL, TP, daily DD), strictly capping maximum daily drawdown at 3% of capital.",
-            "Implemented a fault-tolerant execution engine on top of CCXT featuring a 4-phase cascade order escalation logic (Limit → Re-quote → IOC → Market) and per-symbol Redis locks, completely eliminating race conditions and slippage during periods of extreme order book volatility.",
-            "Developed an asynchronous Event-Driven architecture for the analytical circuit: deployed 12+ microservices powered by Redis Streams and n8n, eliminating blocking HTTP dependencies and accelerating report generation from 30–60 minutes down to 10–15 seconds (p99 < 1s for critical triggers).",
-            "Designed a unified API layer for a hierarchical multi-agent system (GPT-5 via OpenRouter): implemented parallel orchestration of 7 specialized modules (including locally deployed TimeGPT, Matrix Profile, and custom TA indicators in pure JS), shortening integration time for new modules from 2 days to 2 hours.",
-            "Implemented an asynchronous N×M real-time sentiment analysis module for news feeds via GPT-4o, automatically matching aggregated context against active market orders.",
-            "Deployed an observability stack (Pino JSON, Promtail, Grafana Cloud Loki) and an LLM-powered Telegram control interface, ensuring transparent auditing of AI agent behavior and cutting production validation time for new prompts."
+            "izole bir karar verme motoru (Scoring Engine): PIT-MAD normalizasyonu ile PIT-MAD normalizasyondan oluşan çok faktörlü bir sistem, 5 devlet piyasası rejim sınıflandırıcısı tarafından 50 oranında azaltıldı.",
+            "Birden fazla yüksek frekanslı WebSocket akışlarına gerçek zamanlı bir boru hattı inşa etti (kitap, ticaret, tasfiyeler) Stuttgart API aracılığıyla; nice ölçümler ve fonlama Z-kesinlikle doğrudan Redis RAM'da, yükleri% 99.99 oranında azaltırken.",
+            "Carver algoritmasına dayanan bir risk yönetim modülü tasarlayın (yargılama hedeflemesi) dinamik pozisyon büyüklüğü için; 15 pre-ticaret risk limitleri (Pre-Ticaret Risk Muhafızları / Devre Taşları) ve çok öncelikli bir çıkış matrisi (8 senaryolar, SL, TP, günlük DD dahil), kesin olarak sermayenin% 3'ünde çizilir.",
+            "4fazlık mantığı (Limit → Re-quote → IOC → Market) ve per-symbol Redis kilitleri, tamamen ırk koşullarını ortadan kaldırmak ve aşırı sipariş defteri dalgalanmaları sırasında kaymak.",
+            "Analitik devre için aminkron bir Event-Driven mimarisi geliştirdi: Redis Streams ve n8n tarafından desteklenen 12+ mikro hizmet kullandı, HTTP bağımlılıklarını engellemeyi ve rapor nesillerini 30-60 dakikadan 10-15 saniyeye kadar hızlandırdı (p99 < 1s for critical triggers).",
+            "Bir hierarchical multi-agent sistemi için birleşik bir API katmanı tasarlayın (GPT-5 via OpenRouter): 7 özel modül (Yerel olarak kullanılan TimeGPT, Matrix Profile ve özel TA göstergeleri dahil), 2 günden 2 saate kadar yeni modüller için kısa bir entegrasyon zamanı.",
+            "GPT-4o aracılığıyla haber beslemeleri için gerçek zamanlı bir duygu analizi modülü uygulama, otomatik olarak aktif piyasa emirlerine karşı agred bağlamı eşleştirin.",
+            "Bir gözlemlenebilirlik yığını (Pino JSON, Promtail, Grafana Cloud Loki) ve LLM destekli bir Telgraf kontrol arayüzü, AI ajanı davranışının şeffaf denetimini sağlamak ve yeni talepler için üretim süresini kesmek."
           ],
-          "overview": "Deterministic algorithmic trading engine based on a trend-following strategy for the BTC futures market, along with a multi-agent AI-powered market analytics system built on n8n, integrating LLMs, TimeGPT, and external data providers."
+          "overview": "BTC gelecekleri pazarı için bir trend takip eden bir trende dayanan, n8n üzerinde inşa edilen çok güçlü bir piyasa analizi sistemi ile birlikte, LLMs, TimeGPT ve dış veri sağlayıcıları."
         },
         {
           "id": "payments",
-          "title": "Crypto payment infrastructure",
-          "task": "The company lost substantial transfer fees, while payment settlement was slow and unreliable as load grew.",
-          "role": "Lead engineer for the payment core and custody layer.",
-          "built": "A payment platform that monitors 15+ blockchain networks, automatically sweeps deposits, and optimizes the fee of each operation.",
-          "changed": "Fees fell nearly tenfold, settlement took seconds rather than minutes, and the platform sustained 100M requests a day.",
+          "title": "Kripto ödeme altyapısı",
+          "task": "Şirket önemli transfer ücretlerini kaybetti, ödeme çözümü yavaş ve yük büyüdükçe güvenilmezdi.",
+          "role": "Ödeme çekirdeği ve gözaltı katmanı için lider mühendisi.",
+          "built": "15+ blok zinciri ağlarını izleyen bir ödeme platformu, otomatik olarak yatakları süpürüyor ve her işlemin ücretini optimize ediyor.",
+          "changed": "Ücretler neredeyse on kat düştü, yerleşim birkaç dakikadan fazla sürdü ve platform günde 100M talebini sürdürdü.",
           "metrics": [
-            "−90% fee costs",
-            "100M requests/day at 99.99%",
-            "2–3s settlement",
-            "3M wallets monitored"
+            "-% 90 ücret maliyeti",
+            "100M istek / gün 99.99%",
+            "2–3. yerleşim yeri",
+            "3M cüzdanları izledi"
           ],
           "stack": [
             "Web3",
@@ -178,26 +178,26 @@
             "Event-Driven Architecture"
           ],
           "achievements": [
-            "Designed a microservices-based architecture for the core payment engine using Encore.ts (Clean Architecture), supporting peak loads of 3,000+ RPS (100M+ requests/day) with a system-wide end-to-end uptime of 99.99%.",
-            "Developed a high-performance WebSocket engine for monitoring DEX pools and an ingestion system for parallel streaming of on-chain data from 15+ EVM/non-EVM networks; reduced the load on public RPC nodes by 70% by implementing two-tier caching in Redis and brought data latency down to <200 ms.",
-            "Designed and implemented a sweep-on-deposit algorithm featuring automated, programmatic energy renting on the TRON network and dynamic gas top-ups in EVM, reducing on-chain business fee operational costs by 90%.",
-            "Created an event-driven pipeline for real-time transaction tracking across a database of 3M+ multi-chain wallets, including a parallel deposit splitting module and a concurrent nonce-tracking controller, reducing settlement latency to 2–3 seconds.",
-            "Secured the custodial layer against MEV and front-running attacks at the smart contract interaction level (Uniswap V3, gasless Permit2, fee-on-transfer protection) and implemented authorization protocols based on Web3 signatures, HMAC, and AES-256.",
-            "Deployed a local testing environment with isolated protocol nodes for BTC, ETH, and TRON, and built a testing pyramid (unit/component/e2e) that secured 80% coverage of critical paths and enabled zero-downtime releases."
+            "Encore.ts (Clean Architecture) kullanarak temel ödeme motoru için mikro hizmet tabanlı bir mimari tasarlayın, 3,000+ RPS (100M+ istek/gün) en fazla% 99.99 kullanarak.",
+            "DEX havuzlarını izlemek için yüksek performanslı bir WebSocket motoru geliştirdi ve 15+-chain verilerinin paralel akışı için bir ingestion sistemi EVM/Asla-EVM ağları; Kızılis'de iki katmanlı caching uygulamak ve verileri <200 ms'e kadar gecikmedi.",
+            "EVM'deki TRON ağ ve dinamik gaz topları üzerinde otomatik, programmatik enerji kiralama içeren bir sü-on-depositositori algoritması uyguladı ve% 90 oranında operasyonel maliyetleri azalttı.",
+            "Paralel bir depozito bölme modülü ve koncurrent nonce-tracking kontrolörü de dahil olmak üzere 3M + multi-chain cüzdanları veritabanında gerçek zamanlı işlem izleme için bir kanal hattı oluşturun.",
+            "MEV'ye karşı custodial tabaka ve akıllı sözleşme etkileşimi seviyesindeki (Uniswap V3, gazsız İzin2, ücret transferi koruma) ve Web3 imzalarına dayanan yetki protokolleri uyguladı.",
+            "BTC, ETH ve TRON için izole protokol düğümleri ile yerel bir test ortamı işe alındı ve bir test piramidi (unit/component/e2e) eleştirel yolların% 80 kapsamını sağladı ve sıfır-downtime sürümlerini etkinleştirdi."
           ],
-          "overview": "Web3/FinTech ecosystem: decentralized multichain DEX interfaces (15+ EVM/non-EVM networks), real-time monitoring of on-chain events, liquidity, and price quotes (REST API, WebSocket). Backend platforms for automating multichain deposits and B2B/B2C SaaS services focused on transaction cost optimization (TRON energy rental, EVM gas management). Full-cycle crypto operations processing: real-time monitoring, transaction execution, and automated fund distribution across custodial wallets."
+          "overview": "Web3/FinTech ekosistemi: merkezsiz multichain DEX arabirimleri (15+ EVM/non-EVM ağları), zincir olayları, sıvılık ve fiyat alıntıları (REST API, WebSocket). Multichain yataklarını ve B2B/B2C SaaS hizmetlerini otomatikleştirmek için geri dönüş platformları, işlem maliyeti optimizasyonuna odaklandı (TRON enerji kiralama, EVM gaz yönetimi). Tam döngüsü kripto işlemleri: gerçek zamanlı izleme, işlem yürütme ve custodial cüzdanlar arasındaki otomatik fon dağıtım."
         },
         {
           "id": "exchange",
-          "title": "Currency exchange platform with document control",
-          "task": "Crypto-to-fiat applications took three hours by hand, while the platform also had to pass an external security audit.",
-          "role": "Full-stack engineer for both backend services and operator UI.",
-          "built": "A system where every deal follows a strict workflow, with KYC/AML, role separation, MFA, and eight-language support.",
-          "changed": "Operators stopped being the bottleneck; the platform passed the external audit and entered new regions.",
+          "title": "Para değişim platformu belge kontrolü ile",
+          "task": "Crypto-to-fiat uygulamaları elle üç saat sürdü, ancak platform aynı zamanda dış bir güvenlik denetimini geçmek zorunda kaldı.",
+          "role": "Hem backend hizmetleri hem de operatör UI için tam-stack mühendisi.",
+          "built": "Her anlaşmanın sıkı bir iş akışı izlediği bir sistem, KUC/AML ile, rol ayrılık, MFA ve sekiz dil desteği ile.",
+          "changed": "Operatörler şişen olmayı bıraktı; platform dış denetime geçti ve yeni bölgelere girdi.",
           "metrics": [
-            "3 hours → 3 minutes",
-            "external audit passed",
-            "8 language zones"
+            "3 saat → 3 dakika",
+            "Dış denetim geçti",
+            "8 dil bölgeleri"
           ],
           "stack": [
             "NestJS",
@@ -215,26 +215,26 @@
             "Performance"
           ],
           "achievements": [
-            "Designed and implemented a finite State Machine to manage transaction lifecycles alongside a Role-Based Access Control (RBAC) model, reducing order processing times from 3 hours down to 3 minutes.",
-            "Developed a modular monolith applying DDD principles and set up an API-first pipeline with automatic type generation for the frontend client, entirely eliminating integration contract errors.",
-            "Implemented a pricing engine with Redis caching for external rates (updating every 5–30 seconds), minimizing costs associated with paid infrastructure APIs from data providers.",
-            "Integrated an end-to-end KYC/AML perimeter (wallet screening, counterparty identification) and protection mechanisms (MFA, session invalidation, webhook verification), successfully guiding the platform through an external security audit.",
-            "Developed an authorization module using Web3 wallets and provided architectural support for localization (8 language zones), accelerating product expansion into new regional markets."
+            "Bir Rol Tabanlı Erişim Kontrolü (RBAC) modelinin yanı sıra işlem hayatını yönetmek için sonlu bir devlet makinesi uyguladı ve 3 dakikaya kadar sipariş işleme süresini azaltır.",
+            "DDD prensiplerini modüler bir monolith uygulayın ve ön müşteri için otomatik tip nesil ile API-ilk boru hattı kurdu, tamamen entegrasyon sözleşme hataları ortadan kaldırır.",
+            "Dış fiyatlar için Redis kalibrasyonu ile bir fiyat motoru (her 5-30 saniye boyunca), veri sağlayıcılarından ücretli altyapı API'leri ile ilişkilendirilen minimiz maliyetler.",
+            "Tümleşik bir son-to-end KUC/AML perimeter (wallet tarama, meslektaşım) ve koruma mekanizmaları (MFA, seans geçersizliği, webhook doğrulama), platformu dış bir güvenlik denetimi aracılığıyla başarıyla yönlendirmek.",
+            "Web3 cüzdanlarını kullanarak bir yetki modülü geliştirdi ve yerelleştirme (8 dil bölgesi için mimari destek sağladı), yeni bölgesel pazarlara hızla yayıldı."
           ],
-          "overview": "A regulated OTC platform for exchanging crypto assets (USDT, BTC, ETH) for fiat currency (USD, KGS) with a full-cycle KYC/AML workflow, banking settlement, and an operational dashboard for managers."
+          "overview": "Tam çevrimli bir EPC / AML iş akışı, bankacılık yerleşimi ve yöneticiler için operasyonel bir paniğe sahip bir OTC platformu."
         },
         {
           "id": "voice",
-          "title": "Simultaneous speech translation for international events",
-          "task": "Thousands of participants needed to hear a speaker in their own language without delay or audio interruption.",
-          "role": "Lead engineer for the real-time platform.",
-          "built": "A speech-recognition, translation, and voice-delivery system in 50+ languages for thousands of listeners with hot language switching.",
-          "changed": "The product supported live events reliably, while AI-service costs fell 40%.",
+          "title": "Uluslararası etkinlikler için Simultane konuşma çevirisi",
+          "task": "Binlerce katılımcının gecikme veya ses kesintisi olmadan kendi dilinde bir konuşmacı duymaları gerekiyordu.",
+          "role": "Gerçek zamanlı platform için lider mühendisi.",
+          "built": "Bir konuşma tanıma, çeviri ve ses-delivery sistemi 50+ dilde sıcak dil geçişi ile binlerce dinleyici için.",
+          "changed": "Ürün, canlı olayları güvenilir bir şekilde destekledi, AI-service maliyetleri %40 azaldı.",
           "metrics": [
-            "10,000+ listeners",
+            "10.000+ dinleyici",
             "<0.25s latency",
-            "−40% AI-service costs",
-            "50+ languages"
+            "-% 40 AI-service maliyetleri",
+            "50+ dil dili"
           ],
           "stack": [
             "Node.js",
@@ -254,26 +254,26 @@
             "Multi-tenancy"
           ],
           "achievements": [
-            "Developed a multi-tenant media session isolation system using OpenResty, Redis, and PM2 with dedicated Node.js processes per room, eliminating cross-load impact and enabling stable handling of 10,000+ concurrent WebSocket connections.",
-            "Designed an event-driven integration layer for AI providers (OpenAI, Deepgram, ElevenLabs) with caching and data deduplication mechanisms for fan-out workloads, reducing end-to-end latency to <250 ms, lowering third-party API costs by 40%, and maintaining 99.99% uptime.",
-            "Bypassed native Apple/Safari background audio restrictions by implementing background streaming through Web Audio API with silent audio playback, ensuring uninterrupted audio delivery with the screen locked.",
-            "Implemented seamless hot language switching across 50+ translation languages without packet loss or active WebSocket session interruption. Successfully launched MVP into production and validated the technical architecture.",
-            "Architected a high-load Control Plane (Node.js, Redis, TCP/WebSocket, 99.99% uptime) enabling real-time orchestration and broadcast command execution across thousands of edge devices.",
-            "Built Red Team infrastructure using SOCKS5 and Reverse Proxy technologies, implementing secure tunnels, Remote Shell capabilities, and a protected multi-tenant security layer (AES-256, RBAC)."
+            "OpenResty, Redis ve PM2'yi oda başına adamış Node.js süreçleri ile birlikte, 10.000+ eş zamanlı WebSocket bağlantılarını ortadan kaldırmak için çok katmanlı bir medya oturumu izolasyon sistemi geliştirdi.",
+            "AI sağlayıcıları için bir etkinlik odaklı entegrasyon katmanı (OpenAI, Deepgram, ElevenLabs) fan-out iş yükleri için caching ve veri deduplication mekanizmaları ile, end-to-end latency'yi <250 ms'a düşürmek, üçüncü taraf API maliyetlerini% 40'a düşürmek ve% 99.99'u korumak.",
+            "Bypassed native Apple/Safari arka plan ses kısıtlamaları Web Audio API'si aracılığıyla sessiz ses oyun geri yükleme, ekranla kesintisiz sesli teslimat sağlamak.",
+            "Paket kaybı veya aktif WebSocket seans kesintisi olmadan 50+ çeviri dillerini sorunsuz bir şekilde değiştirdi. Başarılı bir şekilde MVP'yi üretime başlattı ve teknik mimariyi doğruladı.",
+            "Architected a high-load Control Plane (Node.js, Redis, TCP/WebSocket,% 99.99 uptime) gerçek zamanlı orkestralama ve binlerce kenar cihazı boyunca yayın komut yürütmesine izin verdi.",
+            "Kompakt5 ve Ters Proxy teknolojilerini kullanarak inşa edilmiş Kızıl Takım altyapısı, güvenli tüneller, Uzak Shell yetenekleri ve korumalı bir multi-tenant güvenlik katmanı (AES-256, RBAC)."
           ],
-          "overview": "Real-time AI interpretation and streaming platform for international conferences, webinars, and hybrid events. The system enables live speech capture, sub-second speech recognition, translation into 50+ languages, and delivery of synthesized audio streams to thousands of concurrent listeners. Also designed an RMM & Command and Control (C2) platform for centralized management of distributed edge agents and Red Team operations. The architecture includes a real-time Control Plane, secure communication channels (TCP/WebSocket, SOCKS5), automated agent build pipeline, multi-tenant web console, and reverse proxy/tunneling infrastructure."
+          "overview": "Gerçek zamanlı AI yorumu ve uluslararası konferanslar, webinars ve hibrit olaylar için platform yayınlayın. Sistem canlı konuşma yakalamasını, alt ikinci konuşma tanımasını, 50+ dili çeviriyi ve sentezlenen ses akışlarının binlerce eş zamanlı dinleyicilere teslim edilmesini sağlar. Ayrıca dağıtılmış kenar ajanları ve Kızıl Takım operasyonlarının merkezileştirilmiş yönetimi için bir RMM & Komut ve Kontrol (C2) platformu tasarladı. Mimari gerçek zamanlı bir Kontrol Planı, güvenli iletişim kanalları (TCP/WebSocket, Seiko5), otomatik ajan boru hattı, multi-tenant web konsolu ve tersine proxy/tunneling altyapısı içerir."
         },
         {
           "id": "vending",
-          "title": "Vending-machine fleet management platform",
-          "task": "Thousands of machines in different cities required payments, tax reporting, remote configuration, and real-time sales visibility.",
-          "role": "Backend engineer and architecture-design contributor.",
-          "built": "The platform core that processes all device events and a bidirectional channel for remote machine configuration.",
-          "changed": "Tax reporting became automatic, and the platform had capacity for 10× device growth.",
+          "title": "Satış-makina filosu yönetim platformu",
+          "task": "Farklı şehirlerde binlerce makine ödeme, vergi raporlaması, uzaktan yapılandırma ve gerçek zamanlı satış görünürlüğü gerektiriyordu.",
+          "role": "Backend mühendisi ve mimarlık-tasarım katılımcısı.",
+          "built": "Tüm cihaz olaylarını ve uzaktan makine yapılandırması için iki yönlü bir kanal olan platform çekirdeği.",
+          "changed": "Vergi raporlaması otomatik hale geldi ve platform 10× cihaz büyümesi için kapasiteye sahipti.",
           "metrics": [
-            "99% transactions automated",
-            "up to 60,000 events/sec",
-            "10× growth headroom"
+            "% 99 işlem otomatik",
+            "60.000 olay / gizli",
+            "10× büyüme başı"
           ],
           "stack": [
             "TypeScript",
@@ -292,27 +292,27 @@
             "Adonis.js"
           ],
           "achievements": [
-            "Designed the Event-Driven Architecture (EDA) core for the multi-tenant SaaS platform; decomposed business requirements into technical specifications, provisioning an architectural buffer for a 10x scaling of the IoT device fleet.",
-            "Developed a fault-tolerant message bus using Apache Kafka and NATS with peak throughput up to 60,000 RPS, ensuring guaranteed asynchronous data delivery between system domains.",
-            "Unified API contract design standards and directed collaborative Scoping & Estimation processes alongside Frontend and QA teams, lowering the rate of integration defects during release cycles.",
-            "Optimized the storage layer in PostgreSQL (60+ tables, 8 hierarchy levels), accelerating the execution of analytical queries.",
-            "Implemented a bi-directional communication protocol with IoT terminals, enabling automatic compliance-driven fiscalization for 99% of transactions without requiring manual operator intervention.",
-            "Introduced mentoring and Code Review processes within the backend team, accelerating onboarding for new engineers and enhancing the overall code quality culture."
+            "Multi-tenant SaaS platformu için Event-Driven Architecture (EDA) çekirdeği tasarlayın; iş gereksinimlerini teknik özelliklere yöneltin, IoT aygıtı filosunun 10x ölçeklendirmesi için bir mimari tampon sağlayın.",
+            "Apache Kafka ve NATS'yi 60.000 RPS'ye kadar kullanarak hataya dayalı bir mesaj otobüsü geliştirdi, sistem domainleri arasında atekron veri teslimatını garanti eder.",
+            "Birleşik API sözleşme tasarımı standartları ve Frontend ve QA takımları ile birlikte işbirliği yapan Scoping & Estimation süreçleri, serbest bırakma döngüleri sırasında entegrasyon kusurlarının oranını azaltır.",
+            "PostagreSQL'deki depolama katmanını optimize edin (60+ tablo, 8 hiyerarşi seviye), analitik sorguların yürütülmesini hızlandırdı.",
+            "IoT terminalleri ile bir çift yönlü iletişim protokolü uyguladı, manuel operatör müdahalesini gerektiren işlemlerin% 99'una otomatik uyumluluk odaklı maliizasyon sağladı.",
+            "Backend ekibi içinde mentorluk ve Kod İnceleme süreçleri tanıtarak, yeni mühendisler için gemiyi hızlandırdı ve genel kod kaliteli kültürünü güçlendirdi."
           ],
-          "overview": "A cloud B2B SaaS platform for managing a distributed fleet of IoT terminals for vending machines: online transaction fiscalization, remote device configuration, payment acquiring, service route automation, and real-time sales analytics."
+          "overview": "Satış makineleri için dağıtılan IoT terminallerinin dağıtılmış bir filosunu yönetmek için bir bulut B2B SaaS platformu: online işlem malileşmesi, uzaktan cihaz yapılandırması, satın alma, hizmet rota otomasyonu ve gerçek zamanlı satış analizi."
         },
         {
           "id": "books",
-          "title": "Book digitisation pipeline",
-          "task": "A publisher needed to digitise and prepare thousands of editions for print without months of manual work.",
-          "role": "Full-cycle engineer, from data collection to the finished file.",
-          "built": "An automated collection, data-normalisation, and print-file pipeline that resumes from checkpoints after failure.",
-          "changed": "The system replaced work that had required external contractors, with no progress loss on failures.",
+          "title": "Kitap dijitalleştirme hattı",
+          "task": "Bir yayıncı, manuel çalışma ayları olmadan baskı için binlerce baskıya ihtiyaç duyuyordu.",
+          "role": "Tam döngüsü mühendisi, veri koleksiyonundan son dosyaya.",
+          "built": "Otomatik bir koleksiyon, veri-normalleştirme ve başarısızlıktan sonra kontrol noktalarından başlayan baskı-file boru hattı.",
+          "changed": "Sistem, dış yüklenicilere ihtiyaç duyan işi değiştirdi, başarısızlıklarda ilerleme kaybı yoktu.",
           "metrics": [
-            "4,000+ editions",
-            "10× faster",
-            "0% progress loss",
-            "−50% storage costs"
+            "4.000+ baskı",
+            "10× daha hızlı",
+            "% 0 ilerleme kaybı",
+            "-% 50 depolama maliyetleri"
           ],
           "stack": [
             "High-performance Scraping",
@@ -330,376 +330,376 @@
             "CKEditor v4/v5"
           ],
           "achievements": [
-            "Designed and launched an end-to-end aggregation pipeline into production, driving autonomous import, normalization, and headless generation of 4,000+ publisher catalog SKUs without outsourcing to external contractors.",
-            "Developed a fault-tolerant download orchestrator (Bun, utilizing a pool of 64 isolated workers) with in-memory caching and checkpoint resume mechanics, increasing overall system throughput tenfold.",
-            "Deployed a resilient processing layer based on file locks and idempotent restarts, eliminating manual intervention during failures and reducing progress loss to 0%.",
-            "Built a CPU/GPU-scalable media compression batch pipeline (Sharp, FFmpeg), cutting storage footprint by 50% while fully preserving the visual quality of typography.",
-            "Led the migration of the core WYSIWYG system from CKEditor v4 to v5, refactoring the codebase to TypeScript and designing a custom plugin architecture, which increased rendering stability for complex text structures.",
-            "Organized decentralized P2P data replication via a Tailscale mesh network and Syncthing, entirely removing dependence on cloud providers and eliminating commercial egress traffic expenses."
+            "Tasarlanmış ve üretime son bir aggregasyon hattını basarak, otonom ithalat, normalleşme ve dış yüklenicilere karşı çıkmadan 4.000+ yayıncı katalog SKU'su başlattı.",
+            "Bir hata-tolerant indirme orkestrası (Bun, 64 izole işçi havuzunu kullanarak) In-memory caching ve kontrol noktası özgeçmiş mekanikleri ile genel sistemi onfold üzerinden artırmak.",
+            "Dosya kilitleri ve idempotent yeniden başlatmaları, başarısızlıklar sırasında manuel müdahaleyi ortadan kaldırmak ve ilerleme kaybının% 0'a azaltılması.",
+            "Bir CPU/GPU-scalable medya sıkıştırma hattı (Sharp, FFmpeg), tipografinin görsel kalitesini tamamen korurken depolama ayak izini %50 azaltır.",
+            "CKEditor v4'ten v5'e kadar temel WYSIWYG sisteminin geçişi, kodbase'i TypeScript'a yeniden yönlendirerek karmaşık metin yapıları için stabilite sağlayan özel bir eklenti mimarisi tasarlayın.",
+            "Organize edilebilir bir P2P verileri bir Tailscale ağ ve senkronizasyon yoluyla yenidenplikasyon, tamamen bulut sağlayıcılarına bağımlılığı ortadan kaldırmak ve ticari egre trafik masraflarını ortadan kaldırmak."
           ],
-          "overview": "An end-to-end content pipeline for high-volume digitalization and distribution of books: automated scraping of publisher catalogs, structured data extraction via external APIs, multimedia content normalization, and headless generation of print-ready PDF editions."
+          "overview": "Kitapların yüksek hacimli dijitalleştirilmesi ve dağıtımı için son bir içerik boru hattı: yayıncı katalogların otomatik dökümü, dış API'ler, multimedya içeriği normalleştirme ve baskısız PDF baskıları."
         }
       ],
-      "overview": "Project Overview"
+      "overview": "Proje özeti"
     },
     "ai": {
-      "eyebrow": "PRINCIPLES",
-      "title": "How I work with AI",
-      "lead": "AI speeds up development, but it also makes confident, plausible mistakes. I use these controls to keep it useful.",
+      "eyebrow": "İLKELER",
+      "title": "Yapay zekâ ile çalışma biçimim",
+      "lead": "AI gelişmeyi hızlandırır, ancak aynı zamanda emin, makul hatalar yapar. Bu kontrolleri faydalı tutmak için kullanıyorum.",
       "items": [
         [
-          "Specification",
-          "Written scope, an explicit ‘what we do NOT do’, and acceptance criteria before the first line of code."
+          "Özellikler Özellikler Özellikler Özellikler Özellikler Özellikler Özellikler",
+          "Yazı kapsamı, açık bir ‘Yapmadığımız şey’ ve ilk kod hattından önce kabul kriteri."
         ],
         [
-          "Context",
-          "AI needs a clear task and the relevant system context."
+          "Bağlam",
+          "AI açık bir göreve ve ilgili sistem bağlamına ihtiyaç duyar."
         ],
         [
-          "Agents",
-          "Several AI executors work on separate parts of a task in parallel, following a clear hand-off rule."
+          "Ajanlar",
+          "Birkaç AI executors paralel olarak bir görevin ayrı parçaları üzerinde çalışır, açık bir el-off kuralı takip eder."
         ],
         [
-          "Quality checks",
-          "Every AI feature has a reference set with known correct answers."
+          "Kalite kontrolleri",
+          "Her AI özelliği bilinen doğru cevaplarla belirlenen bir referansa sahiptir."
         ],
         [
-          "Security",
-          "AI receives no broader access than the task needs. Money and client data pass deterministic checks."
+          "Güvenlik Güvenliği",
+          "AI, görev ihtiyaçlarından daha geniş bir erişim gerektirmez. Para ve müşteri verileri deterministic checks geçer."
         ],
         [
-          "Observability",
-          "I track what AI did, why it did it, and what it cost. Every decision is auditable."
+          "Gözlemlenebilirlik",
+          "AI’nın ne yaptığını, neden yaptığını ve maliyetinin ne olduğunu takip ediyorum. Her karar denetim edilebilir."
         ],
         [
-          "Cost control",
-          "Costs are tracked by function: caching, model selection, and fallback scenarios."
+          "Maliyet kontrolü",
+          "Maliyetler işlev tarafından takip edilir: kalibrasyon, model seçimi ve geri çekilme senaryoları."
         ],
         [
-          "Boundaries",
-          "AI is for analytics, text, drafts, and hypotheses. Money, access, and critical operations use deterministic code only."
+          "Sınırlar",
+          "AI analitik, metin, taslaklar ve hipotezler içindir. Para, erişim ve kritik işlemler sadece deterministic kodu kullanır."
         ],
         [
-          "Accountability",
-          "No line reaches production without my review. ‘AI wrote it’ is not an explanation."
+          "Sorumluluk",
+          "Hiçbir çizgi benim incelemem olmadan üretime ulaşır. “AI bunu yazdı” bir açıklama değil."
         ]
       ]
     },
     "fit": {
-      "eyebrow": "GOOD FIT",
-      "title": "Who I work best with",
+      "eyebrow": "UYGUNLUK",
+      "title": "En iyi çalıştığım ekipler",
       "items": [
         [
-          "Founders from idea to first customers.",
-          "You need one person to own the product end-to-end."
+          "İlk müşterilere fikirden Kurucular.",
+          "Ürünün sonuna kadar sahip olmak için bir kişiye ihtiyacınız var."
         ],
         [
-          "Fintech and crypto companies.",
-          "Payments, wallets, custody, customer checks, and fee reduction."
+          "Fintech ve kripto şirketleri.",
+          "Ödemeler, cüzdanlar, tutuklamalar, müşteri kontrolleri ve ücret azaltımı."
         ],
         [
-          "Teams that hit a ceiling.",
-          "The system is slow, fails under load, or is too risky to change. I diagnose the cause and give you a clear plan."
+          "Bir tavana vuran takımlar.",
+          "Sistem yavaştır, yük altında başarısız olur veya değiştirmek çok risklidir. Nedeni teşhis ediyorum ve size açık bir plan veriyorum."
         ],
         [
-          "Businesses that want AI implemented for real.",
-          "A product feature with measurable quality, predictable cost, and clear boundaries."
+          "AI'nın gerçek için uygulanması gereken işletmeler.",
+          "ölçülebilir kaliteli, öngörülebilir maliyet ve net sınırlarla bir ürün özelliği."
         ],
         [
-          "Companies where failure is expensive.",
-          "Where an outage means lost money, damaged data, or a conversation with a regulator."
+          "Başarısızlığın pahalı olduğu şirketler.",
+          "Bir kesinti para kaybı, hasarlı veriler veya bir düzenleyici ile konuşma anlamına gelir."
         ]
       ],
-      "noFitTitle": "not a fit",
-      "noFit": "I am not a fit if you need an executor with no voice in decisions, or if the task is to fill a deadline with features without considering what happens in six months. I will say when I think the plan is wrong."
+      "noFitTitle": "Bir uyum değil",
+      "noFit": "Kararlarda bir sese ihtiyacınız olup olmadığınıza uygun değilim ya da görev altı ay içinde ne olduğunu göz önünde bulundurmadan bir son doldurmaz. Planın yanlış olduğunu düşündüğümde söyleyeceğim."
     },
     "work": {
-      "eyebrow": "ENGAGEMENT",
-      "title": "How to work with me",
+      "eyebrow": "ÇALIŞMA BİÇİMİ",
+      "title": "Benimle nasıl çalışılır",
       "items": [
         [
-          "Full-time",
-          "Remote, overlapping European business hours."
+          "Tam zamanlı",
+          "Uzak, Avrupa iş saatlerini örtüşür."
         ],
         [
-          "Project contract",
-          "Fixed scope, agreed timeline, and acceptance criteria."
+          "Proje sözleşmesi",
+          "Sabit kapsamı, zaman çizelgesini kabul etti ve kabul kriterlerini kabul etti."
         ],
         [
-          "Part-time as lead engineer",
-          "Several days per week for architecture, reviews, and team direction."
+          "Part-time as lead mühendisi",
+          "Mimarlık, yorum ve takım yönü için haftada birkaç gün."
         ],
         [
-          "Audit and system rescue",
-          "A short engagement to diagnose the problem and deliver a prioritised plan."
+          "Denetim ve sistem kurtarma",
+          "Problemi teşhis etmek ve önceki bir plan sunmak için kısa bir ilişki."
         ]
       ],
-      "lead": "We start with a short conversation about the task. Then I tell you whether I can take it on, how long it will take, and what it will cost.",
-      "cta": "Discuss a project"
+      "lead": "Görev hakkında kısa bir konuşma ile başlıyoruz. O zaman bunu alamayacağımı söylüyorum, ne kadar sürer ve ne pahasına olursa olsun.",
+      "cta": "Bir projeyi tartışmak"
     },
     "contact": {
-      "eyebrow": "CONTACT",
-      "title": "Discuss a project",
+      "eyebrow": "İLETİŞİM",
+      "title": "Bir projeyi tartışmak",
       "items": [
         [
-          "Telegram",
+          "Telgraf",
           "@EldiyarDev",
           "https://t.me/EldiyarDev"
         ],
         [
-          "Email",
-          "eldiyar.dev@gmail.com",
-          "mailto:eldiyar.dev@gmail.com"
+          "E-posta e-posta e-posta",
+          "Eldiyar.dev@gmail.com",
+          "postato:eldiyar.dev@gmail.com"
         ],
         [
-          "LinkedIn",
-          "linkedin.com/in/eldiyar-dev",
+          "LinkedIn LinkedIn LinkedIn",
+          "bağlantılı.com/in/eldiyar-dev",
           "https://linkedin.com/in/eldiyar-dev"
         ]
       ]
     },
     "footer": {
-      "role": "eldiyar · product & systems engineer",
-      "cta": "discuss a project"
+      "role": "Eldiyar · ürün & sistemler mühendisi",
+      "cta": "Bir proje tartışmak"
     }
   },
   "site": {
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Mesaj bana on Telegram",
           "url": "/ai-workflow-rescue",
-          "description": "I examine one automated process for stuck tasks, duplicate actions and AI costs. You receive a report and an action plan.",
-          "title": "AI Automation Reliability Review — Eldiyar",
-          "offer": "Automation"
+          "description": "Tekrarlanan görevleri, yinelenen işlemleri ve yapay zekâ maliyetlerini inceleyen bir otomasyon güvenilirliği değerlendirmesi. Rapor ve eylem planı alırsınız.",
+          "title": "Yapay Zekâ Otomasyonu Güvenilirlik İncelemesi — Eldiyar",
+          "offer": "Otomasyon"
         },
-        "body": "# Your automation runs, but someone still has to check its work\n\nFor product and business owners whose AI automation repeats actions, leaves tasks unfinished or spends money without a clear explanation.\n\n## Relevant experience\n\nThe project below describes my work on analytics automation.\n\n## When to get in touch\n\nAn invoice or message is sent twice. A task stalls, and nobody knows whether it is safe to restart. After a failure, someone has to reconstruct what happened. AI service bills rise without showing which process caused the increase.\n\nI examine one important process from trigger to result, such as a sequence in n8n or a set of connected AI assistants. Using your materials, I identify possible causes and prepare a plan for fixes.\n\n## What you receive\n\n- A map of the key steps: where the process can stop or lose a result.\n- Prioritized risks, with consequences and the conditions that trigger them.\n- Evidence-based hypotheses about the causes of observed failures.\n- A map of retries and safeguards against performing the same action twice.\n- Gaps in event logging and cost tracking: what is missing to understand failures and the cost of the process.\n- A now / next / later action plan, a written report and a video walkthrough.\n\n## Project example: reports that keep up with the data\n\n**Situation.** Market analytics reports took 30–60 minutes to prepare. By the time a report was ready, its data was already out of date.\n\n**My role.** I was the product's lead engineer, from defining the problem and architecture through launch and operation. This example describes my work on the analytics system and coordination between AI modules.\n\n**My work.** I split processing into independent services, removed waits between tasks that could run in parallel, and coordinated 7 modules. I added event logging and tools for checking AI assistant behavior.\n\n- Report generation fell from 30–60 minutes to 10–15 seconds.\n- New module integration fell from 2 days to 2 hours.\n\nThese figures come from implementation work on one project. A review produces findings and priorities; it does not guarantee the same speed improvement. I do not disclose the confidential project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the failure, select one process and agree the review fee.\n2. You provide a system overview, a process diagram, exported settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess the sequence of actions, retries, saved progress, possible failure causes and costs.\n4. You receive a written report and a video walkthrough. You keep the document whether or not we continue working together.\n\nStart by describing what should happen and what happens instead. If your developer or automation specialist holds the settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not requested.\n\n## Review boundaries\n\nThis is a materials-based review of one existing process, not a full assessment of every automation. Causes may remain hypotheses where the available evidence is insufficient to confirm them.\n\nYour team can implement the recommendations, or we can agree the implementation work. We document its scope and responsibilities before work begins.\n\nFormal security audits, penetration testing, certification and legal opinions are outside the review. Your materials remain confidential.\n\n## Technical details for your developer\n\nWorkflow Reliability Review: critical path, failure cause hypotheses, retries/idempotency, state preservation, event logging and tracing, API cost controls, and NOW / NEXT / LATER priorities. The project example used Redis Streams, n8n and parallel orchestration of AI modules.\n\n## Fees and timing\n\nFee: from $400. We agree the exact fee before the review starts. The format is 90 minutes plus a report. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with the action that repeats, the task that gets stuck or the cost you cannot explain. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "body": "# Otomasyon çalışır, ancak birisi hala işini kontrol etmek zorundadır\n\nAI otomasyonlarının eylemleri tekrarlayan ürün ve işletme sahipleri için, görevleri açık bir açıklama yapmadan tamamlanmaz veya para harcarlar.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı analitik otomasyonla anlatıyor.\n\n# # # Dokunduğu zaman\n\nBir fatura veya mesaj iki kez gönderilir. Bir görev tezgahları ve kimse yeniden başlamak için güvenli olup olmadığını bilmiyor. Bir başarısızlıktan sonra, birisi ne olduğunu yeniden inşa etmek zorunda. AI servis faturaları, hangi sürecin artışına neden olduğunu göstermeden yükselir.\n\nSonuç olarak, n8n'deki bir dizi veya bağlantılı AI asistanları gibi önemli bir süreci inceliyorum. Malzemelerinizi kullanarak, olası nedenleri tanımlar ve düzeltmeler için bir plan hazırlarım.\n\n# # Ne aldığınız\n\n- Anahtar adımların bir haritası: Süreç nerede durabilir veya bir sonucu kaybedebilir.\n- Önce riskler, sonuçlar ve onları tetikleyen koşullar.\n- Kanıt tabanlı hipotezler gözlemlenen başarısızlıkların nedenleri hakkında.\n- Aynı eylemi iki kez gerçekleştirmeye ve korumalara karşı bir harita.\n- Olay giriş ve maliyet izlemedeki boşluklar: başarısızlıkları ve sürecin maliyetini anlamak için eksik olan şey.\n- A now / next / later action plan, yazılı bir rapor ve video yürüyüş.\n\n## Project örneği: verilerle devam eden raporlar\n\n**Situation.** Pazar analizi raporları hazırlamak için 30-60 dakika sürdü. Bir rapor hazır olduğu zaman, verileri zaten tarih dışındaydı.\n\n**Benim rolüm. ** Ürünün öncü mühendisiydim, problemi ve mimarisi başlangıçta ve operasyon yoluyla tanımlamaktan. Bu örnek, çalışmalarımı AI modülleri arasındaki analitik sistem ve koordinasyon üzerine anlatıyor.\n\n**İşim. ** Bağımsız hizmetlere bölünmüşüm, paralel olarak koşabilecek görevler arasında bekleniyorum ve 7 modül koordine ettim. AI asistan davranışını kontrol etmek için olay girişi ve araçları ekledim.\n\nRapor nesli 30–60 dakikadan 10-15 saniyeye düştü.\n- Yeni modül entegrasyonu 2 günden 2 saate düştü.\n\nBu rakamlar bir proje üzerinde uygulama çalışmasından geliyor. Bir inceleme bulguları ve önceliklerini üretir; aynı hız artışı garanti etmez. Gizli proje adını veya müşteri verilerini açıklamam.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda başarısızlığı tartışıyoruz, bir süreç seçin ve inceleme ücretini kabul ediyoruz.\n2. Bir sistem genel bakışı, bir süreç diyagramı, sırları kaldırılmış, örnek olay logları ve işletim ölçümleri.\n3. eylemlerin sırasını, yeniden çalışmayı, ilerlemeyi, olası başarısızlık nedenlerini ve maliyetleri değerlendiriyorum.\n4. Yazılı bir rapor ve video yürüyüşü alırsınız. Belgeyi birlikte çalışmaya devam etmemeye devam edin.\n\nNe olması gerektiğini ve bunun yerine ne olacağını tarif ederek başlayın. Geliştiriciniz veya otomasyon uzmanınız ayarları ve logları tutarsa, materyallerin hazırlanmasına yardımcı olmaları gerekir. Şifreler, gerçek anahtarlar ve canlı sisteme erişim talep edilmez.\n\n# # # Review sınırları\n\nBu, mevcut bir sürecin materyal tabanlı bir incelemesidir, her otomasyonun tam bir değerlendirmesi değildir. Sebepler mevcut kanıtların onları doğrulamak için yetersiz olduğu hipotezler olarak kalabilir.\n\nEkibiniz önerileri uygulayabilir veya uygulama çalışmayı kabul edebiliriz. Çalışma başlamadan önce kapsamını ve sorumluluklarını belgeliyoruz.\n\nFormal güvenlik denetimleri, penetrasyon testleri, sertifikasyon ve yasal görüşler inceleme dışındadır. Malzemelerniz gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nWorkflow Reliability Review: kritik yol, başarısızlık hipotezlere neden olur, retries/idempotency, state protection, event log and tracing, API maliyet kontrolleri ve şimdi / SON / LATER öncelikleri. Proje örneği Redis Streams, n8n ve AI modüllerinin paralel orkestrasyonunu kullandı.\n\n## Ücretler ve zamanlama\n\nÜcret: 400 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Format 90 dakika artı bir rapor. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nTekrarlayan eylemle Telegram'da bana ulaşın, sıkışıp kalan görev veya açıklayamayacağınız maliyetle. 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Mesaj bana on Telegram",
           "url": "/ai-launch-gate",
-          "description": "I assess launch risks using the materials you provide. You receive a written assessment, priorities and an action plan.",
-          "title": "AI Product Pre-launch Review — Eldiyar",
-          "offer": "Before launch"
+          "description": "Sağladığınız materyallerle lansman risklerini değerlendiriyorum. Yazılı değerlendirme, öncelikler ve eylem planı alırsınız.",
+          "title": "Yapay Zekâ Ürünü Lansman Öncesi İncelemesi — Eldiyar",
+          "offer": "Lansman öncesi"
         },
-        "body": "# The prototype works. What needs checking before customers use it?\n\nFor founders and agencies building products with AI tools. I help identify risks to money, data and service costs that need attention before launch.\n\n## Relevant experience\n\nThe project below illustrates my work on critical operations.\n\n## When to get in touch\n\nThe demo runs smoothly, but nobody is sure what happens after a repeated payment, an external service failure or data loss. Your team needs a reasoned plan for launch.\n\nYou are buying a readiness review based on the materials you provide. I assess the agreed launch scenario and distinguish issues that need attention before launch from improvements that can wait.\n\n## What you receive\n\n- An assessment: proceed within the reviewed scope, proceed after fixes, or postpone launch. I state the reasons and limits of the conclusion.\n- A map of identified risks: where each problem occurs, what triggers it and what it could affect.\n- Priorities for fixes. If I find no launch blockers, I document what was reviewed. The number of risks is not predetermined.\n- A checklist covering data access, external service costs, backups and returning to a previous version after a failed update.\n- An action plan, a written report and a video walkthrough.\n\n## Project example: controlled order processing\n\n**Situation.** Manual order processing on a crypto-to-fiat exchange platform took 3 hours. The platform was preparing for an external security audit.\n\n**My role.** I built the backend and operator interface. I was responsible for transaction stages, access permissions and the integration of customer and transaction checks.\n\n**My work.** I defined the permitted sequence of transaction stages and staff permissions. I integrated wallet and counterparty checks, multi-factor sign-in, session revocation and verification of external service notifications.\n\nOrder processing fell from 3 hours to 3 minutes. The platform passed an external security audit. I contributed to its preparation as an engineer; I did not conduct that audit.\n\nThe project demonstrates my experience with operation sequencing and data access. Its results came from implementation work and do not predict the outcome of a diagnostic review.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the product, launch plans, review scope and fee.\n2. You provide a system overview, a user journey diagram, settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess risks to money and data, access controls, AI service costs, backups and recovery after updates.\n4. You receive a report and a video walkthrough. You then decide who will implement the recommendations.\n\nFor the first message, describe the product and planned launch. If your developer holds the diagrams, settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not required.\n\n## Review boundaries\n\nThe assessment applies to the agreed scenario and the materials provided. It is not a complete system check or a guarantee of a safe launch.\n\nThe review excludes a product rewrite, formal security audits, penetration testing, certification and legal opinions. No guaranteed level of system availability is offered.\n\nYou keep the report. Your developer can implement it, or we can agree the next phase of work. Before that starts, we document the scope, responsibilities and acceptance criteria. Any required access is agreed separately, with minimum permissions and the ability to revoke them. Review materials remain confidential.\n\n## Technical details for your developer\n\nProduction Readiness Review: GO / CONDITIONAL GO / NO-GO with explicit assessment boundaries; a launch risk map; access and secrets handling; API cost controls; backup and rollback; priorities and scope for the next phase. Risks are linked to specific parts of the system and the conditions that trigger them.\n\n## Fees and timing\n\nFee: from $600. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what you plan to launch and what concerns you. We will arrange a 15-minute call. You do not need to identify the technical cause of a risk first.\n\n[Message me on Telegram]\n"
+        "body": "# Prototip çalışır. Müşteriler bunu kullanmadan önce hangi kontrol gerekir?\n\nKurucular ve ajanslar AI araçları ile ürünleri inşa ederler. Başlangıçtan önce dikkat gerektiren para, veri ve servis maliyetleri tanımlamaya yardımcı oluyorum.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı kritik operasyonlarda gösteriyor.\n\n# # # Dokunduğu zaman\n\ndemo sorunsuz çalışır, ancak kimse tekrarlanan bir ödemeden sonra ne olduğundan emin değildir, dış hizmet başarısızlığı veya veri kaybı. Ekibinizin başlatılması için gerekçeli bir plana ihtiyacı var.\n\nSunduğunuz malzemelere dayanarak hazır bir inceleme satın alırsınız. Kabul edilen başlangıç senaryosunu değerlendiriyorum ve bekleyebilecek gelişmelerden önce dikkat gerektiren sorunları ayırt ediyorum.\n\n# # Ne aldığınız\n\n- Bir değerlendirme: incelenen kapsamın içinde devam edin, düzeltmelerden sonra devam edin veya başlatma. Sonuçun nedenlerini ve sınırlarını belirtirim.\n- Tanımlanmış risklerin bir haritası: her problem nerede meydana gelir, onu tetikler ve ne etkileyebilir.\n- Düzeltmeler için öncekiler. Eğer başlatıcıları bulamazsam, neyin incelendiğini belgeliyorum. Risk sayısı önceden belirlenmiş değildir.\n- Bir kontrol listesi veri erişimi, dış hizmet maliyetleri, yedekler ve başarısız bir güncellemeden sonra önceki bir sürüme geri dönüyor.\n- Bir eylem planı, yazılı bir rapor ve bir video yürüyüşü.\n\n## Project örneği: kontrollü sipariş işleme\n\n**Situation.** Kripto-to-fiat değişim platformundaki manuel sipariş işleme 3 saat sürdü. Platform dış bir güvenlik denetimi için hazırlanıyordu.\n\n**Benim rolüm. ** Arka uç ve operatör arayüzü kurdum. İşlem aşamalarından, erişim izninden ve müşteri ve işlem kontrollerinin entegrasyonundan sorumluydum.\n\n**İşim. ** İzin verilen işlem aşamalarını ve personel izinlerini tanımladım. Entegre cüzdan ve meslektaşım kontroller, multi-fak işareti-in, seans dış servis bildirimlerinin geri çekilmesi ve doğrulaması.\n\nSipariş işleme 3 saatden 3 dakikaya düştü. Platform dış bir güvenlik denetimini geçti. Bir mühendis olarak hazırlığına katkıda bulundum; bu denetimi yapmadım.\n\nProje, deneyimimi operasyon ayrımı ve veri erişimi ile göstermektedir. Onun sonuçları uygulama çalışmasından geldi ve bir teşhis incelemesinin sonuçlarını tahmin etmedi.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda, ürünü tartışıyoruz, planlar, inceleme kapsamı ve ücreti.\n2. Sisteme genel bakış, bir kullanıcı yolculuğu diyagramı, sırları kaldıran ayarlar, örnek olay logları ve işletim ölçümleri.\n3. Para ve verilere riskleri değerlendiriyorum, erişim kontrolleri, AI hizmeti maliyetleri, güncellemelerden sonra yedekler ve kurtarma.\n4. Bir rapor ve video yürüyüşü alırsınız. Daha sonra önerileri kimin uygulayacağına karar veriyorsunuz.\n\nİlk mesaj için, ürünü tarif edin ve planlanan fırlatma. Geliştiriciniz diyagramlar, ayarlar ve loglar tutarsa, materyallerin hazırlanmasına yardımcı olmak gerekir. Şifreler, gerçek anahtarlar ve canlı sisteme erişim gerekli değildir.\n\n# # # Review sınırları\n\nDeğerlendirme kabul edilen senaryoya ve sağlanan malzemelere uygulanır. Tam bir sistem kontrolü veya güvenli bir başlatın garantisi değildir.\n\nİnceleme, bir ürün yeniden yazma, resmi güvenlik denetimleri, penetrasyon testleri, sertifikasyon ve yasal görüşleri dışlamaktadır. Hiçbir garantili sistem kullanılabilirliği seviyesi sunulmaktadır.\n\nRaporu tutuyorsunuz. Geliştiriciniz bunu yapabilir ya da bir sonraki iş aşamasını kabul edebiliriz. Bu başlamadan önce, kapsamı, sorumlulukları ve kabul kriterlerini belgeliyoruz. Herhangi bir gerekli erişim ayrı kabul edilir, minimum izinler ve onları revize etme yeteneği. İnceleme malzemeleri gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nÜretim Readiness Review: GO / CONDITIONAL GO / NO-GO açık değerlendirme sınırları ile; bir başlangıç riski haritası; erişim ve sırların kullanımı; API maliyet kontrolleri; yedekleme ve rollback; bir sonraki aşama için öncelikler ve kapsamı. Riskler sistemin belirli bölgelerine ve onları tetikleyen koşullara bağlıdır.\n\n## Ücretler ve zamanlama\n\nÜcret: 600 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nBeni başlatmak için planladığınız ve sizi ilgilendiren şeylerle Telegram'da gönderin. 15 dakikalık bir çağrı düzenleyeceğiz. İlk önce bir riskin teknik nedenini tanımlamanız gerekmez.\n\nBeni Telegram'da Yemin ederim\n"
       },
       "capabilities": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Mesaj bana on Telegram",
           "url": "/capabilities",
-          "description": "Capacity and latency, technical planning, trading software and data processing. We discuss your problem, the intended result and the boundaries of the engineering work.",
-          "title": "Engineering for Complex Digital Products — Eldiyar",
-          "offer": "Other needs"
+          "description": "Kapasite ve gecikme, teknik planlama, alım satım yazılımları ve veri işleme. Sorununuzu, hedef sonucu ve mühendislik çalışmasının sınırlarını konuşuruz.",
+          "title": "Karmaşık Dijital Ürünler için Mühendislik — Eldiyar",
+          "offer": "Diğer ihtiyaçlar"
         },
-        "body": "# When delays, growing traffic or complex data processing hold your product back\n\nI work on a specific engineering problem: understanding a failure, preparing a system for growth or defining the next phase of development. Start with the business problem.\n\n## Relevant experience\n\nExamples of my contribution appear alongside each area of work.\n\n## Your service slows down or loses connections\n\nFor communication products, live streaming, marketplaces and device management platforms. Get in touch when growing traffic causes delays, dropped connections or lost events.\n\nI assess how to distribute load, recover after a failure and verify that the system can handle the expected volume. The review includes recommendations for measuring latency and planning load tests.\n\nOn a live speech translation platform, I built media session isolation that supported more than 10,000 concurrent WebSocket connections. Reusing results in the AI provider integration brought latency below 250 ms and cut provider API costs by 40%. On a device management platform, the message bus I developed reached peak throughput of up to 60,000 requests per second.\n\n## You need to know what to change before scaling\n\nFor founders, investors and teams assessing a product's technical constraints or deciding which development work should come first.\n\nI assess the system, separate urgent risks from accumulated technical issues, and prepare a plan for the team. Work can include technical due diligence before an investment decision and ongoing participation as a technical leader. Ongoing support usually begins after a review or implementation phase.\n\nOn a device management platform, I helped design architecture with capacity headroom for a tenfold increase in the device fleet. I also optimized a PostgreSQL database with more than 60 tables and 8 hierarchy levels. Across engineering and mentoring work, I have conducted more than 100 detailed code reviews.\n\n## Your trading software needs explicit, testable rules\n\nFor teams working on order execution, historical strategy testing, market data processing and software risk controls.\n\nI build software and infrastructure with explicit execution rules, pre-trade checks and system monitoring. I do not offer management of client funds, investment recommendations or promises of returns.\n\nAs the lead engineer of a trading and analytics product, I built a signal scoring mechanism that reduced false signals by 50% and implemented 15 pre-trade risk checks. These results describe specific system mechanisms, not strategy returns.\n\n## Catalog and file processing keeps needing manual restarts\n\nFor e-commerce, publishers and media businesses that collect data, standardize it and generate finished files. Get in touch when standard tools no longer cover the work and failures force processing to start over.\n\nI design processing systems with tracked stages, recovery from saved progress and predictable storage requirements.\n\nOn a publishing project, I was responsible for the complete process from data collection to finished files, handling more than 4,000 catalog items. Parallel processing increased throughput tenfold. Checkpoints and restarts without duplicate work eliminated progress loss during failures. Media optimization reduced storage requirements by 50% while preserving typography quality.\n\n## How to begin\n\nDescribe what is getting in the way and the result you need. The first conversation establishes whether the task fits my expertise. For a diagnostic review, we select one important process and agree the work, fee, timing and materials.\n\nPrepare a description of the problem and available diagrams, example events and operating metrics with secrets removed. If your developer holds the technical materials, they will need to help prepare them. You do not need a technical specification for the first message.\n\nA diagnostic review establishes the plan for further work. Formal security audits, certification and legal opinions are excluded. Data collection remains subject to site terms, personal data requirements and rules on messaging.\n\nThe examples above describe my contribution to individual projects. Client materials remain confidential.\n\n## Technical details for your developer\n\n- Real-time systems: connection lifecycle, backpressure, fan-out, recovery, caching, monitoring and load test planning.\n- Architecture and technical leadership: Architecture & Scale Audit, Technical Due Diligence, code review and technical specifications.\n- Trading infrastructure: execution engine, backtesting, risk guards, market regime classification and order book analytics.\n- Data processing: normalization, file generation, checkpoints and idempotent restarts.\n\n## Next step\n\nMessage me on Telegram with what you want to improve. We will start with a 15-minute call. You do not need to choose a technical service name.\n\n[Message me on Telegram]\n"
+        "body": "# gecikmeler, büyüyen trafik veya karmaşık veri işleme ürününüzü geri tutar\n\nBelirli bir mühendislik probleminde çalışıyorum: Bir başarısızlık anlamak, büyüme için bir sistem hazırlamak veya bir sonraki gelişim aşamasını tanımlamak. İş sorunuyla başlayın.\n\n## Relevant deneyimi\n\nKatkımın örnekleri her çalışma alanının yanında görünür.\n\n## Hizmetiniz yavaşlıyor veya bağlantıları kaybediyor\n\nİletişim ürünleri için, canlı akış, pazarlar ve cihaz yönetim platformları. Artan trafik gecikmelere neden olduğunda temasa geçin, bağlantıları bıraktı veya olayları kaybetti.\n\nYükün nasıl dağıtılacağını, bir başarısızlıktan sonra kurtarıldığını ve sistemin beklenen hacmi idare edebileceğini doğrulıyorum. İnceleme gecikme ve planlama yük testlerini ölçmek için öneriler içerir.\n\nCanlı bir konuşma çevirisi platformunda, 10.000 eş zamanlı WebSocket bağlantılarını destekleyen medya seansı izolasyonunu yaptım. AI sağlayıcısı entegrasyonundaki sonuçlar 250 ms altında gecikti ve sağlayıcı API maliyetlerini %40 azalttı. Bir cihaz yönetim platformunda, geliştirdiğim mesaj otobüsü ikinci 60.000'e kadar taleplerin zirvesine ulaştı.\n\n# # # ölçeklendirmeden önce ne değiştireceğinizi bilmeniz gerekir\n\nKurucular için, yatırımcılar ve takımlar bir ürünün teknik kısıtlamalarını değerlendirir veya hangi gelişim çalışmalarının ilk önce gelmesi gerektiğini karar verirler.\n\nSistemi değerlendiriyorum, teknik konulardan ayrı acil riskler ve ekip için bir plan hazırlarım. İş, bir yatırım kararından önce teknik olarak uygulanabilir ve teknik bir lider olarak devam edebilir. Devam eden destek genellikle bir inceleme veya uygulama aşamasından sonra başlar.\n\nBir cihaz yönetim platformunda, cihaz filosunda on kat artış için kapasite başı oda ile tasarım mimarisine yardımcı oldum. Ayrıca 60'dan fazla tablo ve 8 hiyerarşi seviyesi ile bir PostgreSQL veritabanını optimize ettim. Mühendislik ve mentorluk çalışması boyunca 100 ayrıntılı kod incelemesinden daha fazlasını yaptım.\n\n## Ticaret yazılımınızın açık, test edilebilir kurallara ihtiyacı var\n\nTakip etmek için çalışan takımlar için, tarihsel strateji testleri, piyasa verileri işleme ve yazılım risk kontrolleri.\n\nAçık infaz kuralları ile yazılım ve altyapı inşa ediyorum, pre-ticaret kontrolleri ve sistem izleme. Müşteri fonları, yatırım önerileri veya geri dönüş vaatleri yönetimi sunmuyorum.\n\nBir ticaret ve analitik ürünün öncü mühendisi olarak, yanlış sinyalleri% 50 azaltan ve 15 pre-ticaret risk kontrolleri uygulanan bir sinyal puanlama mekanizması yaptım. Bu sonuçlar belirli sistem mekanizmaları tanımlar, strateji geri döndürür.\n\n## Kataloğu ve dosya işleme manuel yeniden başlatmalara ihtiyaç duyuyor\n\nE-ticaret, yayıncılar ve medya şirketleri için verileri toplamak, standartlaştırmak ve bitmiş dosyaları üretmek. Standart araçlar artık iş ve başarısızlık işlemeyi kapatamadığı zaman temasa geçin.\n\nTakip edilen aşamalarla işleme sistemleri tasarlıyorum, kaydedilen ilerleme ve öngörülebilir depolama gereksinimlerinden kurtarma.\n\nBir yayın projesinde, veri koleksiyonundan dosyaları bitirmek için tam işlemden sorumluydum, 4,000'den fazla katalog malzemesini kullanarak. Paralel işleme on kat arttı. Checkpoints ve tekrarlanan iş başarısızlıkları sırasında ilerleme kaybı ortadan kaldırdı. Medya optimizasyonu, tipografi kalitesini korurken depolama gerekliliklerini %50 azalttı.\n\n# # # Nasıl Başlanır\n\nYolda neyin geldiğini ve ihtiyacınız olan sonucu açıklayın. İlk konuşma, görevimin uzmanlığıma uygun olup olmadığını oluşturur. Tanık bir inceleme için, önemli bir süreci seçeriz ve çalışmayı, ücreti, zamanlama ve malzemeleri kabul ediyoruz.\n\nProblemin ve mevcut diyagramların bir açıklaması hazırlayın, örneğin olaylar ve sırlar ile metrikleri çalıştırın. Geliştiriciniz teknik malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. İlk mesaj için teknik bir belirtiye ihtiyacınız yoktur.\n\nTanık bir inceleme planı daha fazla iş için oluşturur. Formal güvenlik denetimleri, sertifikasyon ve yasal görüşler dışlanır. Data collection site terimlerine, kişisel veri gereksinimlerine ve mesajlaşma kurallarına tabi kalır.\n\nYukarıdaki örnekler bireysel projelere olan katkımı tanımlar. Müşteri malzemeleri gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nGerçek zamanlı sistemler: yaşam döngüsü, sırt basıncı, fan-out, kurtarma, caching, izleme ve yükleme testi planlama.\n- Mimarlık ve teknik liderlik: Mimarlık ve Scale Denetim, Teknik Due Diligence, kod incelemesi ve teknik özellikler.\n- Ticaret altyapısı: yürütme motoru, geri test, risk muhafızları, piyasa rejim sınıflandırması ve kitap analizleri.\n- Veri işleme: normalleştirme, dosya nesli, kontrol noktaları ve idempotent yeniden başlar.\n\n## Next adım\n\nBeni geliştirmek istediğiniz şeyle Telegram'da gönderin. 15 dakikalık bir çağrı ile başlayacağız. Teknik bir hizmet adı seçmeniz gerekmez.\n\nBeni Telegram'da Yemin ederim\n"
       },
       "index": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Mesaj bana on Telegram",
           "url": "/",
-          "description": "I help business owners understand failures and launch risks. You receive a diagnostic review and an action plan.",
-          "title": "AI, Automation and Payment Reliability — Eldiyar",
-          "offer": "Product reliability"
+          "description": "İşletme sahiplerinin hataları ve lansman risklerini anlamasına yardımcı oluyorum. Teşhis incelemesi ve eylem planı alırsınız.",
+          "title": "Yapay Zekâ, Otomasyon ve Ödeme Güvenilirliği — Eldiyar",
+          "offer": "Ürün güvenilirliği"
         },
-        "body": "# Preparing to launch, or dealing with failures? I help you find what needs attention.\n\nI'm Eldiyar, a systems engineer. I work on AI products, automation and payments where failures delay work or affect money and customer data.\n\nStart by describing what is happening. You do not need to know the technical cause or choose a type of review yourself.\n\n[Message me on Telegram]\n\n## Relevant experience\n\nProject results and my contribution are described below.\n\n## Three situations I can help with\n\n### Your automation still needs constant manual checks\n\nTasks get stuck, actions happen twice, or AI service bills keep growing. An [automation reliability review](/ai-workflow-rescue) examines one important process and gives you a plan for addressing its problems.\n\n### A customer has sent money, but the balance has not updated\n\nPayment statuses disagree, transfers need manual checks, or blockchain fees are too high. A [payment reliability review](/payments-reliability) examines one payment journey in a crypto payment or wallet system.\n\n### The prototype works, but you are unsure about launching\n\nYou built a product with AI tools and are about to introduce real users, data or payments. A [pre-launch review](/ai-launch-gate) assesses the materials you provide: what was reviewed, which risks were found and what should happen before launch.\n\n## Project results and my contribution\n\nThese outcomes come from engineering work on individual projects. A diagnostic review produces findings and a plan; the result depends on what those findings reveal. I do not disclose confidential project names or customer data.\n\n### Analytics automation: reports in seconds instead of minutes\n\nReports took 30–60 minutes to prepare. I designed the analytics system and the coordination between AI modules, allowing independent tasks to run in parallel. Report generation fell to 10–15 seconds.\n\n### Crypto payments: lower blockchain fees\n\nI was responsible for the payment core and transaction tracking. Automating the resources needed for TRON and EVM transfers reduced blockchain transaction fee costs by 90%. The transaction tracking pipeline brought settlement latency down to 2–3 seconds.\n\n### Live speech translation: fewer duplicate AI requests\n\nI built media session isolation and the integration with AI providers. Reusing results and removing duplicate requests cut third-party API costs by 40%. The platform supported more than 10,000 concurrent WebSocket connections.\n\n## What you are buying\n\nA diagnostic review of an agreed process, based on the materials you provide. I document risks, possible causes of failures and recommended priorities. You receive a written report and a video walkthrough. You can give the report to your developer or another contractor.\n\nAfter the report, we define the next steps, scope, responsibilities and acceptance criteria.\n\nFor capacity, technical leadership, trading software and data processing, see [other areas of work](/capabilities).\n\n## Fees and timing\n\nDiagnostic fees in US dollars:\n\n- Automation reliability review — from $400.\n- Payment reliability review — from $1,200.\n- Pre-launch review — from $600.\n\nWe agree the fee before work begins. The report is ready within 3–5 business days of receiving the materials.\n\n## What to prepare\n\nFor the first conversation, describe what should happen, what happens instead and how it affects your business. The first 15-minute call establishes whether the problem fits my expertise and which materials are needed.\n\nFor the review, provide a system overview, a process diagram, sample event logs and screenshots of operating metrics. For AI products and automation, include settings with secrets removed. If your developer holds these materials, they will need to help prepare them. You do not need to read the code yourself.\n\nMaterials can be anonymized. Passwords, keys and access to the live system are not needed for the review. Your materials remain confidential. If implementation requires access, we agree it separately with the minimum permissions needed and the ability to revoke them.\n\n## Boundaries of the work\n\nI carry out the work personally. A materials-based review does not replace a full system assessment, a formal security audit or a legal opinion. Design and substantial interface development are outside its scope.\n\nMy working time zone is UTC+3. Payment is available by bank transfer, payment services, stablecoins or cryptocurrency.\n\n## Next step\n\nMessage me on Telegram with your concern about the product or process. We will arrange a 15-minute call first.\n\n[Message me on Telegram]\n"
+        "body": "#Başlamak için hazırlamak veya başarısızlıklarla uğraşmak mı? Dikkate ne ihtiyacı olduğunu bulmanıza yardımcı oluyorum.\n\nEldiyar, bir sistem mühendisiyim. AI ürünleri, otomasyon ve ödemelerde başarısızlıkların işe yaradığını veya para ve müşteri verilerini etkilediği konusunda çalışıyorum.\n\nNe olduğunu tarif ederek başlayın. Teknik nedeni bilmeniz veya kendinize bir tür inceleme seçmeniz gerekmez.\n\nBeni Telegram'da Yemin ederim\n\n## Relevant deneyimi\n\nProje sonuçları ve katkılarım aşağıda açıklanmaktadır.\n\n# ## Üç durumda yardım edebilirim\n\n### Otomasyonunuz hala sürekli manuel çeklere ihtiyaç duyuyor\n\nGörevler sıkışıp kalır, eylemler iki kez gerçekleşir veya AI servis faturaları büyümeye devam eder. Bir [otomi güvenilirlik incelemesi] (/ai-workflow-rescue) önemli bir süreci inceler ve sorunlarınızı ele almak için bir plan verir.\n\n### Bir müşteri para gönderdi, ancak denge güncellenmedi\n\nÖdeme durumları aynı fikirde değildir, transferlerin manuel kontrollere ihtiyacı vardır veya blokaj ücretleri çok yüksektir. A [ön güvenilirlik incelemesi]( / ödemeler-reliability) Bir kripto ödeme veya cüzdan sisteminde bir ödeme yolculuğu inceler.\n\n### prototip çalışır, ancak başlangıçtan emin değilsiniz\n\nAI araçları ile bir ürün inşa ettiniz ve gerçek kullanıcıları, verileri veya ödemeleri tanıtmak üzeresiniz. A [pre-start review](/ai-start-gate) sağladığınız malzemeleri değerlendiriyor: hangi riskleri incelendi ve daha önce ne olması gerektiği.\n\n## Project sonuçları ve katkılarım\n\nBu sonuçlar, bireysel projeler üzerinde mühendislik çalışmalarından gelir. Tanık bir inceleme bulguları ve bir plan yaratır; sonuç, bu bulguların ortaya çıktığı şeye bağlıdır. Gizli proje isimlerini veya müşteri verilerini açıklamam.\n\n### Analytics otomasyon: dakikalar yerine saniyede raporlar\n\nRaporlar hazırlamak için 30-60 dakika sürdü. Analitik sistemi ve AI modülleri arasındaki koordinasyonu tasarladım, bağımsız görevlerin paralel olarak çalışmasına izin verdim. Rapor nesli 10-15 saniyeye düştü.\n\n## Crypto ödemeleri: daha düşük blokaj ücretleri\n\nÖdeme çekirdeği ve işlem takibinden sorumluydum. TRON ve EVM transferleri için gerekli kaynakları otomatikleştirmek, blokaj işlem ücretini% 90 azalttı. İşlem izleme hattı, yerleşim süresini 2-3 saniyeye kadar yükseltti.\n\n### Canlı konuşma çevirisi: daha az tekrarlanan AI istekleri\n\nMedya seansı izolasyonu ve AI sağlayıcıları ile entegrasyon yaptım. Sonuçlar tekrarlamak ve tekrarlanan istekleri ortadan kaldırmak, üçüncü taraf API maliyetlerini% 40 azaltır. Platform, 10.000'den fazla eşzamanlı WebSocket bağlantısı destekledi.\n\n# # Ne satın aldığınız\n\nSağlanan bir sürecin teşhis incelemesi, sağladığınız malzemelere dayanarak. Riskler belgeliyorum, başarısızlıkların olası nedenleri ve önerilen öncelikler. Yazılı bir rapor ve video yürüyüşünü alırsınız. Raporu geliştiricinize veya başka bir müteahhitinize verebilirsiniz.\n\nRapordan sonra, bir sonraki adımları, kapsamı, sorumlulukları ve kabul kriterlerini tanımlarız.\n\nKapasite için, teknik liderlik, ticaret yazılımı ve veri işleme, [başka çalışma alanları](/kapsiyonlar).\n\n## Ücretler ve zamanlama\n\nABD doları Tanı ücretleri:\n\n- Otomasyon güvenilirlik incelemesi - 400 dolardan.\nÖdeme güvenilirlik incelemesi - $ 1,200'den.\n- Pre-start inceleme - 600 $.\n\nİş başlamadan önce ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n# # What to prepare\n\nİlk konuşma için, ne olması gerektiğini, bunun yerine ne olduğunu ve işinizi nasıl etkilediğini tarif edin. İlk 15 dakikalık çağrı, problemin uzmanlığımı ve hangi materyallerin gerekli olup olmadığını oluşturur.\n\nİnceleme için, bir sistem genel bakışı, bir süreç diyagramı, örnek olay logları ve işletim ölçümleri sağlar. AI ürünleri ve otomasyon için, sırları kaldıran ayarları içerir. Geliştiriciniz bu malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. Kodu kendiniz okumak zorunda değilsiniz.\n\nMalzemeler anonim olabilir. Şifreler, anahtarlar ve canlı sisteme erişim, inceleme için gerekli değildir. Malzemelerniz gizli kalır. Uygulama erişim gerektirirse, gerekli minimum izinlerle ayrı olarak kabul ediyoruz ve onları geri çekme yeteneği.\n\n# # # Boundaries of the work\n\nÇalışmayı şahsen yapıyorum. Bir malzeme bazlı bir inceleme, tam bir sistem değerlendirmesini, resmi bir güvenlik denetimini veya yasal bir görüşü değiştirmiyor. Tasarım ve önemli arayüz gelişimi kapsamı dışındadır.\n\nÇalışma zamanı alanım UTC+3. Ödeme banka transferi, ödeme hizmetleri, stabilcoins veya kripto para birimi tarafından mevcuttur.\n\n## Next adım\n\nÜrün veya süreç hakkındaki endişenizle Telegram'da benimle iletişime geçin. İlk önce 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Mesaj bana on Telegram",
           "url": "/payments-reliability",
-          "description": "I review one payment journey for delayed credits, duplicate operations, accounting discrepancies and blockchain fees. You receive a report and a plan for fixes.",
-          "title": "Crypto Payment Reliability Review — Eldiyar",
-          "offer": "Crypto payments"
+          "description": "Geciken bakiyeler, yinelenen işlemler, muhasebe tutarsızlıkları ve blok zinciri ücretleri için tek bir ödeme akışını inceliyorum. Rapor ve düzeltme planı alırsınız.",
+          "title": "Kripto Ödeme Güvenilirliği İncelemesi — Eldiyar",
+          "offer": "Kripto ödemeler"
         },
-        "body": "# Money has been sent, but your team still has to check the credit manually\n\nI help owners of payment products, wallet services and stablecoin settlement systems understand where operations stall and unnecessary costs arise.\n\n## Relevant experience\n\nThe project below describes my work on a payment core.\n\n## When a review helps\n\nA customer can see the transfer on the blockchain, but your service has not credited it. Statuses disagree, retries may create duplicates, and fees are growing. Your team fixes individual incidents without a clear picture of the whole process.\n\nI examine one agreed payment journey: from a network event through crediting, settlement or reconciliation. You are buying a diagnostic review based on system materials and an action plan for your developer.\n\n## What you receive\n\n- A payment journey map: who is responsible for each stage and where an operation can stall.\n- A review of repeat handling: what happens if a notification arrives twice or a service retries a request after a failure.\n- Reconciliation points: where to compare blockchain records with internal accounting.\n- An assessment of dependencies on wallets and blockchain access services.\n- Opportunities to reduce transaction fees within the process under review.\n- Recommendations for failure monitoring and security, a written report and a video walkthrough of what to fix now and what can wait.\n\n## Project example: payment fees and delays\n\n**Situation.** Growing traffic made crediting funds harder, while blockchain fees increased the cost of operations.\n\n**My role.** I was responsible for the payment core and real-time transaction tracking.\n\n**My work.** I designed the payment core architecture and automated the movement of deposited funds, including TRON energy rental and EVM fee balance top-ups. I built transaction tracking across a database of more than 3 million wallets, deposit distribution and ordering controls for outgoing operations.\n\n- Blockchain transaction fee costs fell by 90%.\n- Settlement latency fell to 2–3 seconds.\n- Load on public blockchain access services fell by 70% through the data caching I built.\n\nThese figures come from implementation work on one system. They cover blockchain transaction fees rather than all business expenses, and a review does not guarantee the same result. I do not disclose the project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we select one payment journey and agree the review boundaries and fee.\n2. You provide a system overview, a payment diagram, sample event logs and screenshots of operating metrics, with secrets and customer data removed.\n3. I assess operation stages, retries, reconciliation, dependencies and fees.\n4. You receive a report and a video walkthrough with priorities for fixes.\n\nFor the first conversation, describe the delay, discrepancy or unnecessary cost. If your developer holds the technical materials, they will need to help prepare them. Real wallet keys, passwords and access to the live system are not required.\n\n## Review boundaries\n\nThe review covers one agreed payment journey using the materials provided, rather than the entire payment system. You can give the report to your developer or another contractor.\n\nThe service excludes formal smart contract audits, penetration testing, regulatory legal opinions, certification, availability guarantees and management of client funds.\n\nYour materials remain confidential. If we continue with implementation, we agree the work and any access needed, with minimum permissions and the ability to revoke them.\n\n## Technical details for your developer\n\nPayment Flow Reliability Audit: trust boundaries; lifecycle/state machine; retries and idempotency; wallet/RPC topology; reconciliation points; gas/energy optimization; monitoring and a security backlog. Each area is tied to specific payment stages and failure consequences.\n\n## Fees and timing\n\nFee: from $1,200. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what is happening to payments and how it affects your business. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "body": "# Para gönderildi, ancak ekibiniz hala krediyi manuel olarak kontrol etmek zorunda\n\nÖdeme ürünleri, cüzdan hizmetleri ve stabilcoin yerleşim sistemlerinin sahipleri, operasyonların tezgah ve gereksiz maliyetlerin nereden geldiğini anlamalarına yardımcı oluyorum.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı bir ödeme çekirdeği üzerinde açıklar.\n\n## Bir inceleme yardımcı olduğunda\n\nBir müşteri blok zincirdeki transferi görebilir, ancak hizmetiniz bunu kredilendirmedi. Durumlar aynı fikirde değil, retries tekrarlar yaratabilir ve ücretler büyüyor. Ekibiniz tüm sürecin açık bir resmi olmadan bireysel olayları düzeltiyor.\n\nKabul edilen bir ödeme yolculuğunu inceliyorum: Bir ağ toplantısından kredi, yerleşim veya uzlaşma yoluyla. Sistem malzemeleri ve geliştiriciniz için bir eylem planına dayalı bir teşhis incelemesi satın alırsınız.\n\n# # Ne aldığınız\n\n- Ödeme yolculuğu haritası: her aşamadan kim sorumludur ve bir operasyon nerede durabilir.\nTekrarlamanın bir incelemesi: Bir bildirim iki veya bir hizmet bir başarısızlıktan sonra bir istekle geri gelir.\n- Reconciliation puanları: Blockchain kayıtlarını iç muhasebe ile karşılaştırmak.\n- Cüzdanlara ve blok erişim hizmetlerine bağımlılıkların bir değerlendirme.\n- İşlem ücretlerini inceleme sürecinde azaltma fırsatları.\n- Başarısız izleme ve güvenlik için öneriler, yazılı bir rapor ve şimdi neyin düzeltileceği ve ne bekleyebilir.\n\n## Project örneği: ödeme ücretleri ve gecikmeler\n\n**Situation.** Büyüyen trafik fonları daha zor hale getirirken, blokaj ücretleri operasyonların maliyetini artırdı.\n\n**Benim rolüm. ** Ödeme çekirdeği ve gerçek zamanlı işlem takibinden sorumluydum.\n\n**İşim. ** Ödeme çekirdeği mimarisini tasarladım ve TRON enerji kiralama ve EVM ücretlerinin üst sıralarını da içeren depozito fonlarının hareketini otomatikleştirdim. 3 milyondan fazla cüzdan veritabanında işlem takip ettim, kalan işlemler için depozito dağıtım ve sipariş kontrolleri.\n\n- Blockchain işlem ücreti% 90 oranında düştü.\n- Çözüm gecikmesi 2-3 saniyeye düştü.\n- Kamu blokaj erişim hizmetleri üzerine yük, inşa ettiğim verilerle% 70 oranında düştü.\n\nBu rakamlar bir sistem üzerinde uygulama işten gelir. Tüm iş harcamalarından ziyade blok zincir işlem ücretlerini kaplar ve bir inceleme aynı sonucu garanti etmez. Proje adını veya müşteri verilerini açıklamam.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda, bir ödeme yolculuğu seçtik ve inceleme sınırlarını ve ücretini kabul ediyoruz.\n2. Sisteme genel bakış, bir ödeme diyagramı, örnek olay oturumları ve işletim ölçümleri, sırlar ve müşteri verileri kaldırıldı.\n3. Operasyon aşamalarını, retries, uzlaşmayı, bağımlılıkları ve ücretleri değerlendiriyorum.\n4. Bir rapor alırsınız ve düzeltmeler için önceliklerle bir video yürüyüş.\n\nİlk konuşma için, gecikmeyi, diskrepancy'yi veya gereksiz maliyeti tarif edin. Geliştiriciniz teknik malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. Gerçek cüzdan anahtarları, şifreler ve canlı sisteme erişim gerekli değildir.\n\n# # # Review sınırları\n\nİnceleme, tüm ödeme sistemi yerine verilen malzemeleri kullanarak kabul edilen bir ödeme yolculuğunu kapsar. Raporu geliştiricinize veya başka bir müteahhitinize verebilirsiniz.\n\nHizmet, resmi akıllı sözleşme denetimlerini, penetrasyon testlerini, yasal yasal görüşleri, sertifikayı, kullanılabilirlik garantilerini ve müşteri fonlarının yönetimini dışlamaktadır.\n\nMalzemelerniz gizli kalır. Uygulama ile devam edersek, çalışma ve herhangi bir erişimin gerekli olduğunu kabul ederiz, minimum izinler ve onları geri çekme yeteneği.\n\n## Geliştiriciniz için Teknik detaylar\n\nÖdeme Akış Güvenilirlik Denetimi: güven sınırları; yaşam döngüsü/devlet makinesi; retries ve idempotency; cüzdan/RPC topoloji; uzlaşma noktaları; gaz/enerji optimizasyonu; izleme ve bir güvenlik backlog. Her alan belirli ödeme aşamalarına ve başarısızlık sonuçlarına bağlıdır.\n\n## Ücretler ve zamanlama\n\nÜcret: 1,200 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nÖdemelere neler oluyor ve işinizi nasıl etkilediğiyle Telegram'da bana mesaj verin. 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
       }
     }
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "Sık sorulan sorular",
     "groups": [
       {
-        "title": "Outcomes and fees",
+        "title": "Çıktılar ve ücretler",
         "items": [
           {
-            "question": "What exactly will I receive after a diagnostic review?",
+            "question": "Tanık bir incelemeden sonra tam olarak ne alacağım?",
             "answer": [
-              "You receive a written report and a video walkthrough.",
-              "The contents depend on the selected review and agreed process: a map of the key stages, identified risks and their trigger conditions, reasoned hypotheses about failures, gaps in observability and cost controls, and a prioritized now / next / later plan.",
-              "Each conclusion is tied to a specific part of the process under review.",
-              "The number of risks is not predetermined.",
-              "If there are no launch blockers, the report states what was reviewed and the boundaries within which the conclusion applies."
+              "Yazılı bir rapor ve video yürüyüşünü alırsınız.",
+              "İçerik seçilmiş incelemeye ve kabul edilen süreçe bağlıdır: önemli aşamaların bir haritası, tespit edilen riskler ve onların tetikleyici koşulları, başarısızlıklar hakkında hipotezler, gözlemlenebilirlik ve maliyet kontrolleri ve bir sonraki / sonraki plan.",
+              "Her sonuç, inceleme altındaki sürecin belirli bir bölümüne bağlıdır.",
+              "Risk sayısı önceden belirlenmiş değildir.",
+              "Eğer başlatıcıları yoksa, rapor neyin gözden geçirildiğini ve sonucun uygulandığı sınırları belirtir."
             ]
           },
           {
-            "question": "Why is the diagnostic review a separate paid service?",
+            "question": "Tanık inceleme neden ayrı ücretli bir hizmet?",
             "answer": [
-              "The review is a standalone service with a concrete deliverable.",
-              "You keep the report and can have your team, another contractor, or me implement the recommendations under a separately agreed scope."
+              "İnceleme, somut bir teslim edilebilir bir standalone hizmetidir.",
+              "Raporu tutuyorsunuz ve ekibinize, başka bir müteahhite sahip olabilirsiniz ya da önerileri ayrı kabul edilen bir kapsamın altında uyguluyorum."
             ]
           },
           {
-            "question": "How much does it cost?",
+            "question": "Ne kadar maliyeti var?",
             "answer": [
-              "The fee depends on the process and the amount of material.",
-              "An automation reliability review starts at $400, an AI product pre-launch review at $600, and a payment journey review at $1,200.",
-              "We agree the exact fee in writing before work begins."
+              "Ücret işleme ve malzeme miktarına bağlıdır.",
+              "Bir otomasyon güvenilirlik incelemesi 400 $ 'da başlar, bir AI ürünü 600 $'da gözden geçirilir ve 1,200 $ bir ödeme yolculuğu incelemektedir.",
+              "İş başlamadan önce yazılı olarak tam ücreti kabul ediyoruz."
             ]
           },
           {
-            "question": "How long does a review take?",
+            "question": "Bir inceleme ne kadar sürer?",
             "answer": [
-              "The report is normally ready within 3–5 business days after I receive the agreed materials.",
-              "Implementation timing is estimated separately once the scope, dependencies, and acceptance criteria are clear."
+              "Rapor normalde kabul edilen malzemeleri aldıktan sonra 3-5 iş günü içinde hazır.",
+              "Uygulama zamanlaması, kapsamın, bağımlılıkların ve kabul kriterinin açık olduğu tahmin edilmektedir."
             ]
           },
           {
-            "question": "What if you find no critical problems?",
+            "question": "Ya kritik sorunlar bulamazsanız?",
             "answer": [
-              "You receive a record of what was reviewed, any limitations found, and a conclusion for the agreed scenario.",
-              "I do not invent issues to reach a quota or claim that a limited materials-based review proves the whole system safe."
+              "Ne incelendiği, bulduğu herhangi bir sınırlama ve kabul edilen senaryo için bir sonuç alırsınız.",
+              "Bir kotaya ulaşmak için sorunları icat etmiyorum veya sınırlı bir materyal tabanlı incelemenin tüm sistemi güvenli olduğunu iddia etmiyorum."
             ]
           },
           {
-            "question": "What is excluded from a diagnostic review?",
+            "question": "Tanık bir incelemeden dışlanmış nedir?",
             "answer": [
-              "Formal smart contract audits, penetration testing, certification, and legal opinions on AML, MiCA, or other regulation.",
-              "I also do not manage client funds, give investment recommendations, promise returns, or guarantee a particular level of system availability."
+              "Formal akıllı sözleşme denetimleri, penetrasyon testleri, sertifikasyon ve AML, MiCA veya diğer düzenlemeler hakkında yasal görüşler.",
+              "Ayrıca müşteri fonlarını yönetmiyorum, yatırım önerileri veriyorum, geri bildirim verin veya belirli bir sistem erişilebilirliğini garanti ediyorum."
             ]
           }
         ]
       },
       {
-        "title": "Access and confidentiality",
+        "title": "Erişim ve gizlilik",
         "items": [
           {
-            "question": "Do you need production access?",
+            "question": "Üretim erişimine ihtiyacınız var mı?",
             "answer": [
-              "No.",
-              "A system overview, process diagram, settings with secrets removed, sample event logs, and screenshots of operating metrics are normally enough.",
-              "A diagnostic review does not require passwords, real keys, or access to the live system.",
-              "If access is needed for a separate implementation phase, we agree its purpose and duration in advance.",
-              "Permissions should be limited to the minimum required and remain revocable at any time."
+              "Hayır.",
+              "Sistem genel bakışı, süreç diyagramı, sırları kaldırılmış, örnek olay logları ve işletim ölçümleri normal olarak yeterlidir.",
+              "Tanık bir inceleme şifre, gerçek anahtarlar veya canlı sisteme erişim gerektirmez.",
+              "Ayrı bir uygulama aşaması için erişim gerekliyse, amacı ve süresini önceden kabul ediyoruz.",
+              "İzinler minimum gerekli ile sınırlı olmalıdır ve herhangi bir zamanda geri alınabilir."
             ]
           },
           {
-            "question": "How do you handle confidential material?",
+            "question": "Gizli materyali nasıl idare edersiniz?",
             "answer": [
-              "Client materials remain confidential.",
-              "Public examples use anonymized information without closed-project names or customer data.",
-              "If an NDA is required, we can agree and sign it before sensitive materials are transferred."
+              "Müşteri malzemeleri gizli kalır.",
+              "Kamu örnekleri kapalı proje isimleri veya müşteri verileri olmadan anonim bilgileri kullanır.",
+              "Bir NDA gerekliyse, hassas malzemeler aktarılmadan önce kabul edebilir ve imzalayabiliriz."
             ]
           },
           {
-            "question": "Who owns the product ideas and materials?",
+            "question": "Ürün fikirlerini ve materyallerin kim var?",
             "answer": [
-              "Your product, source materials, and data remain yours.",
-              "My deliverable is the report and recommendations within the agreed scope.",
-              "Rights relating to later implementation and use of its outputs are documented before that work begins."
+              "Ürününüz, kaynak malzemeleriniz ve veriler sizin kalıyor.",
+              "Önerim kabul edilen kapsamın içinde rapor ve önerilerdir.",
+              "Daha sonra uygulanması ve çıktılarının kullanımı ile ilgili haklar, bu çalışma başlamadan önce belgelenmiştir."
             ]
           }
         ]
       },
       {
-        "title": "Working format",
+        "title": "Çalışma formatı",
         "items": [
           {
-            "question": "Do you work alone or with a team?",
+            "question": "Yalnız mı yoksa bir takımla mı çalışıyorsunuz?",
             "answer": [
-              "I personally perform the reviews and engineering work described on this site.",
-              "If a task requires a separate specialty, such as a formal security audit, substantial frontend development, or design, it is not included automatically.",
-              "We agree the participants and separate scope in advance."
+              "Bu sitede açıklanan inceleme ve mühendislik çalışmalarını şahsen gerçekleştiriyorum.",
+              "Bir görev, resmi bir güvenlik denetimi, önemli bir ön gelişim veya tasarım gibi ayrı bir uzmanlık gerektirirse, otomatik olarak dahil edilmez.",
+              "Katılımcılara ve ayrı kapsamı önceden kabul ediyoruz."
             ]
           },
           {
-            "question": "What language do you use for calls?",
+            "question": "Aramalar için hangi dil kullanıyorsunuz?",
             "answer": [
-              "I speak Russian fluently.",
-              "For English calls, I can use the real-time interpretation system I built.",
-              "Key agreements about scope, fees, and responsibilities are always confirmed in writing.",
-              "Documents and correspondence are available in English or Russian."
+              "Rusça akıcı bir şekilde konuşuyorum.",
+              "İngilizce aramaları için, inşa ettiğim gerçek zamanlı yorum sistemini kullanabilirim.",
+              "kapsamı, ücretleri ve sorumluluklar hakkında temel anlaşmalar her zaman yazılı olarak doğrulanır.",
+              "Belgeler ve yazışmalar İngilizce veya Rusça mevcuttur."
             ]
           },
           {
-            "question": "What time zone do you work in?",
+            "question": "Ne zaman bölgesinde çalışıyorsunuz?",
             "answer": [
               "UTC+3.",
-              "My working day overlaps well with Europe and the CIS, and with part of the US East Coast day.",
-              "We agree specific meeting times in advance."
+              "Çalışma günüm Avrupa ve CIS ile iyi örtüşüyor ve ABD Doğu Sahil Günü'nün bir parçasıyla.",
+              "Önceden belirli toplantı zamanlarını kabul ediyoruz."
             ]
           },
           {
-            "question": "How can I pay?",
+            "question": "Nasıl ödeyebilirim?",
             "answer": [
-              "Bank transfer, payment services, stablecoins, and cryptocurrency are available.",
-              "We agree the currency, method, and payment schedule in writing before work begins."
+              "Banka transferi, ödeme hizmetleri, stabilcoins ve kripto para birimi mevcuttur.",
+              "İş başlamadan önce para, yöntem ve ödeme programı kabul ediyoruz."
             ]
           }
         ]
       },
       {
-        "title": "Fit for your task",
+        "title": "Göreviniz için Fit for your task",
         "items": [
           {
-            "question": "We already have developers. How does an external review help?",
+            "question": "Zaten geliştiricilerimiz var. Dış bir inceleme nasıl yardımcı olur?",
             "answer": [
-              "An external review gives the team a map of risks and priorities for one important process.",
-              "Your developers keep their system knowledge and can implement the recommendations themselves.",
-              "I examine failure modes and process boundaries without judging people or replacing the team."
+              "Dış bir inceleme, takıma önemli bir işlem için risk ve öncelikler haritası verir.",
+              "Geliştiricileriniz sistem bilgilerini tutar ve önerileri kendileri uygulayabilir.",
+              "Başarısız modları ve süreçleri insanları yargılamadan veya takımı değiştirmeden inceliyorum."
             ]
           },
           {
-            "question": "We built the product with AI tools. Will everything need rewriting?",
+            "question": "Ürünü AI araçları ile inşa ettik. Her şeyin yeniden yazma ihtiyacı olacak mı?",
             "answer": [
-              "Usually not.",
-              "The review separates launch blockers from improvements that can wait.",
-              "I prioritize risks such as duplicate charges, data loss, leaked keys, uncontrolled API costs, and failure to recover after an incident.",
-              "I recommend a rewrite only when local changes cannot solve the agreed problem."
+              "Genellikle değil.",
+              "İnceleme, bekleyebilen gelişmelerden bloklar başlatıyor.",
+              "Tekrarlanan suçlamalar, veri kaybı, sızıntı anahtarlar, kontrol edilmemiş API maliyetleri ve bir olaydan sonra kurtarma gibi risklere öncelik verdim.",
+              "Sadece yerel değişiklikler kabul edilen sorunu çözemediğinde yeniden yazmanızı öneririm."
             ]
           },
           {
-            "question": "Our project is small. Is a review worthwhile?",
+            "question": "Projemiz küçük. Bir inceleme değerli mi?",
             "answer": [
-              "A separate review makes sense if the system handles money or personal data, or if a real-time process matters.",
-              "If the risk and consequences are limited and the work would not be proportionate, I will say so during the first 15-minute conversation."
+              "Ayrı bir inceleme, sistem para veya kişisel verileri ele alırsa veya gerçek zamanlı bir süreçtir.",
+              "Risk ve sonuçlar sınırlıysa ve iş orantılı olmazdı, bunu ilk 15 dakikalık konuşma sırasında söyleyeceğim."
             ]
           },
           {
-            "question": "What evidence supports your experience?",
+            "question": "Hangi kanıtlar deneyiminizi destekliyor?",
             "answer": [
-              "The site describes specific outcomes from my engineering work: more than 100 million requests per day in a payment core, monitoring of more than 3 million wallets, more than 10,000 concurrent WebSocket connections, and a 90% reduction in blockchain transaction fee costs.",
-              "These metrics belong to individual implemented systems and are not promised outcomes of a review."
+              "Site, mühendislik çalışmamdan belirli sonuçları açıklar: ödeme çekirdeğinde günde 100 milyondan fazla talep, 3 milyondan fazla cüzdanın izlenmesi, 10.000'den fazla eş zamanlı WebSocket bağlantısı ve blokaj ücretinde %90 indirim.",
+              "Bu ölçümler bireysel olarak uygulanan sistemlere ait ve bir incelemenin vaat edilen sonuçları değildir."
             ]
           }
         ]
       },
       {
-        "title": "After the review",
+        "title": "İncelemeden sonra",
         "items": [
           {
-            "question": "What happens after the diagnostic review?",
+            "question": "Tanık incelemeden sonra ne olur?",
             "answer": [
-              "You can give the report to your team or another contractor.",
-              "If you want my help, we separately agree the implementation scope, timing, responsibilities, access, and acceptance criteria.",
-              "Continuing with me is optional."
+              "Raporu ekibinize veya başka bir müteahhitinize verebilirsiniz.",
+              "Yardımımı istiyorsanız, uygulama kapsamı, zamanlama, sorumluluklar, erişim ve kabul kriterlerini ayrı olarak kabul ediyoruz.",
+              "Benimle devam etmek isteğe bağlı."
             ]
           },
           {
-            "question": "Can we arrange ongoing support?",
+            "question": "Devam eden desteği düzenleyebilir miyiz?",
             "answer": [
-              "Yes.",
-              "After a review or implementation, we can discuss support for a critical part of the system or fractional engineering and technical leadership.",
-              "The included work, response times, and exclusions are documented separately.",
-              "The format does not include 24/7 on-call coverage by default."
+              "Evet.",
+              "Bir inceleme veya uygulamadan sonra, sistemin veya kesik mühendisliğin ve teknik liderliğin kritik bir parçası için desteği tartışabiliriz.",
+              "Dahil çalışma, yanıt süreleri ve dışlamalar ayrı olarak belgelenmektedir.",
+              "Format, varsayılan olarak 7/24 arama kapsamı içermiyor."
             ]
           },
           {
-            "question": "How do we start?",
+            "question": "Nasıl başlıyoruz?",
             "answer": [
-              "Message me on Telegram with what should happen, what happens instead, and how it affects the business.",
-              "In the first 15-minute conversation, we establish whether the task fits my expertise, what materials are needed, and the boundaries of the work."
+              "Ne olması gerektiği ile Telegram'da bana mesaj verin, bunun yerine ne olur ve işi nasıl etkiler.",
+              "İlk 15 dakikalık konuşmada, görevin uzmanlığımı, hangi malzemelere ihtiyaç olduğunu ve çalışmanın sınırlarının olup olmadığını belirledik."
             ]
           }
         ]

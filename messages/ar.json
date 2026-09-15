@@ -1,126 +1,126 @@
 {
   "cv": {
     "hero": {
-      "role": "PRODUCT & SYSTEMS ENGINEER",
+      "role": "مهندس المنتجات والأنظمة",
       "name": "Eldiyar",
-      "lead": "I take a product from idea to working system and make sure it does not fail, lose money, or wake you at three in the morning.",
-      "body": "For six years, I have built systems where mistakes are expensive: payments, crypto operations, financial services, trading systems, and real-time products. I work independently or lead a small engineering team, from requirements and architecture through launch and accountability after release.",
-      "cta": "Discuss a project",
+      "lead": "أحوّل المنتج من فكرة إلى نظام يعمل، وأحرص على ألا يتعطل أو يخسر المال أو يوقظك في الثالثة صباحاً.",
+      "body": "ولست سنوات، بنيت نظما تكون فيها الأخطاء باهظة الثمن: المدفوعات، وعمليات التبريد، والخدمات المالية، والنظم التجارية، والمنتجات في الوقت الحقيقي. أنا أعمل بشكل مستقل أو أقود فريق هندسي صغير من المتطلبات والهيكل من خلال الإطلاق والمساءلة بعد الإفراج.",
+      "cta": "ناقش مشروعاً",
       "facts": [
-        "6 years in critical systems",
-        "fintech · web3 · trading · realtime",
-        "Antalya, Turkey · remote (Europe, CIS, Middle East)",
-        "full-time or contract"
+        "6 سنوات في النظم الحرجة",
+        "شبكة الإنترنت 3 - الاتجار في الوقت الحقيقي",
+        "أنطاليا، تركيا؛ نائية (أوروبا، رابطة الدول المستقلة، الشرق الأوسط)",
+        "التفرغ أو العقد"
       ]
     },
     "nav": {
-      "results": "results",
-      "cases": "cases",
+      "results": "النتائج",
+      "cases": "القضايا",
       "ai": "AI",
-      "fit": "good fit",
-      "work": "engagement",
-      "contact": "contact"
+      "fit": "جيد",
+      "work": "المشاركة",
+      "contact": "الاتصال"
     },
     "results": {
-      "eyebrow": "RESULTS",
-      "title": "Key results",
+      "eyebrow": "النتائج",
+      "title": "أهم النتائج",
       "items": [
         [
-          "3,000+ RPS and 100M+ requests a day",
-          "Designed a microservice payment core in Encore.ts with Clean Architecture and 99.99% end-to-end uptime."
+          "3000+ RPS and 100M+ requests a day",
+          "وصممت قاعدة لمدفوعات الخدمات البالغة الصغر في شركة Encore.ts ذات بنية نظيفة و 99.99 في المائة في نهاية المطاف."
         ],
         [
-          "−90% on-chain fee operating costs",
-          "Implemented sweep-on-deposit with programmatic TRON energy rental and dynamic EVM gas top-up."
+          "−90% من تكاليف تشغيل رسوم المعاملات على السلسلة",
+          "تم تنفيذ عملية شاملة لاستئجار الطاقة في إطار برنامج &quot; تون &quot; وتوثيق الغازات الدينامية في مجال إطلاق النار."
         ],
         [
-          "3M+ multi-chain wallets",
-          "Built an event-driven real-time transaction tracking pipeline with deposit splitting and nonce tracking; settlement latency is 2–3 seconds."
+          "3M+ multi-chainحافظs",
+          ":: إنشاء خط هاتفي لتتبع المعاملات في الوقت الحقيقي يقوم على أساس الأحداث مع تقسيم الودائع وتتبعها دون أي وجه؛ وخط الاستيطان هو 2-3 ثانية."
         ],
         [
-          "−70% load on public RPC nodes",
-          "Built a DEX-pool WebSocket monitoring engine for 15+ networks with two-tier Redis caching."
+          "−70% من الحمل على عقد RPC العامة",
+          ":: بناء محرك لرصد شبكة &quot; ديكس - بوول &quot; (DEX-pool WebSocket) لـ 15+ شبكة تضم مخبأتين من طراز Redis."
         ],
         [
-          "3 hours → 3 minutes per application",
-          "Designed the deal lifecycle State Machine and RBAC access model."
+          "3 ساعات → 3 دقائق لكل طلب",
+          "وصممت نموذجاً للوصول إلى دورة الحياة الحكومية ومحطة RBAC."
         ],
         [
-          "10,000+ concurrent WebSocket connections",
-          "Built multi-tenant media-session isolation with one Node.js process per room."
+          "000 10+ وصلات شبكية متزامنة",
+          "بناء عزلة متعددة الدورات لوسائط الإعلام مع عملية نودج.ي لكل غرفة."
         ],
         [
-          "<250ms latency and −40% AI API spend",
-          "Designed an event-driven OpenAI, Deepgram and ElevenLabs integration bus with caching and deduplication."
+          "−250ms latency and −40% AI spent",
+          "وصممت حافلة للتكامل تقوم على أساس فعاليات معينة، وشركة &quot; ديبغرام &quot; ، و &quot; 11 ليبز &quot; ، مصحوبة برسوم متحركة."
         ],
         [
-          "−50% false trading signals",
-          "Built a six-factor Scoring Engine, Regime Classifier and HTF consensus gate."
+          "- 50% إشارات تجارية زائفة",
+          "(ب) بناء بوابة توافق في الآراء لـ 6 مفاعلات من طراز Engine وRegime Classifier وHTF."
         ],
         [
-          "30–60 minutes → 10–15 seconds per report",
-          "Designed analytics across 12+ microservices using Redis Streams and n8n."
+          "٣٠-٦٠ دقيقة → ١٠-١٥ ثانية لكل تقرير",
+          "مصممة للتحليلات عبر 12 + خدمة صغيرة باستخدام \"ريديس سترامز\" و\"نا 8ن\""
         ],
         [
-          "Up to 60,000 RPS",
-          "Built a fault-tolerant Apache Kafka and NATS messaging bus."
+          "يصل إلى 000 60 ريزو",
+          "بناء حافلة تراسل (أباتشي كافكا) و(ناتس)"
         ]
       ]
     },
     "what": {
-      "eyebrow": "WHAT I DO",
-      "title": "Capabilities",
+      "eyebrow": "ما أفعله",
+      "title": "مجالات الخبرة",
       "items": [
         [
-          "Launching products from scratch.",
-          "From the conversation of ‘we need this’ to a production version. I shape requirements, select architecture, build, launch, and improve from feedback."
+          "إطلاق المنتجات من الصفر",
+          "From the conversation of ‘we need this’ to a production version. أنا أُشكلُ المتطلباتَ، أَختارُ الهندسةَ، البناء، الإطلاق، والتحسّن مِنْ التعليقاتِ."
         ],
         [
-          "Critical backend: payments, real time, high load.",
-          "Systems that process money and customer events and keep working under load, network failures, and partner errors."
+          "المساندة الحاسمة: المدفوعات، الوقت الحقيقي، الحمولة العالية.",
+          "نُظم تُعالج أحداث المال والعملاء وتستمر في العمل تحت الحمولة، وفشل الشبكات، وأخطاء الشركاء."
         ],
         [
-          "Fintech and crypto payments.",
-          "Accepting and distributing funds, wallets, asset custody, KYC/AML, and fee reduction. I have taken a platform through an external security audit."
+          "ودفعات التنظيف",
+          "قبول وتوزيع الأموال، والمحافظات، وحجز الأصول، وشركة KYC/AML، وتخفيض الرسوم. لقد أخذت منصة من خلال مراجعة أمنية خارجية"
         ],
         [
-          "Putting AI into products.",
-          "I build production features for analytics, document and news processing, and voice and text assistants. I set quality checks and cost limits."
+          "وضع آي في المنتجات.",
+          "أنا أصنع ملامح إنتاجية للمحللين، تجهيز الوثائق والأخبار، ومساعدي الصوت والنص. لقد وضعت شيكات الجودة و حدود التكلفة"
         ],
         [
-          "Rescuing projects.",
-          "I enter systems that fail, slow down, or have outgrown their architecture. I diagnose, fix, and explain the cause in plain language."
+          "مشاريع إنقاذ.",
+          "أَدْخلُ أنظمةَ التي تَخْفقُ، تَباطؤ، أَو هَبطَ هيكلَهم. أنا تشخيص، إصلاح، وشرح السبب في اللغة السهلة."
         ],
         [
-          "Engineering discipline.",
-          "Code reviews, mentoring, and development standards. I have completed 100+ deep reviews and taught middle and senior engineers."
+          "الانضباط الهندسي",
+          ":: استعراضات المدونة والتوجيه ومعايير التنمية. لقد أكملت 100+ استعراضات عميقة وعلمت المهندسين المتوسطين وكبار السن."
         ]
       ]
     },
     "cases": {
-      "eyebrow": "CASES",
-      "title": "Projects",
-      "detail": "Technical details",
-      "hide": "Hide technical details",
-      "stack": "stack",
-      "achievements": "technical results",
-      "task": "Challenge",
-      "role": "My role",
-      "built": "What I built",
-      "changed": "What changed",
+      "eyebrow": "دراسات الحالة",
+      "title": "المشاريع",
+      "detail": "التفاصيل التقنية",
+      "hide": "إخفاء التفاصيل التقنية",
+      "stack": "حزمة",
+      "achievements": "النتائج التقنية",
+      "task": "التحدي",
+      "role": "دوري",
+      "built": "ما بنيته",
+      "changed": "تغير",
       "items": [
         {
           "id": "trading",
-          "title": "Trading system with AI analytics",
-          "task": "Automated crypto trading lost money to inaccurate signals, while market analysis took up to an hour and decisions used stale data.",
-          "role": "Principal product engineer, responsible for discovery, architecture, development, launch, and operations.",
+          "title": "نظام التجارة مع محلليات AI",
+          "task": "وفقدت تجارة البكتيريا الآلية أموالاً لعدم دقة الإشارات، في حين استغرق تحليل السوق ساعة واحدة واستخدمت القرارات بيانات ثابتة.",
+          "role": "مهندس منتج رئيسي، مسؤول عن الاكتشاف والهيكل والتطوير والإطلاق والعمليات.",
           "built": "A trading decision system with multi-factor market evaluation and strict risk limits, plus AI agents that analyse markets, news, and forecasts in parallel.",
           "changed": "The system capped risk before a trade, and analytics no longer blocked decisions.",
           "metrics": [
-            "−50% false signals",
-            "10–15s reports instead of 30–60m",
-            "3% capital maximum daily loss",
-            "99.99% availability"
+            "- 50% إشارات خاطئة",
+            "١٠-١٥ التقارير بدلا من ٣٠-٦٠م",
+            "3 في المائة الخسارة اليومية القصوى",
+            "توافر بنسبة 99.99%"
           ],
           "stack": [
             "Node.js (Bun)",
@@ -138,29 +138,29 @@
             "Linux (VPS)"
           ],
           "achievements": [
-            "Developed an isolated decision-making engine (Scoring Engine): implemented a multi-factor system consisting of 6 components with PIT-MAD normalization to prevent look-ahead bias, driven by a 5-state market regime classifier with an HTF consensus gate, which reduced false signals by 50%.",
-            "Built a real-time pipeline to multiplex high-frequency WebSocket streams (orderbook, trades, liquidations) via the Binance API; implemented incremental calculation of quant metrics and Funding Z-score directly in Redis RAM, reducing the load on PostgreSQL by 90% while maintaining 99.99% data uptime.",
-            "Designed a risk management module based on the Carver algorithm (volatility targeting) for dynamic position sizing; deployed 15 pre-trade risk limits (Pre-Trade Risk Guards / Circuit Breakers) and a multi-priority exit matrix (8 scenarios, including SL, TP, daily DD), strictly capping maximum daily drawdown at 3% of capital.",
-            "Implemented a fault-tolerant execution engine on top of CCXT featuring a 4-phase cascade order escalation logic (Limit → Re-quote → IOC → Market) and per-symbol Redis locks, completely eliminating race conditions and slippage during periods of extreme order book volatility.",
-            "Developed an asynchronous Event-Driven architecture for the analytical circuit: deployed 12+ microservices powered by Redis Streams and n8n, eliminating blocking HTTP dependencies and accelerating report generation from 30–60 minutes down to 10–15 seconds (p99 < 1s for critical triggers).",
-            "Designed a unified API layer for a hierarchical multi-agent system (GPT-5 via OpenRouter): implemented parallel orchestration of 7 specialized modules (including locally deployed TimeGPT, Matrix Profile, and custom TA indicators in pure JS), shortening integration time for new modules from 2 days to 2 hours.",
-            "Implemented an asynchronous N×M real-time sentiment analysis module for news feeds via GPT-4o, automatically matching aggregated context against active market orders.",
+            "طور محركاً معزولاً لصنع القرار (محرك لتربية المحركات): نفذ نظاماً متعدد المفاعلات يتألف من 6 مكونات مع تطبيع جهاز PIT-MAD من أجل منع التحيز على رؤوس النظر، مدفوعاً بتصنيف نظام سوقي من خمس دول مع بوابة توافق في الآراء لدى فرقة العمل، مما قلل من الإشارات الكاذبة بنسبة 50 في المائة.",
+            ":: بناء خط أنابيب في الوقت الحقيقي لتدفقات متعددة عالية التردد على شبكة ويب سوكيت (أوديربوك، حرف، تصفية) عن طريق نظام الإبلاغ الموحد؛ وتنفيذ عملية حساب تدريجي للمقاييس الكمية وتمويل Z-score مباشرة في ريديس RAM، وتخفيض الحمولة على نظام ستيريل بنسبة 90 في المائة، مع الاحتفاظ بنسبة 99.99 في المائة من البيانات في وقت أعلى.",
+            "وصممت وحدة لإدارة المخاطر على أساس خوارزمية كارفر (استهداف الخصوبة) لتصنيف المواقع الدينامية؛ ونشرت 15 حدا من مخاطر ما قبل التجارة (حرس المخاطر في التجارة/مفرق السيرك) ومصفوفة خروج متعددة الأولويات (8 سيناريوهات، بما في ذلك السيناريوهات الخاصة، و TP، و DD اليومية)، مع وضع حد أقصى للخفض اليومي بنسبة 3 في المائة من رأس المال.",
+            "نُفذ محرك إعدام متسامح على رأس محرك CXT ينطوي على منطق تصعيد النظام التعاقبي من 4 مراحل (Limit . Re-quote . IOC . Market) وأقفال نظام &quot; ريبليس &quot; ، مما أدى إلى القضاء التام على ظروف العرق والتوقف أثناء فترات تقلب كتب النظام المتطرف.",
+            "وضع هيكل للحدث الجائر للدائرة التحليلية: تم نشر 12 + خدمات مصغرة بقيادة &quot; ريديس سترايمز &quot; و &quot; ن 8ن &quot; ، وإزالة العوائق التي تحول دون معالين &quot; HTTP &quot; ، والتعجيل بتوليد التقارير من 30 إلى 60 دقيقة إلى 10 إلى 15 ثانية (الصفحة 1 من النص الإنكليزي).",
+            "(ج) تصميم طبقة موحدة من مؤشرات الأداء التطبيقي لنظام هرمي متعدد العناصر (GPT-5 عن طريق نظام &quot; OpenRouter &quot; ): تنفيذ عملية تنسيق موازية لـ 7 وحدات متخصّصة (بما في ذلك البرمجيات المصنفة محلياً، وموجزات مصفوفة، ومؤشرات التكيّف التعريفي في الورقة المشتركة النقية)، وتقليص وقت إدماج الوحدات الجديدة من يومين إلى ساعتين.",
+            "نُفذت وحدة لتحليل العاطفة في الوقت الحقيقي في مجال التغذية الإخبارية عن طريق GPT-4o، تتطابق تلقائيا مع السياق المجمّع إزاء أوامر السوق النشطة.",
             "Deployed an observability stack (Pino JSON, Promtail, Grafana Cloud Loki) and an LLM-powered Telegram control interface, ensuring transparent auditing of AI agent behavior and cutting production validation time for new prompts."
           ],
-          "overview": "Deterministic algorithmic trading engine based on a trend-following strategy for the BTC futures market, along with a multi-agent AI-powered market analytics system built on n8n, integrating LLMs, TimeGPT, and external data providers."
+          "overview": "Deterministic algorithmic trading motor based on a trend-following strategy for the BTC futures market, along with a multi-agent AI-powered market analytics system built on n8n, integrating LLMs, TimeGPT, and external data providers."
         },
         {
           "id": "payments",
-          "title": "Crypto payment infrastructure",
-          "task": "The company lost substantial transfer fees, while payment settlement was slow and unreliable as load grew.",
-          "role": "Lead engineer for the payment core and custody layer.",
+          "title": "البنية التحتية للمدفوعات",
+          "task": "وفقدت الشركة رسوم نقل كبيرة، بينما كانت تسوية المدفوعات بطيئة وغير موثوقة مع نمو الحمولة.",
+          "role": "المهندس الرئيسي لطبقة الدفع والحجز",
           "built": "A payment platform that monitors 15+ blockchain networks, automatically sweeps deposits, and optimizes the fee of each operation.",
-          "changed": "Fees fell nearly tenfold, settlement took seconds rather than minutes, and the platform sustained 100M requests a day.",
+          "changed": "وانخفضت الأطعمة حوالي عشرة أضعاف، وأخذت التسوية ثواني بدلا من دقائق، وتلقى المنبر 100 مليون طلب يوميا.",
           "metrics": [
-            "−90% fee costs",
+            "- 90 في المائة من تكاليف الرسوم",
             "100M requests/day at 99.99%",
-            "2–3s settlement",
-            "3M wallets monitored"
+            "تسوية ٢-٣",
+            "رصد محفظات 3M"
           ],
           "stack": [
             "Web3",
@@ -178,26 +178,26 @@
             "Event-Driven Architecture"
           ],
           "achievements": [
-            "Designed a microservices-based architecture for the core payment engine using Encore.ts (Clean Architecture), supporting peak loads of 3,000+ RPS (100M+ requests/day) with a system-wide end-to-end uptime of 99.99%.",
-            "Developed a high-performance WebSocket engine for monitoring DEX pools and an ingestion system for parallel streaming of on-chain data from 15+ EVM/non-EVM networks; reduced the load on public RPC nodes by 70% by implementing two-tier caching in Redis and brought data latency down to <200 ms.",
-            "Designed and implemented a sweep-on-deposit algorithm featuring automated, programmatic energy renting on the TRON network and dynamic gas top-ups in EVM, reducing on-chain business fee operational costs by 90%.",
-            "Created an event-driven pipeline for real-time transaction tracking across a database of 3M+ multi-chain wallets, including a parallel deposit splitting module and a concurrent nonce-tracking controller, reducing settlement latency to 2–3 seconds.",
-            "Secured the custodial layer against MEV and front-running attacks at the smart contract interaction level (Uniswap V3, gasless Permit2, fee-on-transfer protection) and implemented authorization protocols based on Web3 signatures, HMAC, and AES-256.",
-            "Deployed a local testing environment with isolated protocol nodes for BTC, ETH, and TRON, and built a testing pyramid (unit/component/e2e) that secured 80% coverage of critical paths and enabled zero-downtime releases."
+            "(ج) تصميم بنية قائمة على الخدمات الصغرى لمحرك الدفع الأساسي باستخدام نظام &quot; إنكوريت &quot; (التركيبة الكلوية)، ودعم حمولات الذروة البالغة 000 3+ RPS (100M+طلاب/يوم) مع نهاية العمل على نطاق المنظومة بنسبة 99.99 في المائة.",
+            "وضع محرك لشبكة الإنترنت ذات الأداء العالي لرصد مجمعات إدارة المعلومات الإدارية ونظام ابتلاع للتدفق الموازي للبيانات في السلسلة من 15+ EVM/non-EVM networks; reduced the load on public RPC nodes by 70% by implementing two-tier caching in Redis and brought data latency down to 20,000 ms.",
+            "(ب) تصميم وتنفيذ خوارزمية شاملة للودائع تشمل مؤجراً آلياً وبرنامجياً للطاقة على شبكة تون والارتفاعات الدينامية للغاز في إدارة المركبات، مما يقلل من التكاليف التشغيلية لرسوم الأعمال التجارية في سلسلة بنسبة 90 في المائة.",
+            "وأنشأ خطا هاتفيا مدفوعا بالأحداث لتتبع المعاملات في الوقت الحقيقي عبر قاعدة بيانات تضم 3M+ محفظات متعددة السلسلة، بما في ذلك وحدة موازية لتقسيم الودائع ومراقب متزامن غير متتبع للسيارات، مما قلل من تساهل الاستيطان إلى 2-3 ثانية.",
+            ":: تأمين الطبقة الاحتجازية ضد المركبات المتعددة المؤشرات والهجمات التي تجريها الجبهة على مستوى التفاعلات التعاقدية الذكية (Uniswap V3, gasless Permit2, fee-on-transfer protection) وتنفيذ بروتوكولات الإذن استنادا إلى التوقيعات على الشبكة العالمية 3، HMAC، و AES-256.",
+            "ونشرت بيئة اختبار محلية مع عقد بروتوكولات معزولة لمحطة BTC, ETH, and TRON، وقامت ببناء هرم اختباري (وحدة/عنصر/e2e) تضمن تغطية 80 في المائة للمسارات الحرجة ومكن من الإطلاقات في وقت الصفر."
           ],
-          "overview": "Web3/FinTech ecosystem: decentralized multichain DEX interfaces (15+ EVM/non-EVM networks), real-time monitoring of on-chain events, liquidity, and price quotes (REST API, WebSocket). Backend platforms for automating multichain deposits and B2B/B2C SaaS services focused on transaction cost optimization (TRON energy rental, EVM gas management). Full-cycle crypto operations processing: real-time monitoring, transaction execution, and automated fund distribution across custodial wallets."
+          "overview": "Web3/FinTech ecosystem: decentralized multichain DEX interfaces (15+ EVM/non-EVM networks), real-time monitoring of on-chain events, liquidity, and price quotes (REST API, WebSocket). وركّزت المنصّات الاحتياطية لتسيير الودائع المتعددة السلاسل والخدمات من طراز B2B/B2C SaaS على تحقيق الاستخدام الأمثل لتكاليف المعاملات (إستئجار الطاقة في منطقة العاصمة، وإدارة الغاز في إطار المبادرة). تجهيز عمليات التبريد المكتملة الدراجات: الرصد في الوقت الحقيقي، وتنفيذ المعاملات، وتوزيع الأموال آليا عبر محفظات الاحتجاز."
         },
         {
           "id": "exchange",
-          "title": "Currency exchange platform with document control",
-          "task": "Crypto-to-fiat applications took three hours by hand, while the platform also had to pass an external security audit.",
-          "role": "Full-stack engineer for both backend services and operator UI.",
-          "built": "A system where every deal follows a strict workflow, with KYC/AML, role separation, MFA, and eight-language support.",
-          "changed": "Operators stopped being the bottleneck; the platform passed the external audit and entered new regions.",
+          "title": "منبر تبادل العملات مع مراقبة الوثائق",
+          "task": "وقد استغرقت تطبيقات التصليح إلى المدافن ثلاث ساعات باليد، بينما كان على المنبر أيضاً أن يجتاز مراجعة أمنية خارجية.",
+          "role": "مهندس حزمة كاملة لكل من الخدمات المساندة والمشغل UI.",
+          "built": "A system where every deal follows a strict work flow, with KYC/AML, role separation, MFA, and eight-language support.",
+          "changed": "وقد توقف المشغلون عن الاختناقات؛ واجتاز المنبر المراجعة الخارجية للحسابات ودخلوا مناطق جديدة.",
           "metrics": [
-            "3 hours → 3 minutes",
-            "external audit passed",
-            "8 language zones"
+            "3 ساعات",
+            "المراجعة الخارجية للحسابات",
+            "8 مناطق لغوية"
           ],
           "stack": [
             "NestJS",
@@ -215,26 +215,26 @@
             "Performance"
           ],
           "achievements": [
-            "Designed and implemented a finite State Machine to manage transaction lifecycles alongside a Role-Based Access Control (RBAC) model, reducing order processing times from 3 hours down to 3 minutes.",
-            "Developed a modular monolith applying DDD principles and set up an API-first pipeline with automatic type generation for the frontend client, entirely eliminating integration contract errors.",
-            "Implemented a pricing engine with Redis caching for external rates (updating every 5–30 seconds), minimizing costs associated with paid infrastructure APIs from data providers.",
-            "Integrated an end-to-end KYC/AML perimeter (wallet screening, counterparty identification) and protection mechanisms (MFA, session invalidation, webhook verification), successfully guiding the platform through an external security audit.",
-            "Developed an authorization module using Web3 wallets and provided architectural support for localization (8 language zones), accelerating product expansion into new regional markets."
+            "صممت ونفذت آلة حكومية محدودة لإدارة دورات حياة المعاملات إلى جانب نموذج لمراقبة الدخول على أساس الأدوار، مما قلل من أوقات تجهيز الطلبات من 3 ساعات إلى 3 دقائق.",
+            "وطوّر احتكاراً نموذجياً يطبق مبادئ التصحر وتردي الأراضي والجفاف، وأنشأ خطاً أولياً من نوع التلقائي للموكّل الأمامي، وقضى كلياً على أخطاء عقود الإدماج.",
+            "نفذ محرك تسعير بكاميرات &quot; ريديس &quot; للمعدلات الخارجية (تستكمل كل 5 إلى 30 ثانية)، مما قلل إلى أدنى حد من التكاليف المرتبطة بالهياكل الأساسية الموحدة المدفوعة من مقدمي البيانات.",
+            "(ب) إدماج محيط مركز المعارف في نهاية المطاف (فحص الرواسب، تحديد هوية الأطراف المقابلة) وآليات الحماية (وزارة المالية الخارجية، إبطال الدورة، التحقق من المواقع الشبكية)، ونجح في توجيه المنبر من خلال مراجعة أمنية خارجية.",
+            "ووضعت نموذجا للإذن باستخدام محفظات الشبكة العالمية 3، وقدمت الدعم المعماري للتمركز (8 مناطق لغوية)، والتعجيل بتوسيع نطاق المنتجات إلى أسواق إقليمية جديدة."
           ],
-          "overview": "A regulated OTC platform for exchanging crypto assets (USDT, BTC, ETH) for fiat currency (USD, KGS) with a full-cycle KYC/AML workflow, banking settlement, and an operational dashboard for managers."
+          "overview": "A regulated OTC platform for exchanging crypto assets (USDT, BTC, ETH) for fiat currency (USD, KGS) with a full- cycle KYC/AML work flow, banking settlement, and an operational dashboard for managers."
         },
         {
           "id": "voice",
-          "title": "Simultaneous speech translation for international events",
-          "task": "Thousands of participants needed to hear a speaker in their own language without delay or audio interruption.",
-          "role": "Lead engineer for the real-time platform.",
-          "built": "A speech-recognition, translation, and voice-delivery system in 50+ languages for thousands of listeners with hot language switching.",
-          "changed": "The product supported live events reliably, while AI-service costs fell 40%.",
+          "title": "ترجمة الكلمات المتزامنة للأحداث الدولية",
+          "task": "ويحتاج آلاف المشاركين إلى الاستماع إلى متكلم بلغتهم دون تأخير أو انقطاع سمعي.",
+          "role": "المهندس الرئيسي لمنصة الزمن الحقيقي",
+          "built": "A speech-recognition, translation, and voice-delivery system in 50+ languages for thousands of listeners with hot language shifting.",
+          "changed": "وقد دعم المنتج الأحداث الحية على نحو موثوق به، في حين انخفضت تكاليف خدمات التأمين الصحي بنسبة 40 في المائة.",
           "metrics": [
-            "10,000+ listeners",
-            "<0.25s latency",
-            "−40% AI-service costs",
-            "50+ languages"
+            "000 10 مستمع",
+            "02: 25",
+            "- 40 في المائة من تكاليف الخدمة",
+            "50 + اللغات"
           ],
           "stack": [
             "Node.js",
@@ -254,26 +254,26 @@
             "Multi-tenancy"
           ],
           "achievements": [
-            "Developed a multi-tenant media session isolation system using OpenResty, Redis, and PM2 with dedicated Node.js processes per room, eliminating cross-load impact and enabling stable handling of 10,000+ concurrent WebSocket connections.",
-            "Designed an event-driven integration layer for AI providers (OpenAI, Deepgram, ElevenLabs) with caching and data deduplication mechanisms for fan-out workloads, reducing end-to-end latency to <250 ms, lowering third-party API costs by 40%, and maintaining 99.99% uptime.",
-            "Bypassed native Apple/Safari background audio restrictions by implementing background streaming through Web Audio API with silent audio playback, ensuring uninterrupted audio delivery with the screen locked.",
-            "Implemented seamless hot language switching across 50+ translation languages without packet loss or active WebSocket session interruption. Successfully launched MVP into production and validated the technical architecture.",
-            "Architected a high-load Control Plane (Node.js, Redis, TCP/WebSocket, 99.99% uptime) enabling real-time orchestration and broadcast command execution across thousands of edge devices.",
-            "Built Red Team infrastructure using SOCKS5 and Reverse Proxy technologies, implementing secure tunnels, Remote Shell capabilities, and a protected multi-tenant security layer (AES-256, RBAC)."
+            ":: وضع نظام للعزلة في جلسات وسائط الإعلام المتعددة الأطراف باستخدام نظام &quot; OpenResty &quot; و &quot; Redis &quot; و &quot; PM2 &quot; مع إجراء عمليات مخصصة للرقمي.js في كل غرفة، والقضاء على الأثر المكشوف، وتمكين المناولة المستقرة التي تبلغ 000 10 اتصال متزامن بالشبكة.",
+            "وصممت طبقة للتكامل تحركها الأحداث لمقدمي خدمات AI (OpenAI, Deepgram, ElevenLabs) بآليات للتشنج ونقل البيانات من أجل أعباء العمل المفاجئة، مما قلل من الرطوبة النهائية إلى 250 متراً، وخفض تكاليف تطبيقات تطبيق المعايير المسبقة عن علم إلى طرف ثالث بنسبة 40 في المائة، وحافظت على ارتفاع 99.99 في المائة.",
+            "وتجاوزت القيود الصوتية للخلفية الأصلية في آبل/سافاري عن طريق تنفيذ عملية تيار خلفي عبر شبكة ويب أوديو Audio API مع ظهور صوتي صامت، بما يكفل إيصالاً صوتياً دون انقطاع مع الشاشة المقفلة.",
+            "نُفّذت لغة ساخنة لا تحصى عبر 50+ لغة ترجمة دون فقدان عبوات أو انقطاع في دورة شبكة ويب. ونجحت في إطلاق برنامج MVP في الإنتاج وتحققت من الهيكل التقني.",
+            "أُقيمت خطة مراقبة عالية الحمولة (Node.js, Redis, TCP/WebSocket, 99.99% uptime) مما مكّن من القيام في الوقت الحقيقي بتفتيش وتنفيذ أوامر البث عبر آلاف الأجهزة الحافة.",
+            "بناء الهياكل الأساسية للفريق الأحمر باستخدام SOCKS5 وتكنولوجيات التصريف العكسي، وتنفيذ الأنفاق الآمنة، وقدرات القصف عن بعد، وطبقة أمنية متعددة الأطقم محمية (AES-256، RBAC)."
           ],
-          "overview": "Real-time AI interpretation and streaming platform for international conferences, webinars, and hybrid events. The system enables live speech capture, sub-second speech recognition, translation into 50+ languages, and delivery of synthesized audio streams to thousands of concurrent listeners. Also designed an RMM & Command and Control (C2) platform for centralized management of distributed edge agents and Red Team operations. The architecture includes a real-time Control Plane, secure communication channels (TCP/WebSocket, SOCKS5), automated agent build pipeline, multi-tenant web console, and reverse proxy/tunneling infrastructure."
+          "overview": ":: منبر للتفسير والتنقية في الوقت الحقيقي للمؤتمرات الدولية، والشبكات الإلكترونية، والأحداث المختلطة. ويمكِّن هذا النظام من إلقاء الخطابات الحية، والاعتراف بالكلمات في الفترة الفرعية الثانية، والترجمة إلى 50+ لغة، وإيصال مسارات سمعية مدمجة إلى آلاف المستمعين المتزامنين. كما صممت منصة قيادة ومراقبة الآلية (C2) للإدارة المركزية لعملاء الحافة الموزعين وعمليات الفريق الأحمر. ويشمل هذا الهيكل خطة مراقبة في الوقت الحقيقي، وقنوات اتصال مأمونة (TCP/WebSocket، وSOCKS5)، وخط أنابيب أوتوماتيكي لتشييد العناصر، وضمانات متعددة الأطقم على شبكة الإنترنت، وعكس الهياكل الأساسية للمحترفين/التدمير."
         },
         {
           "id": "vending",
-          "title": "Vending-machine fleet management platform",
-          "task": "Thousands of machines in different cities required payments, tax reporting, remote configuration, and real-time sales visibility.",
-          "role": "Backend engineer and architecture-design contributor.",
-          "built": "The platform core that processes all device events and a bidirectional channel for remote machine configuration.",
-          "changed": "Tax reporting became automatic, and the platform had capacity for 10× device growth.",
+          "title": "منصة إدارة أسطول المركبات الصغيرة",
+          "task": "وتحتاج آلاف الآلات في مدن مختلفة إلى مدفوعات، والإبلاغ عن الضرائب، والتشكيل عن بعد، والظهور الفعلي للمبيعات.",
+          "role": "مساهم في الهندسة المدعمة والتصميم الهيكلي.",
+          "built": "المنصّة الأساسية التي تُطغّلُ كُلّ أحداث الأجهزة و قناة ثنائية الاتجاه لتشكيل الآلات النائية.",
+          "changed": "وأصبح الإبلاغ الضريبي آلياً، وكان للمنبر القدرة على تحقيق نمو في الأجهزة قدره 10 ×.",
           "metrics": [
-            "99% transactions automated",
-            "up to 60,000 events/sec",
-            "10× growth headroom"
+            "99 في المائة من المعاملات الآلية",
+            "ما يصل إلى 000 60 مناسبة/سياحة",
+            "10 نمط دراسي"
           ],
           "stack": [
             "TypeScript",
@@ -292,27 +292,27 @@
             "Adonis.js"
           ],
           "achievements": [
-            "Designed the Event-Driven Architecture (EDA) core for the multi-tenant SaaS platform; decomposed business requirements into technical specifications, provisioning an architectural buffer for a 10x scaling of the IoT device fleet.",
-            "Developed a fault-tolerant message bus using Apache Kafka and NATS with peak throughput up to 60,000 RPS, ensuring guaranteed asynchronous data delivery between system domains.",
-            "Unified API contract design standards and directed collaborative Scoping & Estimation processes alongside Frontend and QA teams, lowering the rate of integration defects during release cycles.",
-            "Optimized the storage layer in PostgreSQL (60+ tables, 8 hierarchy levels), accelerating the execution of analytical queries.",
-            "Implemented a bi-directional communication protocol with IoT terminals, enabling automatic compliance-driven fiscalization for 99% of transactions without requiring manual operator intervention.",
+            "(أ) صممت &quot; بنية الأحداث &quot; الأساسية لمنصة &quot; ساسا &quot; المتعددة العوامل؛ وحذفت متطلبات الأعمال التجارية من المواصفات التقنية، ووفرت حاجزاً معمارياً من أجل توسيع أسطول أجهزة إيوت إلى 10x.",
+            "وطورت حافلة رسائل متسامحة مع الأخطاء باستخدام أباتشي كافكا وناتس، بلغت ذروتها ما يصل إلى 000 60 من الناموسيات المصفحة، مما يكفل تقديم بيانات غير واضحة بين مجالات النظام.",
+            "Unified API contract design standards and directed collaborative Scoping &apos; Estimation processes alongside Frontend and QA teams, lowering the rate of integration defects during release cycles.",
+            "Optimized the storage layer in PostgreSQL (60+ tables, 8 hierarchy levels), accelerating the execution of analysis queries.",
+            "نُفّذ بروتوكول اتصال ثنائي الاتجاه مع المحطات الطرفية للمتفجرات من مخلفات الحرب، مما مكّن من إضفاء الطابع المالي التلقائي على الامتثال بنسبة 99 في المائة من المعاملات دون اشتراط تدخل مشغل يدوي.",
             "Introduced mentoring and Code Review processes within the backend team, accelerating onboarding for new engineers and enhancing the overall code quality culture."
           ],
-          "overview": "A cloud B2B SaaS platform for managing a distributed fleet of IoT terminals for vending machines: online transaction fiscalization, remote device configuration, payment acquiring, service route automation, and real-time sales analytics."
+          "overview": "A cloud B2B SaaS platform for managing a distributed fleet of IoT terminals for vending machines: online transaction fiscalization, remote tool formation, payment acquisition, service route functioning, and real-time sales analytics."
         },
         {
           "id": "books",
-          "title": "Book digitisation pipeline",
-          "task": "A publisher needed to digitise and prepare thousands of editions for print without months of manual work.",
-          "role": "Full-cycle engineer, from data collection to the finished file.",
-          "built": "An automated collection, data-normalisation, and print-file pipeline that resumes from checkpoints after failure.",
-          "changed": "The system replaced work that had required external contractors, with no progress loss on failures.",
+          "title": "خط أنابيب رقمية الكتب",
+          "task": "ويحتاج الناشر إلى رقمنة وإعداد آلاف النسخ المطبوعة دون أشهر من العمل اليدوي.",
+          "role": "مهندس دراجة كاملة، من جمع البيانات إلى الملف النهائي.",
+          "built": "مجموعة آلية، ومسح البيانات، وخط أنابيب المطبوعات التي تستأنف من نقاط التفتيش بعد الفشل.",
+          "changed": "واستعيض النظام عن العمل الذي كان يتطلب من المتعاقدين الخارجيين، دون حدوث أي خسارة في التقدم في حالات الفشل.",
           "metrics": [
             "4,000+ editions",
-            "10× faster",
-            "0% progress loss",
-            "−50% storage costs"
+            "10 أسرع",
+            "نسبة مئوية من الخسائر في التقدم",
+            "- 50 في المائة من تكاليف التخزين"
           ],
           "stack": [
             "High-performance Scraping",
@@ -330,116 +330,116 @@
             "CKEditor v4/v5"
           ],
           "achievements": [
-            "Designed and launched an end-to-end aggregation pipeline into production, driving autonomous import, normalization, and headless generation of 4,000+ publisher catalog SKUs without outsourcing to external contractors.",
-            "Developed a fault-tolerant download orchestrator (Bun, utilizing a pool of 64 isolated workers) with in-memory caching and checkpoint resume mechanics, increasing overall system throughput tenfold.",
-            "Deployed a resilient processing layer based on file locks and idempotent restarts, eliminating manual intervention during failures and reducing progress loss to 0%.",
-            "Built a CPU/GPU-scalable media compression batch pipeline (Sharp, FFmpeg), cutting storage footprint by 50% while fully preserving the visual quality of typography.",
-            "Led the migration of the core WYSIWYG system from CKEditor v4 to v5, refactoring the codebase to TypeScript and designing a custom plugin architecture, which increased rendering stability for complex text structures.",
-            "Organized decentralized P2P data replication via a Tailscale mesh network and Syncthing, entirely removing dependence on cloud providers and eliminating commercial egress traffic expenses."
+            "صمم وأطلق خط أنابيب التجميع من نهاية إلى نهاية إلى الإنتاج، مما أدى إلى استيراد مستقل وتطبيع وتوليد لا رأس له من 000 4 وحدة من وحدات الناشر دون الاستعانة بمصادر خارجية للمتعاقدين الخارجيين.",
+            "طورت جهازاً لتحميل الأوركسترات (بن، باستخدام مجموعة من 64 عاملاً معزولاً) مع ميكانيكيات في التنظيف داخل الذاكرة ونقطة التفتيش، مما أدى إلى زيادة الناتج الإجمالي للنظام عشرة أضعاف.",
+            "وزعت طبقة معالجة مرنة تستند إلى أقفال الملف والرسومات الرجعية الافتراضية، وأزالت التدخل اليدوي أثناء الإخفاقات، وقللت من الخسائر في التقدم إلى 0%.",
+            "(ب) بناء خط أنابيب للضغط على وسائط الإعلام (Sharp, FFmpeg)، يقطع البصمة المخزنية بنسبة 50 في المائة، مع الحفاظ على الجودة البصرية للطباعة.",
+            "Led the migration of the core WYSIWYG system from CKEditor v4 to v5, refactoring the codebase to TypeScript and designing a custom plugin structure, which increased rendering stability for complex text structures.",
+            "نُظّم نظام لا مركزي لتكرار بيانات P2P عن طريق شبكة تايلد ميخ (Tailscale mesh) و &quot; Syncthing &quot; ، مما ألغى تماماً الاعتماد على مقدمي الخدمات السحابية، وإلغاء نفقات حركة السير على الطرق التجارية."
           ],
-          "overview": "An end-to-end content pipeline for high-volume digitalization and distribution of books: automated scraping of publisher catalogs, structured data extraction via external APIs, multimedia content normalization, and headless generation of print-ready PDF editions."
+          "overview": "An end-to-end content pipeline for high-volume digitalization and distribution of books: automated scraping of publisher catalogs, structured data extraction via external APIs, multimedia content normalization, and headless generation of printed-ready PDF editions."
         }
       ],
-      "overview": "Project Overview"
+      "overview": "استعراض المشروع"
     },
     "ai": {
-      "eyebrow": "PRINCIPLES",
-      "title": "How I work with AI",
-      "lead": "AI speeds up development, but it also makes confident, plausible mistakes. I use these controls to keep it useful.",
+      "eyebrow": "المبادئ",
+      "title": "كيف أعمل مع الذكاء الاصطناعي",
+      "lead": "وتسرع منظمة العفو الدولية في التنمية، ولكنها تُرتكب أيضاً أخطاء موثوقة وصريحة. أستخدم هذه الضوابط لإبقائها مفيدة",
       "items": [
         [
-          "Specification",
-          "Written scope, an explicit ‘what we do NOT do’, and acceptance criteria before the first line of code."
+          "المواصفات",
+          "Written scope, an explicit ‘ What we do not do’, and acceptance criteria before the first line of code."
         ],
         [
-          "Context",
-          "AI needs a clear task and the relevant system context."
+          "السياق",
+          "يحتاج الذكاء الاصطناعي إلى مهمة واضحة وسياق النظام ذي الصلة."
         ],
         [
-          "Agents",
-          "Several AI executors work on separate parts of a task in parallel, following a clear hand-off rule."
+          "العملاء",
+          "ويعمل العديد من المنفذين التابعين لمنظمة العفو الدولية في أجزاء منفصلة من مهمة بالتوازي، بعد قاعدة واضحة للتسليم."
         ],
         [
-          "Quality checks",
-          "Every AI feature has a reference set with known correct answers."
+          "ضوابط الجودة",
+          "ولكل من سمات منظمة العفو الدولية مرجع مع إجابات صحيحة معروفة."
         ],
         [
-          "Security",
-          "AI receives no broader access than the task needs. Money and client data pass deterministic checks."
+          "الأمن",
+          "ولا تتمتع منظمة العفو الدولية بإمكانية الوصول على نطاق أوسع من احتياجات المهمة. البيانات المتعلقة بالمال والزبائن تمر بفحوصات محددة."
         ],
         [
-          "Observability",
-          "I track what AI did, why it did it, and what it cost. Every decision is auditable."
+          "القابلية للملاحظة",
+          "أنا أتتبع ما فعلته (آي آي)، لماذا فعلت ذلك، وما كلفته. كل قرار قابل للمراجعة"
         ],
         [
-          "Cost control",
-          "Costs are tracked by function: caching, model selection, and fallback scenarios."
+          "مراقبة التكاليف",
+          "وتتبّع التكاليف حسب الوظيفة: الاختلاط، والاختيار النموذجي، وتصورات التراجع."
         ],
         [
-          "Boundaries",
-          "AI is for analytics, text, drafts, and hypotheses. Money, access, and critical operations use deterministic code only."
+          "الحدود",
+          "منظمة العفو الدولية للمحللين والنص والمسودات والفرضيات. فالمال والوصول والعمليات الحرجة لا تستخدم سوى الرمز المحدد."
         ],
         [
-          "Accountability",
-          "No line reaches production without my review. ‘AI wrote it’ is not an explanation."
+          "المساءلة",
+          "لا يوجد خط يصل إلى الإنتاج بدون مراجعتي ‘A wrote it’ is not an explanation."
         ]
       ]
     },
     "fit": {
-      "eyebrow": "GOOD FIT",
-      "title": "Who I work best with",
+      "eyebrow": "صندوق جيد",
+      "title": "الفرق التي أعمل معها بأفضل شكل",
       "items": [
         [
-          "Founders from idea to first customers.",
-          "You need one person to own the product end-to-end."
+          "مؤسسون من فكرة إلى أول زبائن",
+          "تحتاج إلى شخص واحد لتملك المنتج من نهاية إلى نهاية."
         ],
         [
-          "Fintech and crypto companies.",
-          "Payments, wallets, custody, customer checks, and fee reduction."
+          "شركات \"فينتك\" و\"البكاء\"",
+          "المدفوعات والمحفظات والحجز وفحص العملاء وتخفيض الرسوم"
         ],
         [
-          "Teams that hit a ceiling.",
-          "The system is slow, fails under load, or is too risky to change. I diagnose the cause and give you a clear plan."
+          "فرق تصطدم بسقف",
+          "فالنظام بطيء، أو يفشل تحت الحمولة، أو أنه ينطوي على مخاطرة شديدة للتغيير. أنا تشخيص القضية وأعطيك خطة واضحة"
         ],
         [
-          "Businesses that want AI implemented for real.",
-          "A product feature with measurable quality, predictable cost, and clear boundaries."
+          "الأعمال التي تريد أن تنفذها منظمة العفو الدولية بشكل حقيقي.",
+          "سمة منتجات ذات جودة قابلة للقياس، وتكاليف يمكن التنبؤ بها، وحدود واضحة."
         ],
         [
-          "Companies where failure is expensive.",
-          "Where an outage means lost money, damaged data, or a conversation with a regulator."
+          "شركات حيث الفشل مكلف",
+          "عندما يعني الخروج فقدان المال، البيانات المضرة، أو محادثة مع منظم."
         ]
       ],
-      "noFitTitle": "not a fit",
-      "noFit": "I am not a fit if you need an executor with no voice in decisions, or if the task is to fill a deadline with features without considering what happens in six months. I will say when I think the plan is wrong."
+      "noFitTitle": "ليست مناسبة",
+      "noFit": "أنا لست مناسبة إذا كنت بحاجة إلى منفذ لا صوت له في القرارات، أو إذا كانت المهمة هي ملء موعد نهائي مع سمات دون النظر في ما يحدث في ستة أشهر. سأقول عندما أعتقد أن الخطة خاطئة"
     },
     "work": {
-      "eyebrow": "ENGAGEMENT",
-      "title": "How to work with me",
+      "eyebrow": "الاتفاق",
+      "title": "كيف تعمل معي",
       "items": [
         [
-          "Full-time",
-          "Remote, overlapping European business hours."
+          "التفرغ الكامل",
+          "تريث، تتداخل ساعات العمل الأوروبية"
         ],
         [
-          "Project contract",
-          "Fixed scope, agreed timeline, and acceptance criteria."
+          "عقد المشروع",
+          "النطاق الثابت، الجدول الزمني المتفق عليه، ومعايير القبول."
         ],
         [
-          "Part-time as lead engineer",
-          "Several days per week for architecture, reviews, and team direction."
+          "بدوام جزئي كمهندس رئيسي",
+          "عدة أيام في الأسبوع للهيكل، والاستعراضات، واتجاه الفريق."
         ],
         [
-          "Audit and system rescue",
-          "A short engagement to diagnose the problem and deliver a prioritised plan."
+          "مراجعة الحسابات وإنقاذ النظم",
+          "التزام قصير لتشخيص المشكلة وتقديم خطة ذات أولوية."
         ]
       ],
-      "lead": "We start with a short conversation about the task. Then I tell you whether I can take it on, how long it will take, and what it will cost.",
-      "cta": "Discuss a project"
+      "lead": "نبدأ بمحادثة قصيرة عن المهمة ثمّ أُخبرُك إذا أنا يُمْكِنُ أَنْ آخذَه على، كم من الوقت سَيَأْخذُ، وما هو سَيُكلّفُ.",
+      "cta": "مناقشة المشروع"
     },
     "contact": {
-      "eyebrow": "CONTACT",
-      "title": "Discuss a project",
+      "eyebrow": "النهج",
+      "title": "مناقشة المشروع",
       "items": [
         [
           "Telegram",
@@ -449,257 +449,257 @@
         [
           "Email",
           "eldiyar.dev@gmail.com",
-          "mailto:eldiyar.dev@gmail.com"
+          "البريد الإلكتروني:eldiyar.dev@gmail.com"
         ],
         [
           "LinkedIn",
-          "linkedin.com/in/eldiyar-dev",
+          "متصل/داخل/الديار-ديف",
           "https://linkedin.com/in/eldiyar-dev"
         ]
       ]
     },
     "footer": {
-      "role": "eldiyar · product & systems engineer",
-      "cta": "discuss a project"
+      "role": "مهندس نظم المنتجات",
+      "cta": "مناقشة مشروع"
     }
   },
   "site": {
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "رسالة لي على تل جرام",
           "url": "/ai-workflow-rescue",
-          "description": "I examine one automated process for stuck tasks, duplicate actions and AI costs. You receive a report and an action plan.",
-          "title": "AI Automation Reliability Review — Eldiyar",
-          "offer": "Automation"
+          "description": "أراجع عملية آلية واحدة للمهام المتوقفة والإجراءات المكررة وتكاليف الذكاء الاصطناعي. تحصل على تقرير وخطة عمل.",
+          "title": "مراجعة موثوقية أتمتة الذكاء الاصطناعي — Eldiyar",
+          "offer": "الأتمتة"
         },
-        "body": "# Your automation runs, but someone still has to check its work\n\nFor product and business owners whose AI automation repeats actions, leaves tasks unfinished or spends money without a clear explanation.\n\n## Relevant experience\n\nThe project below describes my work on analytics automation.\n\n## When to get in touch\n\nAn invoice or message is sent twice. A task stalls, and nobody knows whether it is safe to restart. After a failure, someone has to reconstruct what happened. AI service bills rise without showing which process caused the increase.\n\nI examine one important process from trigger to result, such as a sequence in n8n or a set of connected AI assistants. Using your materials, I identify possible causes and prepare a plan for fixes.\n\n## What you receive\n\n- A map of the key steps: where the process can stop or lose a result.\n- Prioritized risks, with consequences and the conditions that trigger them.\n- Evidence-based hypotheses about the causes of observed failures.\n- A map of retries and safeguards against performing the same action twice.\n- Gaps in event logging and cost tracking: what is missing to understand failures and the cost of the process.\n- A now / next / later action plan, a written report and a video walkthrough.\n\n## Project example: reports that keep up with the data\n\n**Situation.** Market analytics reports took 30–60 minutes to prepare. By the time a report was ready, its data was already out of date.\n\n**My role.** I was the product's lead engineer, from defining the problem and architecture through launch and operation. This example describes my work on the analytics system and coordination between AI modules.\n\n**My work.** I split processing into independent services, removed waits between tasks that could run in parallel, and coordinated 7 modules. I added event logging and tools for checking AI assistant behavior.\n\n- Report generation fell from 30–60 minutes to 10–15 seconds.\n- New module integration fell from 2 days to 2 hours.\n\nThese figures come from implementation work on one project. A review produces findings and priorities; it does not guarantee the same speed improvement. I do not disclose the confidential project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the failure, select one process and agree the review fee.\n2. You provide a system overview, a process diagram, exported settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess the sequence of actions, retries, saved progress, possible failure causes and costs.\n4. You receive a written report and a video walkthrough. You keep the document whether or not we continue working together.\n\nStart by describing what should happen and what happens instead. If your developer or automation specialist holds the settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not requested.\n\n## Review boundaries\n\nThis is a materials-based review of one existing process, not a full assessment of every automation. Causes may remain hypotheses where the available evidence is insufficient to confirm them.\n\nYour team can implement the recommendations, or we can agree the implementation work. We document its scope and responsibilities before work begins.\n\nFormal security audits, penetration testing, certification and legal opinions are outside the review. Your materials remain confidential.\n\n## Technical details for your developer\n\nWorkflow Reliability Review: critical path, failure cause hypotheses, retries/idempotency, state preservation, event logging and tracing, API cost controls, and NOW / NEXT / LATER priorities. The project example used Redis Streams, n8n and parallel orchestration of AI modules.\n\n## Fees and timing\n\nFee: from $400. We agree the exact fee before the review starts. The format is 90 minutes plus a report. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with the action that repeats, the task that gets stuck or the cost you cannot explain. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "body": "# تشغيلك الآلي، لكن شخص ما ما ما زالَ يَجِبُ أَنْ يُدقّقَ عمله\n\nأما بالنسبة لمالكي المنتجات والأعمال التجارية الذين يعيد تشغيلهم آلياً آلياً إلى أعمالهم، فيتركون مهاماً غير مكتملة أو ينفقونها بدون تفسير واضح.\n\nالخبرة ذات الصلة\n\nالمشروع الوارد أدناه يصف عملي في التشغيل الآلي للمحللين\n\n♪ When to get in contact\n\nأرسل فاتورة أو رسالة مرتين و لا أحد يعرف ما إذا كان من الآمن العودة بعد الفشل، على أحدهم إعادة بناء ما حدث. وترتفع فواتير الخدمات المقدمة من منظمة العفو الدولية دون إظهار أي عملية تسببت في الزيادة.\n\nأنا أفحص عملية مهمة واحدة من الزناد إلى النتيجة، مثل تسلسل في 8n أو مجموعة من مساعدين متصلين باستخدام موادك، أنا تحديد الأسباب المحتملة وإعداد خطة للإصلاحات.\n\n# What you receive #\n\n- خريطة للخطوات الرئيسية: حيث يمكن للعملية أن تتوقف أو تفقد نتيجة.\n- تحديد أولويات المخاطر، مع ما يترتب على ذلك من عواقب وظروف.\n- فرضيات قائمة على الأدلة بشأن أسباب الفشل الملحوظ.\n- خريطة لعمليات الفرز والضمانات ضد القيام بنفس الإجراءات مرتين.\n- الثغرات في حالات قطع الأشجار وتتبع التكاليف: ما هو مفقود لفهم الفشل وتكلفة العملية.\n- A now / next / later action plan, a written report and a video walkthrough.\n\n# Project example: reports that keep up with the data\n\n** الموقف**. استغرقت تقارير تحليل السوق ٣٠-٦٠ دقيقة للتحضير. وبحلول الوقت الذي كان فيه التقرير جاهزا، كانت بياناته قد انتهت بالفعل.\n\n** دوري**. كنت مهندس المنتج الرئيسي من تحديد المشكلة والهيكل من خلال الإطلاق والعملية ويصف هذا المثال عملي في نظام التحليلات والتنسيق بين وحدات التحليل.\n\n** عملي**. لقد انقسمت التجهيز إلى خدمات مستقلة، وأزالت الانتظار بين المهام التي يمكن أن تجري بالتوازي، ونسقت 7 وحدات. أضفت تسجيل الأحداث وأدوات لفحص سلوك مساعد مساعد\n\n- انخفض توليد التقارير من ٣٠-٦٠ دقيقة إلى ١٠-١٥ ثانية.\n- هبط تكامل الوحدات الجديدة من يومين إلى ساعتين.\n\nوتأتي هذه الأرقام من أعمال التنفيذ المتعلقة بمشروع واحد. وينتج الاستعراض النتائج والأولويات؛ وهو لا يضمن التحسين السريع نفسه. أنا لا أفصح عن اسم المشروع السري أو بيانات العملاء\n\n# How the review works\n\n1 - في دعوة مدتها 15 دقيقة، نناقش الفشل، ونختار عملية واحدة ونوافق على رسوم الاستعراض.\n2. You provide a system overview, a process diagram, exported settings with secrets removed, sample event logs and screenshots of operating metrics.\n3 - وأقيّم تسلسل الإجراءات، وعمليات إعادة النظر، وإنقاذ التقدم، وأسباب الفشل المحتملة، والتكاليف.\n4. You receive a written report and a video walkthrough. أبقي الوثيقة سواء واصلنا العمل معاً أم لا\n\nابدأ بوصف ما يجب أن يحدث وما يحدث بدلاً من ذلك إذا كان مطورك أو أخصائي التشغيل الآلي يحتفظ بالإطارات والسجلات سيحتاجون للمساعدة في إعداد المواد ولا تُطلب كلمة السر، والمفاتيح الحقيقية، والوصول إلى النظام الحي.\n\n# Review boundaries\n\nوهذا استعراض قائم على المواد لعملية قائمة واحدة، وليس تقييما كاملا لكل آلية. وقد تظل الأسباب التي تجعل الأدلة المتاحة غير كافية لتأكيدها.\n\nويمكن لفريقكم تنفيذ التوصيات، أو يمكننا الموافقة على عمل التنفيذ. ونوثق نطاقها ومسؤولياتها قبل بدء العمل.\n\nأما عمليات المراجعة الأمنية الرسمية، واختبار الاختراق، والتصديق، والآراء القانونية فهي خارج نطاق الاستعراض. موادك تبقى سرية\n\nالتفاصيل التقنية لمطورك\n\nاستعراض موثوقية تدفق العمل: المسار الحرج، والفشل يتسبب في فرضيات، وال retries/idempotency، والحفاظ على الدولة، وقطع الأشجار والتعقب، وضوابط تكاليف تطبيق نظام المعلومات الإدارية المتكامل، والأولويات الحالية/الجديدة/البرنامج الإنمائي. The project example used Redis Streams, n8n and parallel orchestration of AI modules.\n\n# الرسوم والتوقيت\n\nمن 400 دولار نحن نتفق على الرسم بالضبط قبل بدء الاستعراض. الشكل 90 دقيقة بالإضافة إلى تقرير والتقرير جاهز في غضون ٣-٥ أيام عمل لتلقي المواد.\n\nالخطوة التالية\n\nراسلني على التليغرام مع العمل الذي يكرر، المهمة التي يعلق أو التكلفة التي لا يمكنك شرحها. سنقوم بترتيب مكالمة لمدة 15 دقيقة\n\n[Message me on Telegram]\n"
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "رسالة لي على تل جرام",
           "url": "/ai-launch-gate",
-          "description": "I assess launch risks using the materials you provide. You receive a written assessment, priorities and an action plan.",
-          "title": "AI Product Pre-launch Review — Eldiyar",
-          "offer": "Before launch"
+          "description": "أقيّم مخاطر الإطلاق باستخدام المواد التي تقدمها. تحصل على تقييم مكتوب وأولويات وخطة عمل.",
+          "title": "مراجعة منتج الذكاء الاصطناعي قبل الإطلاق — Eldiyar",
+          "offer": "قبل الإطلاق"
         },
-        "body": "# The prototype works. What needs checking before customers use it?\n\nFor founders and agencies building products with AI tools. I help identify risks to money, data and service costs that need attention before launch.\n\n## Relevant experience\n\nThe project below illustrates my work on critical operations.\n\n## When to get in touch\n\nThe demo runs smoothly, but nobody is sure what happens after a repeated payment, an external service failure or data loss. Your team needs a reasoned plan for launch.\n\nYou are buying a readiness review based on the materials you provide. I assess the agreed launch scenario and distinguish issues that need attention before launch from improvements that can wait.\n\n## What you receive\n\n- An assessment: proceed within the reviewed scope, proceed after fixes, or postpone launch. I state the reasons and limits of the conclusion.\n- A map of identified risks: where each problem occurs, what triggers it and what it could affect.\n- Priorities for fixes. If I find no launch blockers, I document what was reviewed. The number of risks is not predetermined.\n- A checklist covering data access, external service costs, backups and returning to a previous version after a failed update.\n- An action plan, a written report and a video walkthrough.\n\n## Project example: controlled order processing\n\n**Situation.** Manual order processing on a crypto-to-fiat exchange platform took 3 hours. The platform was preparing for an external security audit.\n\n**My role.** I built the backend and operator interface. I was responsible for transaction stages, access permissions and the integration of customer and transaction checks.\n\n**My work.** I defined the permitted sequence of transaction stages and staff permissions. I integrated wallet and counterparty checks, multi-factor sign-in, session revocation and verification of external service notifications.\n\nOrder processing fell from 3 hours to 3 minutes. The platform passed an external security audit. I contributed to its preparation as an engineer; I did not conduct that audit.\n\nThe project demonstrates my experience with operation sequencing and data access. Its results came from implementation work and do not predict the outcome of a diagnostic review.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the product, launch plans, review scope and fee.\n2. You provide a system overview, a user journey diagram, settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess risks to money and data, access controls, AI service costs, backups and recovery after updates.\n4. You receive a report and a video walkthrough. You then decide who will implement the recommendations.\n\nFor the first message, describe the product and planned launch. If your developer holds the diagrams, settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not required.\n\n## Review boundaries\n\nThe assessment applies to the agreed scenario and the materials provided. It is not a complete system check or a guarantee of a safe launch.\n\nThe review excludes a product rewrite, formal security audits, penetration testing, certification and legal opinions. No guaranteed level of system availability is offered.\n\nYou keep the report. Your developer can implement it, or we can agree the next phase of work. Before that starts, we document the scope, responsibilities and acceptance criteria. Any required access is agreed separately, with minimum permissions and the ability to revoke them. Review materials remain confidential.\n\n## Technical details for your developer\n\nProduction Readiness Review: GO / CONDITIONAL GO / NO-GO with explicit assessment boundaries; a launch risk map; access and secrets handling; API cost controls; backup and rollback; priorities and scope for the next phase. Risks are linked to specific parts of the system and the conditions that trigger them.\n\n## Fees and timing\n\nFee: from $600. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what you plan to launch and what concerns you. We will arrange a 15-minute call. You do not need to identify the technical cause of a risk first.\n\n[Message me on Telegram]\n"
+        "body": "# The prototype works. ما الذي يحتاج إلى فحص قبل أن يستخدمه الزبائن؟\n\nبالنسبة للمؤسسين والوكالات الذين يبنون منتجات بأدوات AI. وأساعد في تحديد المخاطر التي تتعرض لها الأموال والبيانات وتكاليف الخدمات التي تحتاج إلى الاهتمام قبل الإطلاق.\n\nالخبرة ذات الصلة\n\nويوضح المشروع الوارد أدناه عملي في العمليات الحرجة.\n\n♪ When to get in contact\n\nThe demo runs smoothly, but nobody is sure what happen after a repeated payment, an external service failure or data loss. فريقك بحاجة إلى خطة مسببة للإطلاق\n\nأنت تشتري مراجعة للاستعداد بناء على المواد التي توفرها وأقيّم سيناريو الإطلاق المتفق عليه وأميز المسائل التي تحتاج إلى الاهتمام قبل البدء عن التحسينات التي يمكن أن تنتظر.\n\n# What you receive #\n\n- تقييم: المضي قدما في نطاق الاستعراض، أو المضي قدما بعد إجراء الإصلاحات، أو تأجيل الإطلاق. أُعلنُ أسبابَ وحدودَ الاستنتاجَ.\n- خريطة لمخاطر محددة: حيث تحدث كل مشكلة، ما يثيرها وما يمكن أن يؤثر عليها.\n- أولويات الإصلاحات. إذا لم أجد أي حواجز إطلاق، أوثق ما تم استعراضه. ولا يحدد مسبقا عدد المخاطر.\n- قائمة مرجعية تشمل الوصول إلى البيانات، وتكاليف الخدمات الخارجية، والدعمات، والعودة إلى صيغة سابقة بعد التحديث الفاشل.\n- خطة عمل، تقرير خطي وفتح فيديو.\n\n# Project example: controlled order processing\n\n** الموقف**. استغرق تجهيز النظام اليدوي على منصة التبادل من أجل التعبئة 3 ساعات. وكان المنبر يستعد لإجراء مراجعة أمنية خارجية.\n\n** دوري**. لقد بنيت الواجهة الخلفية و واجهة المشغل لقد كنت مسئولاً عن مراحل المعاملات ورخص الدخول ودمج العملاء وفحص المعاملات\n\n** عملي**. وعرّفت التسلسل المسموح به لمراحل المعاملات وأذن الموظفين وأدمجت المحفظة والفحصات المقابلة، والاشتراكات المتعددة الأطراف، وإلغاء الدورة والتحقق من إخطارات الخدمات الخارجية.\n\nهبط تجهيز الطلبات من 3 ساعات إلى 3 دقائق واجتاز المنبر مراجعة أمنية خارجية. وأسهمت في إعداده كمهندس؛ ولم أجري تلك المراجعة.\n\nويبين المشروع تجربتي في تسلسل العمليات والوصول إلى البيانات. وتأتي نتائجه من أعمال التنفيذ ولا تنبأ بنتائج الاستعراض التشخيصي.\n\n# How the review works\n\n1 - في مكالمة مدتها 15 دقيقة، نناقش المنتج، وخطط الإطلاق، واستعراض النطاق والرسوم.\n2. You provide a system overview, a user travel diagram, settings with secrets removed, sample event logs and screenshots of operating metrics.\n3 - وأقيّم المخاطر التي يتعرض لها المال والبيانات، وضوابط الدخول، وتكاليف خدمات التنفيذ، والدعم، والاسترداد بعد التحديثات.\n4. You receive a report and a video walkthrough. ثم تقرر من سينفذ التوصيات.\n\nللرسالة الأولى، وصف المنتج والبدء المخطط له. إذا كان مطورك يحتفظ بالرسم البياني والإطارات والسجلات سيحتاجون للمساعدة في إعداد المواد ولا حاجة إلى كلمات السر، والمفاتيح الحقيقية، والوصول إلى النظام الحي.\n\n# Review boundaries\n\nوينطبق التقييم على السيناريو المتفق عليه والمواد المقدمة. إنه ليس فحص كامل للنظام أو ضمان إطلاق آمن\n\nThe review excludes a product rewrite, formal security audits, penetration testing, certification and legal opinions. ولا يوجد مستوى مضمون من توافر النظام.\n\nاحتفظ بالتقرير يمكن لمطورك أن ينفذه أو يمكننا أن نتفق على المرحلة التالية من العمل وقبل أن يبدأ ذلك، نوثق النطاق والمسؤوليات ومعايير القبول. ويتم الاتفاق على أي إمكانية للوصول المطلوب بشكل منفصل، مع الحصول على الحد الأدنى من التصاريح والقدرة على إلغاءها. وتظل مواد الاستعراض سرية.\n\nالتفاصيل التقنية لمطورك\n\nReview: GO / CONDITIONAL GO / NO-GO with explicit assessment boundaries; a launch risk map; access and secrets handling; API cost controls; supportive and rollback; priorities and scope for the next phase. وترتبط المخاطر بأجزاء محددة من النظام وبالظروف التي تحفزها.\n\n# الرسوم والتوقيت\n\nمن 600 دولار نحن نتفق على الرسم بالضبط قبل بدء الاستعراض. والتقرير جاهز في غضون ٣-٥ أيام عمل لتلقي المواد.\n\nالخطوة التالية\n\nراسلني على التليغرام مع ما تخطط لإطلاقه وما يهمك سنقوم بترتيب مكالمة لمدة 15 دقيقة لا تحتاج إلى تحديد السبب التقني للمخاطرة أولاً\n\n[Message me on Telegram]\n"
       },
       "capabilities": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "رسالة لي على تل جرام",
           "url": "/capabilities",
-          "description": "Capacity and latency, technical planning, trading software and data processing. We discuss your problem, the intended result and the boundaries of the engineering work.",
-          "title": "Engineering for Complex Digital Products — Eldiyar",
-          "offer": "Other needs"
+          "description": "السعة ووقت الاستجابة والتخطيط التقني وبرمجيات التداول ومعالجة البيانات. نناقش مشكلتك والنتيجة المطلوبة وحدود العمل الهندسي.",
+          "title": "هندسة المنتجات الرقمية المعقدة — Eldiyar",
+          "offer": "احتياجات أخرى"
         },
-        "body": "# When delays, growing traffic or complex data processing hold your product back\n\nI work on a specific engineering problem: understanding a failure, preparing a system for growth or defining the next phase of development. Start with the business problem.\n\n## Relevant experience\n\nExamples of my contribution appear alongside each area of work.\n\n## Your service slows down or loses connections\n\nFor communication products, live streaming, marketplaces and device management platforms. Get in touch when growing traffic causes delays, dropped connections or lost events.\n\nI assess how to distribute load, recover after a failure and verify that the system can handle the expected volume. The review includes recommendations for measuring latency and planning load tests.\n\nOn a live speech translation platform, I built media session isolation that supported more than 10,000 concurrent WebSocket connections. Reusing results in the AI provider integration brought latency below 250 ms and cut provider API costs by 40%. On a device management platform, the message bus I developed reached peak throughput of up to 60,000 requests per second.\n\n## You need to know what to change before scaling\n\nFor founders, investors and teams assessing a product's technical constraints or deciding which development work should come first.\n\nI assess the system, separate urgent risks from accumulated technical issues, and prepare a plan for the team. Work can include technical due diligence before an investment decision and ongoing participation as a technical leader. Ongoing support usually begins after a review or implementation phase.\n\nOn a device management platform, I helped design architecture with capacity headroom for a tenfold increase in the device fleet. I also optimized a PostgreSQL database with more than 60 tables and 8 hierarchy levels. Across engineering and mentoring work, I have conducted more than 100 detailed code reviews.\n\n## Your trading software needs explicit, testable rules\n\nFor teams working on order execution, historical strategy testing, market data processing and software risk controls.\n\nI build software and infrastructure with explicit execution rules, pre-trade checks and system monitoring. I do not offer management of client funds, investment recommendations or promises of returns.\n\nAs the lead engineer of a trading and analytics product, I built a signal scoring mechanism that reduced false signals by 50% and implemented 15 pre-trade risk checks. These results describe specific system mechanisms, not strategy returns.\n\n## Catalog and file processing keeps needing manual restarts\n\nFor e-commerce, publishers and media businesses that collect data, standardize it and generate finished files. Get in touch when standard tools no longer cover the work and failures force processing to start over.\n\nI design processing systems with tracked stages, recovery from saved progress and predictable storage requirements.\n\nOn a publishing project, I was responsible for the complete process from data collection to finished files, handling more than 4,000 catalog items. Parallel processing increased throughput tenfold. Checkpoints and restarts without duplicate work eliminated progress loss during failures. Media optimization reduced storage requirements by 50% while preserving typography quality.\n\n## How to begin\n\nDescribe what is getting in the way and the result you need. The first conversation establishes whether the task fits my expertise. For a diagnostic review, we select one important process and agree the work, fee, timing and materials.\n\nPrepare a description of the problem and available diagrams, example events and operating metrics with secrets removed. If your developer holds the technical materials, they will need to help prepare them. You do not need a technical specification for the first message.\n\nA diagnostic review establishes the plan for further work. Formal security audits, certification and legal opinions are excluded. Data collection remains subject to site terms, personal data requirements and rules on messaging.\n\nThe examples above describe my contribution to individual projects. Client materials remain confidential.\n\n## Technical details for your developer\n\n- Real-time systems: connection lifecycle, backpressure, fan-out, recovery, caching, monitoring and load test planning.\n- Architecture and technical leadership: Architecture & Scale Audit, Technical Due Diligence, code review and technical specifications.\n- Trading infrastructure: execution engine, backtesting, risk guards, market regime classification and order book analytics.\n- Data processing: normalization, file generation, checkpoints and idempotent restarts.\n\n## Next step\n\nMessage me on Telegram with what you want to improve. We will start with a 15-minute call. You do not need to choose a technical service name.\n\n[Message me on Telegram]\n"
+        "body": "عندما يتأخر، تزايد حركة المرور أو تجهيز البيانات المعقدة\n\nأعمل على مشكلة هندسية محددة: فهم الفشل، وإعداد نظام للنمو أو تحديد المرحلة التالية من التنمية. ابدأ بمشكلة العمل\n\nالخبرة ذات الصلة\n\nوتظهر أمثلة على مساهمتي إلى جانب كل مجال من مجالات العمل.\n\n# خدمتك تبطئ أو تفقد الاتصالات\n\nوبالنسبة لمنتجات الاتصالات، تتدفق مباشرة، ومواقع السوق، ومنابر إدارة الأجهزة. الاتصال عندما يتسبب تزايد حركة المرور في تأخيرات أو انخفاض الاتصالات أو فقدان الأحداث.\n\nأُقيّمُ كَيفَ يُوزّعُ الحملَ، يَسترجعُ بعد الفشلِ ويَتأكّدُ بأنّ النظامَ يُمْكِنُ أَنْ يُعالجَ الحجمَ المتوقعَ. The review includes recommendations for measuring latency and planning load tests.\n\nعلى منصة ترجمة للكلمات الحية، بنيت عزلة في جلسة الإعلام التي دعمت أكثر من 000 10 اتصال متزامن عبر الشبكة. وأدت النتائج المتحققة في إدماج مقدمي خدمات المساعدة القانونية إلى خفض معدلات الرطوبة إلى أقل من 250 متراً، وإلى خفض تكاليف تقديم خدمات المساعدة المؤقتة بنسبة 40 في المائة. وعلى منصة إدارة الأجهزة، وصلت حافلة الرسالة التي طورتها إلى ذروتها من خلال الناتج حتى 000 60 طلب في الثانية.\n\nيجب أن تعرف ما يجب أن يتغير قبل أن تتوسع\n\nللمؤسسين والمستثمرين والأفرقة الذين يقيّمون معوقات المنتج التقنية أو يقررون أي عمل من أعمال التنمية يجب أن يأتي أولاً\n\nوأقيّم النظام، وأفصل المخاطر العاجلة عن المسائل التقنية المتراكمة، وأعد خطة للفريق. ويمكن أن يشمل العمل العناية الواجبة التقنية قبل اتخاذ قرار استثماري والمشاركة المستمرة كقائد تقني. ويبدأ الدعم المستمر عادة بعد مرحلة الاستعراض أو التنفيذ.\n\nعلى منصة إدارة الأجهزة، ساعدت في تصميم هيكل مع رأس غرفة القدرة لزيادة عشرة أضعاف في أسطول الأجهزة. وأفضت أيضا إلى استخدام قاعدة بيانات لبرمجيات البريد الإلكتروني مع أكثر من 60 جدولا و 8 مستويات هرمية. عبر أعمال الهندسة والتوجيه، أجريت أكثر من 100 استعراض مفصل للمدونة.\n\nبرمجياتك التجارية تحتاج إلى قواعد واضحة\n\nبالنسبة لأفرقة العمل على تنفيذ النظام، واختبار الاستراتيجيات التاريخية، وتجهيز البيانات السوقية، وضوابط مخاطر البرمجيات.\n\nأنا أصنع برمجيات وبنية تحتية مع قواعد التنفيذ الواضحة، وفحوصات ما قبل التجارة ورصد النظام. ولا أعرض إدارة أموال العملاء أو توصيات الاستثمار أو وعود العوائد.\n\nوبصفتي المهندس الرئيسي لمنتجات المتاجرة والمحللين، بنيت آلية لربط الإشارات التي خفضت الإشارات الكاذبة بنسبة 50 في المائة ونفذت 15 فحصا لمخاطر التجارة. وتصف هذه النتائج آليات نظامية محددة، وليس عمليات عودة الاستراتيجيات.\n\n? Catalog and file processing keeps needing manual restarts\n\nFor e-commerce, publishers and media businesses that collect data, standardize it and generate terminated files. تتواصل عندما لا تغطي الأدوات القياسية العمل وتفشل في تجهيز القوة للبدء من جديد\n\nأنا أصمم أنظمة تجهيز بمراحل متتبعة، التعافي من التقدم المنقذ ومتطلبات تخزين يمكن التنبؤ بها.\n\nوفي مشروع نشر، كنت مسؤولا عن العملية الكاملة من جمع البيانات إلى الملفات النهائية، مناولة أكثر من 000 4 بند كتالوج. وزادت عملية التجهيز الموازية من الناتج 10 أضعاف. وأزالت نقاط التفتيش والإعادة دون تكرار العمل فقدان التقدم أثناء الفشل. وتقلل وسائط الإعلام إلى الحد الأمثل احتياجات التخزين بنسبة 50 في المائة مع الحفاظ على جودة التصنيف.\n\n# How to start\n\nصف ما يعترض الطريق والنتيجة التي تحتاجها المحادثة الأولى تحدد ما إذا كانت المهمة تناسب خبرتي ولإجراء استعراض تشخيصي، نختار عملية هامة ونتفق على العمل والرسوم والتوقيت والمواد.\n\nإعداد وصف للمشكلة والرسوم البيانية المتاحة، مثل الأحداث ومقاييس التشغيل مع إزالة الأسرار. إن كان مطورك يحمل المواد التقنية، فسيحتاجون للمساعدة في إعدادها. لا تحتاج لمواصفات تقنية للرسالة الأولى\n\nA diagnostic review establishes the plan for further work. وتُستثنى من ذلك عمليات مراجعة الأمن الرسمية والتصديق والآراء القانونية. ولا يزال جمع البيانات خاضعا لشروط الموقع ومتطلبات البيانات الشخصية وقواعد التراسل.\n\nوتصف الأمثلة المذكورة أعلاه مساهمتي في فرادى المشاريع. مواد العملاء تظل سرية\n\nالتفاصيل التقنية لمطورك\n\n- نظم في الوقت الحقيقي: ربط دورة الحياة، والقمع، والمعجبين، والتعافي، والصيد، والرصد، وتخطيط اختبار الحمل.\n- الهندسة المعمارية والقيادة التقنية: مراجعة الحسابات في مجال الهندسة المعمارية، والحرص الواجب التقني، واستعراض الرموز، والمواصفات التقنية.\n- البنى التحتية التجارية: محرك التنفيذ، المساندة، حراس المخاطر، تصنيف نظام السوق، محلل كتاب.\n- تجهيز البيانات: التطبيع، وتوليد الملفات، ونقاط التفتيش، والشحنات الافتراضية.\n\nالخطوة التالية\n\nأرسلني إلى (تليغرام) بما تريد تحسينه سنبدأ بمكالمة 15 دقيقة أنت لا تحتاج إلى اختيار اسم الخدمة التقنية.\n\n[Message me on Telegram]\n"
       },
       "index": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "رسالة لي على تل جرام",
           "url": "/",
-          "description": "I help business owners understand failures and launch risks. You receive a diagnostic review and an action plan.",
-          "title": "AI, Automation and Payment Reliability — Eldiyar",
-          "offer": "Product reliability"
+          "description": "أساعد أصحاب الأعمال على فهم الأعطال ومخاطر الإطلاق. تحصل على مراجعة تشخيصية وخطة عمل.",
+          "title": "الذكاء الاصطناعي والأتمتة وموثوقية المدفوعات — Eldiyar",
+          "offer": "موثوقية المنتج"
         },
-        "body": "# Preparing to launch, or dealing with failures? I help you find what needs attention.\n\nI'm Eldiyar, a systems engineer. I work on AI products, automation and payments where failures delay work or affect money and customer data.\n\nStart by describing what is happening. You do not need to know the technical cause or choose a type of review yourself.\n\n[Message me on Telegram]\n\n## Relevant experience\n\nProject results and my contribution are described below.\n\n## Three situations I can help with\n\n### Your automation still needs constant manual checks\n\nTasks get stuck, actions happen twice, or AI service bills keep growing. An [automation reliability review](/ai-workflow-rescue) examines one important process and gives you a plan for addressing its problems.\n\n### A customer has sent money, but the balance has not updated\n\nPayment statuses disagree, transfers need manual checks, or blockchain fees are too high. A [payment reliability review](/payments-reliability) examines one payment journey in a crypto payment or wallet system.\n\n### The prototype works, but you are unsure about launching\n\nYou built a product with AI tools and are about to introduce real users, data or payments. A [pre-launch review](/ai-launch-gate) assesses the materials you provide: what was reviewed, which risks were found and what should happen before launch.\n\n## Project results and my contribution\n\nThese outcomes come from engineering work on individual projects. A diagnostic review produces findings and a plan; the result depends on what those findings reveal. I do not disclose confidential project names or customer data.\n\n### Analytics automation: reports in seconds instead of minutes\n\nReports took 30–60 minutes to prepare. I designed the analytics system and the coordination between AI modules, allowing independent tasks to run in parallel. Report generation fell to 10–15 seconds.\n\n### Crypto payments: lower blockchain fees\n\nI was responsible for the payment core and transaction tracking. Automating the resources needed for TRON and EVM transfers reduced blockchain transaction fee costs by 90%. The transaction tracking pipeline brought settlement latency down to 2–3 seconds.\n\n### Live speech translation: fewer duplicate AI requests\n\nI built media session isolation and the integration with AI providers. Reusing results and removing duplicate requests cut third-party API costs by 40%. The platform supported more than 10,000 concurrent WebSocket connections.\n\n## What you are buying\n\nA diagnostic review of an agreed process, based on the materials you provide. I document risks, possible causes of failures and recommended priorities. You receive a written report and a video walkthrough. You can give the report to your developer or another contractor.\n\nAfter the report, we define the next steps, scope, responsibilities and acceptance criteria.\n\nFor capacity, technical leadership, trading software and data processing, see [other areas of work](/capabilities).\n\n## Fees and timing\n\nDiagnostic fees in US dollars:\n\n- Automation reliability review — from $400.\n- Payment reliability review — from $1,200.\n- Pre-launch review — from $600.\n\nWe agree the fee before work begins. The report is ready within 3–5 business days of receiving the materials.\n\n## What to prepare\n\nFor the first conversation, describe what should happen, what happens instead and how it affects your business. The first 15-minute call establishes whether the problem fits my expertise and which materials are needed.\n\nFor the review, provide a system overview, a process diagram, sample event logs and screenshots of operating metrics. For AI products and automation, include settings with secrets removed. If your developer holds these materials, they will need to help prepare them. You do not need to read the code yourself.\n\nMaterials can be anonymized. Passwords, keys and access to the live system are not needed for the review. Your materials remain confidential. If implementation requires access, we agree it separately with the minimum permissions needed and the ability to revoke them.\n\n## Boundaries of the work\n\nI carry out the work personally. A materials-based review does not replace a full system assessment, a formal security audit or a legal opinion. Design and substantial interface development are outside its scope.\n\nMy working time zone is UTC+3. Payment is available by bank transfer, payment services, stablecoins or cryptocurrency.\n\n## Next step\n\nMessage me on Telegram with your concern about the product or process. We will arrange a 15-minute call first.\n\n[Message me on Telegram]\n"
+        "body": "الإعداد للإطلاق، أو التعامل مع الفشل؟ أُساعدُك تَجِدُ ما يَحتاجُ الإنتباه.\n\nأنا (إلديار) مهندس نظم أنا أعمل على منتجات الـ (آي آي) والتشغيل الآلي والمدفوعات حيث يؤخر الفشل العمل أو يؤثر على بيانات المال والعملاء\n\nابدأ بوصف ما يحدث أنت لا تحتاج إلى معرفة السبب التقني أو اختيار نوع من المراجعة نفسك.\n\n[Message me on Telegram]\n\nالخبرة ذات الصلة\n\nويرد أدناه وصف لنتائج المشروع ومساهمتي.\n\nثلاثة حالات يمكنني المساعدة فيها\n\nآليتك لا تزال بحاجة لفحص يدوي ثابت\n\nالمهمات تُعلق، الأفعال تُحدث مرّتين، أو أنّ فواتير خدماتِ AI تَستمرُّ في النمو. ويدرس [استعراض موثوقية الذرّة] (/الإنقاذ اليومي) عملية هامة واحدة ويعطيك خطة لمعالجة مشاكله.\n\n## زبون أرسل المال، لكن الرصيد لم يستكمل\n\nوتختلف حالة الدفع، وتحتاج التحويلات إلى شيكات يدوية، أو ترتفع رسوم السلاسل. A [payment reliable review](/payments-reliability) examines one payment trip in a crypto payment or percent system.\n\n## The prototype works, but you are unsure about launch\n\nلقد بنيت منتجاً بأدوات (آي آي) وهي على وشك تقديم مستعملين حقيقيين أو بيانات أو مدفوعات ويقيِّم [الاستعراض السابق لإطلاق النار] (يوم الإطلاق) المواد التي توفرها: ما جرى استعراضه، وما هي المخاطر التي وجدت وما ينبغي أن يحدث قبل الإطلاق.\n\nنتائج المشروع ومساهمتي\n\nوتأتي هذه النتائج من الأعمال الهندسية المتعلقة بفرادى المشاريع. وينتج استعراض تشخيصي نتائج وخطة؛ وتتوقف النتيجة على ما تكشفه تلك النتائج. أنا لا أفصح عن أسماء المشاريع السرية أو بيانات العملاء.\n\nالتشغيل الآلي للمحللين: التقارير في ثوان بدلا من دقائق\n\nاستغرقت التقارير 30 إلى 60 دقيقة للتحضير. لقد صممت نظام التحليلات والتنسيق بين وحدات الـ (آي إي) مما سمح للمهام المستقلة بالسير بشكل متوازي وهبط توليد التقارير إلى 10-15 ثانية.\n\n? ? Crypto payments: lower blockchain fees\n\nكنت مسئولاً عن الدفع الأساسي وتتبع المعاملات وأدت عملية التشغيل الآلي للموارد اللازمة لتحويلات ترون والبعثة إلى خفض تكاليف رسوم المعاملات المتعلقة باختصارات السلع بنسبة 90 في المائة. The transaction tracking pipeline brought settlement latency down to 2-3 seconds.\n\nترجمة الخطابات الحية: عدد أقل من الطلبات المكررة\n\nلقد بنيت عزلة في جلسة الإعلام ودمجت مع مقدمي خدمات الإعلام وقد أدى استخدام النتائج وإلغاء الطلبات المكررة إلى خفض تكاليف التنفيذ من طرف ثالث بنسبة 40 في المائة. وقدم البرنامج الدعم لأكثر من 000 10 اتصال متزامن مع الشبكة.\n\n# What you're buy\n\nاستعراض تشخيصي لعملية متفق عليها بناء على المواد التي توفرها وأوثق المخاطر وأسباب الإخفاق المحتملة والأولويات الموصى بها. تَستلمُ a تقرير خطي وa مدخل فيديوِ. يمكنك أن تعطي التقرير لمطورك أو مقاول آخر\n\nوبعد التقرير، نحدد الخطوات التالية ونطاقها ومسؤولياتها ومعايير القبول.\n\nوللاطلاع على القدرات، والقيادة التقنية، والبرامجيات التجارية، وتجهيز البيانات، انظر [مجالات العمل الأخرى] (الإمكانيات).\n\n# الرسوم والتوقيت\n\nرسوم تشخيصية بدولارات الولايات المتحدة:\n\n- استعراض موثوقية التشغيل الآلي - من 400 دولار.\n- استعراض موثوقية الدفع - من ٢٠٠ ١ دولار.\n- استعراض ما قبل الإطلاق - من 600 دولار.\n\nنتفق على الرسوم قبل أن يبدأ العمل والتقرير جاهز في غضون ٣-٥ أيام عمل لتلقي المواد.\n\n# What to prepare\n\nللمحادثة الأولى، وصف ما يجب أن يحدث، ما يحدث بدلا من ذلك وكيف يؤثر على عملك. أول مكالمة مدتها 15 دقيقة تحدد ما إذا كانت المشكلة تناسب خبرتي وما هي المواد اللازمة.\n\nوللاستعراض، يرجى تقديم لمحة عامة عن النظام، ورسم بياني للعملية، وسجلات لحدث العينات، وشاشات مقاييس التشغيل. بالنسبة لمنتجات الـ (آي إي) والتشغيل الآلي، تشمل أماكن مع الأسرار التي أزيلت. إن كان مطورك يحمل هذه المواد فسيحتاجون للمساعدة في إعدادها لا تحتاج لقراءة الرمز بنفسك.\n\nيمكن تسمية المواد. ولا توجد حاجة إلى كلمات السر، والمفاتيح، والوصول إلى النظام الحي لإجراء الاستعراض. موادك تبقى سرية وإذا كان التنفيذ يتطلب الوصول، فإننا نتفق عليه بشكل منفصل مع الحد الأدنى من التراخيص اللازمة والقدرة على إلغاءها.\n\n# حدود العمل\n\nأنا أقوم بالعمل شخصياً ولا يحل أي استعراض يستند إلى المواد محل تقييم كامل للنظام، أو مراجعة أمنية رسمية، أو رأي قانوني. فالتصميم وتطوير الوصلات البينية الكبيرة خارج نطاقه.\n\nمنطقة وقت عملي هي (يو تي سي + 3) والمدفوعات متاحة عن طريق التحويل المصرفي، أو خدمات الدفع، أو العملات المستقرة، أو التكفير.\n\nالخطوة التالية\n\nراسلني على التليغرام مع قلقك بشأن المنتج أو العملية سنرتب مكالمة 15 دقيقة أولاً\n\n[Message me on Telegram]\n"
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "رسالة لي على تل جرام",
           "url": "/payments-reliability",
-          "description": "I review one payment journey for delayed credits, duplicate operations, accounting discrepancies and blockchain fees. You receive a report and a plan for fixes.",
-          "title": "Crypto Payment Reliability Review — Eldiyar",
-          "offer": "Crypto payments"
+          "description": "أراجع مسار دفع واحداً للتأخيرات والعمليات المكررة وفروقات الحسابات ورسوم البلوك تشين. تحصل على تقرير وخطة إصلاح.",
+          "title": "مراجعة موثوقية مدفوعات العملات الرقمية — Eldiyar",
+          "offer": "مدفوعات العملات الرقمية"
         },
-        "body": "# Money has been sent, but your team still has to check the credit manually\n\nI help owners of payment products, wallet services and stablecoin settlement systems understand where operations stall and unnecessary costs arise.\n\n## Relevant experience\n\nThe project below describes my work on a payment core.\n\n## When a review helps\n\nA customer can see the transfer on the blockchain, but your service has not credited it. Statuses disagree, retries may create duplicates, and fees are growing. Your team fixes individual incidents without a clear picture of the whole process.\n\nI examine one agreed payment journey: from a network event through crediting, settlement or reconciliation. You are buying a diagnostic review based on system materials and an action plan for your developer.\n\n## What you receive\n\n- A payment journey map: who is responsible for each stage and where an operation can stall.\n- A review of repeat handling: what happens if a notification arrives twice or a service retries a request after a failure.\n- Reconciliation points: where to compare blockchain records with internal accounting.\n- An assessment of dependencies on wallets and blockchain access services.\n- Opportunities to reduce transaction fees within the process under review.\n- Recommendations for failure monitoring and security, a written report and a video walkthrough of what to fix now and what can wait.\n\n## Project example: payment fees and delays\n\n**Situation.** Growing traffic made crediting funds harder, while blockchain fees increased the cost of operations.\n\n**My role.** I was responsible for the payment core and real-time transaction tracking.\n\n**My work.** I designed the payment core architecture and automated the movement of deposited funds, including TRON energy rental and EVM fee balance top-ups. I built transaction tracking across a database of more than 3 million wallets, deposit distribution and ordering controls for outgoing operations.\n\n- Blockchain transaction fee costs fell by 90%.\n- Settlement latency fell to 2–3 seconds.\n- Load on public blockchain access services fell by 70% through the data caching I built.\n\nThese figures come from implementation work on one system. They cover blockchain transaction fees rather than all business expenses, and a review does not guarantee the same result. I do not disclose the project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we select one payment journey and agree the review boundaries and fee.\n2. You provide a system overview, a payment diagram, sample event logs and screenshots of operating metrics, with secrets and customer data removed.\n3. I assess operation stages, retries, reconciliation, dependencies and fees.\n4. You receive a report and a video walkthrough with priorities for fixes.\n\nFor the first conversation, describe the delay, discrepancy or unnecessary cost. If your developer holds the technical materials, they will need to help prepare them. Real wallet keys, passwords and access to the live system are not required.\n\n## Review boundaries\n\nThe review covers one agreed payment journey using the materials provided, rather than the entire payment system. You can give the report to your developer or another contractor.\n\nThe service excludes formal smart contract audits, penetration testing, regulatory legal opinions, certification, availability guarantees and management of client funds.\n\nYour materials remain confidential. If we continue with implementation, we agree the work and any access needed, with minimum permissions and the ability to revoke them.\n\n## Technical details for your developer\n\nPayment Flow Reliability Audit: trust boundaries; lifecycle/state machine; retries and idempotency; wallet/RPC topology; reconciliation points; gas/energy optimization; monitoring and a security backlog. Each area is tied to specific payment stages and failure consequences.\n\n## Fees and timing\n\nFee: from $1,200. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what is happening to payments and how it affects your business. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "body": "المال تم إرساله لكن فريقك مازال يجب أن يفحص الإئتمان يدوياً\n\nوأساعد مالكي منتجات الدفع، وخدمات المحفظة، ونظم التسوية المستقرة على فهم أماكن توقف العمليات والتكاليف غير الضرورية.\n\nالخبرة ذات الصلة\n\nالمشروع الوارد أدناه يصف عملي على أساس الدفع\n\nعندما يساعد الاستعراض\n\nأي زبون يُمْكِنُ أَنْ يَرى التحويلَ على شاطئِ، لكن خدمتَكَ لَمْ تُسدّدْه. والأوضاع لا توافق عليها، وقد تؤدي عمليات الفرز إلى تكرارها، وتتزايد الرسوم. فريقك يصلح الحوادث الفردية بدون صورة واضحة للعملية بأكملها\n\nوأدرس رحلة واحدة متفق عليها للدفع: من مناسبة للشبكة عن طريق الائتمان أو التسوية أو التسوية. أنت تشتري استعراضا تشخيصيا بناء على مواد النظام وخطة عمل لمطورك\n\n# What you receive #\n\n- خريطة رحلة للدفع: من هو المسؤول عن كل مرحلة وحيثما يمكن أن تعطل العملية.\n- استعراض مناولة مكررة: ما يحدث إذا وصل إخطار مرتين أو تعيد الدائرة النظر في الطلب بعد الفشل.\n- نقاط المصالحة: حيث تقارن سجلات الاختراع بالمحاسبة الداخلية.\n- تقييم للمعالين على المحفظات وخدمات الوصول إلى مبان.\n- فرص تخفيض رسوم المعاملات في إطار العملية قيد الاستعراض.\n- توصيات لرصد الفشل والأمن، وتقرير خطي، ومسيرة فيديو لمعرفة ما يمكن إصلاحه الآن وما يمكن الانتظار.\n\n# Project example: payment fees and delays\n\n** الموقف**. وزادت حركة المرور المتنامية من إقراض الأموال، في حين زادت رسوم تضييق الخناق تكلفة العمليات.\n\n** دوري**. كنت مسئولاً عن الدفعات الأساسية وتتبع المعاملات في الوقت الحقيقي\n\n** عملي**. وقد صممت بنية الدفع الأساسية وأتمت حركة الأموال المودعة، بما في ذلك إيجارات الطاقة في ترون ورصيد رسوم إدارة المركبات. بنيت تتبع المعاملات عبر قاعدة بيانات تضم أكثر من 3 ملايين محفظة، توزيع الودائع وطلب ضوابط للعمليات المنتهية.\n\n- هبطت تكاليف رسوم المعاملات بنسبة 90 في المائة.\n- انخفض معدل الرطوبة الاستيطانية إلى ٢-٣ ثانية.\n-الضغط على خدمات الوصول العام انخفض بنسبة 70% من خلال مخبأ البيانات الذي بنيته\n\nوتأتي هذه الأرقام من عمل التنفيذ على نظام واحد. وهي تغطي رسوم المعاملات المجمدة بدلا من جميع نفقات الأعمال، ولا يضمن الاستعراض النتيجة نفسها. أنا لا أفصح عن اسم المشروع أو بيانات العملاء.\n\n# How the review works\n\n1 - في مكالمة مدتها 15 دقيقة، نختار رحلة دفع واحدة ونتفق على حدود ورسوم الاستعراض.\n2. You provide a system overview, a payment diagram, sample event logs and screenshots of operating metrics, with secrets and client data removed.\n3 - وأقيّم مراحل العمليات، وعمليات إعادة التأهيل، والمصالحة، والمعالين، والرسوم.\n4. You receive a report and a video walkthrough with priorities for fixes.\n\nوللحديث الأول، وصف التأخير أو التباين أو التكلفة غير الضرورية. إن كان مطورك يحمل المواد التقنية، فسيحتاجون للمساعدة في إعدادها. ومفاتيح المحفظة الحقيقية وكلمات السر والوصول إلى النظام الحي غير لازمة.\n\n# Review boundaries\n\nويغطي الاستعراض رحلة دفع واحدة متفق عليها باستخدام المواد المقدمة، بدلا من نظام الدفع بأكمله. يمكنك أن تعطي التقرير لمطورك أو مقاول آخر\n\nوتستبعد الدائرة عمليات مراجعة العقود الذكية الرسمية، واختبار الاختراق، والآراء القانونية التنظيمية، والتصديق، وضمانات التوافر، وإدارة أموال العملاء.\n\nموادك تبقى سرية وإذا ما واصلنا التنفيذ، فإننا نتفق على العمل وأي إمكانية للوصول اللازمة، مع الحد الأدنى من التصاريح والقدرة على إلغاءها.\n\nالتفاصيل التقنية لمطورك\n\nمراجعة موثوقية تدفق المدفوعات: الحدود الاستئمانية؛ دورة الحياة/الآلة الحكومية؛ ال retries and idempotency؛ طب المحفظة/RPC؛ نقاط المصالحة؛ الاستخدام الأمثل للغاز/الطاقة؛ الرصد والتراكم الأمني. وترتبط كل منطقة بمراحل محددة للدفع وعواقب الفشل.\n\n# الرسوم والتوقيت\n\nرسوم: من 200 1 دولار. نحن نتفق على الرسم بالضبط قبل بدء الاستعراض. والتقرير جاهز في غضون ٣-٥ أيام عمل لتلقي المواد.\n\nالخطوة التالية\n\nراسلني على التليغرام مع ما يحدث للمدفوعات وكيف يؤثر على عملك سنقوم بترتيب مكالمة لمدة 15 دقيقة\n\n[Message me on Telegram]\n"
       }
     }
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "الأسئلة الشائعة",
     "groups": [
       {
-        "title": "Outcomes and fees",
+        "title": "النتائج والرسوم",
         "items": [
           {
-            "question": "What exactly will I receive after a diagnostic review?",
+            "question": "ماذا سأتلقى بالضبط بعد استعراض تشخيصي؟",
             "answer": [
-              "You receive a written report and a video walkthrough.",
-              "The contents depend on the selected review and agreed process: a map of the key stages, identified risks and their trigger conditions, reasoned hypotheses about failures, gaps in observability and cost controls, and a prioritized now / next / later plan.",
-              "Each conclusion is tied to a specific part of the process under review.",
-              "The number of risks is not predetermined.",
-              "If there are no launch blockers, the report states what was reviewed and the boundaries within which the conclusion applies."
+              "تَستلمُ a تقرير خطي وa مدخل فيديوِ.",
+              "وتتوقف المحتويات على الاستعراض المختار والعملية المتفق عليها: وضع خريطة للمراحل الرئيسية، وتحديد المخاطر، وشروط الحفز، والفرضيات المعللة بشأن الإخفاقات، والثغرات في القابلية للملاحظة، وضوابط التكاليف، ووضع خطة محددة الأولويات الآن/الخطة اللاحقة.",
+              "ويرتبط كل استنتاج بجزء محدد من العملية قيد الاستعراض.",
+              "ولا يحدد مسبقا عدد المخاطر.",
+              "وإذا لم يكن هناك مجمّعات إطلاق، يذكر التقرير ما جرى استعراضه والحدود التي ينطبق عليها الاستنتاج."
             ]
           },
           {
-            "question": "Why is the diagnostic review a separate paid service?",
+            "question": "لماذا الاستعراض التشخيصي خدمة منفصلة مدفوعة الأجر؟",
             "answer": [
-              "The review is a standalone service with a concrete deliverable.",
-              "You keep the report and can have your team, another contractor, or me implement the recommendations under a separately agreed scope."
+              "والاستعراض خدمة قائمة بذاتها يمكن إنجازها بشكل ملموس.",
+              "يمكنك الاحتفاظ بالتقرير ويمكن أن يكون فريقك، مقاول آخر، أو لي تنفيذ التوصيات في نطاق متفق عليه بشكل منفصل."
             ]
           },
           {
-            "question": "How much does it cost?",
+            "question": "كم تكلف؟",
             "answer": [
-              "The fee depends on the process and the amount of material.",
-              "An automation reliability review starts at $400, an AI product pre-launch review at $600, and a payment journey review at $1,200.",
-              "We agree the exact fee in writing before work begins."
+              "ويتوقف الرسم على العملية ومقدار المواد.",
+              "ويبدأ استعراض موثوقية التشغيل الآلي بـ 400 دولار، واستعراض ما قبل الإطلاق لمنتوجات التنفيذ البالغ 600 دولار، واستعراض لرحلة الدفع بمبلغ 200 1 دولار.",
+              "نوافق على الرسم المكتوب قبل بدء العمل"
             ]
           },
           {
-            "question": "How long does a review take?",
+            "question": "كم يستغرق الاستعراض؟",
             "answer": [
-              "The report is normally ready within 3–5 business days after I receive the agreed materials.",
-              "Implementation timing is estimated separately once the scope, dependencies, and acceptance criteria are clear."
+              "وعادة ما يكون التقرير جاهزا في غضون 3-5 أيام عمل بعد أن أتلقى المواد المتفق عليها.",
+              "ويُقدَّر توقيت التنفيذ كل على حدة بمجرد أن يكون نطاقه ومعاليه ومعايير القبول واضحة."
             ]
           },
           {
-            "question": "What if you find no critical problems?",
+            "question": "ماذا لو لم تجد أي مشاكل حرجة؟",
             "answer": [
-              "You receive a record of what was reviewed, any limitations found, and a conclusion for the agreed scenario.",
-              "I do not invent issues to reach a quota or claim that a limited materials-based review proves the whole system safe."
+              "وتتلقى سجلاً لما تم استعراضه، وأي قيود وجدت، واختتاماً للسيناريو المتفق عليه.",
+              "ولا أخترع مسائل للوصول إلى حصة أو ادعي أن استعراضا محدودا يستند إلى المواد يثبت سلامة النظام بأكمله."
             ]
           },
           {
-            "question": "What is excluded from a diagnostic review?",
+            "question": "ما المستبعد من استعراض التشخيص؟",
             "answer": [
-              "Formal smart contract audits, penetration testing, certification, and legal opinions on AML, MiCA, or other regulation.",
-              "I also do not manage client funds, give investment recommendations, promise returns, or guarantee a particular level of system availability."
+              "Formalelli contract audits, penetration testing, certification, and legal opinions on AML, MiCA, or other regulation.",
+              "كما أنني لا أدير أموال العملاء، أو أعطي توصيات الاستثمار، أو أعدك بالعودة، أو أضمن مستوى معين من توافر النظام."
             ]
           }
         ]
       },
       {
-        "title": "Access and confidentiality",
+        "title": "الوصول والسرية",
         "items": [
           {
-            "question": "Do you need production access?",
+            "question": "هل تحتاج إلى الوصول إلى الإنتاج؟",
             "answer": [
-              "No.",
+              "لا",
               "A system overview, process diagram, settings with secrets removed, sample event logs, and screenshots of operating metrics are normally enough.",
-              "A diagnostic review does not require passwords, real keys, or access to the live system.",
-              "If access is needed for a separate implementation phase, we agree its purpose and duration in advance.",
-              "Permissions should be limited to the minimum required and remain revocable at any time."
+              "ولا يتطلب الاستعراض التشخيصي كلمة سر أو مفاتيح حقيقية أو الوصول إلى النظام الحي.",
+              "وإذا كانت هناك حاجة إلى الوصول إلى مرحلة تنفيذ منفصلة، فإننا نتفق مسبقا على هدفها ومدتها.",
+              "وينبغي أن تقتصر الانبعاثات على الحد الأدنى المطلوب وأن تظل قابلة للإلغاء في أي وقت."
             ]
           },
           {
-            "question": "How do you handle confidential material?",
+            "question": "كيف تتعامل مع المواد السرية؟",
             "answer": [
-              "Client materials remain confidential.",
-              "Public examples use anonymized information without closed-project names or customer data.",
-              "If an NDA is required, we can agree and sign it before sensitive materials are transferred."
+              "مواد العملاء تظل سرية",
+              "وتستعمل الأمثلة العامة معلومات مغفلة دون أسماء المشاريع المغلقة أو بيانات العملاء.",
+              "إذا كان مطلوباً من وكالة التنمية الوطنية، يمكننا الموافقة عليها وتوقيعها قبل نقل المواد الحساسة."
             ]
           },
           {
-            "question": "Who owns the product ideas and materials?",
+            "question": "من يملك أفكار المنتج ومواده؟",
             "answer": [
-              "Your product, source materials, and data remain yours.",
-              "My deliverable is the report and recommendations within the agreed scope.",
-              "Rights relating to later implementation and use of its outputs are documented before that work begins."
+              "منتجك، مواد المصدر، والبيانات تبقى لك.",
+              "وقابلي للتنفيذ هو التقرير والتوصيات في النطاق المتفق عليه.",
+              "وتوثق الحقوق المتعلقة بتنفيذ واستخدام نواتجها في وقت لاحق قبل بدء العمل."
             ]
           }
         ]
       },
       {
-        "title": "Working format",
+        "title": "شكل العمل",
         "items": [
           {
-            "question": "Do you work alone or with a team?",
+            "question": "هل تعمل وحدك أم مع فريق؟",
             "answer": [
-              "I personally perform the reviews and engineering work described on this site.",
-              "If a task requires a separate specialty, such as a formal security audit, substantial frontend development, or design, it is not included automatically.",
-              "We agree the participants and separate scope in advance."
+              "وأقوم شخصياً بإجراء الاستعراضات والأعمال الهندسية الموصوفة في هذا الموقع.",
+              "وإذا كانت المهمة تتطلب تخصصاً مستقلاً، مثل إجراء مراجعة أمنية رسمية، أو تطوير كبير أو تصميم، فإنها لا تدرج تلقائياً.",
+              "ونحن نوافق المشاركين ونتفق مسبقا على نطاق منفصل."
             ]
           },
           {
-            "question": "What language do you use for calls?",
+            "question": "أي لغة تستخدمها في المكالمات؟",
             "answer": [
-              "I speak Russian fluently.",
-              "For English calls, I can use the real-time interpretation system I built.",
-              "Key agreements about scope, fees, and responsibilities are always confirmed in writing.",
-              "Documents and correspondence are available in English or Russian."
+              "أنا أتحدث الروسية بطلاقة.",
+              "للمكالمات الانجليزية يمكنني استخدام نظام الترجمة الفورية الذي بنيته",
+              "ويجري دائما تأكيد الاتفاقات الرئيسية المتعلقة بالنطاق والرسوم والمسؤوليات كتابة.",
+              "ويمكن الاطلاع على الوثائق والمراسلات بالانكليزية أو الروسية."
             ]
           },
           {
-            "question": "What time zone do you work in?",
+            "question": "في أي منطقة تعمل؟",
             "answer": [
               "UTC+3.",
-              "My working day overlaps well with Europe and the CIS, and with part of the US East Coast day.",
-              "We agree specific meeting times in advance."
+              "يتداخل يوم عملي بشكل جيد مع أوروبا ورابطة الدول المستقلة، وبجزء من يوم الساحل الشرقي للولايات المتحدة.",
+              "ونتفق مسبقا على مواعيد محددة للاجتماعات."
             ]
           },
           {
-            "question": "How can I pay?",
+            "question": "كيف أدفع؟",
             "answer": [
-              "Bank transfer, payment services, stablecoins, and cryptocurrency are available.",
-              "We agree the currency, method, and payment schedule in writing before work begins."
+              "ويمكن الحصول على تحويلات مصرفية، وخدمات دفع، وعُملة ثابتة، وبطاقة.",
+              "ونحن نوافق على العملة والطريقة والجدول الزمني للدفع كتابة قبل بدء العمل."
             ]
           }
         ]
       },
       {
-        "title": "Fit for your task",
+        "title": "مناسب لمهمتك",
         "items": [
           {
-            "question": "We already have developers. How does an external review help?",
+            "question": "لدينا بالفعل مطورين كيف يساعد الاستعراض الخارجي؟",
             "answer": [
-              "An external review gives the team a map of risks and priorities for one important process.",
-              "Your developers keep their system knowledge and can implement the recommendations themselves.",
-              "I examine failure modes and process boundaries without judging people or replacing the team."
+              "ويوفر استعراض خارجي للفريق خريطة للمخاطر والأولويات بالنسبة لعملية هامة واحدة.",
+              "ويحافظ مطورو النظام على معارفهم ويمكنهم تنفيذ التوصيات بأنفسهم.",
+              "أنا أفحص أساليب الفشل و أجهز الحدود بدون الحكم على الناس أو استبدال الفريق"
             ]
           },
           {
-            "question": "We built the product with AI tools. Will everything need rewriting?",
+            "question": "لقد بنينا المنتج بأدوات آي هل كل شيء بحاجة لإعادة الكتابة؟",
             "answer": [
-              "Usually not.",
+              "عادة لا",
               "The review separates launch blockers from improvements that can wait.",
               "I prioritize risks such as duplicate charges, data loss, leaked keys, uncontrolled API costs, and failure to recover after an incident.",
-              "I recommend a rewrite only when local changes cannot solve the agreed problem."
+              "وأوصي بإعادة كتابة ما لم تتمكن التغييرات المحلية من حل المشكلة المتفق عليها."
             ]
           },
           {
-            "question": "Our project is small. Is a review worthwhile?",
+            "question": "مشروعنا صغير هل يستحق الاستعراض؟",
             "answer": [
-              "A separate review makes sense if the system handles money or personal data, or if a real-time process matters.",
-              "If the risk and consequences are limited and the work would not be proportionate, I will say so during the first 15-minute conversation."
+              "ومن المنطقي إجراء استعراض منفصل إذا كان النظام يتعامل مع المال أو البيانات الشخصية، أو إذا كانت العملية في الوقت الحقيقي مهمة.",
+              "وإذا كانت المخاطر والعواقب محدودة ولن يكون العمل متناسباً، فسأقول ذلك خلال الـ 15 دقيقة الأولى."
             ]
           },
           {
-            "question": "What evidence supports your experience?",
+            "question": "أي دليل يدعم خبرتك؟",
             "answer": [
-              "The site describes specific outcomes from my engineering work: more than 100 million requests per day in a payment core, monitoring of more than 3 million wallets, more than 10,000 concurrent WebSocket connections, and a 90% reduction in blockchain transaction fee costs.",
-              "These metrics belong to individual implemented systems and are not promised outcomes of a review."
+              "ويصف الموقع نتائج محددة من أعمالي الهندسية: أكثر من 100 مليون طلب في اليوم في إطار أساسي للدفع، ورصد أكثر من 3 ملايين محفظة، وأكثر من 000 10 وصلة متزامنة على شبكة ويب سوكيت، وتخفيض بنسبة 90 في المائة في تكاليف رسوم المعاملات المتعلقة بسلسلة المباني.",
+              "وتنتمي هذه القياسات إلى فرادى النظم المنفذة ولا تُعد بنتائج الاستعراض."
             ]
           }
         ]
       },
       {
-        "title": "After the review",
+        "title": "بعد الاستعراض",
         "items": [
           {
-            "question": "What happens after the diagnostic review?",
+            "question": "ماذا يحدث بعد الاستعراض التشخيصي؟",
             "answer": [
-              "You can give the report to your team or another contractor.",
-              "If you want my help, we separately agree the implementation scope, timing, responsibilities, access, and acceptance criteria.",
-              "Continuing with me is optional."
+              "يمكنك أن تعطي التقرير لفريقك أو مقاول آخر",
+              "وإذا أردت مساعدتي، نتفق بشكل منفصل على نطاق التنفيذ، والتوقيت، والمسؤوليات، والوصول، ومعايير القبول.",
+              "الاستمرار معي اختياري"
             ]
           },
           {
-            "question": "Can we arrange ongoing support?",
+            "question": "هل يمكننا ترتيب الدعم المستمر؟",
             "answer": [
-              "Yes.",
-              "After a review or implementation, we can discuss support for a critical part of the system or fractional engineering and technical leadership.",
-              "The included work, response times, and exclusions are documented separately.",
-              "The format does not include 24/7 on-call coverage by default."
+              "نعم",
+              "وبعد إجراء استعراض أو تنفيذ، يمكننا أن نناقش الدعم المقدم لجزء حاسم من النظام أو للهندسة الجزائية والقيادة التقنية.",
+              "ويوثق العمل المتضمن، وأوقات الاستجابة، والاستبعادات بصورة منفصلة.",
+              "ولا يشمل الشكل 24/7 التغطية على المكالمات عن طريق التقصير."
             ]
           },
           {
-            "question": "How do we start?",
+            "question": "كيف نبدأ؟",
             "answer": [
-              "Message me on Telegram with what should happen, what happens instead, and how it affects the business.",
-              "In the first 15-minute conversation, we establish whether the task fits my expertise, what materials are needed, and the boundaries of the work."
+              "راسلني على التليغرام مع ما يجب أن يحدث، ما يحدث بدلا من ذلك، وكيف يؤثر على العمل.",
+              "وفي أول محادثة مدتها 15 دقيقة، نحدد ما إذا كانت المهمة تناسب خبرتي، وما هي المواد اللازمة، وحدود العمل."
             ]
           }
         ]
