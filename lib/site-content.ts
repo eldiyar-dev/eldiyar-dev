@@ -1,5 +1,7 @@
 import enMessages from '@/messages/en.json';
 import ruMessages from '@/messages/ru.json';
+import trMessages from '@/messages/tr.json';
+import arMessages from '@/messages/ar.json';
 import {defaultLocale, type Locale} from '@/lib/i18n';
 import {siteSlugs, type SiteSlug} from '@/lib/site-routes';
 
@@ -24,7 +26,9 @@ type SiteMessages = {faq: FaqContent; site: {pages: Record<string, SiteMessage>}
 
 const messages: Record<SiteLocale, SiteMessages> = {
   en: enMessages as SiteMessages,
-  ru: ruMessages as SiteMessages
+  ru: ruMessages as SiteMessages,
+  tr: trMessages as SiteMessages,
+  ar: arMessages as SiteMessages
 };
 
 function flushParagraph(lines: string[], nodes: MarkdownNode[]) {

@@ -1,7 +1,14 @@
 /** Canonical locale policy shared by routing, links, metadata, and static generation. */
-export const locales = ['ru', 'en'] as const;
+export const locales = ['ru', 'en', 'tr', 'ar'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
+
+export const localeDirections: Record<Locale, 'ltr' | 'rtl'> = {
+  ru: 'ltr',
+  en: 'ltr',
+  tr: 'ltr',
+  ar: 'rtl'
+};
 
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);

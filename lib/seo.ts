@@ -11,7 +11,14 @@ function absoluteUrl(pathname: string): string {
 
 const ogImage = {url: absoluteUrl('/logo.svg'), alt: 'Eldiyar logo'};
 
-/** Собирает согласованные метаданные для контентных страниц на двух языках. */
+const openGraphLocales: Record<SiteLocale, string> = {
+  ru: 'ru_RU',
+  en: 'en_US',
+  tr: 'tr_TR',
+  ar: 'ar_AR'
+};
+
+/** Собирает согласованные метаданные для контентных страниц на всех языках. */
 export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Metadata {
   const canonical = getLocalizedPath(page.url, locale);
 
@@ -20,11 +27,11 @@ export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Meta
     description: page.description,
     alternates: {
       canonical,
-      languages: {ru: getLocalizedPath(page.url, 'ru'), en: getLocalizedPath(page.url, 'en')}
+      languages: Object.fromEntries(['ru', 'en', 'tr', 'ar'].map(locale => [locale, getLocalizedPath(page.url, locale as SiteLocale)]))
     },
     openGraph: {
       type: 'website', url: absoluteUrl(canonical), title: page.title, description: page.description,
-      locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar', images: [ogImage]
+      locale: openGraphLocales[locale], siteName: 'Eldiyar', images: [ogImage]
     },
     twitter: {card: 'summary', title: page.title, description: page.description, images: [ogImage.url]}
   };
@@ -37,8 +44,8 @@ export function createCvMetadata(name: string, role: string, description: string
 
   return {
     title, description,
-    alternates: {canonical, languages: {ru: getLocalizedPath('/cv', 'ru'), en: getLocalizedPath('/cv', 'en')}},
-    openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: locale === 'ru' ? 'ru_RU' : 'en_US', siteName: 'Eldiyar', images: [ogImage]},
+    alternates: {canonical, languages: Object.fromEntries(['ru', 'en', 'tr', 'ar'].map(localeCode => [localeCode, getLocalizedPath('/cv', localeCode as SiteLocale)]))},
+    openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: openGraphLocales[locale], siteName: 'Eldiyar', images: [ogImage]},
     twitter: {card: 'summary', title, description, images: [ogImage.url]}
   };
 }

@@ -54,7 +54,9 @@ const details: Record<SiteLocale, Record<string, CaseDetail>> = {
       label: 'What I additionally delivered',
       text: 'I made the process clear for operators: every stage had an accountable owner and staff had only the access they needed. This shortened processing time and helped the team prepare the product for an independent security review.'
     }
-  }
+  },
+  tr: {},
+  ar: {}
 };
 
 export function getCaseDetail(locale: SiteLocale, title: string): CaseDetail | undefined {
