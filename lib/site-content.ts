@@ -4,6 +4,7 @@ import trMessages from '@/messages/tr.json';
 import arMessages from '@/messages/ar.json';
 import {defaultLocale, type Locale} from '@/lib/i18n';
 import {siteSlugs, type SiteSlug} from '@/lib/site-routes';
+import {stackCatalog} from '@/data/stackCatalog';
 
 export type SitePageId = 'home' | 'ai-workflow-rescue' | 'payments-reliability' | 'ai-launch-gate' | 'capabilities';
 export type SiteLocale = Locale;
@@ -20,6 +21,7 @@ export type SitePage = {metadata: PageMetadata; nodes: MarkdownNode[]};
 export type FaqItem = {question: string; answer: string[]};
 export type FaqGroup = {title: string; items: FaqItem[]};
 export type FaqContent = {title: string; groups: FaqGroup[]};
+export type NavigationPageId = SitePageId | 'stack';
 
 type SiteMessage = {metadata: PageMetadata; body: string};
 type SiteMessages = {faq: FaqContent; site: {pages: Record<string, SiteMessage>}};
@@ -115,6 +117,19 @@ export function getSitePage(id: SitePageId, locale: SiteLocale = defaultLocale):
   return {metadata, nodes: removeExperienceSection(parseMarkdown(normalizeCopy(page.body)))};
 }
 
-export function getAllPageMetadata(locale: SiteLocale = defaultLocale): Array<PageMetadata & {id: SitePageId}> {
-  return (['home', ...siteSlugs] as SitePageId[]).map(id => ({id, ...getSitePage(id, locale).metadata}));
+export function getAllPageMetadata(locale: SiteLocale = defaultLocale): Array<PageMetadata & {id: NavigationPageId}> {
+  const language = locale === 'ru' ? 'ru' : 'en';
+  const stackUi = stackCatalog.ui[language];
+  const stackMetadata: PageMetadata & {id: NavigationPageId} = {
+    id: 'stack',
+    url: '/stack',
+    title: stackUi.title,
+    description: stackUi.description,
+    offer: 'Stack',
+    cta: 'Stack'
+  };
+  return [
+    ...( ['home', ...siteSlugs] as SitePageId[]).map(id => ({id, ...getSitePage(id, locale).metadata})),
+    stackMetadata
+  ];
 }
