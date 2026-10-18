@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import {Geist, Geist_Mono} from 'next/font/google';
+import {Analytics} from '@vercel/analytics/next';
 import '../globals.css';
 import {isLocale, localeDirections} from '@/lib/i18n';
 import {siteUrl} from '@/lib/seo';
@@ -19,5 +20,5 @@ export const metadata: Metadata = {
 export default async function LocaleLayout({children, params}: Readonly<{children: React.ReactNode; params: Promise<{locale: string}>}>) {
   const {locale} = await params;
   if (!isLocale(locale)) notFound();
-  return <html lang={locale} dir={localeDirections[locale]} className={`${geist.variable} ${geistMono.variable}`}><body>{children}</body></html>;
+  return <html lang={locale} dir={localeDirections[locale]} className={`${geist.variable} ${geistMono.variable}`}><body>{children}<Analytics /></body></html>;
 }
