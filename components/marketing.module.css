@@ -57,7 +57,19 @@
 
 .facts svg { color: var(--signal); }
 
-.contact { margin-block-start: 20px; }
+.contact { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-block-start: 20px; }
+
+.contact .socialLink {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #65766e;
+  color: #d8dfda;
+  transition: border-color 180ms var(--ease), color 180ms var(--ease);
+}
+
+.contact .socialLink:hover, .contact .socialLink:focus-visible { border-color: var(--signal); color: var(--signal); }
+.socialLink svg { fill: currentColor; }
+
 
 .contact a,
 .endContact a {

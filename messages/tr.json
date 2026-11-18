@@ -467,7 +467,7 @@
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Telegram’da yazın",
+          "cta": "E-posta gönderin",
           "url": "/ai-workflow-rescue",
           "description": "Tekrarlanan görevleri, yinelenen işlemleri ve yapay zekâ maliyetlerini inceleyen bir otomasyon güvenilirliği değerlendirmesi. Rapor ve eylem planı alırsınız.",
           "title": "Yapay Zekâ Otomasyonu Güvenilirlik İncelemesi — Eldiyar",
@@ -578,7 +578,7 @@
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Telegram’da yazın",
+          "cta": "E-posta gönderin",
           "url": "/ai-launch-gate",
           "description": "Sağladığınız materyallerle lansman risklerini değerlendiriyorum. Yazılı değerlendirme, öncelikler ve eylem planı alırsınız.",
           "title": "Yapay Zekâ Ürünü Lansman Öncesi İncelemesi — Eldiyar",
@@ -683,7 +683,7 @@
       },
       "capabilities": {
         "metadata": {
-          "cta": "Telegram’da yazın",
+          "cta": "E-posta gönderin",
           "url": "/capabilities",
           "description": "Kapasite ve gecikme, teknik planlama, alım satım yazılımları ve veri işleme. Sorununuzu, hedef sonucu ve mühendislik çalışmasının sınırlarını konuşuruz.",
           "title": "Karmaşık Dijital Ürünler için Mühendislik — Eldiyar",
@@ -740,7 +740,7 @@
       },
       "index": {
         "metadata": {
-          "cta": "Telegram’da yazın",
+          "cta": "E-posta gönderin",
           "url": "/",
           "description": "İşletme sahiplerinin hataları ve lansman risklerini anlamasına yardımcı oluyorum. Teşhis incelemesi ve eylem planı alırsınız.",
           "title": "Yapay Zekâ, Otomasyon ve Ödeme Güvenilirliği — Eldiyar",
@@ -853,7 +853,7 @@
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Telegram’da yazın",
+          "cta": "E-posta gönderin",
           "url": "/payments-reliability",
           "description": "Geciken bakiyeler, yinelenen işlemler, muhasebe tutarsızlıkları ve blok zinciri ücretleri için tek bir ödeme akışını inceliyorum. Rapor ve düzeltme planı alırsınız.",
           "title": "Kripto Ödeme Güvenilirliği İncelemesi — Eldiyar",

@@ -467,7 +467,7 @@
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Email me",
           "url": "/ai-workflow-rescue",
           "description": "I examine one automated process for stuck tasks, duplicate actions and AI costs. You receive a report and an action plan.",
           "title": "AI Automation Reliability Review — Eldiyar",
@@ -575,7 +575,7 @@
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Email me",
           "url": "/ai-launch-gate",
           "description": "I assess launch risks using the materials you provide. You receive a written assessment, priorities and an action plan.",
           "title": "AI Product Pre-launch Review — Eldiyar",
@@ -677,7 +677,7 @@
       },
       "capabilities": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Email me",
           "url": "/capabilities",
           "description": "Capacity and latency, technical planning, trading software and data processing. We discuss your problem, the intended result and the boundaries of the engineering work.",
           "title": "Engineering for Complex Digital Products — Eldiyar",
@@ -732,7 +732,7 @@
       },
       "index": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Email me",
           "url": "/",
           "description": "I help business owners understand failures and launch risks. You receive a diagnostic review and an action plan.",
           "title": "AI, Automation and Payment Reliability — Eldiyar",
@@ -842,7 +842,7 @@
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Message me on Telegram",
+          "cta": "Email me",
           "url": "/payments-reliability",
           "description": "I review one payment journey for delayed credits, duplicate operations, accounting discrepancies and blockchain fees. You receive a report and a plan for fixes.",
           "title": "Crypto Payment Reliability Review — Eldiyar",
