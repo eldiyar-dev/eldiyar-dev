@@ -495,3 +495,6 @@
 .heroActions .socialLink { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border: 1px solid #65766e; border-radius: 4px; color: #d8dfda; }
 .heroActions .socialLink:hover, .heroActions .socialLink:focus-visible { border-color: var(--signal); color: var(--signal); }
 .socialLink svg { width: 18px; height: 18px; fill: currentColor; }
+
+.heroActions .primaryButton, .workCta .primaryButton { display: inline-flex; align-items: center; justify-content: center; gap: 9px; }
+.heroActions .primaryButton svg, .workCta .primaryButton svg { width: 18px; height: 18px; flex: none; }

@@ -26,7 +26,7 @@ const metricJoin: Record<SiteLocale, string> = {
 export function SitePage({page, locale, faq}: SitePageProps) {
   const {metadata, hero, facts, sections, related} = page;
   const contact = <ActionLink className={shell.primaryButton} href={contactHref}>
-    <SiteIcon name="send" />{metadata.cta}
+    <SiteIcon name="mail" />{metadata.cta}
   </ActionLink>;
 
   return <main className={`${shell.site} ${styles.page}`}>

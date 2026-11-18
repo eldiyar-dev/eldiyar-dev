@@ -5,7 +5,7 @@
       "name": "Eldiyar",
       "lead": "I take a product from idea to working system and make sure it does not fail, lose money, or wake you at three in the morning.",
       "body": "For six years, I have built systems where mistakes are expensive: payments, crypto operations, financial services, trading systems, and real-time products. I work independently or lead a small engineering team, from requirements and architecture through launch and accountability after release.",
-      "cta": "Email me",
+      "cta": "Discuss a project",
       "facts": [
         "6 years in critical systems",
         "fintech · web3 · trading · realtime",
@@ -467,7 +467,7 @@
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Email me",
+          "cta": "Discuss a project",
           "url": "/ai-workflow-rescue",
           "description": "I examine one automated process for stuck tasks, duplicate actions and AI costs. You receive a report and an action plan.",
           "title": "AI Automation Reliability Review — Eldiyar",
@@ -575,7 +575,7 @@
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Email me",
+          "cta": "Discuss a project",
           "url": "/ai-launch-gate",
           "description": "I assess launch risks using the materials you provide. You receive a written assessment, priorities and an action plan.",
           "title": "AI Product Pre-launch Review — Eldiyar",
@@ -677,7 +677,7 @@
       },
       "capabilities": {
         "metadata": {
-          "cta": "Email me",
+          "cta": "Discuss a project",
           "url": "/capabilities",
           "description": "Capacity and latency, technical planning, trading software and data processing. We discuss your problem, the intended result and the boundaries of the engineering work.",
           "title": "Engineering for Complex Digital Products — Eldiyar",
@@ -732,7 +732,7 @@
       },
       "index": {
         "metadata": {
-          "cta": "Email me",
+          "cta": "Discuss a project",
           "url": "/",
           "description": "I help business owners understand failures and launch risks. You receive a diagnostic review and an action plan.",
           "title": "AI, Automation and Payment Reliability — Eldiyar",
@@ -842,7 +842,7 @@
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Email me",
+          "cta": "Discuss a project",
           "url": "/payments-reliability",
           "description": "I review one payment journey for delayed credits, duplicate operations, accounting discrepancies and blockchain fees. You receive a report and a plan for fixes.",
           "title": "Crypto Payment Reliability Review — Eldiyar",

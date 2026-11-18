@@ -16,6 +16,7 @@ const disciplines = [
   ['Fullstack', 'architecture'],
   ['DevOps', 'launch'],
   ['CI/CD', 'workflow'],
+  ['AI', 'brain'],
 ] as const satisfies readonly [string, keyof typeof iconPaths][];
 
 const technologies = [
@@ -43,6 +44,10 @@ export function HeroStack({locale}: {locale: Locale}) {
   return <ul className={styles.stack} aria-label={stackLabels[locale]} role="list">
     {disciplines.map(([label, icon]) => <li key={label}>
       <SiteIcon name={icon} />
+      <span dir="ltr">{label}</span>
+    </li>)}
+    {([['Claude Code', 'claude-color'], ['Codex', 'codex'], ['Qwen', 'qwen-color']] as const).map(([label, icon]) => <li key={label}>
+      <Image src={`/tech-stack/${icon}.svg`} width={16} height={16} alt="" />
       <span dir="ltr">{label}</span>
     </li>)}
     {technologies.map(([label, icon]) => <li key={label}>
