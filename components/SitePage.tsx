@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import {ActionLink} from '@/components/ui';
+import Image from 'next/image';
+import {ActionLink, Reveal} from '@/components/ui';
 import {getLocalizedPath} from '@/lib/i18n';
 import {getCaseLink} from '@/lib/site-content';
 import type {FaqContent, SiteItem, SiteLocale, SiteMetric, SitePage as SitePageData, SiteSection} from '@/lib/site-content';
@@ -35,7 +36,7 @@ export function SitePage({page, locale, faq}: SitePageProps) {
         <div className={`${shell.container} ${fluidStyles.contentLayer}`}>
           <SiteNavigation locale={locale} currentUrl={metadata.url} />
           <div className={styles.hero}>
-            <div>
+            <Reveal>
               <h1>{hero.title}</h1>
               <p className={styles.lead}>{hero.lead}</p>
               {facts?.length ? <ul className={styles.facts} role="list">
@@ -52,8 +53,8 @@ export function SitePage({page, locale, faq}: SitePageProps) {
                   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3.25V21H6.5V8.5ZM4.88 3A1.88 1.88 0 1 0 4.88 6.75 1.88 1.88 0 0 0 4.88 3ZM21 13.84C21 10.08 18.99 8.32 16.31 8.32c-2.18 0-3.15 1.2-3.69 2.04V8.5H9.38V21h3.24v-6.19c0-1.63.31-3.21 2.33-3.21 1.99 0 2.02 1.87 2.02 3.32V21H21v-7.16Z" /></svg>
                 </a>
               </div>
-            </div>
-            <SiteIllustration path={metadata.url} />
+            </Reveal>
+            {metadata.url === '/' ? <Image className={styles.portrait} src="/images/home-portrait.png" alt="Eldiyar" width={1122} height={1402} priority /> : <SiteIllustration path={metadata.url} />}
             {metadata.url === '/' && <HeroStack locale={locale} />}
           </div>
         </div>
@@ -77,7 +78,7 @@ function Section({section, locale, related}: {section: SiteSection; locale: Site
   const {kind, title, note, items} = section;
   const caseLink = kind === 'cases' ? getCaseLink(locale) : undefined;
 
-  return <section className={styles.section}>
+  return <Reveal as="section" className={styles.section}>
     <h2>{title}</h2>
     {note && <p className={styles.note}>{note}</p>}
     {kind === 'details' ? <div className={styles.disclosures}>
@@ -96,7 +97,7 @@ function Section({section, locale, related}: {section: SiteSection; locale: Site
     {related && <Link className={styles.sectionLink} href={getLocalizedPath(related.href, locale)}>
       {related.title}<Arrow />
     </Link>}
-  </section>;
+  </Reveal>;
 }
 
 function ContentCard({item, locale}: {item: SiteItem; locale: SiteLocale}) {

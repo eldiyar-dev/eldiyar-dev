@@ -3,7 +3,8 @@
     "hero": {
       "role": "PRODUCT & SYSTEMS ENGINEER",
       "name": "Eldiyar",
-      "lead": "I take a product from idea to working system and make sure it does not fail, lose money, or wake you at three in the morning.",
+      "title": "I take a product from idea to working system.",
+      "lead": "I make sure it does not fail, lose money, or wake you at three in the morning.",
       "body": "For six years, I have built systems where mistakes are expensive: payments, crypto operations, financial services, trading systems, and real-time products. I work independently or lead a small engineering team, from requirements and architecture through launch and accountability after release.",
       "cta": "Discuss a project",
       "facts": [

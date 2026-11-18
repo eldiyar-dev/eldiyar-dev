@@ -3,7 +3,8 @@
     "hero": {
       "role": "ÜRÜN VE SİSTEMLER MÜHENDİSİ",
       "name": "Eldiyar",
-      "lead": "Bir ürünü fikirden çalışan bir sisteme dönüştürüyor; başarısız olmamasını, para kaybetmemesini ve sizi sabahın üçünde uyandırmamasını sağlıyorum.",
+      "title": "Bir ürünü fikirden çalışan bir sisteme dönüştürüyorum.",
+      "lead": "Başarısız olmamasını, para kaybetmemesini ve sizi sabahın üçünde uyandırmamasını sağlıyorum.",
       "body": "Altı yıldır, hataların pahalı olduğu sistemleri inşa ettim: ödemeler, kripto işlemleri, finansal hizmetler, ticaret sistemleri ve gerçek zamanlı ürünler. Bağımsız olarak çalışıyorum ya da küçük bir mühendislik ekibine, taleplerden ve mimarlıktan salıverdikten sonra hesap verebilirim.",
       "cta": "Projeyi konuşalım",
       "facts": [

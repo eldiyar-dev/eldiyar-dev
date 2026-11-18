@@ -46,7 +46,8 @@ export async function generateMetadata({params}: {params: Promise<RouteParams>})
     return createSiteMetadata({title: ui.title, description: ui.description, url: '/stack', offer: 'Stack', cta: 'Stack'}, locale);
   }
   const content = await getCvContent(locale);
-  return createCvMetadata(content.hero.name, content.hero.role, content.hero.lead, locale);
+  const {name, role, title, lead} = content.hero;
+  return createCvMetadata(name, role, `${title} ${lead}`, locale);
 }
 
 export default async function Page({params}: {params: Promise<RouteParams>}) {
