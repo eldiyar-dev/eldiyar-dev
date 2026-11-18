@@ -54,6 +54,9 @@
 .heroContent {
   padding-block: 76px 86px;
 }
+.heroStack {
+  margin-block-start: 32px;
+}
 .eyebrow,
 .caseNumber {
   margin: 0;

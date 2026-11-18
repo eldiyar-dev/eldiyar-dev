@@ -7,6 +7,7 @@ import {siteUrl} from '@/lib/seo';
 import {SiteFooter} from './SiteFooter';
 import {diagnosticHref} from './site.constants';
 import {FluidHero} from './FluidHero';
+import {HeroStack} from './HeroStack';
 import fluidStyles from './fluid.module.css';
 import styles from './cv.module.css';
 
@@ -26,6 +27,7 @@ function CaseCard({item, index, labels}: {item: Case; index: number; labels: CvC
   const [open, setOpen] = useState(false); const detailId = `case-${item.id}-details`;
   return <Card as="article" className={`${styles.card} ${styles.caseCard}`}>
     <span className={styles.caseNumber}>CASE {String(index + 1).padStart(2, '0')}</span><h3>{item.title}</h3>
+    {item.id === 'voice' && <p><a href="https://attuni.live">attuni.live</a></p>}
     <dl className={styles.caseSummary}><div><dt>{labels.task}</dt><dd>{item.task}</dd></div><div><dt>{labels.role}</dt><dd>{item.role}</dd></div><div><dt>{labels.built}</dt><dd>{item.built}</dd></div><div><dt>{labels.changed}</dt><dd>{item.changed}</dd></div></dl>
     <Tags items={item.metrics} accent />
     <button className={styles.detailButton} type="button" aria-expanded={open} aria-controls={detailId} onClick={() => setOpen(!open)}>{open ? '−' : '+'} {open ? labels.hide : labels.detail}</button>
@@ -40,7 +42,27 @@ export default function CvPage({locale, content}: CvPageProps) {
   const {hero, nav, results, what, cases, ai, fit, work, contact} = content;
   const personSchema = {'@context': 'https://schema.org', '@type': 'Person', name: hero.name, jobTitle: hero.role, url: new URL(getLocalizedPath('/cv', locale), siteUrl).toString(), email: contact.items.find(([type]) => type === 'Email')?.[1], sameAs: contact.items.map(([, , href]) => href).filter(href => href.startsWith('https://'))};
   return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(personSchema)}} /><main className={styles.cv} lang={locale}>
-     <section className={styles.hero}><FluidHero><div className={`${styles.container} ${fluidStyles.contentLayer}`}><header className={styles.topbar}><BrandLink href={getLocalizedPath('/', locale)} label={locale === 'en' ? 'Eldiyar — home' : 'Eldiyar — на главную'} /><nav aria-label="CV sections">{[['results', 'results'], ['cases', 'cases'], ['ai', 'ai'], ['fit', 'fit'], ['work', 'work']].map(([id, key]) => <a key={id} href={`#${id}`}>{nav[key]}</a>)}</nav></header><Reveal className={styles.heroContent}><p className={styles.eyebrow}>{hero.role}</p><h1 className={styles.name}>{hero.name}</h1><p className={styles.heroLead}>{hero.lead}</p><p className={styles.heroBody}>{hero.body}</p><ActionLink className={styles.primaryButton} href={diagnosticHref(locale)}>{hero.cta}</ActionLink><div className={styles.facts}>{hero.facts.map(fact => <span key={fact}>{fact}</span>)}</div></Reveal></div></FluidHero></section>
+    <section className={styles.hero}>
+      <FluidHero>
+        <div className={`${styles.container} ${fluidStyles.contentLayer}`}>
+          <header className={styles.topbar}>
+            <BrandLink href={getLocalizedPath('/', locale)} label={locale === 'en' ? 'Eldiyar — home' : 'Eldiyar — на главную'} />
+            <nav aria-label="CV sections">
+              {['results', 'cases', 'ai', 'fit', 'work'].map(id => <a key={id} href={`#${id}`}>{nav[id]}</a>)}
+            </nav>
+          </header>
+          <Reveal className={styles.heroContent}>
+            <p className={styles.eyebrow}>{hero.role}</p>
+            <h1 className={styles.name}>{hero.name}</h1>
+            <p className={styles.heroLead}>{hero.lead}</p>
+            <p className={styles.heroBody}>{hero.body}</p>
+            <ActionLink className={styles.primaryButton} href={diagnosticHref(locale)}>{hero.cta}</ActionLink>
+            <div className={styles.facts}>{hero.facts.map(fact => <span key={fact}>{fact}</span>)}</div>
+            <div className={styles.heroStack}><HeroStack locale={locale} /></div>
+          </Reveal>
+        </div>
+      </FluidHero>
+    </section>
 
     <section id="results" className={styles.section}><div className={styles.container}><SectionHeading eyebrow={results.eyebrow}>{results.title}</SectionHeading><div className={styles.resultsGrid}>{results.items.map(([value, description], index) => <Reveal key={value} delay={index * 50}><Card className={`${styles.card} ${styles.metricCard}`}><strong>{value}</strong><p>{description}</p></Card></Reveal>)}</div></div></section>
     <section className={styles.section}><div className={styles.container}><SectionHeading eyebrow={what.eyebrow}>{what.title}</SectionHeading><div className={styles.cardsGrid}>{what.items.map(([title, body], index) => <Reveal key={title} delay={index * 50}><Card className={styles.card}><h3>{title}</h3><p>{body}</p></Card></Reveal>)}</div></div></section>

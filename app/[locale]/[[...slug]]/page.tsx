@@ -15,7 +15,7 @@ type PageRoute = {kind: 'cv'} | {kind: 'site'; id: SitePageId} | {kind: 'stack'}
 
 export const dynamicParams = false;
 
-/** Pre-render every internal locale route; middleware exposes Russian paths without /ru. */
+/** Pre-render every internal locale route. */
 export function generateStaticParams() {
   return getLocalizedStaticParams(siteRouteSegments);
 }
@@ -53,8 +53,9 @@ export default async function Page({params}: {params: Promise<RouteParams>}) {
   const {locale, route} = getRouteParams(await params);
   if (route.kind === 'site') {
     const pageData = getSitePage(route.id, locale);
-    const structuredData = createSiteStructuredData(pageData, getFaqContent(locale), locale);
-    return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(structuredData)}} /><SitePage page={pageData} locale={locale} /></>;
+    const faq = getFaqContent(locale);
+    const structuredData = createSiteStructuredData(pageData, faq, locale);
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(structuredData)}} /><SitePage page={pageData} locale={locale} faq={faq} /></>;
   }
   if (route.kind === 'stack') return <StackPage locale={locale} catalog={stackCatalog} />;
   const content = await getCvContent(locale);

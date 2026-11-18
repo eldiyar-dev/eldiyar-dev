@@ -7,7 +7,7 @@ import {FluidHero} from './FluidHero';
 import fluidStyles from './fluid.module.css';
 import styles from './site.module.css';
 
-export type SiteFooterProps = {locale: SiteLocale; currentPath?: string; copyLocale?: 'en' | 'ru'};
+export type SiteFooterProps = {locale: SiteLocale; currentPath?: string; copyLocale?: 'en' | 'ru'; localizedLabels?: boolean};
 
 const languageNames: Record<Locale, string> = {
   ru: 'Русский',
@@ -16,15 +16,23 @@ const languageNames: Record<Locale, string> = {
   ar: 'العربية'
 };
 
+const footerLabels = {
+  en: {home: 'Eldiyar — home', navigation: 'Contacts and language', language: 'Language'},
+  ru: {home: 'Eldiyar — на главную', navigation: 'Контакты и язык', language: 'Язык'},
+  tr: {home: 'Eldiyar — ana sayfa', navigation: 'İletişim ve dil', language: 'Dil'},
+  ar: {home: 'إلديار — الرئيسية', navigation: 'التواصل واللغة', language: 'اللغة'},
+};
+
 /** Footer с подтверждёнными публичными контактами и ссылкой на резюме. */
-export function SiteFooter({locale, currentPath = '/', copyLocale}: SiteFooterProps) {
+export function SiteFooter({locale, currentPath = '/', copyLocale, localizedLabels = false}: SiteFooterProps) {
   const contentLocale = copyLocale ?? locale;
-  return <FluidHero><footer className={`${styles.container} ${styles.footer} ${fluidStyles.contentLayer}`}><BrandLink className={styles.footerBrand} href={getLocalizedPath('/', locale)} inverted label={contentLocale === 'en' ? 'Eldiyar — home' : 'Eldiyar — на главную'} /><nav className={styles.footerLinks} aria-label={contentLocale === 'en' ? 'Contacts and language' : 'Контакты и язык'}><a className={styles.footerLink} href={contactHref}><span>eldiyar.dev@gmail.com</span></a><a className={styles.footerLink} href="https://www.linkedin.com/in/eldiyar-dev/"><FooterIcon type="linkedin" /><span>LinkedIn</span></a><a className={styles.footerLink} href="https://t.me/EldiyarDev"><FooterIcon type="telegram" /><span>Telegram</span></a><Link className={styles.footerLink} href={getLocalizedPath('/cv', locale)}><FooterIcon type="cv" /><span>CV</span></Link><LanguagePicker locale={locale} currentPath={currentPath} /></nav></footer></FluidHero>;
+  const labels = footerLabels[localizedLabels || contentLocale === 'en' ? contentLocale : 'ru'];
+  return <FluidHero><footer className={`${styles.container} ${styles.footer} ${fluidStyles.contentLayer}`}><BrandLink className={styles.footerBrand} href={getLocalizedPath('/', locale)} inverted label={labels.home} /><nav className={styles.footerLinks} aria-label={labels.navigation}><a className={styles.footerLink} href={contactHref}><span>eldiyar.dev@gmail.com</span></a><a className={styles.footerLink} href="https://www.linkedin.com/in/eldiyar-dev/"><FooterIcon type="linkedin" /><span>LinkedIn</span></a><a className={styles.footerLink} href="https://t.me/EldiyarDev"><FooterIcon type="telegram" /><span>Telegram</span></a><Link className={styles.footerLink} href={getLocalizedPath('/cv', locale)}><FooterIcon type="cv" /><span>CV</span></Link><LanguagePicker locale={locale} currentPath={currentPath} label={localizedLabels ? labels.language : 'Language'} /></nav></footer></FluidHero>;
 }
 
-function LanguagePicker({locale, currentPath}: {locale: Locale; currentPath: string}) {
+function LanguagePicker({locale, currentPath, label}: {locale: Locale; currentPath: string; label: string}) {
   return <details className={styles.languagePicker}>
-    <summary className={styles.languageSummary} aria-label={`Language: ${languageNames[locale]}`}>
+    <summary className={styles.languageSummary} aria-label={`${label}: ${languageNames[locale]}`}>
       <FlagIcon locale={locale} />
       <span>{languageNames[locale]}</span>
       <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1 5 5 5-5" /></svg>

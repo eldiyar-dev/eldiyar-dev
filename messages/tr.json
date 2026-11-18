@@ -225,9 +225,9 @@
         },
         {
           "id": "voice",
-          "title": "Uluslararası etkinlikler için Simultane konuşma çevirisi",
+          "title": "Attuni — uluslararası etkinlikler için eş zamanlı konuşma çevirisi",
           "task": "Binlerce katılımcının gecikme veya ses kesintisi olmadan kendi dilinde bir konuşmacı duymaları gerekiyordu.",
-          "role": "Gerçek zamanlı platform için lider mühendisi.",
+          "role": "Attuni kurucusu ve gerçek zamanlı platformun baş mühendisi.",
           "built": "Bir konuşma tanıma, çeviri ve ses-delivery sistemi 50+ dilde sıcak dil geçişi ile binlerce dinleyici için.",
           "changed": "Ürün, canlı olayları güvenilir bir şekilde destekledi, AI-service maliyetleri %40 azaldı.",
           "metrics": [
@@ -467,243 +467,548 @@
     "pages": {
       "ai-workflow-rescue": {
         "metadata": {
-          "cta": "Mesaj bana on Telegram",
+          "cta": "Telegram’da yazın",
           "url": "/ai-workflow-rescue",
           "description": "Tekrarlanan görevleri, yinelenen işlemleri ve yapay zekâ maliyetlerini inceleyen bir otomasyon güvenilirliği değerlendirmesi. Rapor ve eylem planı alırsınız.",
           "title": "Yapay Zekâ Otomasyonu Güvenilirlik İncelemesi — Eldiyar",
           "offer": "Otomasyon"
         },
-        "body": "# Otomasyon çalışır, ancak birisi hala işini kontrol etmek zorundadır\n\nAI otomasyonlarının eylemleri tekrarlayan ürün ve işletme sahipleri için, görevleri açık bir açıklama yapmadan tamamlanmaz veya para harcarlar.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı analitik otomasyonla anlatıyor.\n\n# # # Dokunduğu zaman\n\nBir fatura veya mesaj iki kez gönderilir. Bir görev tezgahları ve kimse yeniden başlamak için güvenli olup olmadığını bilmiyor. Bir başarısızlıktan sonra, birisi ne olduğunu yeniden inşa etmek zorunda. AI servis faturaları, hangi sürecin artışına neden olduğunu göstermeden yükselir.\n\nSonuç olarak, n8n'deki bir dizi veya bağlantılı AI asistanları gibi önemli bir süreci inceliyorum. Malzemelerinizi kullanarak, olası nedenleri tanımlar ve düzeltmeler için bir plan hazırlarım.\n\n# # Ne aldığınız\n\n- Anahtar adımların bir haritası: Süreç nerede durabilir veya bir sonucu kaybedebilir.\n- Önce riskler, sonuçlar ve onları tetikleyen koşullar.\n- Kanıt tabanlı hipotezler gözlemlenen başarısızlıkların nedenleri hakkında.\n- Aynı eylemi iki kez gerçekleştirmeye ve korumalara karşı bir harita.\n- Olay giriş ve maliyet izlemedeki boşluklar: başarısızlıkları ve sürecin maliyetini anlamak için eksik olan şey.\n- A now / next / later action plan, yazılı bir rapor ve video yürüyüş.\n\n## Project örneği: verilerle devam eden raporlar\n\n**Situation.** Pazar analizi raporları hazırlamak için 30-60 dakika sürdü. Bir rapor hazır olduğu zaman, verileri zaten tarih dışındaydı.\n\n**Benim rolüm. ** Ürünün öncü mühendisiydim, problemi ve mimarisi başlangıçta ve operasyon yoluyla tanımlamaktan. Bu örnek, çalışmalarımı AI modülleri arasındaki analitik sistem ve koordinasyon üzerine anlatıyor.\n\n**İşim. ** Bağımsız hizmetlere bölünmüşüm, paralel olarak koşabilecek görevler arasında bekleniyorum ve 7 modül koordine ettim. AI asistan davranışını kontrol etmek için olay girişi ve araçları ekledim.\n\nRapor nesli 30–60 dakikadan 10-15 saniyeye düştü.\n- Yeni modül entegrasyonu 2 günden 2 saate düştü.\n\nBu rakamlar bir proje üzerinde uygulama çalışmasından geliyor. Bir inceleme bulguları ve önceliklerini üretir; aynı hız artışı garanti etmez. Gizli proje adını veya müşteri verilerini açıklamam.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda başarısızlığı tartışıyoruz, bir süreç seçin ve inceleme ücretini kabul ediyoruz.\n2. Bir sistem genel bakışı, bir süreç diyagramı, sırları kaldırılmış, örnek olay logları ve işletim ölçümleri.\n3. eylemlerin sırasını, yeniden çalışmayı, ilerlemeyi, olası başarısızlık nedenlerini ve maliyetleri değerlendiriyorum.\n4. Yazılı bir rapor ve video yürüyüşü alırsınız. Belgeyi birlikte çalışmaya devam etmemeye devam edin.\n\nNe olması gerektiğini ve bunun yerine ne olacağını tarif ederek başlayın. Geliştiriciniz veya otomasyon uzmanınız ayarları ve logları tutarsa, materyallerin hazırlanmasına yardımcı olmaları gerekir. Şifreler, gerçek anahtarlar ve canlı sisteme erişim talep edilmez.\n\n# # # Review sınırları\n\nBu, mevcut bir sürecin materyal tabanlı bir incelemesidir, her otomasyonun tam bir değerlendirmesi değildir. Sebepler mevcut kanıtların onları doğrulamak için yetersiz olduğu hipotezler olarak kalabilir.\n\nEkibiniz önerileri uygulayabilir veya uygulama çalışmayı kabul edebiliriz. Çalışma başlamadan önce kapsamını ve sorumluluklarını belgeliyoruz.\n\nFormal güvenlik denetimleri, penetrasyon testleri, sertifikasyon ve yasal görüşler inceleme dışındadır. Malzemelerniz gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nWorkflow Reliability Review: kritik yol, başarısızlık hipotezlere neden olur, retries/idempotency, state protection, event log and tracing, API maliyet kontrolleri ve şimdi / SON / LATER öncelikleri. Proje örneği Redis Streams, n8n ve AI modüllerinin paralel orkestrasyonunu kullandı.\n\n## Ücretler ve zamanlama\n\nÜcret: 400 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Format 90 dakika artı bir rapor. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nTekrarlayan eylemle Telegram'da bana ulaşın, sıkışıp kalan görev veya açıklayamayacağınız maliyetle. 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
+        "hero": {
+  "title": "Otomasyon çalışıyor, ama yine de kontrol mü gerekiyor?",
+  "lead": "Takılan işler, tekrarlanan işlemler ve açıklanamayan yapay zekâ maliyetleri için bir süreci inceliyorum."
+},
+      "sections": [
+  {
+    "kind": "parallel",
+    "title": "Süreç nerede aksıyor?",
+    "items": [
+      {
+        "title": "Tetikleyici",
+        "text": "Süreç başlar.",
+        "icon": "workflow"
+      },
+      {
+        "title": "İşlemler ve yeniden denemeler",
+        "text": "Bir işlem çalışır.",
+        "icon": "task"
+      },
+      {
+        "title": "Kayıtlar ve maliyetler",
+        "text": "Bağımsız işlem paralel yürür.",
+        "icon": "task"
+      },
+      {
+        "title": "Sonuç",
+        "text": "Durum ve sonuç raporlanır.",
+        "icon": "report"
+      }
+    ]
+  },
+  {
+    "kind": "cards",
+    "title": "Ne alırsınız?",
+    "items": [
+      {
+        "title": "Süreç ve risk haritası",
+        "text": "Durma noktaları, olası nedenler ve sonuçları.",
+        "icon": "architecture"
+      },
+      {
+        "title": "Tekrar ve maliyet kontrolü",
+        "text": "Yeniden denemeler, mükerrer işlemler, kayıt ve maliyet takibindeki boşluklar.",
+        "icon": "chart"
+      },
+      {
+        "title": "Öncelikli plan",
+        "text": "Şimdi / sonra / ileride adımları, yazılı rapor ve video anlatımı.",
+        "icon": "report"
+      }
+    ]
+  },
+  {
+    "kind": "cases",
+    "title": "Proje: analiz raporları",
+    "items": [
+      {
+        "title": "Dakikalardan saniyelere",
+        "text": "Baş mühendis olarak mimariyi ve yedi yapay zekâ modülünün koordinasyonunu kurdum; bağımsız işleri paralelleştirdim ve olay kayıtları ekledim.",
+        "metrics": [
+          {
+            "label": "Rapor süresi",
+            "value": "30–60 dk",
+            "end": "10–15 sn"
+          },
+          {
+            "label": "Yeni modül entegrasyonu",
+            "value": "2 gün",
+            "end": "2 saat"
+          }
+        ]
+      }
+    ],
+    "note": "Uygulama sonucu tek bir projeye aittir; inceleme aynı hız kazanımını garanti etmez."
+  },
+  {
+    "kind": "details",
+    "title": "Kapsam ve hazırlık",
+    "items": [
+      {
+        "title": "Materyaller",
+        "text": "Sistem özeti, süreç şeması, sırları çıkarılmış ayarlar, örnek kayıtlar ve metrikler. Gerekirse geliştiriciniz hazırlamaya yardımcı olur.",
+        "icon": "folder"
+      },
+      {
+        "title": "Sınırlar",
+        "text": "İnceleme tek bir mevcut süreci kapsar. Kanıt yetersizse nedenler varsayım olarak kalabilir; resmi güvenlik denetimi, sızma testi ve hukuki görüş dahil değildir.",
+        "icon": "shield"
+      },
+      {
+        "title": "Teknik notlar",
+        "text": "Kritik yol, yeniden deneme ve idempotency, durumun korunması, olay kayıtları ve API maliyetleri. Canlı erişim, parola veya anahtar gerekmez.",
+        "icon": "database"
+      }
+    ]
+  }
+],
+      "facts": [
+  "$400’dan başlayan",
+  "90 dakika ve rapor",
+  "Belgeler ulaştıktan sonra 3–5 iş günü içinde rapor"
+]
       },
       "ai-launch-gate": {
         "metadata": {
-          "cta": "Mesaj bana on Telegram",
+          "cta": "Telegram’da yazın",
           "url": "/ai-launch-gate",
           "description": "Sağladığınız materyallerle lansman risklerini değerlendiriyorum. Yazılı değerlendirme, öncelikler ve eylem planı alırsınız.",
           "title": "Yapay Zekâ Ürünü Lansman Öncesi İncelemesi — Eldiyar",
           "offer": "Lansman öncesi"
         },
-        "body": "# Prototip çalışır. Müşteriler bunu kullanmadan önce hangi kontrol gerekir?\n\nKurucular ve ajanslar AI araçları ile ürünleri inşa ederler. Başlangıçtan önce dikkat gerektiren para, veri ve servis maliyetleri tanımlamaya yardımcı oluyorum.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı kritik operasyonlarda gösteriyor.\n\n# # # Dokunduğu zaman\n\ndemo sorunsuz çalışır, ancak kimse tekrarlanan bir ödemeden sonra ne olduğundan emin değildir, dış hizmet başarısızlığı veya veri kaybı. Ekibinizin başlatılması için gerekçeli bir plana ihtiyacı var.\n\nSunduğunuz malzemelere dayanarak hazır bir inceleme satın alırsınız. Kabul edilen başlangıç senaryosunu değerlendiriyorum ve bekleyebilecek gelişmelerden önce dikkat gerektiren sorunları ayırt ediyorum.\n\n# # Ne aldığınız\n\n- Bir değerlendirme: incelenen kapsamın içinde devam edin, düzeltmelerden sonra devam edin veya başlatma. Sonuçun nedenlerini ve sınırlarını belirtirim.\n- Tanımlanmış risklerin bir haritası: her problem nerede meydana gelir, onu tetikler ve ne etkileyebilir.\n- Düzeltmeler için öncekiler. Eğer başlatıcıları bulamazsam, neyin incelendiğini belgeliyorum. Risk sayısı önceden belirlenmiş değildir.\n- Bir kontrol listesi veri erişimi, dış hizmet maliyetleri, yedekler ve başarısız bir güncellemeden sonra önceki bir sürüme geri dönüyor.\n- Bir eylem planı, yazılı bir rapor ve bir video yürüyüşü.\n\n## Project örneği: kontrollü sipariş işleme\n\n**Situation.** Kripto-to-fiat değişim platformundaki manuel sipariş işleme 3 saat sürdü. Platform dış bir güvenlik denetimi için hazırlanıyordu.\n\n**Benim rolüm. ** Arka uç ve operatör arayüzü kurdum. İşlem aşamalarından, erişim izninden ve müşteri ve işlem kontrollerinin entegrasyonundan sorumluydum.\n\n**İşim. ** İzin verilen işlem aşamalarını ve personel izinlerini tanımladım. Entegre cüzdan ve meslektaşım kontroller, multi-fak işareti-in, seans dış servis bildirimlerinin geri çekilmesi ve doğrulaması.\n\nSipariş işleme 3 saatden 3 dakikaya düştü. Platform dış bir güvenlik denetimini geçti. Bir mühendis olarak hazırlığına katkıda bulundum; bu denetimi yapmadım.\n\nProje, deneyimimi operasyon ayrımı ve veri erişimi ile göstermektedir. Onun sonuçları uygulama çalışmasından geldi ve bir teşhis incelemesinin sonuçlarını tahmin etmedi.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda, ürünü tartışıyoruz, planlar, inceleme kapsamı ve ücreti.\n2. Sisteme genel bakış, bir kullanıcı yolculuğu diyagramı, sırları kaldıran ayarlar, örnek olay logları ve işletim ölçümleri.\n3. Para ve verilere riskleri değerlendiriyorum, erişim kontrolleri, AI hizmeti maliyetleri, güncellemelerden sonra yedekler ve kurtarma.\n4. Bir rapor ve video yürüyüşü alırsınız. Daha sonra önerileri kimin uygulayacağına karar veriyorsunuz.\n\nİlk mesaj için, ürünü tarif edin ve planlanan fırlatma. Geliştiriciniz diyagramlar, ayarlar ve loglar tutarsa, materyallerin hazırlanmasına yardımcı olmak gerekir. Şifreler, gerçek anahtarlar ve canlı sisteme erişim gerekli değildir.\n\n# # # Review sınırları\n\nDeğerlendirme kabul edilen senaryoya ve sağlanan malzemelere uygulanır. Tam bir sistem kontrolü veya güvenli bir başlatın garantisi değildir.\n\nİnceleme, bir ürün yeniden yazma, resmi güvenlik denetimleri, penetrasyon testleri, sertifikasyon ve yasal görüşleri dışlamaktadır. Hiçbir garantili sistem kullanılabilirliği seviyesi sunulmaktadır.\n\nRaporu tutuyorsunuz. Geliştiriciniz bunu yapabilir ya da bir sonraki iş aşamasını kabul edebiliriz. Bu başlamadan önce, kapsamı, sorumlulukları ve kabul kriterlerini belgeliyoruz. Herhangi bir gerekli erişim ayrı kabul edilir, minimum izinler ve onları revize etme yeteneği. İnceleme malzemeleri gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nÜretim Readiness Review: GO / CONDITIONAL GO / NO-GO açık değerlendirme sınırları ile; bir başlangıç riski haritası; erişim ve sırların kullanımı; API maliyet kontrolleri; yedekleme ve rollback; bir sonraki aşama için öncelikler ve kapsamı. Riskler sistemin belirli bölgelerine ve onları tetikleyen koşullara bağlıdır.\n\n## Ücretler ve zamanlama\n\nÜcret: 600 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nBeni başlatmak için planladığınız ve sizi ilgilendiren şeylerle Telegram'da gönderin. 15 dakikalık bir çağrı düzenleyeceğiz. İlk önce bir riskin teknik nedenini tanımlamanız gerekmez.\n\nBeni Telegram'da Yemin ederim\n"
+        "hero": {
+  "title": "Prototip çalışıyor. Müşterilerden önce ne kontrol edilmeli?",
+  "lead": "Paylaştığınız materyallerle seçilen lansman senaryosunda para, veri ve servis maliyeti risklerini değerlendiriyorum."
+},
+      "sections": [
+  {
+    "kind": "checks",
+    "title": "Lansman öncesi kontroller",
+    "items": [
+      {
+        "title": "Erişim",
+        "text": "Veriye kim erişebilir?",
+        "icon": "shield"
+      },
+      {
+        "title": "Maliyet",
+        "text": "Servis kullanımı nasıl sınırlandırılır?",
+        "icon": "cost"
+      },
+      {
+        "title": "Kurtarma",
+        "text": "Yedek ve geri dönüş hazır mı?",
+        "icon": "restore"
+      },
+      {
+        "title": "Lansman kararı",
+        "text": "İlerle, düzeltmelerden sonra ilerle veya ertele.",
+        "icon": "launch"
+      }
+    ]
+  },
+  {
+    "kind": "cards",
+    "title": "Ne alırsınız?",
+    "items": [
+      {
+        "title": "Gerekçeli değerlendirme",
+        "text": "İncelenen kapsam ve kararın sınırları.",
+        "icon": "check"
+      },
+      {
+        "title": "Risk haritası",
+        "text": "Tetikleyiciler, etkiler ve düzeltme öncelikleri.",
+        "icon": "architecture"
+      },
+      {
+        "title": "Eylem planı",
+        "text": "Kontrol listesi, yazılı rapor ve video anlatımı.",
+        "icon": "report"
+      }
+    ]
+  },
+  {
+    "kind": "cases",
+    "title": "Proje: kontrollü sipariş işleme",
+    "items": [
+      {
+        "title": "İşlem aşamaları ve erişim",
+        "text": "Kripto-fiat platformunun backend ve operatör arayüzünü geliştirdim; işlem aşamalarını ve yetkileri tanımlayıp cüzdan ve karşı taraf kontrollerini entegre ettim.",
+        "metrics": [
+          {
+            "label": "Sipariş işleme",
+            "value": "3 saat",
+            "end": "3 dk"
+          }
+        ]
+      }
+    ],
+    "note": "Platform harici güvenlik denetiminden geçti. Hazırlığa mühendis olarak katkı sundum; denetimi ben yapmadım. Sonuç incelemenin sonucunu öngörmez."
+  },
+  {
+    "kind": "details",
+    "title": "Kapsam ve hazırlık",
+    "items": [
+      {
+        "title": "Materyaller",
+        "text": "Sistem özeti, kullanıcı akışı, sırları çıkarılmış ayarlar, örnek kayıtlar ve metrikler. Gerekirse geliştiriciniz yardımcı olur.",
+        "icon": "folder"
+      },
+      {
+        "title": "Sınırlar",
+        "text": "Değerlendirme yalnızca kararlaştırılan senaryo ve sağlanan materyaller için geçerlidir; güvenli lansman garantisi veya resmi güvenlik denetimi değildir.",
+        "icon": "shield"
+      },
+      {
+        "title": "Teknik notlar",
+        "text": "Erişim ve sırlar, API maliyetleri, yedekleme ve geri alma. Canlı erişim, parola veya anahtar gerekmez.",
+        "icon": "database"
+      }
+    ]
+  }
+],
+      "facts": [
+  "$600’dan başlayan",
+  "Belgeler ulaştıktan sonra 3–5 iş günü içinde rapor"
+]
       },
       "capabilities": {
         "metadata": {
-          "cta": "Mesaj bana on Telegram",
+          "cta": "Telegram’da yazın",
           "url": "/capabilities",
           "description": "Kapasite ve gecikme, teknik planlama, alım satım yazılımları ve veri işleme. Sorununuzu, hedef sonucu ve mühendislik çalışmasının sınırlarını konuşuruz.",
           "title": "Karmaşık Dijital Ürünler için Mühendislik — Eldiyar",
           "offer": "Diğer ihtiyaçlar"
         },
-        "body": "# gecikmeler, büyüyen trafik veya karmaşık veri işleme ürününüzü geri tutar\n\nBelirli bir mühendislik probleminde çalışıyorum: Bir başarısızlık anlamak, büyüme için bir sistem hazırlamak veya bir sonraki gelişim aşamasını tanımlamak. İş sorunuyla başlayın.\n\n## Relevant deneyimi\n\nKatkımın örnekleri her çalışma alanının yanında görünür.\n\n## Hizmetiniz yavaşlıyor veya bağlantıları kaybediyor\n\nİletişim ürünleri için, canlı akış, pazarlar ve cihaz yönetim platformları. Artan trafik gecikmelere neden olduğunda temasa geçin, bağlantıları bıraktı veya olayları kaybetti.\n\nYükün nasıl dağıtılacağını, bir başarısızlıktan sonra kurtarıldığını ve sistemin beklenen hacmi idare edebileceğini doğrulıyorum. İnceleme gecikme ve planlama yük testlerini ölçmek için öneriler içerir.\n\nCanlı bir konuşma çevirisi platformunda, 10.000 eş zamanlı WebSocket bağlantılarını destekleyen medya seansı izolasyonunu yaptım. AI sağlayıcısı entegrasyonundaki sonuçlar 250 ms altında gecikti ve sağlayıcı API maliyetlerini %40 azalttı. Bir cihaz yönetim platformunda, geliştirdiğim mesaj otobüsü ikinci 60.000'e kadar taleplerin zirvesine ulaştı.\n\n# # # ölçeklendirmeden önce ne değiştireceğinizi bilmeniz gerekir\n\nKurucular için, yatırımcılar ve takımlar bir ürünün teknik kısıtlamalarını değerlendirir veya hangi gelişim çalışmalarının ilk önce gelmesi gerektiğini karar verirler.\n\nSistemi değerlendiriyorum, teknik konulardan ayrı acil riskler ve ekip için bir plan hazırlarım. İş, bir yatırım kararından önce teknik olarak uygulanabilir ve teknik bir lider olarak devam edebilir. Devam eden destek genellikle bir inceleme veya uygulama aşamasından sonra başlar.\n\nBir cihaz yönetim platformunda, cihaz filosunda on kat artış için kapasite başı oda ile tasarım mimarisine yardımcı oldum. Ayrıca 60'dan fazla tablo ve 8 hiyerarşi seviyesi ile bir PostgreSQL veritabanını optimize ettim. Mühendislik ve mentorluk çalışması boyunca 100 ayrıntılı kod incelemesinden daha fazlasını yaptım.\n\n## Ticaret yazılımınızın açık, test edilebilir kurallara ihtiyacı var\n\nTakip etmek için çalışan takımlar için, tarihsel strateji testleri, piyasa verileri işleme ve yazılım risk kontrolleri.\n\nAçık infaz kuralları ile yazılım ve altyapı inşa ediyorum, pre-ticaret kontrolleri ve sistem izleme. Müşteri fonları, yatırım önerileri veya geri dönüş vaatleri yönetimi sunmuyorum.\n\nBir ticaret ve analitik ürünün öncü mühendisi olarak, yanlış sinyalleri% 50 azaltan ve 15 pre-ticaret risk kontrolleri uygulanan bir sinyal puanlama mekanizması yaptım. Bu sonuçlar belirli sistem mekanizmaları tanımlar, strateji geri döndürür.\n\n## Kataloğu ve dosya işleme manuel yeniden başlatmalara ihtiyaç duyuyor\n\nE-ticaret, yayıncılar ve medya şirketleri için verileri toplamak, standartlaştırmak ve bitmiş dosyaları üretmek. Standart araçlar artık iş ve başarısızlık işlemeyi kapatamadığı zaman temasa geçin.\n\nTakip edilen aşamalarla işleme sistemleri tasarlıyorum, kaydedilen ilerleme ve öngörülebilir depolama gereksinimlerinden kurtarma.\n\nBir yayın projesinde, veri koleksiyonundan dosyaları bitirmek için tam işlemden sorumluydum, 4,000'den fazla katalog malzemesini kullanarak. Paralel işleme on kat arttı. Checkpoints ve tekrarlanan iş başarısızlıkları sırasında ilerleme kaybı ortadan kaldırdı. Medya optimizasyonu, tipografi kalitesini korurken depolama gerekliliklerini %50 azalttı.\n\n# # # Nasıl Başlanır\n\nYolda neyin geldiğini ve ihtiyacınız olan sonucu açıklayın. İlk konuşma, görevimin uzmanlığıma uygun olup olmadığını oluşturur. Tanık bir inceleme için, önemli bir süreci seçeriz ve çalışmayı, ücreti, zamanlama ve malzemeleri kabul ediyoruz.\n\nProblemin ve mevcut diyagramların bir açıklaması hazırlayın, örneğin olaylar ve sırlar ile metrikleri çalıştırın. Geliştiriciniz teknik malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. İlk mesaj için teknik bir belirtiye ihtiyacınız yoktur.\n\nTanık bir inceleme planı daha fazla iş için oluşturur. Formal güvenlik denetimleri, sertifikasyon ve yasal görüşler dışlanır. Data collection site terimlerine, kişisel veri gereksinimlerine ve mesajlaşma kurallarına tabi kalır.\n\nYukarıdaki örnekler bireysel projelere olan katkımı tanımlar. Müşteri malzemeleri gizli kalır.\n\n## Geliştiriciniz için Teknik detaylar\n\nGerçek zamanlı sistemler: yaşam döngüsü, sırt basıncı, fan-out, kurtarma, caching, izleme ve yükleme testi planlama.\n- Mimarlık ve teknik liderlik: Mimarlık ve Scale Denetim, Teknik Due Diligence, kod incelemesi ve teknik özellikler.\n- Ticaret altyapısı: yürütme motoru, geri test, risk muhafızları, piyasa rejim sınıflandırması ve kitap analizleri.\n- Veri işleme: normalleştirme, dosya nesli, kontrol noktaları ve idempotent yeniden başlar.\n\n## Next adım\n\nBeni geliştirmek istediğiniz şeyle Telegram'da gönderin. 15 dakikalık bir çağrı ile başlayacağız. Teknik bir hizmet adı seçmeniz gerekmez.\n\nBeni Telegram'da Yemin ederim\n"
+        "hero": {
+  "title": "Trafik, gecikme veya karmaşık veri işleme büyümeyi mi engelliyor?",
+  "lead": "İş sorununu anlatın; uygun mühendislik çalışmasını ve kapsamını birlikte belirleyelim."
+},
+      "sections": [
+  {
+    "kind": "cards",
+    "title": "Diğer çalışma alanları",
+    "items": [
+      {
+        "title": "Gerçek zamanlı sistemler",
+        "text": "Canlı çeviri platformunda medya oturumu izolasyonu ile 10.000’den fazla eşzamanlı WebSocket; sağlayıcı maliyetinde %40 düşüş.",
+        "icon": "wave"
+      },
+      {
+        "title": "Mimari ve teknik liderlik",
+        "text": "Cihaz yönetiminde 10 kat büyüme payı olan mimariye katkı; 60’tan fazla tablolu PostgreSQL optimizasyonu ve 100’den fazla kod incelemesi.",
+        "icon": "architecture"
+      },
+      {
+        "title": "Alım satım yazılımı",
+        "text": "Açık işlem kuralları ve risk kontrolleri. Bir projede 15 işlem öncesi kontrol ve %50 daha az yanlış sinyal; yatırım tavsiyesi veya getiri vaadi değildir.",
+        "icon": "chart"
+      },
+      {
+        "title": "Veri ve dosya işleme",
+        "text": "Yayıncılıkta 4.000’den fazla katalog öğesi; paralel işleme ile 10 kat kapasite ve kayıt noktalarıyla kaldığı yerden devam.",
+        "icon": "database"
+      }
+    ]
+  },
+  {
+    "kind": "details",
+    "title": "Başlangıç ve sınırlar",
+    "items": [
+      {
+        "title": "İlk görüşme",
+        "text": "Sorunu ve istediğiniz sonucu anlatın. İnceleme gerekiyorsa kapsam, ücret, süre ve materyalleri belirleriz.",
+        "icon": "clock"
+      },
+      {
+        "title": "Çalışmanın sınırları",
+        "text": "Resmi güvenlik denetimi, sertifikasyon ve hukuki görüş dahil değildir. Veri toplama ilgili kurallara tabidir; müşteri materyalleri gizlidir.",
+        "icon": "shield"
+      }
+    ]
+  }
+]
       },
       "index": {
         "metadata": {
-          "cta": "Mesaj bana on Telegram",
+          "cta": "Telegram’da yazın",
           "url": "/",
           "description": "İşletme sahiplerinin hataları ve lansman risklerini anlamasına yardımcı oluyorum. Teşhis incelemesi ve eylem planı alırsınız.",
           "title": "Yapay Zekâ, Otomasyon ve Ödeme Güvenilirliği — Eldiyar",
           "offer": "Ürün güvenilirliği"
         },
-        "body": "#Başlamak için hazırlamak veya başarısızlıklarla uğraşmak mı? Dikkate ne ihtiyacı olduğunu bulmanıza yardımcı oluyorum.\n\nEldiyar, bir sistem mühendisiyim. AI ürünleri, otomasyon ve ödemelerde başarısızlıkların işe yaradığını veya para ve müşteri verilerini etkilediği konusunda çalışıyorum.\n\nNe olduğunu tarif ederek başlayın. Teknik nedeni bilmeniz veya kendinize bir tür inceleme seçmeniz gerekmez.\n\nBeni Telegram'da Yemin ederim\n\n## Relevant deneyimi\n\nProje sonuçları ve katkılarım aşağıda açıklanmaktadır.\n\n# ## Üç durumda yardım edebilirim\n\n### Otomasyonunuz hala sürekli manuel çeklere ihtiyaç duyuyor\n\nGörevler sıkışıp kalır, eylemler iki kez gerçekleşir veya AI servis faturaları büyümeye devam eder. Bir [otomi güvenilirlik incelemesi] (/ai-workflow-rescue) önemli bir süreci inceler ve sorunlarınızı ele almak için bir plan verir.\n\n### Bir müşteri para gönderdi, ancak denge güncellenmedi\n\nÖdeme durumları aynı fikirde değildir, transferlerin manuel kontrollere ihtiyacı vardır veya blokaj ücretleri çok yüksektir. A [ön güvenilirlik incelemesi]( / ödemeler-reliability) Bir kripto ödeme veya cüzdan sisteminde bir ödeme yolculuğu inceler.\n\n### prototip çalışır, ancak başlangıçtan emin değilsiniz\n\nAI araçları ile bir ürün inşa ettiniz ve gerçek kullanıcıları, verileri veya ödemeleri tanıtmak üzeresiniz. A [pre-start review](/ai-start-gate) sağladığınız malzemeleri değerlendiriyor: hangi riskleri incelendi ve daha önce ne olması gerektiği.\n\n## Project sonuçları ve katkılarım\n\nBu sonuçlar, bireysel projeler üzerinde mühendislik çalışmalarından gelir. Tanık bir inceleme bulguları ve bir plan yaratır; sonuç, bu bulguların ortaya çıktığı şeye bağlıdır. Gizli proje isimlerini veya müşteri verilerini açıklamam.\n\n### Analytics otomasyon: dakikalar yerine saniyede raporlar\n\nRaporlar hazırlamak için 30-60 dakika sürdü. Analitik sistemi ve AI modülleri arasındaki koordinasyonu tasarladım, bağımsız görevlerin paralel olarak çalışmasına izin verdim. Rapor nesli 10-15 saniyeye düştü.\n\n## Crypto ödemeleri: daha düşük blokaj ücretleri\n\nÖdeme çekirdeği ve işlem takibinden sorumluydum. TRON ve EVM transferleri için gerekli kaynakları otomatikleştirmek, blokaj işlem ücretini% 90 azalttı. İşlem izleme hattı, yerleşim süresini 2-3 saniyeye kadar yükseltti.\n\n### Canlı konuşma çevirisi: daha az tekrarlanan AI istekleri\n\nMedya seansı izolasyonu ve AI sağlayıcıları ile entegrasyon yaptım. Sonuçlar tekrarlamak ve tekrarlanan istekleri ortadan kaldırmak, üçüncü taraf API maliyetlerini% 40 azaltır. Platform, 10.000'den fazla eşzamanlı WebSocket bağlantısı destekledi.\n\n# # Ne satın aldığınız\n\nSağlanan bir sürecin teşhis incelemesi, sağladığınız malzemelere dayanarak. Riskler belgeliyorum, başarısızlıkların olası nedenleri ve önerilen öncelikler. Yazılı bir rapor ve video yürüyüşünü alırsınız. Raporu geliştiricinize veya başka bir müteahhitinize verebilirsiniz.\n\nRapordan sonra, bir sonraki adımları, kapsamı, sorumlulukları ve kabul kriterlerini tanımlarız.\n\nKapasite için, teknik liderlik, ticaret yazılımı ve veri işleme, [başka çalışma alanları](/kapsiyonlar).\n\n## Ücretler ve zamanlama\n\nABD doları Tanı ücretleri:\n\n- Otomasyon güvenilirlik incelemesi - 400 dolardan.\nÖdeme güvenilirlik incelemesi - $ 1,200'den.\n- Pre-start inceleme - 600 $.\n\nİş başlamadan önce ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n# # What to prepare\n\nİlk konuşma için, ne olması gerektiğini, bunun yerine ne olduğunu ve işinizi nasıl etkilediğini tarif edin. İlk 15 dakikalık çağrı, problemin uzmanlığımı ve hangi materyallerin gerekli olup olmadığını oluşturur.\n\nİnceleme için, bir sistem genel bakışı, bir süreç diyagramı, örnek olay logları ve işletim ölçümleri sağlar. AI ürünleri ve otomasyon için, sırları kaldıran ayarları içerir. Geliştiriciniz bu malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. Kodu kendiniz okumak zorunda değilsiniz.\n\nMalzemeler anonim olabilir. Şifreler, anahtarlar ve canlı sisteme erişim, inceleme için gerekli değildir. Malzemelerniz gizli kalır. Uygulama erişim gerektirirse, gerekli minimum izinlerle ayrı olarak kabul ediyoruz ve onları geri çekme yeteneği.\n\n# # # Boundaries of the work\n\nÇalışmayı şahsen yapıyorum. Bir malzeme bazlı bir inceleme, tam bir sistem değerlendirmesini, resmi bir güvenlik denetimini veya yasal bir görüşü değiştirmiyor. Tasarım ve önemli arayüz gelişimi kapsamı dışındadır.\n\nÇalışma zamanı alanım UTC+3. Ödeme banka transferi, ödeme hizmetleri, stabilcoins veya kripto para birimi tarafından mevcuttur.\n\n## Next adım\n\nÜrün veya süreç hakkındaki endişenizle Telegram'da benimle iletişime geçin. İlk önce 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
+        "hero": {
+  "title": "Lansmana hazırlanıyor veya aksaklıklarla mı uğraşıyorsunuz?",
+  "lead": "Ben Eldiyar, sistem mühendisiyim. Yapay zekâ, otomasyon ve ödeme süreçlerindeki sorunları inceleyip bir çözüm planı hazırlıyorum."
+},
+      "sections": [
+  {
+    "kind": "cards",
+    "title": "Nasıl yardımcı olabilirim?",
+    "items": [
+      {
+        "title": "Otomasyon",
+        "text": "Takılan işler, tekrarlanan işlemler ve yapay zekâ maliyetleri.",
+        "href": "/ai-workflow-rescue",
+        "price": "$400’dan başlayan",
+        "icon": "workflow"
+      },
+      {
+        "title": "Kripto ödemeler",
+        "text": "Geciken bakiyeler, mutabakat ve ağ ücretleri.",
+        "href": "/payments-reliability",
+        "price": "$1.200’dan başlayan",
+        "icon": "payment"
+      },
+      {
+        "title": "Lansman öncesi",
+        "text": "Gerçek kullanıcılar, veriler ve ödemeler öncesinde riskler.",
+        "href": "/ai-launch-gate",
+        "price": "$600’dan başlayan",
+        "icon": "launch"
+      }
+    ]
+  },
+  {
+    "kind": "cases",
+    "title": "Projelerden sonuçlar",
+    "items": [
+      {
+        "title": "Analiz raporları",
+        "text": "Analiz sistemini ve yapay zekâ modüllerinin eşgüdümünü tasarladım; bağımsız işleri paralel çalıştırdım.",
+        "metrics": [
+          {
+            "label": "Rapor süresi",
+            "value": "30–60 dk",
+            "end": "10–15 sn"
+          }
+        ]
+      },
+      {
+        "title": "Kripto ödemeler",
+        "text": "Ödeme çekirdeğinden ve işlem takibinden sorumluydum; transfer kaynaklarını otomatikleştirdim.",
+        "metrics": [
+          {
+            "label": "Blokzincir işlem ücretleri",
+            "value": "−90%"
+          },
+          {
+            "label": "İşlem sonuçlanması",
+            "value": "2–3 sn"
+          }
+        ]
+      },
+      {
+        "title": "Canlı konuşma çevirisi",
+        "text": "Medya oturumlarını izole ettim ve yapay zekâ sağlayıcı entegrasyonunda sonuçların yeniden kullanımını sağladım.",
+        "metrics": [
+          {
+            "label": "Sağlayıcı API maliyeti",
+            "value": "−40%"
+          },
+          {
+            "label": "Eşzamanlı WebSocket",
+            "value": "10.000+"
+          }
+        ]
+      }
+    ],
+    "note": "Bu sonuçlar ayrı projelerdeki uygulama çalışmalarına aittir; inceleme aynı sonucu garanti etmez."
+  },
+  {
+    "kind": "flow",
+    "title": "Nasıl başlarız?",
+    "items": [
+      {
+        "title": "15 dakikalık görüşme",
+        "text": "Sorunu ve kapsamı konuşuruz.",
+        "icon": "clock"
+      },
+      {
+        "title": "Materyaller",
+        "text": "Gizli bilgiler çıkarılmış şema ve örnekleri paylaşırsınız.",
+        "icon": "folder"
+      },
+      {
+        "title": "Rapor ve görüşme",
+        "text": "Yazılı rapor ve video anlatımı alırsınız.",
+        "icon": "report"
+      }
+    ]
+  }
+],
+      "related": {
+  "title": "Diğer çalışma alanları",
+  "href": "/capabilities"
+}
       },
       "payments-reliability": {
         "metadata": {
-          "cta": "Mesaj bana on Telegram",
+          "cta": "Telegram’da yazın",
           "url": "/payments-reliability",
           "description": "Geciken bakiyeler, yinelenen işlemler, muhasebe tutarsızlıkları ve blok zinciri ücretleri için tek bir ödeme akışını inceliyorum. Rapor ve düzeltme planı alırsınız.",
           "title": "Kripto Ödeme Güvenilirliği İncelemesi — Eldiyar",
           "offer": "Kripto ödemeler"
         },
-        "body": "# Para gönderildi, ancak ekibiniz hala krediyi manuel olarak kontrol etmek zorunda\n\nÖdeme ürünleri, cüzdan hizmetleri ve stabilcoin yerleşim sistemlerinin sahipleri, operasyonların tezgah ve gereksiz maliyetlerin nereden geldiğini anlamalarına yardımcı oluyorum.\n\n## Relevant deneyimi\n\nAşağıdaki proje çalışmamı bir ödeme çekirdeği üzerinde açıklar.\n\n## Bir inceleme yardımcı olduğunda\n\nBir müşteri blok zincirdeki transferi görebilir, ancak hizmetiniz bunu kredilendirmedi. Durumlar aynı fikirde değil, retries tekrarlar yaratabilir ve ücretler büyüyor. Ekibiniz tüm sürecin açık bir resmi olmadan bireysel olayları düzeltiyor.\n\nKabul edilen bir ödeme yolculuğunu inceliyorum: Bir ağ toplantısından kredi, yerleşim veya uzlaşma yoluyla. Sistem malzemeleri ve geliştiriciniz için bir eylem planına dayalı bir teşhis incelemesi satın alırsınız.\n\n# # Ne aldığınız\n\n- Ödeme yolculuğu haritası: her aşamadan kim sorumludur ve bir operasyon nerede durabilir.\nTekrarlamanın bir incelemesi: Bir bildirim iki veya bir hizmet bir başarısızlıktan sonra bir istekle geri gelir.\n- Reconciliation puanları: Blockchain kayıtlarını iç muhasebe ile karşılaştırmak.\n- Cüzdanlara ve blok erişim hizmetlerine bağımlılıkların bir değerlendirme.\n- İşlem ücretlerini inceleme sürecinde azaltma fırsatları.\n- Başarısız izleme ve güvenlik için öneriler, yazılı bir rapor ve şimdi neyin düzeltileceği ve ne bekleyebilir.\n\n## Project örneği: ödeme ücretleri ve gecikmeler\n\n**Situation.** Büyüyen trafik fonları daha zor hale getirirken, blokaj ücretleri operasyonların maliyetini artırdı.\n\n**Benim rolüm. ** Ödeme çekirdeği ve gerçek zamanlı işlem takibinden sorumluydum.\n\n**İşim. ** Ödeme çekirdeği mimarisini tasarladım ve TRON enerji kiralama ve EVM ücretlerinin üst sıralarını da içeren depozito fonlarının hareketini otomatikleştirdim. 3 milyondan fazla cüzdan veritabanında işlem takip ettim, kalan işlemler için depozito dağıtım ve sipariş kontrolleri.\n\n- Blockchain işlem ücreti% 90 oranında düştü.\n- Çözüm gecikmesi 2-3 saniyeye düştü.\n- Kamu blokaj erişim hizmetleri üzerine yük, inşa ettiğim verilerle% 70 oranında düştü.\n\nBu rakamlar bir sistem üzerinde uygulama işten gelir. Tüm iş harcamalarından ziyade blok zincir işlem ücretlerini kaplar ve bir inceleme aynı sonucu garanti etmez. Proje adını veya müşteri verilerini açıklamam.\n\n## İnceleme nasıl çalışır\n\n1. 15 dakikalık bir çağrıda, bir ödeme yolculuğu seçtik ve inceleme sınırlarını ve ücretini kabul ediyoruz.\n2. Sisteme genel bakış, bir ödeme diyagramı, örnek olay oturumları ve işletim ölçümleri, sırlar ve müşteri verileri kaldırıldı.\n3. Operasyon aşamalarını, retries, uzlaşmayı, bağımlılıkları ve ücretleri değerlendiriyorum.\n4. Bir rapor alırsınız ve düzeltmeler için önceliklerle bir video yürüyüş.\n\nİlk konuşma için, gecikmeyi, diskrepancy'yi veya gereksiz maliyeti tarif edin. Geliştiriciniz teknik malzemeleri tutarsa, onları hazırlamak için yardıma ihtiyaçları olacaktır. Gerçek cüzdan anahtarları, şifreler ve canlı sisteme erişim gerekli değildir.\n\n# # # Review sınırları\n\nİnceleme, tüm ödeme sistemi yerine verilen malzemeleri kullanarak kabul edilen bir ödeme yolculuğunu kapsar. Raporu geliştiricinize veya başka bir müteahhitinize verebilirsiniz.\n\nHizmet, resmi akıllı sözleşme denetimlerini, penetrasyon testlerini, yasal yasal görüşleri, sertifikayı, kullanılabilirlik garantilerini ve müşteri fonlarının yönetimini dışlamaktadır.\n\nMalzemelerniz gizli kalır. Uygulama ile devam edersek, çalışma ve herhangi bir erişimin gerekli olduğunu kabul ederiz, minimum izinler ve onları geri çekme yeteneği.\n\n## Geliştiriciniz için Teknik detaylar\n\nÖdeme Akış Güvenilirlik Denetimi: güven sınırları; yaşam döngüsü/devlet makinesi; retries ve idempotency; cüzdan/RPC topoloji; uzlaşma noktaları; gaz/enerji optimizasyonu; izleme ve bir güvenlik backlog. Her alan belirli ödeme aşamalarına ve başarısızlık sonuçlarına bağlıdır.\n\n## Ücretler ve zamanlama\n\nÜcret: 1,200 $. İnceleme başlamadan önce tam ücreti kabul ediyoruz. Rapor, malzemeleri almanın 3-5 iş günü içinde hazır.\n\n## Next adım\n\nÖdemelere neler oluyor ve işinizi nasıl etkilediğiyle Telegram'da bana mesaj verin. 15 dakikalık bir çağrı düzenleyeceğiz.\n\nBeni Telegram'da Yemin ederim\n"
+        "hero": {
+  "title": "Para gönderildi, bakiye hâlâ manuel mi kontrol ediliyor?",
+  "lead": "Kripto ödeme ve cüzdan sistemlerinde bir ödeme yolundaki gecikmeleri, mükerrer işlemleri ve ücretleri inceliyorum."
+},
+      "sections": [
+  {
+    "kind": "flow",
+    "title": "Ödeme yolunu izleyin",
+    "items": [
+      {
+        "title": "Gönderim",
+        "text": "Ağda transfer başlar.",
+        "icon": "send"
+      },
+      {
+        "title": "Onay",
+        "text": "Bildirim ve işlem durumu doğrulanır.",
+        "icon": "check"
+      },
+      {
+        "title": "Bakiye",
+        "text": "Tutar hesaba işlenir.",
+        "icon": "wallet"
+      },
+      {
+        "title": "Mutabakat",
+        "text": "Zincir kayıtları iç kayıtlarla karşılaştırılır.",
+        "icon": "ledger"
+      }
+    ]
+  },
+  {
+    "kind": "cards",
+    "title": "Ne alırsınız?",
+    "items": [
+      {
+        "title": "Ödeme haritası",
+        "text": "Aşamalar, sorumluluklar ve durma noktaları.",
+        "icon": "architecture"
+      },
+      {
+        "title": "Tekrar ve mutabakat",
+        "text": "Yeniden denemeler, mükerrer bildirimler ve karşılaştırma noktaları.",
+        "icon": "ledger"
+      },
+      {
+        "title": "Maliyet ve öncelikler",
+        "text": "Cüzdan ve ağ bağımlılıkları, ücret fırsatları, izleme; yazılı rapor ve video anlatımı.",
+        "icon": "cost"
+      }
+    ]
+  },
+  {
+    "kind": "cases",
+    "title": "Proje: ödeme ücretleri ve gecikmeler",
+    "items": [
+      {
+        "title": "Ödeme çekirdeği",
+        "text": "Çekirdek mimarisinden ve gerçek zamanlı işlem takibinden sorumluydum. TRON enerji kiralama ve EVM ücret bakiyesi dahil transfer kaynaklarını otomatikleştirdim; 3 milyondan fazla cüzdanı takip eden sistem geliştirdim.",
+        "metrics": [
+          {
+            "label": "Blokzincir işlem ücretleri",
+            "value": "−90%"
+          },
+          {
+            "label": "Sonuçlanma süresi",
+            "value": "2–3 sn"
+          },
+          {
+            "label": "Herkese açık ağ servisleri yükü",
+            "value": "−70%"
+          }
+        ]
+      }
+    ],
+    "note": "Ücret sonucu tüm işletme giderlerini değil, blokzincir işlem ücretlerini kapsar. İnceleme aynı sonucu garanti etmez."
+  },
+  {
+    "kind": "details",
+    "title": "Kapsam ve hazırlık",
+    "items": [
+      {
+        "title": "Materyaller",
+        "text": "Sistem özeti, ödeme şeması, müşteri verileri ve sırları çıkarılmış örnek kayıtlar ve metrikler. Gerekirse geliştiriciniz yardımcı olur.",
+        "icon": "folder"
+      },
+      {
+        "title": "Sınırlar",
+        "text": "Tek bir ödeme yolu incelenir. Resmi akıllı sözleşme denetimi, sızma testi, hukuki görüş, sertifikasyon ve müşteri fonlarının yönetimi dahil değildir.",
+        "icon": "shield"
+      },
+      {
+        "title": "Teknik notlar",
+        "text": "Durum geçişleri, idempotency, cüzdan/RPC bağımlılıkları, mutabakat, gas/enerji ve izleme. Gerçek anahtar veya canlı erişim gerekmez.",
+        "icon": "database"
+      }
+    ]
+  }
+],
+      "facts": [
+  "$1.200’dan başlayan",
+  "Belgeler ulaştıktan sonra 3–5 iş günü içinde rapor"
+]
       }
     }
   },
   "faq": {
-    "title": "Sık sorulan sorular",
-    "groups": [
-      {
-        "title": "Çıktılar ve ücretler",
-        "items": [
-          {
-            "question": "Tanık bir incelemeden sonra tam olarak ne alacağım?",
-            "answer": [
-              "Yazılı bir rapor ve video yürüyüşünü alırsınız.",
-              "İçerik seçilmiş incelemeye ve kabul edilen süreçe bağlıdır: önemli aşamaların bir haritası, tespit edilen riskler ve onların tetikleyici koşulları, başarısızlıklar hakkında hipotezler, gözlemlenebilirlik ve maliyet kontrolleri ve bir sonraki / sonraki plan.",
-              "Her sonuç, inceleme altındaki sürecin belirli bir bölümüne bağlıdır.",
-              "Risk sayısı önceden belirlenmiş değildir.",
-              "Eğer başlatıcıları yoksa, rapor neyin gözden geçirildiğini ve sonucun uygulandığı sınırları belirtir."
-            ]
-          },
-          {
-            "question": "Tanık inceleme neden ayrı ücretli bir hizmet?",
-            "answer": [
-              "İnceleme, somut bir teslim edilebilir bir standalone hizmetidir.",
-              "Raporu tutuyorsunuz ve ekibinize, başka bir müteahhite sahip olabilirsiniz ya da önerileri ayrı kabul edilen bir kapsamın altında uyguluyorum."
-            ]
-          },
-          {
-            "question": "Ne kadar maliyeti var?",
-            "answer": [
-              "Ücret işleme ve malzeme miktarına bağlıdır.",
-              "Bir otomasyon güvenilirlik incelemesi 400 $ 'da başlar, bir AI ürünü 600 $'da gözden geçirilir ve 1,200 $ bir ödeme yolculuğu incelemektedir.",
-              "İş başlamadan önce yazılı olarak tam ücreti kabul ediyoruz."
-            ]
-          },
-          {
-            "question": "Bir inceleme ne kadar sürer?",
-            "answer": [
-              "Rapor normalde kabul edilen malzemeleri aldıktan sonra 3-5 iş günü içinde hazır.",
-              "Uygulama zamanlaması, kapsamın, bağımlılıkların ve kabul kriterinin açık olduğu tahmin edilmektedir."
-            ]
-          },
-          {
-            "question": "Ya kritik sorunlar bulamazsanız?",
-            "answer": [
-              "Ne incelendiği, bulduğu herhangi bir sınırlama ve kabul edilen senaryo için bir sonuç alırsınız.",
-              "Bir kotaya ulaşmak için sorunları icat etmiyorum veya sınırlı bir materyal tabanlı incelemenin tüm sistemi güvenli olduğunu iddia etmiyorum."
-            ]
-          },
-          {
-            "question": "Tanık bir incelemeden dışlanmış nedir?",
-            "answer": [
-              "Formal akıllı sözleşme denetimleri, penetrasyon testleri, sertifikasyon ve AML, MiCA veya diğer düzenlemeler hakkında yasal görüşler.",
-              "Ayrıca müşteri fonlarını yönetmiyorum, yatırım önerileri veriyorum, geri bildirim verin veya belirli bir sistem erişilebilirliğini garanti ediyorum."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Erişim ve gizlilik",
-        "items": [
-          {
-            "question": "Üretim erişimine ihtiyacınız var mı?",
-            "answer": [
-              "Hayır.",
-              "Sistem genel bakışı, süreç diyagramı, sırları kaldırılmış, örnek olay logları ve işletim ölçümleri normal olarak yeterlidir.",
-              "Tanık bir inceleme şifre, gerçek anahtarlar veya canlı sisteme erişim gerektirmez.",
-              "Ayrı bir uygulama aşaması için erişim gerekliyse, amacı ve süresini önceden kabul ediyoruz.",
-              "İzinler minimum gerekli ile sınırlı olmalıdır ve herhangi bir zamanda geri alınabilir."
-            ]
-          },
-          {
-            "question": "Gizli materyali nasıl idare edersiniz?",
-            "answer": [
-              "Müşteri malzemeleri gizli kalır.",
-              "Kamu örnekleri kapalı proje isimleri veya müşteri verileri olmadan anonim bilgileri kullanır.",
-              "Bir NDA gerekliyse, hassas malzemeler aktarılmadan önce kabul edebilir ve imzalayabiliriz."
-            ]
-          },
-          {
-            "question": "Ürün fikirlerini ve materyallerin kim var?",
-            "answer": [
-              "Ürününüz, kaynak malzemeleriniz ve veriler sizin kalıyor.",
-              "Önerim kabul edilen kapsamın içinde rapor ve önerilerdir.",
-              "Daha sonra uygulanması ve çıktılarının kullanımı ile ilgili haklar, bu çalışma başlamadan önce belgelenmiştir."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Çalışma formatı",
-        "items": [
-          {
-            "question": "Yalnız mı yoksa bir takımla mı çalışıyorsunuz?",
-            "answer": [
-              "Bu sitede açıklanan inceleme ve mühendislik çalışmalarını şahsen gerçekleştiriyorum.",
-              "Bir görev, resmi bir güvenlik denetimi, önemli bir ön gelişim veya tasarım gibi ayrı bir uzmanlık gerektirirse, otomatik olarak dahil edilmez.",
-              "Katılımcılara ve ayrı kapsamı önceden kabul ediyoruz."
-            ]
-          },
-          {
-            "question": "Aramalar için hangi dil kullanıyorsunuz?",
-            "answer": [
-              "Rusça akıcı bir şekilde konuşuyorum.",
-              "İngilizce aramaları için, inşa ettiğim gerçek zamanlı yorum sistemini kullanabilirim.",
-              "kapsamı, ücretleri ve sorumluluklar hakkında temel anlaşmalar her zaman yazılı olarak doğrulanır.",
-              "Belgeler ve yazışmalar İngilizce veya Rusça mevcuttur."
-            ]
-          },
-          {
-            "question": "Ne zaman bölgesinde çalışıyorsunuz?",
-            "answer": [
-              "UTC+3.",
-              "Çalışma günüm Avrupa ve CIS ile iyi örtüşüyor ve ABD Doğu Sahil Günü'nün bir parçasıyla.",
-              "Önceden belirli toplantı zamanlarını kabul ediyoruz."
-            ]
-          },
-          {
-            "question": "Nasıl ödeyebilirim?",
-            "answer": [
-              "Banka transferi, ödeme hizmetleri, stabilcoins ve kripto para birimi mevcuttur.",
-              "İş başlamadan önce para, yöntem ve ödeme programı kabul ediyoruz."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Göreviniz için Fit for your task",
-        "items": [
-          {
-            "question": "Zaten geliştiricilerimiz var. Dış bir inceleme nasıl yardımcı olur?",
-            "answer": [
-              "Dış bir inceleme, takıma önemli bir işlem için risk ve öncelikler haritası verir.",
-              "Geliştiricileriniz sistem bilgilerini tutar ve önerileri kendileri uygulayabilir.",
-              "Başarısız modları ve süreçleri insanları yargılamadan veya takımı değiştirmeden inceliyorum."
-            ]
-          },
-          {
-            "question": "Ürünü AI araçları ile inşa ettik. Her şeyin yeniden yazma ihtiyacı olacak mı?",
-            "answer": [
-              "Genellikle değil.",
-              "İnceleme, bekleyebilen gelişmelerden bloklar başlatıyor.",
-              "Tekrarlanan suçlamalar, veri kaybı, sızıntı anahtarlar, kontrol edilmemiş API maliyetleri ve bir olaydan sonra kurtarma gibi risklere öncelik verdim.",
-              "Sadece yerel değişiklikler kabul edilen sorunu çözemediğinde yeniden yazmanızı öneririm."
-            ]
-          },
-          {
-            "question": "Projemiz küçük. Bir inceleme değerli mi?",
-            "answer": [
-              "Ayrı bir inceleme, sistem para veya kişisel verileri ele alırsa veya gerçek zamanlı bir süreçtir.",
-              "Risk ve sonuçlar sınırlıysa ve iş orantılı olmazdı, bunu ilk 15 dakikalık konuşma sırasında söyleyeceğim."
-            ]
-          },
-          {
-            "question": "Hangi kanıtlar deneyiminizi destekliyor?",
-            "answer": [
-              "Site, mühendislik çalışmamdan belirli sonuçları açıklar: ödeme çekirdeğinde günde 100 milyondan fazla talep, 3 milyondan fazla cüzdanın izlenmesi, 10.000'den fazla eş zamanlı WebSocket bağlantısı ve blokaj ücretinde %90 indirim.",
-              "Bu ölçümler bireysel olarak uygulanan sistemlere ait ve bir incelemenin vaat edilen sonuçları değildir."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "İncelemeden sonra",
-        "items": [
-          {
-            "question": "Tanık incelemeden sonra ne olur?",
-            "answer": [
-              "Raporu ekibinize veya başka bir müteahhitinize verebilirsiniz.",
-              "Yardımımı istiyorsanız, uygulama kapsamı, zamanlama, sorumluluklar, erişim ve kabul kriterlerini ayrı olarak kabul ediyoruz.",
-              "Benimle devam etmek isteğe bağlı."
-            ]
-          },
-          {
-            "question": "Devam eden desteği düzenleyebilir miyiz?",
-            "answer": [
-              "Evet.",
-              "Bir inceleme veya uygulamadan sonra, sistemin veya kesik mühendisliğin ve teknik liderliğin kritik bir parçası için desteği tartışabiliriz.",
-              "Dahil çalışma, yanıt süreleri ve dışlamalar ayrı olarak belgelenmektedir.",
-              "Format, varsayılan olarak 7/24 arama kapsamı içermiyor."
-            ]
-          },
-          {
-            "question": "Nasıl başlıyoruz?",
-            "answer": [
-              "Ne olması gerektiği ile Telegram'da bana mesaj verin, bunun yerine ne olur ve işi nasıl etkiler.",
-              "İlk 15 dakikalık konuşmada, görevin uzmanlığımı, hangi malzemelere ihtiyaç olduğunu ve çalışmanın sınırlarının olup olmadığını belirledik."
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "title": "Sık sorulan sorular",
+  "groups": [
+    {
+      "title": "Çalışma hakkında",
+      "items": [
+        {
+          "question": "Hangi materyaller gerekli?",
+          "answer": [
+            "Sistem özeti, süreç şeması, örnek kayıtlar ve metrikler; uygun olduğunda sırları çıkarılmış ayarlar. Canlı erişim, parola veya gerçek anahtar gerekmez."
+          ]
+        },
+        {
+          "question": "Materyallerim gizli kalır mı?",
+          "answer": [
+            "Evet. Gerekirse hassas bilgileri paylaşmadan önce gizlilik sözleşmesi yapabiliriz."
+          ]
+        },
+        {
+          "question": "İnceleme neyi kapsar?",
+          "answer": [
+            "Anlaştığımız bir süreç veya lansman senaryosunu incelerim. Resmi güvenlik denetimi, sızma testi ve hukuki görüş dahil değildir."
+          ]
+        },
+        {
+          "question": "Geliştiricim sürece katılmalı mı?",
+          "answer": [
+            "Teknik materyaller geliştiricinizdeyse onları hazırlamasına ihtiyaç olabilir. Raporu kendi ekibinize verebilirsiniz."
+          ]
+        },
+        {
+          "question": "Nasıl ödeme yapabilirim?",
+          "answer": [
+            "Banka transferi, ödeme hizmetleri, stablecoin veya kripto para ile. Yöntem ve takvimi önceden yazılı olarak belirleriz."
+          ]
+        },
+        {
+          "question": "Uygulamayı kim yapar?",
+          "answer": [
+            "Ekibiniz, başka bir uzman veya ayrı bir anlaşmayla ben yapabilirim. Kapsam ve sorumluluklar önceden belirlenir."
+          ]
+        }
+      ]
+    }
+  ]
+}
 }
