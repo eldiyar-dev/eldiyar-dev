@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import {Geist, Geist_Mono} from 'next/font/google';
+import {Analytics} from '@vercel/analytics/next';
 import '../globals.css';
 import {isLocale, localeDirections} from '@/lib/i18n';
 import {siteUrl} from '@/lib/seo';
