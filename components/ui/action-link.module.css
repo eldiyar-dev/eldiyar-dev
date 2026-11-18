@@ -1,0 +1,22 @@
+.emailLink { position: relative; }
+.emailLink::after {
+  content: attr(data-email);
+  position: absolute;
+  z-index: 5;
+  inset-inline-start: 0;
+  bottom: calc(100% + 8px);
+  padding: 8px 10px;
+  border: 1px solid #65766e;
+  border-radius: 4px;
+  background: #14211c;
+  color: #f0f6f3;
+  font: 12px/1.25 var(--font-mono), monospace;
+  direction: ltr;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+.emailLink:hover::after, .emailLink:focus-visible::after { opacity: 1; transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) { .emailLink::after { transition: none; } }
