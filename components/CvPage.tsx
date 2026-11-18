@@ -1,20 +1,22 @@
 'use client';
 
 import {useState} from 'react';
+import Image from 'next/image';
 import {ActionLink, BrandLink, Card, Reveal, SectionHeading} from '@/components/ui';
 import {getLocalizedPath, type Locale} from '@/lib/i18n';
 import {siteUrl} from '@/lib/seo';
 import {SiteFooter} from './SiteFooter';
-import {diagnosticHref} from './site.constants';
+import {contactHref, diagnosticHref} from './site.constants';
 import {FluidHero} from './FluidHero';
 import {HeroStack} from './HeroStack';
+import {SiteIcon} from './SiteIllustration';
 import fluidStyles from './fluid.module.css';
 import styles from './cv.module.css';
 
 type Pair = [string, string];
 type Case = {id: string; title: string; task: string; role: string; built: string; changed: string; metrics: string[]; overview: string; stack: string[]; achievements: string[]};
 export type CvContent = {
-  hero: {role: string; name: string; lead: string; body: string; cta: string; facts: string[]}; nav: Record<string, string>;
+  hero: {role: string; name: string; title: string; lead: string; body: string; cta: string; facts: string[]}; nav: Record<string, string>;
   results: {eyebrow: string; title: string; items: Pair[]}; what: {eyebrow: string; title: string; items: Pair[]};
   cases: {eyebrow: string; title: string; detail: string; hide: string; overview: string; stack: string; achievements: string; task: string; role: string; built: string; changed: string; items: Case[]};
   ai: {eyebrow: string; title: string; lead: string; items: Pair[]}; fit: {eyebrow: string; title: string; items: Pair[]; noFitTitle: string; noFit: string};
@@ -44,22 +46,32 @@ export default function CvPage({locale, content}: CvPageProps) {
   return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(personSchema)}} /><main className={styles.cv} lang={locale}>
     <section className={styles.hero}>
       <FluidHero>
-        <div className={`${styles.container} ${fluidStyles.contentLayer}`}>
+        <div className={`${styles.container} ${styles.heroFrame} ${fluidStyles.contentLayer}`}>
           <header className={styles.topbar}>
             <BrandLink href={getLocalizedPath('/', locale)} label={locale === 'en' ? 'Eldiyar — home' : 'Eldiyar — на главную'} />
             <nav aria-label="CV sections">
               {['results', 'cases', 'ai', 'fit', 'work'].map(id => <a key={id} href={`#${id}`}>{nav[id]}</a>)}
             </nav>
           </header>
-          <Reveal className={styles.heroContent}>
-            <p className={styles.eyebrow}>{hero.role}</p>
-            <h1 className={styles.name}>{hero.name}</h1>
-            <p className={styles.heroLead}>{hero.lead}</p>
-            <p className={styles.heroBody}>{hero.body}</p>
-            <ActionLink className={styles.primaryButton} href={diagnosticHref(locale)}>{hero.cta}</ActionLink>
-            <div className={styles.facts}>{hero.facts.map(fact => <span key={fact}>{fact}</span>)}</div>
-            <div className={styles.heroStack}><HeroStack locale={locale} /></div>
-          </Reveal>
+          <div className={styles.heroLayout}>
+            <div className={styles.heroCopy}>
+              <div className={styles.heroPortrait}>
+                <Image className={styles.portrait} src="/images/cv-portrait.png" alt={hero.name} width={1254} height={1254} sizes="(max-width: 1160px) 40vw, 448px" priority />
+              </div>
+              <p className={styles.eyebrow}>{hero.role}</p>
+              <h1>{hero.title}</h1>
+              <p className={styles.heroLead}>{hero.lead}</p>
+              <p className={styles.heroBody}>{hero.body}</p>
+              <div className={styles.heroActions}>
+              <ActionLink className={styles.primaryButton} href={contactHref}><SiteIcon name="mail" />{hero.cta}</ActionLink>
+              <a className={styles.socialLink} href={diagnosticHref(locale)} aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21.4 4.6-3.05 14.4c-.23 1.02-.84 1.27-1.7.79l-4.67-3.44-2.25 2.16c-.25.25-.46.46-.94.46l.34-4.75 8.65-7.81c.38-.34-.08-.53-.59-.19L6.5 12.9l-4.58-1.43c-1-.31-1.02-1 .21-1.48L20.05 3.8c.82-.3 1.54.19 1.35.8Z" /></svg></a>
+              <a className={styles.socialLink} href="https://www.linkedin.com/in/eldiyar-dev/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3.25V21H6.5V8.5ZM4.88 3A1.88 1.88 0 1 0 4.88 6.75 1.88 1.88 0 0 0 4.88 3ZM21 13.84C21 10.08 18.99 8.32 16.31 8.32c-2.18 0-3.15 1.2-3.69 2.04V8.5H9.38V21h3.24v-6.19c0-1.63.31-3.21 2.33-3.21 1.99 0 2.02 1.87 2.02 3.32V21H21v-7.16Z" /></svg></a>
+            </div>
+            </div>
+          </div>
+          <div className={styles.heroMeta}>
+            <HeroStack locale={locale} />
+          </div>
         </div>
       </FluidHero>
     </section>
@@ -69,7 +81,7 @@ export default function CvPage({locale, content}: CvPageProps) {
     <section id="cases" className={styles.section}><div className={styles.container}><SectionHeading eyebrow={cases.eyebrow}>{cases.title}</SectionHeading><div className={styles.casesGrid}>{cases.items.map((item, index) => <Reveal key={item.id} delay={index * 60}><CaseCard item={item} index={index} labels={cases} /></Reveal>)}</div></div></section>
     <section id="ai" className={`${styles.section} ${styles.darkSection}`}><div className={styles.container}><SectionHeading eyebrow={ai.eyebrow} dark>{ai.title}</SectionHeading><p className={styles.darkLead}>{ai.lead}</p><div className={styles.principlesGrid}>{ai.items.map(([title, body], index) => <Reveal key={title} delay={index * 40} className={styles.principle}><span>{String(index + 1).padStart(2, '0')}</span><h3>{title}</h3><p>{body}</p></Reveal>)}</div></div></section>
     <section id="fit" className={styles.section}><div className={styles.container}><SectionHeading eyebrow={fit.eyebrow}>{fit.title}</SectionHeading><div className={styles.cardsGrid}>{fit.items.map(([title, body], index) => <Reveal key={title} delay={index * 50}><Card className={styles.card}><h3>{title}</h3><p>{body}</p></Card></Reveal>)}</div><div className={styles.noFit}><span>{fit.noFitTitle}</span><p>{fit.noFit}</p></div></div></section>
-    <section id="work" className={`${styles.section} ${styles.softSection}`}><div className={styles.container}><SectionHeading eyebrow={work.eyebrow}>{work.title}</SectionHeading><div className={styles.cardsGrid}>{work.items.map(([title, body], index) => <Reveal key={title} delay={index * 50}><Card className={styles.card}><h3>{title}</h3><p>{body}</p></Card></Reveal>)}</div><div className={styles.workCta}><p>{work.lead}</p><ActionLink className={styles.primaryButton} href={diagnosticHref(locale)}>{work.cta}</ActionLink></div></div></section>
+    <section id="work" className={`${styles.section} ${styles.softSection}`}><div className={styles.container}><SectionHeading eyebrow={work.eyebrow}>{work.title}</SectionHeading><div className={styles.cardsGrid}>{work.items.map(([title, body], index) => <Reveal key={title} delay={index * 50}><Card className={styles.card}><h3>{title}</h3><p>{body}</p></Card></Reveal>)}</div><div className={styles.workCta}><p>{work.lead}</p><ActionLink className={styles.primaryButton} href={contactHref}><SiteIcon name="mail" />{work.cta}</ActionLink></div></div></section>
     <SiteFooter locale={locale} currentPath="/cv" />
   </main></>;
 }

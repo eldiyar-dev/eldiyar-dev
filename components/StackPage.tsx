@@ -1,4 +1,4 @@
-import {SectionHeading} from '@/components/ui';
+import {Reveal, SectionHeading} from '@/components/ui';
 import type {Locale} from '@/lib/i18n';
 import type {StackCatalog} from '@/data/stackCatalog';
 import {SiteFooter} from './SiteFooter';
@@ -28,7 +28,7 @@ export function StackPage({locale, catalog}: Props) {
       <FluidHero>
         <div className={`${styles.container} ${fluidStyles.contentLayer}`}>
           <SiteNavigation locale={locale} currentUrl="/stack" copyLocale={locale === 'ru' ? 'ru' : 'en'} />
-          <div className={styles.heroContent}>
+          <Reveal className={styles.heroContent}>
             <p className={styles.eyebrow}>eldiyar.stack / {ui.sections}</p>
             <h1>{ui.title}</h1>
             <p className={styles.lead}>{ui.description}</p>
@@ -37,7 +37,7 @@ export function StackPage({locale, catalog}: Props) {
               <span>{categories.length} categories</span>
               <span>{catalog.roleKits.length} role kits</span>
             </div>
-          </div>
+          </Reveal>
         </div>
       </FluidHero>
     </section>
