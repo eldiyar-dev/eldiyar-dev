@@ -1,0 +1,35 @@
+.stack {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 16px 0 0;
+  border-block-start: 1px solid #3d584d;
+  list-style: none;
+}
+
+.stack li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border: 1px solid #3d584d;
+  border-radius: 5px;
+  background: #14211c;
+  color: #e5eee9;
+  font-size: 12px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.stack svg,
+.stack img {
+  flex: none;
+  width: 16px;
+  height: 16px;
+}
+
+.stack svg {
+  color: var(--signal);
+}

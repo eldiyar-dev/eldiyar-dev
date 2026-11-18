@@ -1,10 +1,16 @@
-import {Reveal, SectionHeading} from '@/components/ui';
-import type {FaqContent, SiteLocale} from '@/lib/site-content';
+import type {FaqContent} from '@/lib/site-content';
 import styles from './site.module.css';
+import marketingStyles from './marketing.module.css';
 
-export type FaqSectionProps = {content: FaqContent; locale: SiteLocale};
-
-/** Compact, progressively disclosed FAQ shown on every marketing page. */
-export function FaqSection({content}: FaqSectionProps) {
-  return <section className={`${styles.section} ${styles.faqSection}`} aria-labelledby="faq-title"><Reveal><SectionHeading eyebrow="FAQ"><span id="faq-title">{content.title}</span></SectionHeading><div className={styles.faqGroups}>{content.groups.map(group => <section className={styles.faqGroup} key={group.title}><h3>{group.title}</h3><div className={styles.faqList}>{group.items.map(item => <details className={styles.faqItem} key={item.question}><summary>{item.question}<span aria-hidden="true" /></summary><div className={styles.faqAnswer}><p>{item.answer.join(' ')}</p></div></details>)}</div></section>)}</div></Reveal></section>;
+export function FaqSection({content}: {content: FaqContent}) {
+  return <section className={marketingStyles.section} aria-labelledby="faq-title">
+    <h2 id="faq-title">{content.title}</h2>
+    {content.groups.map(group => <div className={marketingStyles.disclosures} key={group.title}>
+      {content.groups.length > 1 && <h3>{group.title}</h3>}
+      {group.items.map(item => <details className={styles.faqItem} key={item.question}>
+        <summary>{item.question}<span aria-hidden="true" /></summary>
+        <div className={styles.faqAnswer}><p>{item.answer.join(' ')}</p></div>
+      </details>)}
+    </div>)}
+  </section>;
 }

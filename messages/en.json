@@ -225,9 +225,9 @@
         },
         {
           "id": "voice",
-          "title": "Simultaneous speech translation for international events",
+          "title": "Attuni — simultaneous speech translation for international events",
           "task": "Thousands of participants needed to hear a speaker in their own language without delay or audio interruption.",
-          "role": "Lead engineer for the real-time platform.",
+          "role": "Founder of Attuni and lead engineer for the real-time platform.",
           "built": "A speech-recognition, translation, and voice-delivery system in 50+ languages for thousands of listeners with hot language switching.",
           "changed": "The product supported live events reliably, while AI-service costs fell 40%.",
           "metrics": [
@@ -473,7 +473,105 @@
           "title": "AI Automation Reliability Review — Eldiyar",
           "offer": "Automation"
         },
-        "body": "# Your automation runs, but someone still has to check its work\n\nFor product and business owners whose AI automation repeats actions, leaves tasks unfinished or spends money without a clear explanation.\n\n## Relevant experience\n\nThe project below describes my work on analytics automation.\n\n## When to get in touch\n\nAn invoice or message is sent twice. A task stalls, and nobody knows whether it is safe to restart. After a failure, someone has to reconstruct what happened. AI service bills rise without showing which process caused the increase.\n\nI examine one important process from trigger to result, such as a sequence in n8n or a set of connected AI assistants. Using your materials, I identify possible causes and prepare a plan for fixes.\n\n## What you receive\n\n- A map of the key steps: where the process can stop or lose a result.\n- Prioritized risks, with consequences and the conditions that trigger them.\n- Evidence-based hypotheses about the causes of observed failures.\n- A map of retries and safeguards against performing the same action twice.\n- Gaps in event logging and cost tracking: what is missing to understand failures and the cost of the process.\n- A now / next / later action plan, a written report and a video walkthrough.\n\n## Project example: reports that keep up with the data\n\n**Situation.** Market analytics reports took 30–60 minutes to prepare. By the time a report was ready, its data was already out of date.\n\n**My role.** I was the product's lead engineer, from defining the problem and architecture through launch and operation. This example describes my work on the analytics system and coordination between AI modules.\n\n**My work.** I split processing into independent services, removed waits between tasks that could run in parallel, and coordinated 7 modules. I added event logging and tools for checking AI assistant behavior.\n\n- Report generation fell from 30–60 minutes to 10–15 seconds.\n- New module integration fell from 2 days to 2 hours.\n\nThese figures come from implementation work on one project. A review produces findings and priorities; it does not guarantee the same speed improvement. I do not disclose the confidential project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the failure, select one process and agree the review fee.\n2. You provide a system overview, a process diagram, exported settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess the sequence of actions, retries, saved progress, possible failure causes and costs.\n4. You receive a written report and a video walkthrough. You keep the document whether or not we continue working together.\n\nStart by describing what should happen and what happens instead. If your developer or automation specialist holds the settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not requested.\n\n## Review boundaries\n\nThis is a materials-based review of one existing process, not a full assessment of every automation. Causes may remain hypotheses where the available evidence is insufficient to confirm them.\n\nYour team can implement the recommendations, or we can agree the implementation work. We document its scope and responsibilities before work begins.\n\nFormal security audits, penetration testing, certification and legal opinions are outside the review. Your materials remain confidential.\n\n## Technical details for your developer\n\nWorkflow Reliability Review: critical path, failure cause hypotheses, retries/idempotency, state preservation, event logging and tracing, API cost controls, and NOW / NEXT / LATER priorities. The project example used Redis Streams, n8n and parallel orchestration of AI modules.\n\n## Fees and timing\n\nFee: from $400. We agree the exact fee before the review starts. The format is 90 minutes plus a report. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with the action that repeats, the task that gets stuck or the cost you cannot explain. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "hero": {
+          "title": "Your automation runs, but still needs manual checks",
+          "lead": "I review one AI workflow to identify why tasks stall, repeat or spend more than expected."
+        },
+        "facts": [
+          "From $400",
+          "90 minutes plus a report",
+          "Report in 3–5 business days after receiving materials"
+        ],
+        "sections": [
+          {
+            "kind": "parallel",
+            "title": "Follow the workflow",
+            "items": [
+              {
+                "title": "Trigger",
+                "text": "Where the process starts.",
+                "icon": "inbox"
+              },
+              {
+                "title": "Actions and retries",
+                "text": "Check actions, retries and saved progress.",
+                "icon": "workflow"
+              },
+              {
+                "title": "Logs and costs",
+                "text": "Check logs and AI service costs.",
+                "icon": "cost"
+              },
+              {
+                "title": "Report",
+                "text": "Findings and priorities for your team.",
+                "icon": "report"
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "What you receive",
+            "items": [
+              {
+                "title": "Process map",
+                "text": "Key steps, failure points and retry safeguards.",
+                "icon": "workflow"
+              },
+              {
+                "title": "Findings",
+                "text": "Risks, evidence-based hypotheses and gaps in logs and cost tracking.",
+                "icon": "chart"
+              },
+              {
+                "title": "Action plan",
+                "text": "Now / next / later priorities in a written report, with a video walkthrough.",
+                "icon": "report"
+              }
+            ]
+          },
+          {
+            "kind": "cases",
+            "title": "Analytics reports in seconds",
+            "note": "Results are from one implementation and are not guaranteed by a review.",
+            "items": [
+              {
+                "title": "My work",
+                "text": "As lead engineer, I split processing into independent services, coordinated seven AI modules, and added event logging and behavior checks.",
+                "metrics": [
+                  {
+                    "label": "Report preparation",
+                    "value": "30–60 min",
+                    "end": "10–15 sec"
+                  },
+                  {
+                    "label": "New module integration",
+                    "value": "2 days",
+                    "end": "2 hours"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "details",
+            "title": "Materials and boundaries",
+            "items": [
+              {
+                "title": "Materials",
+                "text": "A system overview, workflow diagram, settings without secrets, sample logs and metrics. Your developer may need to help prepare them; live access and keys are not needed."
+              },
+              {
+                "title": "Scope",
+                "text": "One agreed process. Causes may remain hypotheses if evidence is insufficient. Formal security audits, penetration tests, certification and legal opinions are excluded."
+              },
+              {
+                "title": "For your developer",
+                "text": "Critical path, retries and idempotency, saved state, tracing and API costs. The example used Redis Streams and n8n."
+              }
+            ]
+          }
+        ]
       },
       "ai-launch-gate": {
         "metadata": {
@@ -483,7 +581,99 @@
           "title": "AI Product Pre-launch Review — Eldiyar",
           "offer": "Before launch"
         },
-        "body": "# The prototype works. What needs checking before customers use it?\n\nFor founders and agencies building products with AI tools. I help identify risks to money, data and service costs that need attention before launch.\n\n## Relevant experience\n\nThe project below illustrates my work on critical operations.\n\n## When to get in touch\n\nThe demo runs smoothly, but nobody is sure what happens after a repeated payment, an external service failure or data loss. Your team needs a reasoned plan for launch.\n\nYou are buying a readiness review based on the materials you provide. I assess the agreed launch scenario and distinguish issues that need attention before launch from improvements that can wait.\n\n## What you receive\n\n- An assessment: proceed within the reviewed scope, proceed after fixes, or postpone launch. I state the reasons and limits of the conclusion.\n- A map of identified risks: where each problem occurs, what triggers it and what it could affect.\n- Priorities for fixes. If I find no launch blockers, I document what was reviewed. The number of risks is not predetermined.\n- A checklist covering data access, external service costs, backups and returning to a previous version after a failed update.\n- An action plan, a written report and a video walkthrough.\n\n## Project example: controlled order processing\n\n**Situation.** Manual order processing on a crypto-to-fiat exchange platform took 3 hours. The platform was preparing for an external security audit.\n\n**My role.** I built the backend and operator interface. I was responsible for transaction stages, access permissions and the integration of customer and transaction checks.\n\n**My work.** I defined the permitted sequence of transaction stages and staff permissions. I integrated wallet and counterparty checks, multi-factor sign-in, session revocation and verification of external service notifications.\n\nOrder processing fell from 3 hours to 3 minutes. The platform passed an external security audit. I contributed to its preparation as an engineer; I did not conduct that audit.\n\nThe project demonstrates my experience with operation sequencing and data access. Its results came from implementation work and do not predict the outcome of a diagnostic review.\n\n## How the review works\n\n1. In a 15-minute call, we discuss the product, launch plans, review scope and fee.\n2. You provide a system overview, a user journey diagram, settings with secrets removed, sample event logs and screenshots of operating metrics.\n3. I assess risks to money and data, access controls, AI service costs, backups and recovery after updates.\n4. You receive a report and a video walkthrough. You then decide who will implement the recommendations.\n\nFor the first message, describe the product and planned launch. If your developer holds the diagrams, settings and logs, they will need to help prepare the materials. Passwords, real keys and access to the live system are not required.\n\n## Review boundaries\n\nThe assessment applies to the agreed scenario and the materials provided. It is not a complete system check or a guarantee of a safe launch.\n\nThe review excludes a product rewrite, formal security audits, penetration testing, certification and legal opinions. No guaranteed level of system availability is offered.\n\nYou keep the report. Your developer can implement it, or we can agree the next phase of work. Before that starts, we document the scope, responsibilities and acceptance criteria. Any required access is agreed separately, with minimum permissions and the ability to revoke them. Review materials remain confidential.\n\n## Technical details for your developer\n\nProduction Readiness Review: GO / CONDITIONAL GO / NO-GO with explicit assessment boundaries; a launch risk map; access and secrets handling; API cost controls; backup and rollback; priorities and scope for the next phase. Risks are linked to specific parts of the system and the conditions that trigger them.\n\n## Fees and timing\n\nFee: from $600. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what you plan to launch and what concerns you. We will arrange a 15-minute call. You do not need to identify the technical cause of a risk first.\n\n[Message me on Telegram]\n"
+        "hero": {
+          "title": "Your prototype works. Is it ready for customers?",
+          "lead": "I review an agreed launch scenario and identify risks to money, data and operating costs."
+        },
+        "facts": [
+          "From $600",
+          "Report in 3–5 business days after receiving materials"
+        ],
+        "sections": [
+          {
+            "kind": "checks",
+            "title": "Review the launch scenario",
+            "items": [
+              {
+                "title": "Access",
+                "text": "Follow user actions and permissions.",
+                "icon": "shield"
+              },
+              {
+                "title": "Costs",
+                "text": "Check external service and AI spending.",
+                "icon": "cost"
+              },
+              {
+                "title": "Recovery",
+                "text": "Review backups and rollback.",
+                "icon": "restore"
+              },
+              {
+                "title": "Launch decision",
+                "text": "A reasoned conclusion within the review scope.",
+                "icon": "launch"
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "What you receive",
+            "items": [
+              {
+                "title": "Launch conclusion",
+                "text": "Proceed, proceed after fixes, or delay, with reasons and limits.",
+                "icon": "check"
+              },
+              {
+                "title": "Risk map",
+                "text": "Conditions, consequences and priorities for the agreed scenario.",
+                "icon": "chart"
+              },
+              {
+                "title": "Report and walkthrough",
+                "text": "A checklist and next steps your developer can use.",
+                "icon": "report"
+              }
+            ]
+          },
+          {
+            "kind": "cases",
+            "title": "Controlled transaction processing",
+            "note": "The external audit was performed by others. These implementation results do not predict a review outcome.",
+            "items": [
+              {
+                "title": "My work",
+                "text": "I built backend and operator interfaces for a crypto-to-fiat exchange, defining transaction stages and access rights and integrating customer and transaction checks. The platform passed an external security audit.",
+                "metrics": [
+                  {
+                    "label": "Application processing",
+                    "value": "3 hours",
+                    "end": "3 minutes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "details",
+            "title": "Materials and boundaries",
+            "items": [
+              {
+                "title": "Materials",
+                "text": "A system overview, user flow, settings without secrets, sample logs and metrics. Your developer may need to prepare them; passwords, keys and live access are not needed."
+              },
+              {
+                "title": "Scope",
+                "text": "A conclusion for the agreed scenario and supplied materials, not a guarantee of safe launch. Formal security audits, penetration tests, certification and legal opinions are excluded."
+              },
+              {
+                "title": "For your developer",
+                "text": "Access and secrets, API costs, backup, rollback and prioritized launch risks."
+              }
+            ]
+          }
+        ]
       },
       "capabilities": {
         "metadata": {
@@ -493,7 +683,52 @@
           "title": "Engineering for Complex Digital Products — Eldiyar",
           "offer": "Other needs"
         },
-        "body": "# When delays, growing traffic or complex data processing hold your product back\n\nI work on a specific engineering problem: understanding a failure, preparing a system for growth or defining the next phase of development. Start with the business problem.\n\n## Relevant experience\n\nExamples of my contribution appear alongside each area of work.\n\n## Your service slows down or loses connections\n\nFor communication products, live streaming, marketplaces and device management platforms. Get in touch when growing traffic causes delays, dropped connections or lost events.\n\nI assess how to distribute load, recover after a failure and verify that the system can handle the expected volume. The review includes recommendations for measuring latency and planning load tests.\n\nOn a live speech translation platform, I built media session isolation that supported more than 10,000 concurrent WebSocket connections. Reusing results in the AI provider integration brought latency below 250 ms and cut provider API costs by 40%. On a device management platform, the message bus I developed reached peak throughput of up to 60,000 requests per second.\n\n## You need to know what to change before scaling\n\nFor founders, investors and teams assessing a product's technical constraints or deciding which development work should come first.\n\nI assess the system, separate urgent risks from accumulated technical issues, and prepare a plan for the team. Work can include technical due diligence before an investment decision and ongoing participation as a technical leader. Ongoing support usually begins after a review or implementation phase.\n\nOn a device management platform, I helped design architecture with capacity headroom for a tenfold increase in the device fleet. I also optimized a PostgreSQL database with more than 60 tables and 8 hierarchy levels. Across engineering and mentoring work, I have conducted more than 100 detailed code reviews.\n\n## Your trading software needs explicit, testable rules\n\nFor teams working on order execution, historical strategy testing, market data processing and software risk controls.\n\nI build software and infrastructure with explicit execution rules, pre-trade checks and system monitoring. I do not offer management of client funds, investment recommendations or promises of returns.\n\nAs the lead engineer of a trading and analytics product, I built a signal scoring mechanism that reduced false signals by 50% and implemented 15 pre-trade risk checks. These results describe specific system mechanisms, not strategy returns.\n\n## Catalog and file processing keeps needing manual restarts\n\nFor e-commerce, publishers and media businesses that collect data, standardize it and generate finished files. Get in touch when standard tools no longer cover the work and failures force processing to start over.\n\nI design processing systems with tracked stages, recovery from saved progress and predictable storage requirements.\n\nOn a publishing project, I was responsible for the complete process from data collection to finished files, handling more than 4,000 catalog items. Parallel processing increased throughput tenfold. Checkpoints and restarts without duplicate work eliminated progress loss during failures. Media optimization reduced storage requirements by 50% while preserving typography quality.\n\n## How to begin\n\nDescribe what is getting in the way and the result you need. The first conversation establishes whether the task fits my expertise. For a diagnostic review, we select one important process and agree the work, fee, timing and materials.\n\nPrepare a description of the problem and available diagrams, example events and operating metrics with secrets removed. If your developer holds the technical materials, they will need to help prepare them. You do not need a technical specification for the first message.\n\nA diagnostic review establishes the plan for further work. Formal security audits, certification and legal opinions are excluded. Data collection remains subject to site terms, personal data requirements and rules on messaging.\n\nThe examples above describe my contribution to individual projects. Client materials remain confidential.\n\n## Technical details for your developer\n\n- Real-time systems: connection lifecycle, backpressure, fan-out, recovery, caching, monitoring and load test planning.\n- Architecture and technical leadership: Architecture & Scale Audit, Technical Due Diligence, code review and technical specifications.\n- Trading infrastructure: execution engine, backtesting, risk guards, market regime classification and order book analytics.\n- Data processing: normalization, file generation, checkpoints and idempotent restarts.\n\n## Next step\n\nMessage me on Telegram with what you want to improve. We will start with a 15-minute call. You do not need to choose a technical service name.\n\n[Message me on Telegram]\n"
+        "hero": {
+          "title": "Engineering help for growth, trading and data",
+          "lead": "Tell me what is slowing the product down or what you need to build."
+        },
+        "sections": [
+          {
+            "kind": "cards",
+            "title": "Areas of work",
+            "items": [
+              {
+                "title": "Real-time systems",
+                "text": "Load, connections and recovery. I built media session isolation for a platform with 10,000+ concurrent WebSocket connections.",
+                "icon": "wave"
+              },
+              {
+                "title": "Architecture and technical leadership",
+                "text": "Technical reviews, priorities and planning. I helped design a device platform for tenfold fleet growth.",
+                "icon": "architecture"
+              },
+              {
+                "title": "Trading infrastructure",
+                "text": "Execution, historical testing and risk controls. I implemented 15 pre-trade checks in a trading product.",
+                "icon": "chart"
+              },
+              {
+                "title": "Data processing",
+                "text": "Collection, normalization and restartable pipelines. I built a publishing pipeline for 4,000+ catalog items.",
+                "icon": "database"
+              }
+            ]
+          },
+          {
+            "kind": "details",
+            "title": "Working together",
+            "items": [
+              {
+                "title": "Start with the problem",
+                "text": "A 15-minute call establishes fit and the next step. For a review, we agree scope, materials, fee and timing."
+              },
+              {
+                "title": "Boundaries",
+                "text": "Formal security audits, certification and legal opinions are excluded. Trading work does not include managing funds or investment advice. Client materials remain confidential."
+              }
+            ]
+          }
+        ]
       },
       "index": {
         "metadata": {
@@ -503,7 +738,107 @@
           "title": "AI, Automation and Payment Reliability — Eldiyar",
           "offer": "Product reliability"
         },
-        "body": "# Preparing to launch, or dealing with failures? I help you find what needs attention.\n\nI'm Eldiyar, a systems engineer. I work on AI products, automation and payments where failures delay work or affect money and customer data.\n\nStart by describing what is happening. You do not need to know the technical cause or choose a type of review yourself.\n\n[Message me on Telegram]\n\n## Relevant experience\n\nProject results and my contribution are described below.\n\n## Three situations I can help with\n\n### Your automation still needs constant manual checks\n\nTasks get stuck, actions happen twice, or AI service bills keep growing. An [automation reliability review](/ai-workflow-rescue) examines one important process and gives you a plan for addressing its problems.\n\n### A customer has sent money, but the balance has not updated\n\nPayment statuses disagree, transfers need manual checks, or blockchain fees are too high. A [payment reliability review](/payments-reliability) examines one payment journey in a crypto payment or wallet system.\n\n### The prototype works, but you are unsure about launching\n\nYou built a product with AI tools and are about to introduce real users, data or payments. A [pre-launch review](/ai-launch-gate) assesses the materials you provide: what was reviewed, which risks were found and what should happen before launch.\n\n## Project results and my contribution\n\nThese outcomes come from engineering work on individual projects. A diagnostic review produces findings and a plan; the result depends on what those findings reveal. I do not disclose confidential project names or customer data.\n\n### Analytics automation: reports in seconds instead of minutes\n\nReports took 30–60 minutes to prepare. I designed the analytics system and the coordination between AI modules, allowing independent tasks to run in parallel. Report generation fell to 10–15 seconds.\n\n### Crypto payments: lower blockchain fees\n\nI was responsible for the payment core and transaction tracking. Automating the resources needed for TRON and EVM transfers reduced blockchain transaction fee costs by 90%. The transaction tracking pipeline brought settlement latency down to 2–3 seconds.\n\n### Live speech translation: fewer duplicate AI requests\n\nI built media session isolation and the integration with AI providers. Reusing results and removing duplicate requests cut third-party API costs by 40%. The platform supported more than 10,000 concurrent WebSocket connections.\n\n## What you are buying\n\nA diagnostic review of an agreed process, based on the materials you provide. I document risks, possible causes of failures and recommended priorities. You receive a written report and a video walkthrough. You can give the report to your developer or another contractor.\n\nAfter the report, we define the next steps, scope, responsibilities and acceptance criteria.\n\nFor capacity, technical leadership, trading software and data processing, see [other areas of work](/capabilities).\n\n## Fees and timing\n\nDiagnostic fees in US dollars:\n\n- Automation reliability review — from $400.\n- Payment reliability review — from $1,200.\n- Pre-launch review — from $600.\n\nWe agree the fee before work begins. The report is ready within 3–5 business days of receiving the materials.\n\n## What to prepare\n\nFor the first conversation, describe what should happen, what happens instead and how it affects your business. The first 15-minute call establishes whether the problem fits my expertise and which materials are needed.\n\nFor the review, provide a system overview, a process diagram, sample event logs and screenshots of operating metrics. For AI products and automation, include settings with secrets removed. If your developer holds these materials, they will need to help prepare them. You do not need to read the code yourself.\n\nMaterials can be anonymized. Passwords, keys and access to the live system are not needed for the review. Your materials remain confidential. If implementation requires access, we agree it separately with the minimum permissions needed and the ability to revoke them.\n\n## Boundaries of the work\n\nI carry out the work personally. A materials-based review does not replace a full system assessment, a formal security audit or a legal opinion. Design and substantial interface development are outside its scope.\n\nMy working time zone is UTC+3. Payment is available by bank transfer, payment services, stablecoins or cryptocurrency.\n\n## Next step\n\nMessage me on Telegram with your concern about the product or process. We will arrange a 15-minute call first.\n\n[Message me on Telegram]\n"
+        "hero": {
+          "title": "Preparing to launch or dealing with failures?",
+          "lead": "I'm Eldiyar, a systems engineer. I review AI products, automation and payments where failures affect work, money or customer data."
+        },
+        "related": {
+          "title": "Other areas of work",
+          "href": "/capabilities"
+        },
+        "sections": [
+          {
+            "kind": "cards",
+            "title": "Where I can help",
+            "items": [
+              {
+                "title": "Automation reliability",
+                "text": "Find why tasks stall, repeat or cost too much.",
+                "icon": "workflow",
+                "href": "/ai-workflow-rescue",
+                "price": "From $400"
+              },
+              {
+                "title": "Crypto payment reliability",
+                "text": "Trace delayed credits, duplicate operations and fees.",
+                "icon": "payment",
+                "href": "/payments-reliability",
+                "price": "From $1,200"
+              },
+              {
+                "title": "Pre-launch review",
+                "text": "Assess risks before introducing users, data or payments.",
+                "icon": "launch",
+                "href": "/ai-launch-gate",
+                "price": "From $600"
+              }
+            ]
+          },
+          {
+            "kind": "cases",
+            "title": "Project results and my contribution",
+            "note": "These are results from individual implementations. A review produces findings and a plan; it does not guarantee the same outcomes.",
+            "items": [
+              {
+                "title": "Analytics automation",
+                "text": "I designed the analytics system and coordinated AI modules to run independent tasks in parallel.",
+                "metrics": [
+                  {
+                    "label": "Report preparation",
+                    "value": "30–60 min",
+                    "end": "10–15 sec"
+                  }
+                ]
+              },
+              {
+                "title": "Crypto payments",
+                "text": "I built the payment core and transaction tracking, including resource automation for TRON and EVM transfers.",
+                "metrics": [
+                  {
+                    "label": "Blockchain fee costs",
+                    "value": "−90%"
+                  },
+                  {
+                    "label": "Settlement latency",
+                    "value": "2–3 sec"
+                  }
+                ]
+              },
+              {
+                "title": "Live speech translation",
+                "text": "I built media session isolation and AI provider integration, reusing results and removing duplicate requests.",
+                "metrics": [
+                  {
+                    "label": "External API costs",
+                    "value": "−40%"
+                  },
+                  {
+                    "label": "Concurrent WebSocket connections",
+                    "value": "10k+"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "flow",
+            "title": "How we start",
+            "items": [
+              {
+                "title": "15-minute call",
+                "text": "Describe the problem; we agree the scope and fee."
+              },
+              {
+                "title": "Materials",
+                "text": "Share diagrams, settings without secrets, sample logs and metrics."
+              },
+              {
+                "title": "Report and call",
+                "text": "Within 3–5 business days of receiving materials, you get a written report and video walkthrough."
+              }
+            ]
+          }
+        ]
       },
       "payments-reliability": {
         "metadata": {
@@ -513,7 +848,106 @@
           "title": "Crypto Payment Reliability Review — Eldiyar",
           "offer": "Crypto payments"
         },
-        "body": "# Money has been sent, but your team still has to check the credit manually\n\nI help owners of payment products, wallet services and stablecoin settlement systems understand where operations stall and unnecessary costs arise.\n\n## Relevant experience\n\nThe project below describes my work on a payment core.\n\n## When a review helps\n\nA customer can see the transfer on the blockchain, but your service has not credited it. Statuses disagree, retries may create duplicates, and fees are growing. Your team fixes individual incidents without a clear picture of the whole process.\n\nI examine one agreed payment journey: from a network event through crediting, settlement or reconciliation. You are buying a diagnostic review based on system materials and an action plan for your developer.\n\n## What you receive\n\n- A payment journey map: who is responsible for each stage and where an operation can stall.\n- A review of repeat handling: what happens if a notification arrives twice or a service retries a request after a failure.\n- Reconciliation points: where to compare blockchain records with internal accounting.\n- An assessment of dependencies on wallets and blockchain access services.\n- Opportunities to reduce transaction fees within the process under review.\n- Recommendations for failure monitoring and security, a written report and a video walkthrough of what to fix now and what can wait.\n\n## Project example: payment fees and delays\n\n**Situation.** Growing traffic made crediting funds harder, while blockchain fees increased the cost of operations.\n\n**My role.** I was responsible for the payment core and real-time transaction tracking.\n\n**My work.** I designed the payment core architecture and automated the movement of deposited funds, including TRON energy rental and EVM fee balance top-ups. I built transaction tracking across a database of more than 3 million wallets, deposit distribution and ordering controls for outgoing operations.\n\n- Blockchain transaction fee costs fell by 90%.\n- Settlement latency fell to 2–3 seconds.\n- Load on public blockchain access services fell by 70% through the data caching I built.\n\nThese figures come from implementation work on one system. They cover blockchain transaction fees rather than all business expenses, and a review does not guarantee the same result. I do not disclose the project name or customer data.\n\n## How the review works\n\n1. In a 15-minute call, we select one payment journey and agree the review boundaries and fee.\n2. You provide a system overview, a payment diagram, sample event logs and screenshots of operating metrics, with secrets and customer data removed.\n3. I assess operation stages, retries, reconciliation, dependencies and fees.\n4. You receive a report and a video walkthrough with priorities for fixes.\n\nFor the first conversation, describe the delay, discrepancy or unnecessary cost. If your developer holds the technical materials, they will need to help prepare them. Real wallet keys, passwords and access to the live system are not required.\n\n## Review boundaries\n\nThe review covers one agreed payment journey using the materials provided, rather than the entire payment system. You can give the report to your developer or another contractor.\n\nThe service excludes formal smart contract audits, penetration testing, regulatory legal opinions, certification, availability guarantees and management of client funds.\n\nYour materials remain confidential. If we continue with implementation, we agree the work and any access needed, with minimum permissions and the ability to revoke them.\n\n## Technical details for your developer\n\nPayment Flow Reliability Audit: trust boundaries; lifecycle/state machine; retries and idempotency; wallet/RPC topology; reconciliation points; gas/energy optimization; monitoring and a security backlog. Each area is tied to specific payment stages and failure consequences.\n\n## Fees and timing\n\nFee: from $1,200. We agree the exact fee before the review starts. The report is ready within 3–5 business days of receiving the materials.\n\n## Next step\n\nMessage me on Telegram with what is happening to payments and how it affects your business. We will arrange a 15-minute call.\n\n[Message me on Telegram]\n"
+        "hero": {
+          "title": "Money was sent, but the credit needs manual checking",
+          "lead": "I review one crypto payment journey for delays, duplicate operations, accounting differences and blockchain fees."
+        },
+        "facts": [
+          "From $1,200",
+          "Report in 3–5 business days after receiving materials"
+        ],
+        "sections": [
+          {
+            "kind": "flow",
+            "title": "Trace one payment",
+            "items": [
+              {
+                "title": "Send",
+                "text": "A transfer enters the network.",
+                "icon": "send"
+              },
+              {
+                "title": "Confirm",
+                "text": "The service detects and confirms it.",
+                "icon": "check"
+              },
+              {
+                "title": "Credit",
+                "text": "The customer balance is updated.",
+                "icon": "wallet"
+              },
+              {
+                "title": "Reconcile",
+                "text": "Compare network records and internal accounting.",
+                "icon": "ledger"
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "What you receive",
+            "items": [
+              {
+                "title": "Payment map",
+                "text": "Stages, dependencies and places where operations can stall.",
+                "icon": "payment"
+              },
+              {
+                "title": "Failure review",
+                "text": "Retries, duplicate safeguards, reconciliation and monitoring.",
+                "icon": "shield"
+              },
+              {
+                "title": "Action plan",
+                "text": "Fee opportunities and prioritized fixes in a written report and video walkthrough.",
+                "icon": "report"
+              }
+            ]
+          },
+          {
+            "kind": "cases",
+            "title": "Payment fees and delays",
+            "note": "Results apply to blockchain transaction fees in one implemented system, not all business costs. A review does not guarantee the same results.",
+            "items": [
+              {
+                "title": "My work",
+                "text": "I designed the payment core, automated TRON and EVM resources, and built transaction tracking across more than 3 million wallets.",
+                "metrics": [
+                  {
+                    "label": "Blockchain fee costs",
+                    "value": "−90%"
+                  },
+                  {
+                    "label": "Settlement latency",
+                    "value": "2–3 sec"
+                  },
+                  {
+                    "label": "Public blockchain service load",
+                    "value": "−70%"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "details",
+            "title": "Materials and boundaries",
+            "items": [
+              {
+                "title": "Materials",
+                "text": "A system overview, payment diagram, sample logs and metrics with secrets and customer data removed. No live access or wallet keys are required."
+              },
+              {
+                "title": "Scope",
+                "text": "One agreed payment journey. Formal smart contract audits, penetration tests, legal opinions, certification, availability guarantees and custody of funds are excluded."
+              },
+              {
+                "title": "For your developer",
+                "text": "Lifecycle, trust boundaries, retries and idempotency, wallet and RPC dependencies, reconciliation, fees and monitoring."
+              }
+            ]
+          }
+        ]
       }
     }
   },
@@ -521,185 +955,42 @@
     "title": "Frequently asked questions",
     "groups": [
       {
-        "title": "Outcomes and fees",
+        "title": "Working together",
         "items": [
           {
-            "question": "What exactly will I receive after a diagnostic review?",
+            "question": "What materials do you need?",
             "answer": [
-              "You receive a written report and a video walkthrough.",
-              "The contents depend on the selected review and agreed process: a map of the key stages, identified risks and their trigger conditions, reasoned hypotheses about failures, gaps in observability and cost controls, and a prioritized now / next / later plan.",
-              "Each conclusion is tied to a specific part of the process under review.",
-              "The number of risks is not predetermined.",
-              "If there are no launch blockers, the report states what was reviewed and the boundaries within which the conclusion applies."
+              "A system overview, process diagram, sample logs and metrics, with secrets removed. Your developer may need to help prepare them. Live access, passwords and keys are not needed for a review."
             ]
           },
           {
-            "question": "Why is the diagnostic review a separate paid service?",
+            "question": "Are my materials confidential?",
             "answer": [
-              "The review is a standalone service with a concrete deliverable.",
-              "You keep the report and can have your team, another contractor, or me implement the recommendations under a separately agreed scope."
+              "Yes. Materials can be anonymized, and we can agree an NDA before sharing sensitive information."
             ]
           },
           {
-            "question": "How much does it cost?",
+            "question": "What does a review cover?",
             "answer": [
-              "The fee depends on the process and the amount of material.",
-              "An automation reliability review starts at $400, an AI product pre-launch review at $600, and a payment journey review at $1,200.",
-              "We agree the exact fee in writing before work begins."
+              "One agreed process or launch scenario. You receive a written report and video walkthrough; it is not a full system or formal security audit."
             ]
           },
           {
-            "question": "How long does a review take?",
+            "question": "Who does the work?",
             "answer": [
-              "The report is normally ready within 3–5 business days after I receive the agreed materials.",
-              "Implementation timing is estimated separately once the scope, dependencies, and acceptance criteria are clear."
+              "I perform the review personally. Any additional specialist and their scope are agreed in advance."
             ]
           },
           {
-            "question": "What if you find no critical problems?",
+            "question": "How do I pay?",
             "answer": [
-              "You receive a record of what was reviewed, any limitations found, and a conclusion for the agreed scenario.",
-              "I do not invent issues to reach a quota or claim that a limited materials-based review proves the whole system safe."
+              "Bank transfer, payment services, stablecoins or cryptocurrency. We agree the fee and payment terms before work begins."
             ]
           },
           {
-            "question": "What is excluded from a diagnostic review?",
+            "question": "Who implements the recommendations?",
             "answer": [
-              "Formal smart contract audits, penetration testing, certification, and legal opinions on AML, MiCA, or other regulation.",
-              "I also do not manage client funds, give investment recommendations, promise returns, or guarantee a particular level of system availability."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Access and confidentiality",
-        "items": [
-          {
-            "question": "Do you need production access?",
-            "answer": [
-              "No.",
-              "A system overview, process diagram, settings with secrets removed, sample event logs, and screenshots of operating metrics are normally enough.",
-              "A diagnostic review does not require passwords, real keys, or access to the live system.",
-              "If access is needed for a separate implementation phase, we agree its purpose and duration in advance.",
-              "Permissions should be limited to the minimum required and remain revocable at any time."
-            ]
-          },
-          {
-            "question": "How do you handle confidential material?",
-            "answer": [
-              "Client materials remain confidential.",
-              "Public examples use anonymized information without closed-project names or customer data.",
-              "If an NDA is required, we can agree and sign it before sensitive materials are transferred."
-            ]
-          },
-          {
-            "question": "Who owns the product ideas and materials?",
-            "answer": [
-              "Your product, source materials, and data remain yours.",
-              "My deliverable is the report and recommendations within the agreed scope.",
-              "Rights relating to later implementation and use of its outputs are documented before that work begins."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Working format",
-        "items": [
-          {
-            "question": "Do you work alone or with a team?",
-            "answer": [
-              "I personally perform the reviews and engineering work described on this site.",
-              "If a task requires a separate specialty, such as a formal security audit, substantial frontend development, or design, it is not included automatically.",
-              "We agree the participants and separate scope in advance."
-            ]
-          },
-          {
-            "question": "What language do you use for calls?",
-            "answer": [
-              "I speak Russian fluently.",
-              "For English calls, I can use the real-time interpretation system I built.",
-              "Key agreements about scope, fees, and responsibilities are always confirmed in writing.",
-              "Documents and correspondence are available in English or Russian."
-            ]
-          },
-          {
-            "question": "What time zone do you work in?",
-            "answer": [
-              "UTC+3.",
-              "My working day overlaps well with Europe and the CIS, and with part of the US East Coast day.",
-              "We agree specific meeting times in advance."
-            ]
-          },
-          {
-            "question": "How can I pay?",
-            "answer": [
-              "Bank transfer, payment services, stablecoins, and cryptocurrency are available.",
-              "We agree the currency, method, and payment schedule in writing before work begins."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Fit for your task",
-        "items": [
-          {
-            "question": "We already have developers. How does an external review help?",
-            "answer": [
-              "An external review gives the team a map of risks and priorities for one important process.",
-              "Your developers keep their system knowledge and can implement the recommendations themselves.",
-              "I examine failure modes and process boundaries without judging people or replacing the team."
-            ]
-          },
-          {
-            "question": "We built the product with AI tools. Will everything need rewriting?",
-            "answer": [
-              "Usually not.",
-              "The review separates launch blockers from improvements that can wait.",
-              "I prioritize risks such as duplicate charges, data loss, leaked keys, uncontrolled API costs, and failure to recover after an incident.",
-              "I recommend a rewrite only when local changes cannot solve the agreed problem."
-            ]
-          },
-          {
-            "question": "Our project is small. Is a review worthwhile?",
-            "answer": [
-              "A separate review makes sense if the system handles money or personal data, or if a real-time process matters.",
-              "If the risk and consequences are limited and the work would not be proportionate, I will say so during the first 15-minute conversation."
-            ]
-          },
-          {
-            "question": "What evidence supports your experience?",
-            "answer": [
-              "The site describes specific outcomes from my engineering work: more than 100 million requests per day in a payment core, monitoring of more than 3 million wallets, more than 10,000 concurrent WebSocket connections, and a 90% reduction in blockchain transaction fee costs.",
-              "These metrics belong to individual implemented systems and are not promised outcomes of a review."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "After the review",
-        "items": [
-          {
-            "question": "What happens after the diagnostic review?",
-            "answer": [
-              "You can give the report to your team or another contractor.",
-              "If you want my help, we separately agree the implementation scope, timing, responsibilities, access, and acceptance criteria.",
-              "Continuing with me is optional."
-            ]
-          },
-          {
-            "question": "Can we arrange ongoing support?",
-            "answer": [
-              "Yes.",
-              "After a review or implementation, we can discuss support for a critical part of the system or fractional engineering and technical leadership.",
-              "The included work, response times, and exclusions are documented separately.",
-              "The format does not include 24/7 on-call coverage by default."
-            ]
-          },
-          {
-            "question": "How do we start?",
-            "answer": [
-              "Message me on Telegram with what should happen, what happens instead, and how it affects the business.",
-              "In the first 15-minute conversation, we establish whether the task fits my expertise, what materials are needed, and the boundaries of the work."
+              "Your team or another contractor can use the report. If you want my help, we agree scope, access and acceptance criteria separately."
             ]
           }
         ]
