@@ -7,7 +7,23 @@ export const siteUrl = new URL('https://eldiyar.dev');
 function absoluteUrl(pathname: string): string {
   return new URL(pathname, siteUrl).toString();
 }
-const ogImage = {url: absoluteUrl('/logo.svg'), alt: 'Eldiyar logo'};
+const ogImageTitles: Record<SiteLocale, string> = {
+  ru: 'Элдияр — создаю продукты, на которые можно положиться',
+  en: 'Eldiyar — I build products you can rely on',
+  tr: 'Eldiyar — güvenebileceğiniz ürünler geliştiriyorum',
+  ar: 'إلديار — أبني منتجات يمكنك الاعتماد عليها'
+};
+
+function getOgImage(locale: SiteLocale) {
+  const filename = locale === 'ru' ? 'eldiyar-og.jpg' : `eldiyar-og-${locale}.jpg`;
+  return {
+    url: absoluteUrl(`/images/${filename}`),
+    width: 1200,
+    height: 630,
+    type: 'image/jpeg',
+    alt: ogImageTitles[locale]
+  };
+}
 
 const openGraphLocales: Record<SiteLocale, string> = {
   ru: 'ru_RU',
@@ -23,6 +39,7 @@ const localeAlternates = (pathname: string) => ({
 
 export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Metadata {
   const canonical = getLocalizedPath(page.url, locale);
+  const ogImage = getOgImage(locale);
   return {
     title: page.title,
     description: page.description,
@@ -36,19 +53,20 @@ export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Meta
       siteName: 'Eldiyar',
       images: [ogImage]
     },
-    twitter: {card: 'summary', title: page.title, description: page.description, images: [ogImage.url]}
+    twitter: {card: 'summary_large_image', title: page.title, description: page.description, images: [ogImage]}
   };
 }
 
 export function createCvMetadata(name: string, role: string, description: string, locale: SiteLocale): Metadata {
   const canonical = getLocalizedPath('/cv', locale);
+  const ogImage = getOgImage(locale);
   const title = name + ' — ' + role;
   return {
     title,
     description,
     alternates: {canonical, languages: localeAlternates('/cv')},
     openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: openGraphLocales[locale], siteName: 'Eldiyar', images: [ogImage]},
-    twitter: {card: 'summary', title, description, images: [ogImage.url]}
+    twitter: {card: 'summary_large_image', title, description, images: [ogImage]}
   };
 }
 
