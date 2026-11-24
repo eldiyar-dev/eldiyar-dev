@@ -53,7 +53,7 @@ export function createSiteMetadata(page: PageMetadata, locale: SiteLocale): Meta
       siteName: 'Eldiyar',
       images: [ogImage]
     },
-    twitter: {card: 'summary_large_image', title: page.title, description: page.description, images: [ogImage]}
+    twitter: {card: 'summary_large_image', site: '@eldiyar_dev', title: page.title, description: page.description, images: [ogImage]}
   };
 }
 
@@ -62,11 +62,11 @@ export function createCvMetadata(name: string, role: string, description: string
   const ogImage = getOgImage(locale);
   const title = name + ' — ' + role;
   return {
-    title,
+    title: {absolute: title},
     description,
     alternates: {canonical, languages: localeAlternates('/cv')},
     openGraph: {type: 'profile', url: absoluteUrl(canonical), title, description, locale: openGraphLocales[locale], siteName: 'Eldiyar', images: [ogImage]},
-    twitter: {card: 'summary_large_image', title, description, images: [ogImage]}
+    twitter: {card: 'summary_large_image', site: '@eldiyar_dev', title, description, images: [ogImage]}
   };
 }
 

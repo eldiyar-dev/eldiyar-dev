@@ -1,4 +1,4 @@
-import type {Metadata} from 'next';
+import type {Metadata, Viewport} from 'next';
 import {notFound} from 'next/navigation';
 import {Geist, Geist_Mono} from 'next/font/google';
 import {Analytics} from '@vercel/analytics/next';
@@ -13,9 +13,19 @@ export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {default: 'Eldiyar', template: '%s | Eldiyar'},
   description: 'Product & Systems Engineer',
-  icons: {icon: '/icon.svg', shortcut: '/favicon.svg', apple: '/favicon.svg'},
+  icons: {
+    icon: [
+      {url: '/favicon.ico', sizes: 'any'},
+      {url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png'},
+      {url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png'}
+    ],
+    apple: '/apple-touch-icon.png'
+  },
+  manifest: '/site.webmanifest',
   robots: {index: true, follow: true}
 };
+
+export const viewport: Viewport = {themeColor: '#fafbfa'};
 
 export default async function LocaleLayout({children, params}: Readonly<{children: React.ReactNode; params: Promise<{locale: string}>}>) {
   const {locale} = await params;
