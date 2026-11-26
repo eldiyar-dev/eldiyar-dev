@@ -1,6 +1,87 @@
 {
   "posts": [
     {
+      "slug": "jub0t-Concat",
+      "repoId": 1346499044,
+      "repoName": "jub0t/Concat",
+      "githubUrl": "https://github.com/jub0t/Concat",
+      "trendshiftUrl": "https://github.com/jub0t/Concat",
+      "language": "Rust",
+      "stars": 21381,
+      "postedAt": "2026-11-26T17:56:11.596Z",
+      "collectedOn": "2026-11-26",
+      "imageUrl": "https://opengraph.githubassets.com/1/jub0t/Concat",
+      "content": {
+        "title": "Concat: Свободный видеоредактор с открытым исходным кодом",
+        "summary": "Concat — это бесплатный кроссплатформенный видеоредактор с открытым исходным кодом, предлагающий множество функций для редактирования видео, включая автоматические субтитры, удаление фона и работу с ключевыми кадрами.",
+        "benefit": "Предоставляет полный набор инструментов для редактирования видео, работающих локально на вашем устройстве, без водяных знаков, подписок или необходимости в учетной записи.",
+        "use_cases": [
+          "Создание контента для TikTok, Reels и Shorts",
+          "Редактирование YouTube-видео",
+          "Создание обучающих материалов и записей экрана",
+          "Обработка подкастовых клипов",
+          "Создание мемов",
+          "Автоматизация видеомонтажа с помощью скриптов и ИИ-агентов"
+        ],
+        "tags": [
+          "видеоредактор",
+          "открытый исходный код",
+          "ffmpeg",
+          "автоматизация",
+          "офлайн",
+          "без водяных знаков",
+          "кроссплатформенный",
+          "монтаж видео",
+          "AI",
+          "самостоятельный хостинг"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
+      "slug": "RMvdesi-obsidian-prism",
+      "repoId": 1460834967,
+      "repoName": "RMvdesi/obsidian-prism",
+      "githubUrl": "https://github.com/RMvdesi/obsidian-prism",
+      "trendshiftUrl": "https://github.com/RMvdesi/obsidian-prism",
+      "language": "JavaScript",
+      "stars": 2175,
+      "postedAt": "2026-11-26T17:56:09.697Z",
+      "collectedOn": "2026-11-26",
+      "imageUrl": "https://opengraph.githubassets.com/1/RMvdesi/obsidian-prism",
+      "content": {
+        "title": "Obsidian Prism",
+        "summary": "Obsidian Prism — это набор оптических интерфейсов для Google Antigravity, предлагающий улучшенный пользовательский опыт с визуальными эффектами, анимацией и дополнительными функциями.",
+        "benefit": "Улучшает визуальное восприятие и интерактивность рабочего пространства Antigravity с помощью настраиваемых тем, анимаций и информативных элементов интерфейса.",
+        "use_cases": [
+          "Персонализация внешнего вида рабочего стола Antigravity с помощью четырех цветовых схем.",
+          "Визуализация использования контекста (512K) с помощью интерактивной 'пробирки'.",
+          "Настройка уровня 'мышления' модели с помощью интерактивного слайдера.",
+          "Отображение пиксельных маскотов для визуального сопровождения.",
+          "Использование настраиваемых статических и динамических обоев рабочего стола (Beta).",
+          "Перевод мыслей модели на китайский язык (в двух режимах: погружение / двуязычный).",
+          "Улучшенная навигация и управление в рабочей среде благодаря встроенному браузеру и инструментам просмотра файлов.",
+          "Использование режима чата (Beta) для отдельных бесед и организации информации."
+        ],
+        "tags": [
+          "antigravity",
+          "desktop-customization",
+          "developer-tools",
+          "gplv3",
+          "optical-ui",
+          "spring-animation",
+          "theme",
+          "ui-theme",
+          "webgl2"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
       "slug": "arvin341az-glitch-RVG",
       "repoName": "arvin341az-glitch/RVG",
       "githubUrl": "https://github.com/arvin341az-glitch/RVG",
@@ -988,6 +1069,16 @@
       "repoFullName": "arvin341az-glitch/RVG",
       "firstSeen": "2026-08-14T18:24:03.877Z",
       "postedAt": "2026-08-14T18:24:03.877Z"
+    },
+    {
+      "repoFullName": "RMvdesi/obsidian-prism",
+      "firstSeen": "2026-11-26T17:56:09.697Z",
+      "postedAt": "2026-11-26T17:56:09.697Z"
+    },
+    {
+      "repoFullName": "jub0t/Concat",
+      "firstSeen": "2026-11-26T17:56:11.596Z",
+      "postedAt": "2026-11-26T17:56:11.596Z"
     }
   ]
 }
