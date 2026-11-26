@@ -1,4 +1,5 @@
 import {Reveal, SectionHeading} from '@/components/ui';
+import Link from 'next/link';
 import type {Locale} from '@/lib/i18n';
 import type {StackCatalog} from '@/data/stackCatalog';
 import {SiteFooter} from './SiteFooter';
@@ -46,6 +47,7 @@ export function StackPage({locale, catalog}: Props) {
       <nav className={styles.sectionNav} aria-label={locale === 'ru' ? 'Навигация по разделам' : 'Section navigation'}>
         <p className={styles.navTitle}>{locale === 'ru' ? 'Разделы' : 'Sections'}</p>
         <ul className={styles.navList}>
+          {locale === 'ru' && <li><Link href="/ru/stack/digest">Digest</Link></li>}
           <li><a href="#stack-role-kits">{locale === 'ru' ? 'Ролевые наборы' : 'Role kits'}</a></li>
           <li><a href="#stack-catalog">{locale === 'ru' ? 'Каталог' : 'Catalog'}</a></li>
           {categories.map(({category}) => <li key={category.id}><a href={`#category-${category.id}`}>{category[language]}</a></li>)}

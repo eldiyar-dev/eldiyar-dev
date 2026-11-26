@@ -1,0 +1,56 @@
+name: Stack digest
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Check the source without publishing
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stack-digest-main
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect trending GitHub projects
+        id: collect
+        env:
+          DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+        run: node scripts/stack-digest/collect.mjs
+      - name: Save and deploy updated archive
+        id: save
+        if: ${{ !cancelled() && !inputs.dry_run && (steps.collect.outcome == 'success' || steps.collect.outcome == 'failure') }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --quiet -- data/stack-digest.json; then
+            git add -- data/stack-digest.json
+            git commit -m 'chore(stack): update digest'
+            git push origin HEAD:main
+          fi
+      - name: Publish deployed articles to Telegram
+        if: ${{ !cancelled() && steps.save.outcome == 'success' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/stack-digest/publish.mjs
