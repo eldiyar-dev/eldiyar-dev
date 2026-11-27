@@ -1,6 +1,84 @@
 {
   "posts": [
     {
+      "slug": "nexu-io-opengame",
+      "repoId": 1471624301,
+      "repoName": "nexu-io/opengame",
+      "githubUrl": "https://github.com/nexu-io/opengame",
+      "trendshiftUrl": "https://github.com/nexu-io/opengame",
+      "language": "TypeScript",
+      "stars": 1982,
+      "postedAt": "2026-11-27T16:35:34.012Z",
+      "collectedOn": "2026-11-27",
+      "imageUrl": "https://opengraph.githubassets.com/1/nexu-io/opengame",
+      "content": {
+        "title": "OpenGame: Super Game Agent",
+        "summary": "OpenGame — это первая в своем роде платформа с открытым исходным кодом, которая превращает локальных ИИ-агентов в полноценную студию по разработке игр. Она позволяет создавать и публиковать 3D-игры и мини-игры.",
+        "benefit": "Позволяет использовать более 20 различных ИИ-агентов для создания 3D-игр и мини-игр, с возможностью быстрой модификации и публикации на различных платформах.",
+        "use_cases": [
+          "Создание 3D-игр с использованием ИИ-агентов (DeepSeek, Claude Code, Codex).",
+          "Быстрая модификация и переработка существующих игровых шаблонов (25+ шаблонов).",
+          "Разработка и публикация мини-игр для платформ WeChat, Douyin, TikTok, Telegram и itch.io.",
+          "Создание игровых трейлеров и плейбл-рекламы.",
+          "Использование локальных ИИ-агентов для полного цикла разработки игр."
+        ],
+        "tags": [
+          "ai-game-generator",
+          "game-development",
+          "unity",
+          "unreal-engine",
+          "ai-agents",
+          "indie-game",
+          "mini-games",
+          "threejs",
+          "local-first",
+          "claude-code",
+          "codex",
+          "deepseek"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
+      "slug": "Belobug-VIctory-Belobug-AMD",
+      "repoId": 1471562910,
+      "repoName": "Belobug/VIctory-Belobug-AMD",
+      "githubUrl": "https://github.com/Belobug/VIctory-Belobug-AMD",
+      "trendshiftUrl": "https://github.com/Belobug/VIctory-Belobug-AMD",
+      "language": "Rust",
+      "stars": 4131,
+      "postedAt": "2026-11-27T16:35:31.655Z",
+      "collectedOn": "2026-11-27",
+      "imageUrl": "https://opengraph.githubassets.com/1/Belobug/VIctory-Belobug-AMD",
+      "content": {
+        "title": "VIctory-Belobug-AMD",
+        "summary": "Проект представляет собой форк VIctory, слой совместимости, позволяющий запускать игры для Xbox Series на ПК с Windows. Основная цель — достижение стабильной частоты кадров без трассировки лучей, с последующим повышением производительности.",
+        "benefit": "Позволяет запускать игры для Xbox Series на ПК с Windows, оптимизируя производительность и время кадра путем патчинга рендерера игры, а не эмуляции.",
+        "use_cases": [
+          "Запуск игр Xbox Series на ПК с Windows.",
+          "Оптимизация производительности игр для конкретного оборудования (AMD RX 7900 XTX).",
+          "Тестирование и улучшение производительности игр путем патчинга рендерера.",
+          "Настройка параметров рендеринга, таких как разрешение и частота кадров.",
+          "Эксперименты с различными профилями производительности (Series S/X)."
+        ],
+        "tags": [
+          "xbox",
+          "windows",
+          "compatibility",
+          "gaming",
+          "rust",
+          "amd",
+          "renderer",
+          "performance"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
       "slug": "jub0t-Concat",
       "repoId": 1346499044,
       "repoName": "jub0t/Concat",
@@ -1081,6 +1159,16 @@
       "repoFullName": "jub0t/Concat",
       "firstSeen": "2026-11-26T17:56:11.596Z",
       "postedAt": "2026-11-26T17:56:11.596Z"
+    },
+    {
+      "repoFullName": "Belobug/VIctory-Belobug-AMD",
+      "firstSeen": "2026-11-27T16:35:31.655Z",
+      "postedAt": "2026-11-27T16:35:31.655Z"
+    },
+    {
+      "repoFullName": "nexu-io/opengame",
+      "firstSeen": "2026-11-27T16:35:34.012Z",
+      "postedAt": "2026-11-27T16:35:34.012Z"
     }
   ]
 }
