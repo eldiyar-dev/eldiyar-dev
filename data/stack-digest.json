@@ -1,6 +1,80 @@
 {
   "posts": [
     {
+      "slug": "pithings-unkernel",
+      "repoId": 1455879258,
+      "repoName": "pithings/unkernel",
+      "githubUrl": "https://github.com/pithings/unkernel",
+      "trendshiftUrl": "https://github.com/pithings/unkernel",
+      "language": "TypeScript",
+      "stars": 3050,
+      "postedAt": "2026-11-28T15:27:26.101Z",
+      "collectedOn": "2026-11-28",
+      "imageUrl": "https://opengraph.githubassets.com/1/pithings/unkernel",
+      "content": {
+        "title": "Unkernel: Linux Kernel Compiled to WebAssembly",
+        "summary": "Unkernel — это полноценная сборка ядра Linux 7.x, скомпилированная в один модуль WebAssembly. Он загружается до командной строки менее чем за секунду, позволяя запускать программы Linux непосредственно в браузере или Node.js.",
+        "benefit": "Позволяет запускать настоящую среду Linux с реальным MMU, файловыми системами и сетевым стеком непосредственно в браузере или Node.js без установки и серверов, обеспечивая высокую производительность благодаря компиляции ядра в WebAssembly.",
+        "use_cases": [
+          "Запуск полноценной командной строки Linux (Alpine, Debian) в браузере на любом устройстве.",
+          "Тестирование и разработка Linux-приложений в изолированной среде без установки.",
+          "Встраивание Linux-окружения в веб-приложения с помощью JavaScript SDK.",
+          "Запуск графических и звуковых программ в браузере.",
+          "Автоматизированное тестирование и скриптинг Linux-пользовательских программ."
+        ],
+        "tags": [
+          "webassembly",
+          "linux",
+          "kernel",
+          "typescript",
+          "browser",
+          "nodejs",
+          "sdk",
+          "performance"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
+      "slug": "trustno1-coder-VIctory-NVIDIA",
+      "repoId": 1472451283,
+      "repoName": "trustno1-coder/VIctory-NVIDIA",
+      "githubUrl": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "trendshiftUrl": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+      "language": "Rust",
+      "stars": 5747,
+      "postedAt": "2026-11-28T15:27:24.356Z",
+      "collectedOn": "2026-11-28",
+      "imageUrl": "https://opengraph.githubassets.com/1/trustno1-coder/VIctory-NVIDIA",
+      "content": {
+        "title": "VIctory-NVIDIA: Xbox Series Compatibility Layer for NVIDIA RTX",
+        "summary": "VIctory-NVIDIA — это слой совместимости для запуска игр Xbox Series на ПК с Windows, оптимизированный для видеокарт NVIDIA RTX. Он обеспечивает улучшенную производительность и поддержку технологий, таких как DLSS и генерация кадров.",
+        "benefit": "Оптимизация для видеокарт NVIDIA RTX с поддержкой DLSS и генерации кадров для повышения частоты кадров и улучшения качества изображения.",
+        "use_cases": [
+          "Запуск игр Xbox Series на ПК с Windows с улучшенной производительностью.",
+          "Использование DLSS для масштабирования и повышения частоты кадров.",
+          "Применение генерации кадров (DLSS Frame Generation или AMD FSR 3) для значительного увеличения FPS.",
+          "Настройка параметров графики и производительности через внутриигровое меню (F1) и панель статистики (F3).",
+          "Совместимость с различными поколениями видеокарт NVIDIA RTX для использования доступных технологий генерации кадров."
+        ],
+        "tags": [
+          "compatibility-layer",
+          "directx-12",
+          "dlss",
+          "frame-generation",
+          "nvidia",
+          "rust",
+          "xbox-series",
+          "pc-gaming"
+        ]
+      },
+      "telegram": {
+        "status": "pending"
+      }
+    },
+    {
       "slug": "nexu-io-opengame",
       "repoId": 1471624301,
       "repoName": "nexu-io/opengame",
@@ -1171,6 +1245,16 @@
       "repoFullName": "nexu-io/opengame",
       "firstSeen": "2026-11-27T16:35:34.012Z",
       "postedAt": "2026-11-27T16:35:34.012Z"
+    },
+    {
+      "repoFullName": "trustno1-coder/VIctory-NVIDIA",
+      "firstSeen": "2026-11-28T15:27:24.356Z",
+      "postedAt": "2026-11-28T15:27:24.356Z"
+    },
+    {
+      "repoFullName": "pithings/unkernel",
+      "firstSeen": "2026-11-28T15:27:26.101Z",
+      "postedAt": "2026-11-28T15:27:26.101Z"
     }
   ]
 }
