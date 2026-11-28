@@ -34,7 +34,8 @@
         ]
       },
       "telegram": {
-        "status": "sending"
+        "status": "sent",
+        "messageId": 214
       }
     },
     {
